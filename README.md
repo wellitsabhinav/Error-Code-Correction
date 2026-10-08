@@ -1,35 +1,106 @@
-# GREEN: evidence-aware SRAM ECC evaluation
+# GREENS
 
-GREEN is an evidence-aware research framework for evaluating SRAM error-correcting-code (ECC) choices across logical reliability, physical implementation, operational energy, latency, and sustainability assumptions. It separates code identity, decoder policy, physical measurements, model parameters, and decision rules so that available data cannot be mistaken for qualified evidence.
+GREENS evaluates SRAM error-correcting-code choices across conditional reliability, implementation cost, operational energy, and sustainability assumptions. SRAM upsets require correction and detection, but stronger ECC adds parity storage, logic, latency, and energy. The useful choice depends on memory organization, workload, fault population, and available evidence. The framework compares these quantities, applies declared feasibility and selection policies, and reports missing evidence explicitly. Existing software/campaign identifiers use **GREEN** and **GREEN-ECC-PHY** and remain stable.
 
-**Current boundary:** the repository reproduces exact/analytical ECC studies, a frozen 40-run matched OpenROAD/ORFS population, and 46 activity-qualified post-route **ECC-logic-only** E5 records for SECDED and Hsiao SECDED. SRAM macro-internal energy, physical event rates and FIT, SKY130 lifecycle carbon, and a global ECC winner remain unqualified.
+## Current evidence
 
-## Start here
-
-| Goal | Entry point |
-|---|---|
-| Install and run a deterministic smoke test | [Getting started](docs/getting-started.md) |
-| Use the CLI and compare ECC candidates | [User guide](docs/user-guide.md) and [CLI reference](docs/CLI_REFERENCE.md) |
-| Review claim boundaries and source evidence | [Reviewer guide](docs/reviewer-guide.md) and [Evidence map](docs/evidence-map.md) |
-| Reproduce a software study or audit a campaign | [Reproducibility](docs/REPRODUCIBILITY.md) |
-| Add an ECC implementation or experiment | [Developer guide](docs/developer-guide.md) |
-
-## Repository status
-
-| Component | Status | Evidence boundary |
+| Component | Retained evidence | Limit |
 |---|---|---|
-| ECC registry and declared decoder behavior | Validated within declared universes | 15 code specifications and 17 implementations; rejected implementations remain visible |
-| Conditional logical reliability | Validated/analytical | Exact outcome fractions under declared logical mask classes; not physical event rates |
-| Matched physical population | Partial | 40 inherited SKY130HD/SRAM22 OpenROAD runs; timing failures are retained |
-| Activity-aware energy | Partial | 46 E5 ECC-logic records for 10 ns SECDED/Hsiao runs; whole-memory E5 is blocked |
-| Fresh OpenRAM 256×72 macro | Blocked | Generation timed out after 10,800 s; DRC, LVS, and characterization did not complete |
-| Physical SDC/DUE/SER/FIT and Qcrit | Blocked | Physical event distribution and verified bitcell-to-logical mapping are missing |
-| SKY130 manufacturing/lifecycle carbon | Blocked | No qualified node-native inventory/yield/lifetime population |
-| Global ECC ranking | Not qualified | `NO_GLOBAL_WINNER_QUALIFIED` |
+| Registry | 15 code specifications; 17 implementations; 15 selectable | Two rejected implementations remain visible |
+| Matched physical population | 40 inherited SKY130HD/SRAM22 OpenROAD/ORFS runs | Routing, timing, DRC/LVS, and signoff are distinct |
+| Activity-qualified energy | 46 post-route E5 ECC-logic records for SECDED/Hsiao | Macro-internal energy is incomplete |
+| Fresh OpenRAM 256×72 | Log and partial geometry | Timeout after 10,800 s; exit 137; DRC/LVS/characterization incomplete |
+| Absolute reliability | Conditional logical results and explicit models | Physical rates, bitcell mapping, Qcrit qualification, and FIT blocked |
+| Lifecycle carbon | Models and sensitivity studies | No qualified SKY130 inventory/yield/lifetime population |
+| Overall ranking | Qualified partial comparisons | `NO_GLOBAL_WINNER_QUALIFIED` |
 
-## Registry-study generated snapshot
+The [evidence map](docs/evidence-map.md), [negative results](docs/experiments/negative_results.md), and campaign status files define the claim boundary.
 
-The block below is regenerated from the reusable registry study. It describes that software study's evidence ceiling; the additive campaign status above remains authoritative for later E4/E5 evidence.
+## Installation and quick start
+
+Use Python 3.10–3.12, GNU Make, and a C++17 compiler. Optional RTL/physical tools are needed only for corresponding checks.
+
+```bash
+python -m venv .venv
+# Bash/WSL: source .venv/bin/activate
+# PowerShell: .\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+make reviewer-smoke
+python eccsim.py ecc list
+python eccsim.py ecc verify --implementation hsiao-generated-combinational-72-64-v1
+python eccsim.py sram simulate --size-kb 64 --word-bits 8 --scheme sec-ded --iterations 100 --seed 17 --json
+```
+
+These commands do not rerun a physical campaign. See [environment](docs/reproduction/environment.md), [CLI reference](docs/CLI_REFERENCE.md), and [troubleshooting](docs/TROUBLESHOOTING.md).
+
+## Motivation and architecture
+
+Correction strength alone does not determine a useful ECC. Area/parity overhead affect implementation and memory cost; decode latency constrains clocks and service policy; power and operation counts determine use energy; grid intensity and lifecycle boundaries affect carbon. Reliability depends on SRAM capacity, codeword width, SBU/DBU/MBU topology, physical mapping, and scrub policy.
+
+```mermaid
+flowchart TD
+    A[SRAM configuration and workload] --> B[Fault and SER assumptions]
+    B --> C[Verified ECC implementations]
+    C --> D[Logical response and seeded simulation]
+    D --> E[Area, latency, and energy models]
+    C --> F[Matched physical evidence]
+    F --> E
+    E --> G[Energy and lifecycle translations]
+    G --> H[Evidence and feasibility gates]
+    H --> I[Pareto comparison and deterministic policy]
+    I --> J[Qualified recommendation or blocker]
+```
+
+See [module boundaries](docs/architecture/overview.md) and [evidence model](docs/evidence-model.md).
+
+## ECC architectures
+
+| Architecture | Parameters / capability | Current status |
+|---|---|---|
+| Extended Hamming SECDED | (72,64); single-bit correction, double-bit detection in its declared universe | Matched evidence; 10 ns feasible, 5 ns infeasible |
+| Hsiao SECDED | (72,64); odd-column SECDED | Matched evidence and E5 logic energy; same timing boundary |
+| Shortened BCH | (78,64), t=2; bounded two-bit correction | Functionally validated; physical path fails both targets |
+| Other primitive BCH entries | (63,51) t=2; (71,64) t=1; (85,64) t=3 | Software constructions with record-specific verification |
+| SEC-DAEC / TAEC policies | Extended-Hamming-based adjacent-error policies | Policy-specific; SEC-DAEC counterexample excludes it from matched comparison |
+| Synthesized / archived codes | Record-specific dimensions and syndrome tables | Eligibility follows exact implementation verification |
+| U0 | Unprotected baseline | Feasible at both matched clock targets |
+
+The historical degree-12 cyclic (63,51) candidate is distinct from validated primitive BCH. See [specifications](docs/ecc/architectures.md) and [catalogue](docs/ECC_CATALOGUE.md).
+
+## Metrics
+
+Existing legacy scores are decision utilities. In `esii.py`, `ESII = U_rel × (U_energy + U_carbon)/2`; reliability improvement uses log-FIT decades and burdens use reciprocal saturation. `NESII` uses the cohort's 5th/95th percentiles and a winsorized 0–100 scale. `gs.py` defines GREEN Score as 100 times a weighted geometric mean of active reliability, carbon, added-latency, and overhead utilities.
+
+Telemetry `EPC` in `parse_telemetry.compute_epc` is estimated gate energy divided by **correction events**, in J/event. It is per corrected bit only when each counted event corrects one bit. [Exact metric formulas](docs/sustainability/metrics.md) document units, constants, absent carbon, and normalization edge cases. [Sustainability model](docs/sustainability-model.md) states qualified carbon boundaries.
+
+## Reliability and selection
+
+SBU flips one logical bit; DBU flips two; MBU/bursts use declared masks or PMFs. Logical adjacency does not establish bitcell adjacency. Absolute SER/FIT additionally needs qualified physical event rates and a verified physical-to-logical map. Hazucha/Qcrit and Poisson scrub calculations are model outputs. Record scrub intervals and scrub-on-correct policy per experiment. See [fault model](docs/reliability/model.md) and [Qcrit](docs/reliability/qcrit.md).
+
+The legacy selector performs NSGA-II nondominated sorting/crowding with deterministic knee, constraint, or carbon-policy decisions. The registry study has a separate lexicographic rule. A partial Pareto front is not a global winner. Explicitly enabled ML under `ml/` advises the baseline; confidence/OOD gates retain fallback. See [optimization](docs/methodology/optimization.md) and [ML advisory](docs/methodology/ml_advisory.md).
+
+## Physical validation, OpenRAM, and SRAM22
+
+The matched flow uses SKY130HD TT/25 °C/1.8 V, clocks 10 ns/5 ns, and seeds 11,13,17,19,23. It retains timing failures and a common documented SRAM22 transition-stage bypass. Open-source RTL-to-GDS evidence does not imply independent foundry signoff.
+
+Fresh OpenRAM did not deliver a qualified 256×72 macro. Inherited SRAM22 macros supply separate physical views; they are not fresh OpenRAM output. E5 covers ECC logic only. See [ORFS](docs/physical_validation/orfs.md), [OpenRAM status](docs/physical_validation/openram.md), and [SRAM22 status](docs/physical_validation/sram22.md).
+
+## Results and reproduction
+
+The retained v3.3 package records 46 qualified logic-energy records, 23 matched operation comparisons, and ten fresh timing-feasible 10 ns SECDED/Hsiao runs alongside the inherited 40-run population. These counts do not establish whole-memory reliability or lifecycle improvement. Sources: [v3.3 status](campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/CAMPAIGN_STATUS.json), [manifest](campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/RUN_MANIFEST.json), and [canonical reproduction](docs/reproduction/canonical_results.md).
+
+```bash
+make
+make test
+python3 -m pytest -q
+python scripts/check_artifact.py
+```
+
+On Windows use `python -m pytest -q` if `python3` is a Store alias. `make reproduce` intentionally regenerates the registry study; review its diff. Full physical reruns require a new campaign identity and pinned environment. Do not restart the completed v3.3 queue under a new budget.
+
+## Registry-study snapshot
+
+This generated block describes the software study. Later campaigns qualify only their declared physical/activity scopes.
 
 <!-- BEGIN GENERATED:CURRENT_STATUS -->
 **Current regenerated evidence:** 15 mathematical code specifications, 17 encoder/decoder implementations, 17 deployment architectures in the registry, and 15 selectable implementations.
@@ -39,115 +110,27 @@ The exact-functional and analytical study has 192 scenarios; 192 have a feasible
 Source: [`framework_summary.json`](green_ecc_physical_simulation/multi_ecc_evaluation/framework_summary.json) and [`software_study_summary.json`](green_ecc_physical_simulation/multi_ecc_evaluation/software_study_summary.json).
 <!-- END GENERATED:CURRENT_STATUS -->
 
-## Research question
+## Limitations
 
-How should SRAM ECC architectures be evaluated and selected when reliability, physical implementation cost, operational energy, latency, and lifecycle/sustainability considerations must be considered jointly rather than independently?
+No silicon/radiation measurement, qualified fresh OpenRAM macro, verified fault topology, complete SRAM power model, SKY130-native lifecycle inventory, or global winner is claimed. See [limitations](docs/limitations.md). Negative results remain part of the research record.
 
-The implemented method is narrower than this question: it can qualify some layers and stop at missing evidence. It does not yet support an absolute, all-layer ranking.
-
-```text
-Research question
-  -> evaluation methodology
-  -> evidence model
-  -> implementation
-  -> experiments
-  -> qualified conclusions (or an explicit blocker)
-```
-
-## Key capabilities
-
-- versioned mathematical-code, implementation, deployment, backend, workload, and scenario registries;
-- exact functional verification with retained counterexamples;
-- seeded SRAM simulation and analytical reliability/energy/carbon models;
-- fair, null-safe Pareto and selection analysis;
-- matched OpenROAD/ORFS physical evidence with seed, clock, PDK, tool, and hash provenance;
-- activity-qualified ECC-logic power/energy records with explicit coverage;
-- advisory-only ML with deterministic fallback;
-- deterministic artifact and documentation checks.
-
-## Quick start
-
-Python 3.10–3.12 is the recorded portable range. From the repository root:
-
-```bash
-python -m venv .venv
-# Bash/WSL: source .venv/bin/activate
-# PowerShell: .\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-make reviewer-smoke
-```
-
-`reviewer-smoke` validates the canonical artifact, checks documentation links, verifies one registered Hsiao implementation, runs a small seeded SRAM simulation, and executes representative tests. It does not run OpenROAD or OpenRAM and does not modify a frozen campaign.
-
-To inspect the registry directly:
-
-```bash
-python eccsim.py ecc list
-python eccsim.py ecc verify --implementation hsiao-generated-combinational-72-64-v1
-```
-
-## Supported ECC architectures
-
-The primary matched campaign includes U0, conventional SECDED, Hsiao SECDED, and shortened BCH(78,64,t=2). SEC-DAEC was excluded after a preserved functional counterexample. The general registry contains additional archived/synthesized codes and implementations. See [ECC architectures](docs/ecc-architectures.md) and the generated [ECC catalogue](docs/ECC_CATALOGUE.md).
-
-## Methodology overview
-
-GREEN evaluates evidence in causal order:
-
-```text
-fault assumptions -> logical corruption -> ECC response -> service outcome
-  -> implementation cost and energy -> lifecycle translation -> decision policy
-```
-
-Each transition is gated. Missing physical event probabilities, macro power, or manufacturing inventory remains missing; it is never replaced with zero or promoted by downstream arithmetic. See [Methodology](docs/methodology.md), [Evidence model](docs/evidence-model.md), and [Matrix and optimization](docs/matrix-optimization.md).
-
-## Repository structure
+## Repository map
 
 | Path | Purpose |
 |---|---|
-| `eccsim.py` | Public CLI; legacy interfaces are preserved |
-| `green_ecc_phy/` | Registry, adapters, verification, physical normalization, and comparison |
-| `architecture/` | Deployment, scheduling, transition, and DSE models |
-| `ml/` | Advisory-only ML pipeline |
-| `rtl/`, `asic/` | RTL implementations, wrappers, and testbenches |
-| `campaigns/` | Immutable or additive experiment evidence and manifests |
-| `configs/`, `schemas/` | User configurations and machine-readable contracts |
-| `scripts/` | Reproduction, validation, and artifact tooling |
-| `tests/` | Python, C++, RTL, golden, and campaign integrity tests |
-| `docs/` | Public guides, generated references, and evidence interpretation |
-| `reports/`, `results/` | Derived study outputs with their available provenance |
+| `eccsim.py`, root models | Public/legacy CLIs, preserved for compatibility |
+| `green_ecc_phy/`, `architecture/`, `codeforge/` | Registry, verification, models, and DSE |
+| `ml/` | Optional advisory pipeline |
+| `rtl/`, `asic/`, `src/` | Hardware and native implementations |
+| `configs/`, `config/`, `schemas/`, `data/` | Inputs, contracts, datasets |
+| `campaigns/` | Frozen/additive provenance and evidence, including failed runs |
+| `green_ecc_physical_simulation/`, `reports/`, `results/` | Registry study and retained results |
+| `scripts/`, `tests/` | Reproduction and regression/golden checks |
+| `docs/` | Current guides, methods, and history |
+| `cleanup/`, `archives/MANIFEST.csv` | Inventory, synchronization decisions, archival provenance |
 
-Publication manuscripts and submission PDFs are intentionally not distributed in this source repository. Reusable data, experiment code, campaign manifests, and evidence summaries remain available and are linked through the [evidence map](docs/evidence-map.md).
+Imports and source paths remain compatible. Start at [documentation index](docs/README.md); historical milestones are in [history](docs/experiments/history.md). Publication manuscripts remain outside this source repository.
 
-## Reproducing experiments
+## Citation and license
 
-- Smoke test: `make reviewer-smoke`
-- Full software validation: `make`, `make test`, then `python -m pytest -q`
-- Core registry/documentation regeneration: `make reproduce`
-- Physical campaign: environment-specific and expensive; follow [Physical design](docs/physical-design.md) and the frozen campaign README. The completed v3.3 queue must not be restarted as a new campaign.
-
-See [Reproducibility](docs/REPRODUCIBILITY.md) for the three supported levels and [Reviewer guide](docs/reviewer-guide.md) for a 10–20 minute path.
-
-## Evidence and qualification
-
-Evidence tiers E0–E7 describe provenance strength, but qualification is metric-specific. E5 logic power does not qualify SRAM macro energy, physical FIT, or lifecycle carbon. `available data != qualified evidence`. Historical negative and partial results are part of the artifact and remain visible.
-
-## Sustainability methodology
-
-Operational carbon is a modelled translation of qualified energy and an explicit use-grid intensity. Manufacturing and lifecycle models keep scope, yield, grid, lifetime, and allocation assumptions separate. Current SKY130 lifecycle quantities are blocked. The method is informed by public semiconductor-sustainability literature and imec methodology; it is not imec certification, endorsement, compliance, or an independently verified lifecycle assessment.
-
-## Physical-design and reliability flows
-
-The retained physical evidence uses matched OpenROAD-flow-scripts/SKY130HD conditions, inherited SRAM22 macros, 10 ns and 5 ns targets, and seeds 11, 13, 17, 19, and 23. RTL-to-GDS completion, timing feasibility, DRC/LVS, and signoff are reported as distinct states. See [Physical design](docs/physical-design.md) and [Reliability model](docs/reliability-model.md).
-
-## Known limitations
-
-There is no silicon or radiation measurement, fresh qualified OpenRAM macro, verified physical fault topology, complete SRAM power model, SKY130-native lifecycle inventory, or globally qualified winner. See [Limitations](docs/limitations.md).
-
-## Documentation
-
-Start at the [documentation index](docs/README.md). New users should read [Getting started](docs/getting-started.md); reviewers should use the [Reviewer guide](docs/reviewer-guide.md); contributors should use the [Developer guide](docs/developer-guide.md) and [Contributing](CONTRIBUTING.md).
-
-## Citation, contributing, and license
-
-Repository citation metadata is in [CITATION.cff](CITATION.cff). No publication DOI is asserted. Cite the repository commit and relevant campaign identifier used for a result. Contributions must preserve experiment provenance and claim boundaries; see [CONTRIBUTING.md](CONTRIBUTING.md). The repository is distributed under the [MIT License](LICENSE).
+Use [CITATION.cff](CITATION.cff), the exact commit, and the supporting campaign identifier. No publication DOI is asserted. See [CONTRIBUTING.md](CONTRIBUTING.md) and [MIT License](LICENSE). Third-party technology/macro views retain upstream licensing and provenance.

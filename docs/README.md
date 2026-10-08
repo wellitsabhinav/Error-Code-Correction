@@ -31,3 +31,13 @@ The generated [ECC catalogue](ECC_CATALOGUE.md), [verification methodology](VERI
 Run `make docs-check` to validate links in the public layer. Run `make reproduce` only when intentionally regenerating the established registry study and generated documentation.
 
 Publication manuscripts and submission PDFs are outside this repository. The evidence map points directly to the retained source data, manifests, and validation commands.
+
+## Focused current references
+
+- [Module boundaries](architecture/overview.md) and [ECC specifications](ecc/architectures.md)
+- [Fault model](reliability/model.md) and [Qcrit](reliability/qcrit.md)
+- [Exact metrics](sustainability/metrics.md)
+- [Selection](methodology/optimization.md) and [ML advisory](methodology/ml_advisory.md)
+- [ORFS](physical_validation/orfs.md), [OpenRAM](physical_validation/openram.md), [SRAM22](physical_validation/sram22.md)
+- [Environment](reproduction/environment.md) and [canonical results](reproduction/canonical_results.md)
+- [History](experiments/history.md) and [negative results](experiments/negative_results.md)

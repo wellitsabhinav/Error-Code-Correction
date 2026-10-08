@@ -1,0 +1,19 @@
+{
+  "activity_classes": [
+    "W1",
+    "W2"
+  ],
+  "architecture": "secded_pipe",
+  "elapsed_seconds": 3.6771944909999945,
+  "evidence_origin": "SUSTAINABILITY_EXTENSION",
+  "exit_code": 92,
+  "failure_reason": "power components do not reconstruct total in /var/lib/green-ecc-iscas-sustainability/gate1_activity_power_attempt02/runs/secded_pipe-seed-13/power/W1.power.rpt: components=0.0111270067511508, total=0.01112700719386",
+  "hardware_identity": "secded-rtl-pipelined-72-64-v1",
+  "ordinal": 7,
+  "physical_inputs_read_only": true,
+  "run_id": "secded_pipe-seed-13",
+  "schema_version": 1,
+  "seed": 13,
+  "status": "FAIL",
+  "target_ns": 10.0
+}

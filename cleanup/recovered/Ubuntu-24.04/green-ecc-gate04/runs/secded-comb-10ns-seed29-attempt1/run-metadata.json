@@ -1,0 +1,19 @@
+{
+  "clock_period_ns": 10.0,
+  "container_id": "c4bab6bf1c43816b1209b797f4cc1c797b5d2329beaeb2985a2105bfb140dd0a",
+  "design_top": "gate04_secded_comb_72_64",
+  "end_time_utc": "2026-08-14T17:46:22Z",
+  "exit_status": 99,
+  "failure_reason": "full physical, equivalence, or activity validation failed",
+  "gpl_random_seed": 29,
+  "grt_seed": 29,
+  "implementation_id": "secded-rtl-combinational-72-64-v1",
+  "k": 64,
+  "kind": "candidate",
+  "n": 72,
+  "or_seed": 29,
+  "physical_seed": 29,
+  "run_id": "secded-comb-10ns-seed29-attempt1",
+  "schema_version": 1,
+  "start_time_utc": "2026-08-14T17:41:36Z"
+}

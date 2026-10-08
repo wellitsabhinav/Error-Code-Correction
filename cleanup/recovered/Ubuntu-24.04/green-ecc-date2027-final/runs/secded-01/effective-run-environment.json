@@ -1,0 +1,12 @@
+{
+  "ABC_CLOCK_PERIOD_IN_PS": "10000",
+  "CLOCK_PERIOD": "10.0",
+  "DESIGN_CONFIG": "/date-final-repo/scripts/gate03f/configs/secded.mk",
+  "DESIGN_NAME": "gate04_secded_comb_72_64",
+  "GPL_RANDOM_SEED": "11",
+  "GRT_SEED": "11",
+  "LEC_CHECK": "0",
+  "NUM_CORES": "1",
+  "OR_SEED": "11",
+  "RUN_ID": "secded-01"
+}

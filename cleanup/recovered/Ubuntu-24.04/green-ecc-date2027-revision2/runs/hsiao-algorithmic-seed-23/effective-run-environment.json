@@ -1,0 +1,13 @@
+{
+  "ABC_CLOCK_PERIOD_IN_PS": "10000",
+  "CLOCK_PERIOD": "10.0",
+  "DESIGN_CONFIG": "/rev2-repo/scripts/revision2/configs/hsiao_algorithmic.mk",
+  "DESIGN_NAME": "gate04_rev2_hsiao_72_64",
+  "GPL_RANDOM_SEED": "23",
+  "GRT_SEED": "23",
+  "IMPLEMENTATION_ID": "hsiao-algorithmic-combinational-72-64-rev2-v1",
+  "LEC_CHECK": "0",
+  "NUM_CORES": "1",
+  "OR_SEED": "23",
+  "RUN_ID": "hsiao-algorithmic-seed-23"
+}

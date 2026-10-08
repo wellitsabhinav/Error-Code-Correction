@@ -1,0 +1,13 @@
+{
+  "ABC_CLOCK_PERIOD_IN_PS": "10000",
+  "CLOCK_PERIOD": "10.0",
+  "DESIGN_CONFIG": "/rev2-repo/scripts/revision2/configs/bch78.mk",
+  "DESIGN_NAME": "gate04_bch_78_64",
+  "GPL_RANDOM_SEED": "13",
+  "GRT_SEED": "13",
+  "IMPLEMENTATION_ID": "shortened-bch-78-64-t2-v1-rtl-syndrome-chien-v1",
+  "LEC_CHECK": "0",
+  "NUM_CORES": "1",
+  "OR_SEED": "13",
+  "RUN_ID": "bch78-seed-13"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": 3,
+  "run_label": "gcd-run-06",
+  "container_root": "/gate03es-run-06",
+  "host_root": "/var/lib/green-ecc-gate03es/runs/gcd-run-06",
+  "policy_frozen_at": "2026-08-14T14:08:02.079460Z",
+  "start_time": "2026-08-14T14:13:52Z",
+  "end_time": "2026-08-14T14:18:42Z",
+  "exit_status": 0,
+  "container_id": "8dd96fcf2ff881fcc7d714120af470638d0a818d2afb82f36d553ae6a89c2f1b",
+  "process_id": 4285
+}

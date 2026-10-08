@@ -1,0 +1,1977 @@
+{
+  "distribution": "Ubuntu-24.04",
+  "source": "/var/lib/green-ecc-gate03es/runs",
+  "archive_path": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-gate03es-runs.tar.gz",
+  "archive_sha256": "d160c531f096822a598c602c59245be8a25a9d65ae0bf50f16fac6c908c997de",
+  "members": [
+    {
+      "path": "gcd-run-05",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05-06-comparison.json",
+      "kind": "file",
+      "size_bytes": 199495,
+      "sha256": "4f071b263f592b920346bff53b028e19cca7a41ad2bb194707587335da7e4cbd",
+      "mtime": 1786717158.9430623
+    },
+    {
+      "path": "gcd-run-05-inventory.json",
+      "kind": "file",
+      "size_bytes": 51168,
+      "sha256": "129a85fbdde382c43d784b3e6f11a913d8577cf04ab75ba6a080bf36b66e6783",
+      "mtime": 1786716805.858104
+    },
+    {
+      "path": "gcd-run-05/container.log",
+      "kind": "file",
+      "size_bytes": 206130,
+      "sha256": "203e4f21fd69f7787c3f185d4c0bb054f2a10012a855f8695a8f4bb4e74f1f25",
+      "mtime": 1786716761.379154
+    },
+    {
+      "path": "gcd-run-05/logs",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/1_1_yosys_canonicalize.log",
+      "kind": "file",
+      "size_bytes": 3434,
+      "sha256": "5e8d892b88602bd2e3d14717f7104b8060b02d8fd237582cd21be4788d743d6e",
+      "mtime": 1786716520.37653
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/1_2_yosys.log",
+      "kind": "file",
+      "size_bytes": 18954,
+      "sha256": "67c286ef42d4a2023e2c51d15578355c9657640c2971029ba8db6990d9b1ab85",
+      "mtime": 1786716524.1467938
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/1_synth.json",
+      "kind": "file",
+      "size_bytes": 792,
+      "sha256": "897e5bb3a4be24c642115b3dbdff1fee4f44dfb29954473157f4738ffe5e726e",
+      "mtime": 1786716525.7926292
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/1_synth.log",
+      "kind": "file",
+      "size_bytes": 1535,
+      "sha256": "39a5525f455008497cf0233fba398c4db3b58b6014aabb7a95fe1e0fc8a94a4d",
+      "mtime": 1786716525.8607097
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/2_1_floorplan.json",
+      "kind": "file",
+      "size_bytes": 2141,
+      "sha256": "663f6a4016fe9c0b774a96a060e5bd0b4e88e993938d89ca39a66984124de189",
+      "mtime": 1786716528.5768943
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/2_1_floorplan.log",
+      "kind": "file",
+      "size_bytes": 21700,
+      "sha256": "ed8bdb2e6542908a94528cab52f1d4c81d4c66fee7a24777692823fc1c4b9aab",
+      "mtime": 1786716528.653029
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/2_2_floorplan_macro.json",
+      "kind": "file",
+      "size_bytes": 130,
+      "sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "mtime": 1786716529.951467
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/2_2_floorplan_macro.log",
+      "kind": "file",
+      "size_bytes": 1162,
+      "sha256": "69bc96456986195a48e98e56f3c1b1a1e432e89fc78e4b0f05c95a30b8cce172",
+      "mtime": 1786716530.0236077
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/2_3_floorplan_tapcell.json",
+      "kind": "file",
+      "size_bytes": 130,
+      "sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "mtime": 1786716531.3182955
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/2_3_floorplan_tapcell.log",
+      "kind": "file",
+      "size_bytes": 1166,
+      "sha256": "74bbd98cbb711365cfe656ce8d184965d81a9da495894ce3a1e7a0c001dced2d",
+      "mtime": 1786716531.3944602
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/2_4_floorplan_pdn.json",
+      "kind": "file",
+      "size_bytes": 168,
+      "sha256": "bdb90d02a996414b027d6703bb9d2523f078b5e964cfba10fb3d725b19f8a74c",
+      "mtime": 1786716532.697502
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/2_4_floorplan_pdn.log",
+      "kind": "file",
+      "size_bytes": 1330,
+      "sha256": "02a7e55c1e97db47f56f8e82279120fb507dc9d22de91e6d285eb88d8045fc54",
+      "mtime": 1786716532.765706
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/3_1_place_gp_skip_io.json",
+      "kind": "file",
+      "size_bytes": 130,
+      "sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "mtime": 1786716534.8080373
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/3_1_place_gp_skip_io.log",
+      "kind": "file",
+      "size_bytes": 6584,
+      "sha256": "7f44dccbc59de648cb28d2b5a5f4444a7cbabbc042fd41a79423d21d8e1f864e",
+      "mtime": 1786716534.8802652
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/3_2_place_iop.json",
+      "kind": "file",
+      "size_bytes": 190,
+      "sha256": "c5073fa049f4f820f7d28507345e9b728b8bea90050cb57d61a5e7858714513a",
+      "mtime": 1786716536.1764448
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/3_2_place_iop.log",
+      "kind": "file",
+      "size_bytes": 1564,
+      "sha256": "5bca45b25333e9b51cf535655c7c5684e8efe94eb86a275f5f923ddba13a5164",
+      "mtime": 1786716536.2446685
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/3_3_place_gp.json",
+      "kind": "file",
+      "size_bytes": 1659,
+      "sha256": "1b7fb47420cd53305808533ffec7e795eee1804c1bbd9195aaa930b6919f6300",
+      "mtime": 1786716538.6928189
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/3_3_place_gp.log",
+      "kind": "file",
+      "size_bytes": 26329,
+      "sha256": "5fcba171d7aeb367188c4f0bdd7d3c6a67c3f41212e82db2e3d8c4321febed06",
+      "mtime": 1786716538.7771034
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/3_4_place_resized.json",
+      "kind": "file",
+      "size_bytes": 2031,
+      "sha256": "83f6e8e863366cd0186f75acbe15fd36c1c4aaf49069c641160636fa9ab7bf15",
+      "mtime": 1786716540.4869525
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/3_4_place_resized.log",
+      "kind": "file",
+      "size_bytes": 6994,
+      "sha256": "3a923b8d303f771d3b298521126feafb2b5ce7f3e94684b1a96f524f33498334",
+      "mtime": 1786716540.5591507
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/3_5_place_dp.json",
+      "kind": "file",
+      "size_bytes": 2581,
+      "sha256": "1b2ce7067b91fa90bb90cb26f5ca61285e7f14f40ab279809c15b6920d096ea7",
+      "mtime": 1786716542.1625738
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/3_5_place_dp.log",
+      "kind": "file",
+      "size_bytes": 6733,
+      "sha256": "eb9d18c80931d4896f260b740364ffcb62a6cc04e4a512504596897d70ec9a29",
+      "mtime": 1786716542.237356
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/4_1_cts.json",
+      "kind": "file",
+      "size_bytes": 2671,
+      "sha256": "414939a118c1470c95dd28d2593b6f66a62da155ab76a50fb20abf4b85f910a9",
+      "mtime": 1786716551.397623
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/4_1_cts.log",
+      "kind": "file",
+      "size_bytes": 42047,
+      "sha256": "5551d8bd08e781fa49ebb52014c91918a3f16a26da5f30d82ea946b17088f1f8",
+      "mtime": 1786716551.4774704
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/5_1_grt.json",
+      "kind": "file",
+      "size_bytes": 144001,
+      "sha256": "e60d0388580b4af7127c73e9f180bbd171052b4225317c8402517b6ba5dadfd5",
+      "mtime": 1786716631.7140422
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/5_1_grt.log",
+      "kind": "file",
+      "size_bytes": 42807,
+      "sha256": "f4ab6e2ddc1ccb8cf7b15f705f38bbe4e94037dc4e8f93c4955cf5101941ed65",
+      "mtime": 1786716631.8024364
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/5_2_route.json",
+      "kind": "file",
+      "size_bytes": 1326,
+      "sha256": "b9b4a2e92303ddb5b1fbe381386d87225662576a59ab4a2ee09b807852b00413",
+      "mtime": 1786716748.170041
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/5_2_route.log",
+      "kind": "file",
+      "size_bytes": 15083,
+      "sha256": "f941d6dd8c9f29403320def7287138e3db27d0c532dbfa2bcb1b21cbeec07758",
+      "mtime": 1786716748.2940872
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/5_3_fillcell.json",
+      "kind": "file",
+      "size_bytes": 194,
+      "sha256": "ac24a31efd4465650cbe0b3be8faceb1d7d4e2c912b1a6d92abf4eeb65adc3b6",
+      "mtime": 1786716749.6390362
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/5_3_fillcell.log",
+      "kind": "file",
+      "size_bytes": 1335,
+      "sha256": "a523d5b8d0b781c662235e94d872070b5ec63da99f07291e5b2f81ceaec53029",
+      "mtime": 1786716749.7111342
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/6_1_fill.json",
+      "kind": "file",
+      "size_bytes": 130,
+      "sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "mtime": 1786716751.7185688
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/6_1_fill.log",
+      "kind": "file",
+      "size_bytes": 1112,
+      "sha256": "fe57e733a422a94a009bf807c0720e622144e0fba2addee69255f66b6a985474",
+      "mtime": 1786716751.7907076
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/6_1_merge.log",
+      "kind": "file",
+      "size_bytes": 320,
+      "sha256": "36ae026eb26a5952c3c2dff484d481d7973038d653570ef67e2f83ff31e9bf1d",
+      "mtime": 1786716760.8692505
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/6_report.json",
+      "kind": "file",
+      "size_bytes": 3603,
+      "sha256": "1f5f1ce11c9360bd016bbf3b23b77898e729327cb2c5e84f093185adf20befd4",
+      "mtime": 1786716755.97678
+    },
+    {
+      "path": "gcd-run-05/logs/sky130hd/gcd/base/6_report.log",
+      "kind": "file",
+      "size_bytes": 3791,
+      "sha256": "60951d8f4e218993fc483a06b6783c62260491ec54ff362cf0c1562411a1ff60",
+      "mtime": 1786716756.044969
+    },
+    {
+      "path": "gcd-run-05/objects",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/objects/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/objects/sky130hd/gcd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/objects/sky130hd/gcd/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/objects/sky130hd/gcd/base/abc.constr",
+      "kind": "file",
+      "size_bytes": 51,
+      "sha256": "9fcc3bf9da3c85a2d6355e3c4fbc7ceafa4a6fb3978907fb15bcffe00ff05348",
+      "mtime": 1786716520.8747225
+    },
+    {
+      "path": "gcd-run-05/objects/sky130hd/gcd/base/copyright.txt",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1786716524.707424
+    },
+    {
+      "path": "gcd-run-05/objects/sky130hd/gcd/base/klayout.lyt",
+      "kind": "file",
+      "size_bytes": 15523,
+      "sha256": "e8a3d2b30464d5128c3c0ff381340276bf9b83a5ca66e0e7f43ba8df5cbf4ce4",
+      "mtime": 1786716756.7910836
+    },
+    {
+      "path": "gcd-run-05/objects/sky130hd/gcd/base/klayout_tech.lef",
+      "kind": "file",
+      "size_bytes": 18031,
+      "sha256": "8e99b4e8b016db0713029ebcae6b2cc2aedd9c2c49682e2f23521dd0b1a2085e",
+      "mtime": 1786716756.3998036
+    },
+    {
+      "path": "gcd-run-05/odb-semantic-export.log",
+      "kind": "file",
+      "size_bytes": 6320,
+      "sha256": "ca3e3405759651dc42e09e8240d83c459b16489687b58a2db663a77a3b8c47b7",
+      "mtime": 1786716792.933686
+    },
+    {
+      "path": "gcd-run-05/reports",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/2_floorplan_final.rpt",
+      "kind": "file",
+      "size_bytes": 18329,
+      "sha256": "0d974d87666ea6d7228aad6bb869a7c6dc1e827bb0ab758f172d24c7363d94d1",
+      "mtime": 1786716528.556859
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/3_detailed_place.rpt",
+      "kind": "file",
+      "size_bytes": 28103,
+      "sha256": "7bce709316c63c6512311769bb0fc61b01c22cf3d8a30ea2dc923f68e8d21b77",
+      "mtime": 1786716542.1389582
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/3_global_place.rpt",
+      "kind": "file",
+      "size_bytes": 20408,
+      "sha256": "beb0674eef6417d5dd83f72bdd6c262e5c8be04af88a0f3364dce0a0298e77cb",
+      "mtime": 1786716538.6687376
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/3_resizer.rpt",
+      "kind": "file",
+      "size_bytes": 27892,
+      "sha256": "4750609199e16919c81fb8cfa5beff1ca7c4e40827affccac1696ad7c6dafad2",
+      "mtime": 1786716540.4628696
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/4_cts_final.rpt",
+      "kind": "file",
+      "size_bytes": 33532,
+      "sha256": "489c09cb517b7b5fc22947ad2b63ae1cbbc0ebda4ca105b7508c1285373fa390",
+      "mtime": 1786716551.373669
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/5_global_route.rpt",
+      "kind": "file",
+      "size_bytes": 35461,
+      "sha256": "b2c063d06cc808497c8ecabbb083bc4665ce9579b32420385eedb2109c3fb14e",
+      "mtime": 1786716631.6818988
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/5_route_drc.rpt",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1786716747.118
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/6_finish.rpt",
+      "kind": "file",
+      "size_bytes": 34373,
+      "sha256": "0d2cb2d7b658ebea17737f98fe5e069e408c769ef9b4a25d79c92a22c1c378c2",
+      "mtime": 1786716753.895375
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/cts_default_core_clock.webp",
+      "kind": "file",
+      "size_bytes": 13766,
+      "sha256": "fec16f354c149e368f40e523e2b51ea1af108751daadf12a419ae933bd014d05",
+      "mtime": 1786716755.1746235
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/cts_default_core_clock_layout.webp",
+      "kind": "file",
+      "size_bytes": 18924,
+      "sha256": "e62a2820d40bca28191aabdc6008b8ba9d4271c33a174d34a5ad5769cbba505e",
+      "mtime": 1786716755.278904
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/drt_antennas.log",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1786716747.829983
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/final_all.webp",
+      "kind": "file",
+      "size_bytes": 256962,
+      "sha256": "fa3041f2a2027cceac3355477d711d381ae8c74bf355f44d74b255dd3c96a9d7",
+      "mtime": 1786716754.3926153
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/final_clocks.webp",
+      "kind": "file",
+      "size_bytes": 14894,
+      "sha256": "21e297188ef6164260bf49cfb91161aa0dfea5bf0a62252c03193ab131990a03",
+      "mtime": 1786716755.022214
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/final_congestion.webp",
+      "kind": "file",
+      "size_bytes": 31036,
+      "sha256": "83a7cd2e0386bc4f5b13c0d11f5ab1608e8f0f53a94fb5682e6caf769ac3aa0c",
+      "mtime": 1786716755.5396047
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/final_ir_drop.webp",
+      "kind": "file",
+      "size_bytes": 37754,
+      "sha256": "3eabdc2ca63f45c257ad85e6de1d440e2ee2c5ca3de5cbc45beccc8f4136be05",
+      "mtime": 1786716754.9179466
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/final_placement.webp",
+      "kind": "file",
+      "size_bytes": 37812,
+      "sha256": "c67343ee893418c3e4f5deea38db468703c58eecf02e8b237d83e658f966811d",
+      "mtime": 1786716754.7856112
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/final_resizer.webp",
+      "kind": "file",
+      "size_bytes": 40958,
+      "sha256": "f256206159170a00404009c9f12af21ee60ea7557e876d90d414e266426a5574",
+      "mtime": 1786716755.407249
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/final_routing.webp",
+      "kind": "file",
+      "size_bytes": 289188,
+      "sha256": "e3b6f8503b153c0fbeef4e49353622c0ab0e574f784954ba9a8f3c1906f9c5fc",
+      "mtime": 1786716754.657286
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/final_worst_path.webp",
+      "kind": "file",
+      "size_bytes": 52394,
+      "sha256": "b2a24b171508945529316af7535b4f7719a244480b5b5d53a0e488e0c56b5519",
+      "mtime": 1786716755.7802517
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/grt_antennas.log",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1786716631.0631397
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/synth_check.txt",
+      "kind": "file",
+      "size_bytes": 373,
+      "sha256": "156513a2034517f18d0da48dd4c69f6c607a2a6f875865a90f53b0953b66e7f6",
+      "mtime": 1786716523.9662747
+    },
+    {
+      "path": "gcd-run-05/reports/sky130hd/gcd/base/synth_stat.txt",
+      "kind": "file",
+      "size_bytes": 14454,
+      "sha256": "1c7473f3496f00e3bd2353e125a4d5cb1179287e343f5f4a11f5227d9210a750",
+      "mtime": 1786716524.0506713
+    },
+    {
+      "path": "gcd-run-05/results",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/1_1_yosys_canonicalize.rtlil",
+      "kind": "file",
+      "size_bytes": 1149109,
+      "sha256": "11a32f344e3e5e1c9e742a4210e5a613b783d800231e7161c5a58410dded96de",
+      "mtime": 1786716520.2841232
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/1_2_yosys.sdc",
+      "kind": "file",
+      "size_bytes": 603,
+      "sha256": "7dc2766d530b78c92e12c8e84462f8dade2f0bf2074e85580f7364976252767c",
+      "mtime": 1786368934.0
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/1_2_yosys.v",
+      "kind": "file",
+      "size_bytes": 65749,
+      "sha256": "8f2401e9707cc9c5600aa472600fbfe6755560cb3c7c9724347daf94f06ced93",
+      "mtime": 1786716524.0546765
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/1_synth.odb",
+      "kind": "file",
+      "size_bytes": 2570322,
+      "sha256": "378ffd1d2f85c7e314d584a51e5cf2d8acf9af06571d22a06752552f8d0959e2",
+      "mtime": 1786716525.7886245
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/1_synth.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 514060,
+      "sha256": "8c4bcb350e364b2bcff6c4fd53131ce6ed26ad9bacf9adc8f2363addc99aed2d",
+      "mtime": 1786716762.8374465
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/1_synth.sdc",
+      "kind": "file",
+      "size_bytes": 6141,
+      "sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "mtime": 1786716525.7926292
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_1_floorplan.odb",
+      "kind": "file",
+      "size_bytes": 2751648,
+      "sha256": "694f74044d4fde4a7993b1a0b62385bb1e6ef4e41f19b5bd185ae8748fec4f17",
+      "mtime": 1786716528.5768943
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_1_floorplan.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 675693,
+      "sha256": "813b801e8d4c5f6bb3d0b2d576f601a3b895eeaf48057c97b6fad4102ee8278a",
+      "mtime": 1786716764.364863
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_1_floorplan.sdc",
+      "kind": "file",
+      "size_bytes": 6141,
+      "sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "mtime": 1786716528.5768943
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_2_floorplan_macro.odb",
+      "kind": "file",
+      "size_bytes": 2751648,
+      "sha256": "694f74044d4fde4a7993b1a0b62385bb1e6ef4e41f19b5bd185ae8748fec4f17",
+      "mtime": 1786716529.9474595
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_2_floorplan_macro.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 675693,
+      "sha256": "813b801e8d4c5f6bb3d0b2d576f601a3b895eeaf48057c97b6fad4102ee8278a",
+      "mtime": 1786716765.8240857
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_2_floorplan_macro.tcl",
+      "kind": "file",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mtime": 1786716529.9474595
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_3_floorplan_tapcell.odb",
+      "kind": "file",
+      "size_bytes": 2776261,
+      "sha256": "99036bd332a11b198a12e5b2de652bb6aaee509fd1cc6b6770673d11b787a1ef",
+      "mtime": 1786716531.3182955
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_3_floorplan_tapcell.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 726666,
+      "sha256": "d2d846204cdb19f7afe622cc4b577535cfc4bf82e0c241553a0afc36d3ce0db8",
+      "mtime": 1786716767.4205608
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_4_floorplan_pdn.odb",
+      "kind": "file",
+      "size_bytes": 2808822,
+      "sha256": "245e9c7fc5135ab6f1bcca8d6ff860a97f8b18009fcaf5e073ed043c03f0a2d8",
+      "mtime": 1786716532.697502
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_4_floorplan_pdn.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1005721,
+      "sha256": "8df92151f483f41ddb26c90fa7c24a277c8bbed1d57dd1f5681d5f56bbf9cc60",
+      "mtime": 1786716769.0339377
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_floorplan.odb",
+      "kind": "file",
+      "size_bytes": 2808822,
+      "sha256": "245e9c7fc5135ab6f1bcca8d6ff860a97f8b18009fcaf5e073ed043c03f0a2d8",
+      "mtime": 1786716533.1122649
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_floorplan.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1005721,
+      "sha256": "8df92151f483f41ddb26c90fa7c24a277c8bbed1d57dd1f5681d5f56bbf9cc60",
+      "mtime": 1786716770.6125338
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/2_floorplan.sdc",
+      "kind": "file",
+      "size_bytes": 6141,
+      "sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "mtime": 1786716533.4517984
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_1_place_gp_skip_io.odb",
+      "kind": "file",
+      "size_bytes": 2808822,
+      "sha256": "bde3864e668307c2d52a730d24c2973cb48c0ddf465ab24dca846ed8e3dfca26",
+      "mtime": 1786716534.8080373
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_1_place_gp_skip_io.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1010909,
+      "sha256": "a0560e815de0c57000242825c7a2137c88dc990d8ae8e6dee7e74a0bd36438c0",
+      "mtime": 1786716772.1697178
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_2_place_iop.odb",
+      "kind": "file",
+      "size_bytes": 2811414,
+      "sha256": "7a99227d57fd3eae28e158bb469e1b8aaee4880f453a8a9e82fed911bd05b86b",
+      "mtime": 1786716536.1764448
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_2_place_iop.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1038947,
+      "sha256": "6f6982d1b7015471f8769cbc80ab2f21d071e2c6d27741ece7da4bf23d74fd21",
+      "mtime": 1786716773.6987305
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_2_place_iop.tcl",
+      "kind": "file",
+      "size_bytes": 4920,
+      "sha256": "fe9e826c026a0209cb7333c47ce2c8fdf490e43af38f1166e82531fab075c603",
+      "mtime": 1786716536.1764448
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_3_place_gp.odb",
+      "kind": "file",
+      "size_bytes": 2874802,
+      "sha256": "bfa02c92a32ac6faeac1f7e438a50d96afa1a86f46f7da1342ae05f74a3d4bf6",
+      "mtime": 1786716538.6928189
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_3_place_gp.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1257171,
+      "sha256": "109cb79581e0a9b4fb687edcc15a46aaed002d3206c22c7ad7ce197b7d5030cc",
+      "mtime": 1786716775.1312048
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_4_place_resized.odb",
+      "kind": "file",
+      "size_bytes": 2874802,
+      "sha256": "bfa02c92a32ac6faeac1f7e438a50d96afa1a86f46f7da1342ae05f74a3d4bf6",
+      "mtime": 1786716540.4829388
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_4_place_resized.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1257171,
+      "sha256": "109cb79581e0a9b4fb687edcc15a46aaed002d3206c22c7ad7ce197b7d5030cc",
+      "mtime": 1786716776.5587957
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_5_place_dp.odb",
+      "kind": "file",
+      "size_bytes": 2874802,
+      "sha256": "fab9ae36ae9fbd13054e6bdd57e4ce78100b39bf3ae2a6134505f17e5c5fc4ef",
+      "mtime": 1786716542.1625738
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_5_place_dp.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1257355,
+      "sha256": "a94a6b6de9645a85f754a57a0ea8fe503f4ecb01cedf6c42320903a00bacf0c9",
+      "mtime": 1786716777.9999387
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_place.odb",
+      "kind": "file",
+      "size_bytes": 2874802,
+      "sha256": "fab9ae36ae9fbd13054e6bdd57e4ce78100b39bf3ae2a6134505f17e5c5fc4ef",
+      "mtime": 1786716542.5900114
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_place.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1257355,
+      "sha256": "a94a6b6de9645a85f754a57a0ea8fe503f4ecb01cedf6c42320903a00bacf0c9",
+      "mtime": 1786716779.4259787
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/3_place.sdc",
+      "kind": "file",
+      "size_bytes": 6141,
+      "sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "mtime": 1786716542.1625738
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/4_1_cts.odb",
+      "kind": "file",
+      "size_bytes": 2902399,
+      "sha256": "5559c40f8b39ef6f273bd233c45618297526ec979d74ae7efe549553e5134cd5",
+      "mtime": 1786716551.397623
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/4_1_cts.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1345541,
+      "sha256": "965fa10b525de7d45fb68911bf17b10a1bf388f3627d96195d13a55204ef8ace",
+      "mtime": 1786716780.8603654
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/4_cts.odb",
+      "kind": "file",
+      "size_bytes": 2902399,
+      "sha256": "5559c40f8b39ef6f273bd233c45618297526ec979d74ae7efe549553e5134cd5",
+      "mtime": 1786716551.838987
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/4_cts.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1345541,
+      "sha256": "965fa10b525de7d45fb68911bf17b10a1bf388f3627d96195d13a55204ef8ace",
+      "mtime": 1786716782.2907026
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/4_cts.sdc",
+      "kind": "file",
+      "size_bytes": 6137,
+      "sha256": "0c7f9b72610bf1fa58369ff99708816e337b98dfc7f8c44f4007ecd0126e2cbb",
+      "mtime": 1786716551.397623
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/5_1_grt.odb",
+      "kind": "file",
+      "size_bytes": 3266294,
+      "sha256": "492170ff1a3bbbd3f46f0ef5487ae7ed12fb8d1d2ab0d6f8af4b2afaa4bdffef",
+      "mtime": 1786716631.710024
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/5_1_grt.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1386466,
+      "sha256": "57f787570aa077613ce31c1a913ba05aea3ad10d0918f41502a35408c2543472",
+      "mtime": 1786716783.6976373
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/5_1_grt.sdc",
+      "kind": "file",
+      "size_bytes": 6137,
+      "sha256": "0c7f9b72610bf1fa58369ff99708816e337b98dfc7f8c44f4007ecd0126e2cbb",
+      "mtime": 1786716631.710024
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/5_2_route.odb",
+      "kind": "file",
+      "size_bytes": 3429781,
+      "sha256": "5a162f8df730afe2902bc15a869412e6cd64f572c2e4f7b2e4ea689e480d4777",
+      "mtime": 1786716748.170041
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/5_2_route.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 5644484,
+      "sha256": "546951e67223489024a373103d0a9d21c44bf8e9413cd2cf1a8fc9b823ca3856",
+      "mtime": 1786716785.6815448
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/5_3_fillcell.odb",
+      "kind": "file",
+      "size_bytes": 3510602,
+      "sha256": "6b2e80a4c059ce2c508e9a9de07bd4af64186c1b0375e0f37a3c36e39da1ec54",
+      "mtime": 1786716749.6390362
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/5_3_fillcell.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 5889384,
+      "sha256": "e5a2e8531c6f69b61bf8efd19af8bc983e97579f1eb36ca8fd4dd6a643070380",
+      "mtime": 1786716787.6822498
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/5_route.odb",
+      "kind": "file",
+      "size_bytes": 3510602,
+      "sha256": "6b2e80a4c059ce2c508e9a9de07bd4af64186c1b0375e0f37a3c36e39da1ec54",
+      "mtime": 1786716750.069916
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/5_route.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 5889384,
+      "sha256": "e5a2e8531c6f69b61bf8efd19af8bc983e97579f1eb36ca8fd4dd6a643070380",
+      "mtime": 1786716789.8801517
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/5_route.sdc",
+      "kind": "file",
+      "size_bytes": 6137,
+      "sha256": "0c7f9b72610bf1fa58369ff99708816e337b98dfc7f8c44f4007ecd0126e2cbb",
+      "mtime": 1786716750.4326885
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_1_fill.odb",
+      "kind": "file",
+      "size_bytes": 3510602,
+      "sha256": "6b2e80a4c059ce2c508e9a9de07bd4af64186c1b0375e0f37a3c36e39da1ec54",
+      "mtime": 1786716751.7160192
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_1_fill.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 5889384,
+      "sha256": "e5a2e8531c6f69b61bf8efd19af8bc983e97579f1eb36ca8fd4dd6a643070380",
+      "mtime": 1786716791.9786217
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_1_fill.sdc",
+      "kind": "file",
+      "size_bytes": 6137,
+      "sha256": "0c7f9b72610bf1fa58369ff99708816e337b98dfc7f8c44f4007ecd0126e2cbb",
+      "mtime": 1786716752.1670444
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_1_merged.gds",
+      "kind": "file",
+      "size_bytes": 975050,
+      "sha256": "8515e5a51feea0bddfc9e8ff7455ad5e8573d0ab7aaaf26bb25f6ea949e820c0",
+      "mtime": 1786716760.5560973
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_final.def",
+      "kind": "file",
+      "size_bytes": 410310,
+      "sha256": "7ae663b1a82625737710a5fac40c54222854c01adec7afc6e62c2288ca5d6816",
+      "mtime": 1786716753.4583447
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_final.gds",
+      "kind": "file",
+      "size_bytes": 975050,
+      "sha256": "8515e5a51feea0bddfc9e8ff7455ad5e8573d0ab7aaaf26bb25f6ea949e820c0",
+      "mtime": 1786716760.8998108
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_final.odb",
+      "kind": "file",
+      "size_bytes": 3510602,
+      "sha256": "327d1bf99e99cabb8fabb1da0fe65c025601b0894f6ef523ea2286dbdfcc674d",
+      "mtime": 1786716753.4503257
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_final.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 5942724,
+      "sha256": "c858eb7ddfee687145504f10ebbece720b73af7fb1fd09744b8c8c08393d3262",
+      "mtime": 1786716794.07342
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_final.sdc",
+      "kind": "file",
+      "size_bytes": 6137,
+      "sha256": "0c7f9b72610bf1fa58369ff99708816e337b98dfc7f8c44f4007ecd0126e2cbb",
+      "mtime": 1786716753.4503257
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_final.spef",
+      "kind": "file",
+      "size_bytes": 395707,
+      "sha256": "a0f4b1db2d0b978ce7e41b329758848dd42477e30a7990e86eef3643694d6818",
+      "mtime": 1786716753.5986755
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/6_final.v",
+      "kind": "file",
+      "size_bytes": 45779,
+      "sha256": "6573bd8ced63f27985c6dafed01b5744d8dc6016b2aafbdcc22fc0f26c59ca1c",
+      "mtime": 1786716753.4984393
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/clock_period.txt",
+      "kind": "file",
+      "size_bytes": 4,
+      "sha256": "1523e9e982ff804c6d979e1bb2c6f3d7bae35307e8ce458bffc0d12a442b98da",
+      "mtime": 1786716519.4195359
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/mem.json",
+      "kind": "file",
+      "size_bytes": 72072,
+      "sha256": "57175dba3ab04c46386518b589a006869182ea78261bf3d2868cf78ac8da03cf",
+      "mtime": 1786716521.4976761
+    },
+    {
+      "path": "gcd-run-05/results/sky130hd/gcd/base/route.guide",
+      "kind": "file",
+      "size_bytes": 105870,
+      "sha256": "032db4c2320d96e71976cfdaf016033618b9d8e20bcb68245d6294a2640a659e",
+      "mtime": 1786716631.6859167
+    },
+    {
+      "path": "gcd-run-05/run-command.txt",
+      "kind": "file",
+      "size_bytes": 192,
+      "sha256": "18c8e155aa517b43e1c0d1e17d776e530bcdbfbe9f658b381f895e9bda8d0982",
+      "mtime": 1786716518.2857802
+    },
+    {
+      "path": "gcd-run-05/run-metadata.json",
+      "kind": "file",
+      "size_bytes": 415,
+      "sha256": "f4b95cd0b097c6d58f50de5faa1b5da548b8a2d9b85639afa7db1297808d955f",
+      "mtime": 1786716794.3623836
+    },
+    {
+      "path": "gcd-run-06",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06-inventory.json",
+      "kind": "file",
+      "size_bytes": 51168,
+      "sha256": "95ca0873c885a1de42100a9f12edced0da276dff042ba70141bee39a504e9ae6",
+      "mtime": 1786717134.4862204
+    },
+    {
+      "path": "gcd-run-06/container.log",
+      "kind": "file",
+      "size_bytes": 206130,
+      "sha256": "97cc5c7b124e219cc76438d35c0c3c5360e9898341df811a01f249a5e8c7d1a1",
+      "mtime": 1786717088.1492667
+    },
+    {
+      "path": "gcd-run-06/logs",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/1_1_yosys_canonicalize.log",
+      "kind": "file",
+      "size_bytes": 3435,
+      "sha256": "a317a4056418d1f24e0bba16fc855a5870914846bbad4fe57ac38a9a7a461b32",
+      "mtime": 1786716833.8277135
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/1_2_yosys.log",
+      "kind": "file",
+      "size_bytes": 18955,
+      "sha256": "9f2ed87efcf49ff6c63c3f6a82b72cdd7dfbb7db6e7dcf105d2eb68e949e0293",
+      "mtime": 1786716837.5871532
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/1_synth.json",
+      "kind": "file",
+      "size_bytes": 792,
+      "sha256": "897e5bb3a4be24c642115b3dbdff1fee4f44dfb29954473157f4738ffe5e726e",
+      "mtime": 1786716839.1491745
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/1_synth.log",
+      "kind": "file",
+      "size_bytes": 1535,
+      "sha256": "fbc96d3faafc99158d14af59910667067a125e5e553a45b05f7721d3740aff01",
+      "mtime": 1786716839.2171383
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/2_1_floorplan.json",
+      "kind": "file",
+      "size_bytes": 2141,
+      "sha256": "663f6a4016fe9c0b774a96a060e5bd0b4e88e993938d89ca39a66984124de189",
+      "mtime": 1786716841.8491046
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/2_1_floorplan.log",
+      "kind": "file",
+      "size_bytes": 21700,
+      "sha256": "68fd865926e130bb28c5d65cbcbf3001a21e88ab5d36f5c8063170cb704d3233",
+      "mtime": 1786716841.917136
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/2_2_floorplan_macro.json",
+      "kind": "file",
+      "size_bytes": 130,
+      "sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "mtime": 1786716843.1782517
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/2_2_floorplan_macro.log",
+      "kind": "file",
+      "size_bytes": 1162,
+      "sha256": "f0cf02ee401fde984abb9accb17272a67a99e1dfcdce473ee697279168904540",
+      "mtime": 1786716843.2623541
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/2_3_floorplan_tapcell.json",
+      "kind": "file",
+      "size_bytes": 130,
+      "sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "mtime": 1786716844.5520914
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/2_3_floorplan_tapcell.log",
+      "kind": "file",
+      "size_bytes": 1166,
+      "sha256": "971efd439542d32a70ba2aceabdc3affc06216b4d601008a09f05274e5d563a6",
+      "mtime": 1786716844.6242013
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/2_4_floorplan_pdn.json",
+      "kind": "file",
+      "size_bytes": 168,
+      "sha256": "bdb90d02a996414b027d6703bb9d2523f078b5e964cfba10fb3d725b19f8a74c",
+      "mtime": 1786716846.0147362
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/2_4_floorplan_pdn.log",
+      "kind": "file",
+      "size_bytes": 1330,
+      "sha256": "8f9eee225fd6630c89539f15b54ac99bda54423bb08d7938430b86616ca82598",
+      "mtime": 1786716846.082893
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/3_1_place_gp_skip_io.json",
+      "kind": "file",
+      "size_bytes": 130,
+      "sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "mtime": 1786716848.3805273
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/3_1_place_gp_skip_io.log",
+      "kind": "file",
+      "size_bytes": 6584,
+      "sha256": "6424f1300031e114bce0b660fb469c10145c1c42f712980b6984f1af9a296351",
+      "mtime": 1786716848.456732
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/3_2_place_iop.json",
+      "kind": "file",
+      "size_bytes": 190,
+      "sha256": "c5073fa049f4f820f7d28507345e9b728b8bea90050cb57d61a5e7858714513a",
+      "mtime": 1786716849.912787
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/3_2_place_iop.log",
+      "kind": "file",
+      "size_bytes": 1564,
+      "sha256": "f39705a361982e2fd62d964e6f8a66063f02b2fcf94b850136b86ae585889b43",
+      "mtime": 1786716849.9970267
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/3_3_place_gp.json",
+      "kind": "file",
+      "size_bytes": 1659,
+      "sha256": "1b7fb47420cd53305808533ffec7e795eee1804c1bbd9195aaa930b6919f6300",
+      "mtime": 1786716852.5248039
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/3_3_place_gp.log",
+      "kind": "file",
+      "size_bytes": 26329,
+      "sha256": "e0dfab8c5fc5e1639b010421a80cf50f8b8aa2a43328a5868d57acfb1f0850f2",
+      "mtime": 1786716852.6130872
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/3_4_place_resized.json",
+      "kind": "file",
+      "size_bytes": 2031,
+      "sha256": "83f6e8e863366cd0186f75acbe15fd36c1c4aaf49069c641160636fa9ab7bf15",
+      "mtime": 1786716854.378803
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/3_4_place_resized.log",
+      "kind": "file",
+      "size_bytes": 6994,
+      "sha256": "73bb9b664e7c89d3319a2d1ed89c99a4b766fdb19d37f2665eb1897e5141c790",
+      "mtime": 1786716854.4550512
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/3_5_place_dp.json",
+      "kind": "file",
+      "size_bytes": 2581,
+      "sha256": "1b2ce7067b91fa90bb90cb26f5ca61285e7f14f40ab279809c15b6920d096ea7",
+      "mtime": 1786716856.1245751
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/3_5_place_dp.log",
+      "kind": "file",
+      "size_bytes": 6732,
+      "sha256": "8ff713803a322931db68140e3116c654830865f4cfcca9f5bad7d0965e615c62",
+      "mtime": 1786716856.19682
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/4_1_cts.json",
+      "kind": "file",
+      "size_bytes": 2671,
+      "sha256": "414939a118c1470c95dd28d2593b6f66a62da155ab76a50fb20abf4b85f910a9",
+      "mtime": 1786716866.1531188
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/4_1_cts.log",
+      "kind": "file",
+      "size_bytes": 42046,
+      "sha256": "8909b148a3a575ddfdde3c93419390f1cb26510f19475cfa59fea68f59e75c91",
+      "mtime": 1786716866.2363167
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/5_1_grt.json",
+      "kind": "file",
+      "size_bytes": 144036,
+      "sha256": "86a3dab7e1a15c788e1a1ea6e1e5056161f24032f52c02b3265b1d879bb042be",
+      "mtime": 1786716952.315353
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/5_1_grt.log",
+      "kind": "file",
+      "size_bytes": 42807,
+      "sha256": "05aadaf16d98af5579af836d9fd6d0a60b04eab19b512e8513d86a18c52b42e6",
+      "mtime": 1786716952.4156651
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/5_2_route.json",
+      "kind": "file",
+      "size_bytes": 1326,
+      "sha256": "b9b4a2e92303ddb5b1fbe381386d87225662576a59ab4a2ee09b807852b00413",
+      "mtime": 1786717074.6922398
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/5_2_route.log",
+      "kind": "file",
+      "size_bytes": 15083,
+      "sha256": "87d42f3d223c775d37fa7f9272e78eac11cd50a7634a702e68260edcb102b5c0",
+      "mtime": 1786717074.8245094
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/5_3_fillcell.json",
+      "kind": "file",
+      "size_bytes": 194,
+      "sha256": "ac24a31efd4465650cbe0b3be8faceb1d7d4e2c912b1a6d92abf4eeb65adc3b6",
+      "mtime": 1786717076.2276902
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/5_3_fillcell.log",
+      "kind": "file",
+      "size_bytes": 1335,
+      "sha256": "a8a4ad4c98de14b26a222fff8648344404f48092cb5864a384736c628e4facda",
+      "mtime": 1786717076.3078878
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/6_1_fill.json",
+      "kind": "file",
+      "size_bytes": 130,
+      "sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "mtime": 1786717078.4522045
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/6_1_fill.log",
+      "kind": "file",
+      "size_bytes": 1112,
+      "sha256": "19eee51d8c87ef82c8ee51813553a898af17ce306f52f4ca15c491e811929419",
+      "mtime": 1786717078.5291634
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/6_1_merge.log",
+      "kind": "file",
+      "size_bytes": 320,
+      "sha256": "8a863f899296191043f888fe4c878cec139dfef38bebba91f3ffa59ed3ff75bc",
+      "mtime": 1786717087.6491835
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/6_report.json",
+      "kind": "file",
+      "size_bytes": 3603,
+      "sha256": "1f5f1ce11c9360bd016bbf3b23b77898e729327cb2c5e84f093185adf20befd4",
+      "mtime": 1786717082.9898865
+    },
+    {
+      "path": "gcd-run-06/logs/sky130hd/gcd/base/6_report.log",
+      "kind": "file",
+      "size_bytes": 3791,
+      "sha256": "8fd4552e116c95e4e038ec1f2cf92156bc1b0764491e6ac4db7c4dfe31ae504f",
+      "mtime": 1786717083.0628314
+    },
+    {
+      "path": "gcd-run-06/objects",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/objects/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/objects/sky130hd/gcd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/objects/sky130hd/gcd/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/objects/sky130hd/gcd/base/abc.constr",
+      "kind": "file",
+      "size_bytes": 51,
+      "sha256": "9fcc3bf9da3c85a2d6355e3c4fbc7ceafa4a6fb3978907fb15bcffe00ff05348",
+      "mtime": 1786716834.2814584
+    },
+    {
+      "path": "gcd-run-06/objects/sky130hd/gcd/base/copyright.txt",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1786716838.130245
+    },
+    {
+      "path": "gcd-run-06/objects/sky130hd/gcd/base/klayout.lyt",
+      "kind": "file",
+      "size_bytes": 15523,
+      "sha256": "e7a7f88cf917da3e920f481cf26bb669cb30ae9c3d5717a6f0d194935912dab2",
+      "mtime": 1786717083.8637514
+    },
+    {
+      "path": "gcd-run-06/objects/sky130hd/gcd/base/klayout_tech.lef",
+      "kind": "file",
+      "size_bytes": 18031,
+      "sha256": "8e99b4e8b016db0713029ebcae6b2cc2aedd9c2c49682e2f23521dd0b1a2085e",
+      "mtime": 1786717083.4554937
+    },
+    {
+      "path": "gcd-run-06/odb-semantic-export.log",
+      "kind": "file",
+      "size_bytes": 6320,
+      "sha256": "ca3e3405759651dc42e09e8240d83c459b16489687b58a2db663a77a3b8c47b7",
+      "mtime": 1786717120.4554915
+    },
+    {
+      "path": "gcd-run-06/reports",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/2_floorplan_final.rpt",
+      "kind": "file",
+      "size_bytes": 18329,
+      "sha256": "0d974d87666ea6d7228aad6bb869a7c6dc1e827bb0ab758f172d24c7363d94d1",
+      "mtime": 1786716841.8250937
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/3_detailed_place.rpt",
+      "kind": "file",
+      "size_bytes": 28103,
+      "sha256": "7bce709316c63c6512311769bb0fc61b01c22cf3d8a30ea2dc923f68e8d21b77",
+      "mtime": 1786716856.09648
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/3_global_place.rpt",
+      "kind": "file",
+      "size_bytes": 20408,
+      "sha256": "beb0674eef6417d5dd83f72bdd6c262e5c8be04af88a0f3364dce0a0298e77cb",
+      "mtime": 1786716852.4967139
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/3_resizer.rpt",
+      "kind": "file",
+      "size_bytes": 27892,
+      "sha256": "4750609199e16919c81fb8cfa5beff1ca7c4e40827affccac1696ad7c6dafad2",
+      "mtime": 1786716854.3587377
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/4_cts_final.rpt",
+      "kind": "file",
+      "size_bytes": 33532,
+      "sha256": "489c09cb517b7b5fc22947ad2b63ae1cbbc0ebda4ca105b7508c1285373fa390",
+      "mtime": 1786716866.129348
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/5_global_route.rpt",
+      "kind": "file",
+      "size_bytes": 35461,
+      "sha256": "b2c063d06cc808497c8ecabbb083bc4665ce9579b32420385eedb2109c3fb14e",
+      "mtime": 1786716952.2712157
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/5_route_drc.rpt",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1786717073.5580444
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/6_finish.rpt",
+      "kind": "file",
+      "size_bytes": 34373,
+      "sha256": "0d2cb2d7b658ebea17737f98fe5e069e408c769ef9b4a25d79c92a22c1c378c2",
+      "mtime": 1786717080.8909376
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/cts_default_core_clock.webp",
+      "kind": "file",
+      "size_bytes": 13766,
+      "sha256": "fec16f354c149e368f40e523e2b51ea1af108751daadf12a419ae933bd014d05",
+      "mtime": 1786717082.1105514
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/cts_default_core_clock_layout.webp",
+      "kind": "file",
+      "size_bytes": 18924,
+      "sha256": "e62a2820d40bca28191aabdc6008b8ba9d4271c33a174d34a5ad5769cbba505e",
+      "mtime": 1786717082.219962
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/drt_antennas.log",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1786717074.2994392
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/final_all.webp",
+      "kind": "file",
+      "size_bytes": 256962,
+      "sha256": "fa3041f2a2027cceac3355477d711d381ae8c74bf355f44d74b255dd3c96a9d7",
+      "mtime": 1786717081.3325813
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/final_clocks.webp",
+      "kind": "file",
+      "size_bytes": 14894,
+      "sha256": "21e297188ef6164260bf49cfb91161aa0dfea5bf0a62252c03193ab131990a03",
+      "mtime": 1786717082.0051932
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/final_congestion.webp",
+      "kind": "file",
+      "size_bytes": 31036,
+      "sha256": "83a7cd2e0386bc4f5b13c0d11f5ab1608e8f0f53a94fb5682e6caf769ac3aa0c",
+      "mtime": 1786717082.4833572
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/final_ir_drop.webp",
+      "kind": "file",
+      "size_bytes": 37754,
+      "sha256": "3eabdc2ca63f45c257ad85e6de1d440e2ee2c5ca3de5cbc45beccc8f4136be05",
+      "mtime": 1786717081.8957922
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/final_placement.webp",
+      "kind": "file",
+      "size_bytes": 37812,
+      "sha256": "c67343ee893418c3e4f5deea38db468703c58eecf02e8b237d83e658f966811d",
+      "mtime": 1786717081.7539766
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/final_resizer.webp",
+      "kind": "file",
+      "size_bytes": 40958,
+      "sha256": "f256206159170a00404009c9f12af21ee60ea7557e876d90d414e266426a5574",
+      "mtime": 1786717082.3536856
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/final_routing.webp",
+      "kind": "file",
+      "size_bytes": 289188,
+      "sha256": "e3b6f8503b153c0fbeef4e49353622c0ab0e574f784954ba9a8f3c1906f9c5fc",
+      "mtime": 1786717081.6121607
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/final_worst_path.webp",
+      "kind": "file",
+      "size_bytes": 52394,
+      "sha256": "b2a24b171508945529316af7535b4f7719a244480b5b5d53a0e488e0c56b5519",
+      "mtime": 1786717082.7467525
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/grt_antennas.log",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1786716951.617214
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/synth_check.txt",
+      "kind": "file",
+      "size_bytes": 373,
+      "sha256": "156513a2034517f18d0da48dd4c69f6c607a2a6f875865a90f53b0953b66e7f6",
+      "mtime": 1786716837.4035225
+    },
+    {
+      "path": "gcd-run-06/reports/sky130hd/gcd/base/synth_stat.txt",
+      "kind": "file",
+      "size_bytes": 14454,
+      "sha256": "1c7473f3496f00e3bd2353e125a4d5cb1179287e343f5f4a11f5227d9210a750",
+      "mtime": 1786716837.487336
+    },
+    {
+      "path": "gcd-run-06/results",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/1_1_yosys_canonicalize.rtlil",
+      "kind": "file",
+      "size_bytes": 1149109,
+      "sha256": "11a32f344e3e5e1c9e742a4210e5a613b783d800231e7161c5a58410dded96de",
+      "mtime": 1786716833.7561212
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/1_2_yosys.sdc",
+      "kind": "file",
+      "size_bytes": 603,
+      "sha256": "7dc2766d530b78c92e12c8e84462f8dade2f0bf2074e85580f7364976252767c",
+      "mtime": 1786368934.0
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/1_2_yosys.v",
+      "kind": "file",
+      "size_bytes": 65749,
+      "sha256": "8f2401e9707cc9c5600aa472600fbfe6755560cb3c7c9724347daf94f06ced93",
+      "mtime": 1786716837.4953213
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/1_synth.odb",
+      "kind": "file",
+      "size_bytes": 2570322,
+      "sha256": "378ffd1d2f85c7e314d584a51e5cf2d8acf9af06571d22a06752552f8d0959e2",
+      "mtime": 1786716839.1491745
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/1_synth.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 514060,
+      "sha256": "8c4bcb350e364b2bcff6c4fd53131ce6ed26ad9bacf9adc8f2363addc99aed2d",
+      "mtime": 1786717089.6786103
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/1_synth.sdc",
+      "kind": "file",
+      "size_bytes": 6141,
+      "sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "mtime": 1786716839.1491745
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_1_floorplan.odb",
+      "kind": "file",
+      "size_bytes": 2751648,
+      "sha256": "694f74044d4fde4a7993b1a0b62385bb1e6ef4e41f19b5bd185ae8748fec4f17",
+      "mtime": 1786716841.8451028
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_1_floorplan.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 675693,
+      "sha256": "813b801e8d4c5f6bb3d0b2d576f601a3b895eeaf48057c97b6fad4102ee8278a",
+      "mtime": 1786717091.1568472
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_1_floorplan.sdc",
+      "kind": "file",
+      "size_bytes": 6141,
+      "sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "mtime": 1786716841.8491046
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_2_floorplan_macro.odb",
+      "kind": "file",
+      "size_bytes": 2751648,
+      "sha256": "694f74044d4fde4a7993b1a0b62385bb1e6ef4e41f19b5bd185ae8748fec4f17",
+      "mtime": 1786716843.1782517
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_2_floorplan_macro.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 675693,
+      "sha256": "813b801e8d4c5f6bb3d0b2d576f601a3b895eeaf48057c97b6fad4102ee8278a",
+      "mtime": 1786717092.5676007
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_2_floorplan_macro.tcl",
+      "kind": "file",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mtime": 1786716843.1782517
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_3_floorplan_tapcell.odb",
+      "kind": "file",
+      "size_bytes": 2776261,
+      "sha256": "99036bd332a11b198a12e5b2de652bb6aaee509fd1cc6b6770673d11b787a1ef",
+      "mtime": 1786716844.5520914
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_3_floorplan_tapcell.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 726666,
+      "sha256": "d2d846204cdb19f7afe622cc4b577535cfc4bf82e0c241553a0afc36d3ce0db8",
+      "mtime": 1786717094.013891
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_4_floorplan_pdn.odb",
+      "kind": "file",
+      "size_bytes": 2808822,
+      "sha256": "245e9c7fc5135ab6f1bcca8d6ff860a97f8b18009fcaf5e073ed043c03f0a2d8",
+      "mtime": 1786716846.0147362
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_4_floorplan_pdn.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1005721,
+      "sha256": "8df92151f483f41ddb26c90fa7c24a277c8bbed1d57dd1f5681d5f56bbf9cc60",
+      "mtime": 1786717095.5140157
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_floorplan.odb",
+      "kind": "file",
+      "size_bytes": 2808822,
+      "sha256": "245e9c7fc5135ab6f1bcca8d6ff860a97f8b18009fcaf5e073ed043c03f0a2d8",
+      "mtime": 1786716846.4813254
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_floorplan.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1005721,
+      "sha256": "8df92151f483f41ddb26c90fa7c24a277c8bbed1d57dd1f5681d5f56bbf9cc60",
+      "mtime": 1786717097.0322118
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/2_floorplan.sdc",
+      "kind": "file",
+      "size_bytes": 6141,
+      "sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "mtime": 1786716846.827969
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_1_place_gp_skip_io.odb",
+      "kind": "file",
+      "size_bytes": 2808822,
+      "sha256": "bde3864e668307c2d52a730d24c2973cb48c0ddf465ab24dca846ed8e3dfca26",
+      "mtime": 1786716848.3805273
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_1_place_gp_skip_io.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1010909,
+      "sha256": "a0560e815de0c57000242825c7a2137c88dc990d8ae8e6dee7e74a0bd36438c0",
+      "mtime": 1786717098.563283
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_2_place_iop.odb",
+      "kind": "file",
+      "size_bytes": 2811414,
+      "sha256": "7a99227d57fd3eae28e158bb469e1b8aaee4880f453a8a9e82fed911bd05b86b",
+      "mtime": 1786716849.912787
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_2_place_iop.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1038947,
+      "sha256": "6f6982d1b7015471f8769cbc80ab2f21d071e2c6d27741ece7da4bf23d74fd21",
+      "mtime": 1786717100.037446
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_2_place_iop.tcl",
+      "kind": "file",
+      "size_bytes": 4920,
+      "sha256": "fe9e826c026a0209cb7333c47ce2c8fdf490e43af38f1166e82531fab075c603",
+      "mtime": 1786716849.912787
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_3_place_gp.odb",
+      "kind": "file",
+      "size_bytes": 2874802,
+      "sha256": "bfa02c92a32ac6faeac1f7e438a50d96afa1a86f46f7da1342ae05f74a3d4bf6",
+      "mtime": 1786716852.5248039
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_3_place_gp.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1257171,
+      "sha256": "109cb79581e0a9b4fb687edcc15a46aaed002d3206c22c7ad7ce197b7d5030cc",
+      "mtime": 1786717101.6299932
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_4_place_resized.odb",
+      "kind": "file",
+      "size_bytes": 2874802,
+      "sha256": "bfa02c92a32ac6faeac1f7e438a50d96afa1a86f46f7da1342ae05f74a3d4bf6",
+      "mtime": 1786716854.378803
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_4_place_resized.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1257171,
+      "sha256": "109cb79581e0a9b4fb687edcc15a46aaed002d3206c22c7ad7ce197b7d5030cc",
+      "mtime": 1786717103.1744115
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_5_place_dp.odb",
+      "kind": "file",
+      "size_bytes": 2874802,
+      "sha256": "fab9ae36ae9fbd13054e6bdd57e4ce78100b39bf3ae2a6134505f17e5c5fc4ef",
+      "mtime": 1786716856.1205616
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_5_place_dp.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1257355,
+      "sha256": "a94a6b6de9645a85f754a57a0ea8fe503f4ecb01cedf6c42320903a00bacf0c9",
+      "mtime": 1786717104.694669
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_place.odb",
+      "kind": "file",
+      "size_bytes": 2874802,
+      "sha256": "fab9ae36ae9fbd13054e6bdd57e4ce78100b39bf3ae2a6134505f17e5c5fc4ef",
+      "mtime": 1786716856.5740988
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_place.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1257355,
+      "sha256": "a94a6b6de9645a85f754a57a0ea8fe503f4ecb01cedf6c42320903a00bacf0c9",
+      "mtime": 1786717106.2309911
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/3_place.sdc",
+      "kind": "file",
+      "size_bytes": 6141,
+      "sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "mtime": 1786716856.1245751
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/4_1_cts.odb",
+      "kind": "file",
+      "size_bytes": 2902399,
+      "sha256": "5559c40f8b39ef6f273bd233c45618297526ec979d74ae7efe549553e5134cd5",
+      "mtime": 1786716866.1531188
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/4_1_cts.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1345541,
+      "sha256": "965fa10b525de7d45fb68911bf17b10a1bf388f3627d96195d13a55204ef8ace",
+      "mtime": 1786717107.7525713
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/4_cts.odb",
+      "kind": "file",
+      "size_bytes": 2902399,
+      "sha256": "5559c40f8b39ef6f273bd233c45618297526ec979d74ae7efe549553e5134cd5",
+      "mtime": 1786716866.621021
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/4_cts.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1345541,
+      "sha256": "965fa10b525de7d45fb68911bf17b10a1bf388f3627d96195d13a55204ef8ace",
+      "mtime": 1786717109.2892299
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/4_cts.sdc",
+      "kind": "file",
+      "size_bytes": 6137,
+      "sha256": "0c7f9b72610bf1fa58369ff99708816e337b98dfc7f8c44f4007ecd0126e2cbb",
+      "mtime": 1786716866.1531188
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/5_1_grt.odb",
+      "kind": "file",
+      "size_bytes": 3266294,
+      "sha256": "492170ff1a3bbbd3f46f0ef5487ae7ed12fb8d1d2ab0d6f8af4b2afaa4bdffef",
+      "mtime": 1786716952.3113406
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/5_1_grt.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 1386466,
+      "sha256": "57f787570aa077613ce31c1a913ba05aea3ad10d0918f41502a35408c2543472",
+      "mtime": 1786717110.8434007
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/5_1_grt.sdc",
+      "kind": "file",
+      "size_bytes": 6137,
+      "sha256": "0c7f9b72610bf1fa58369ff99708816e337b98dfc7f8c44f4007ecd0126e2cbb",
+      "mtime": 1786716952.3113406
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/5_2_route.odb",
+      "kind": "file",
+      "size_bytes": 3429781,
+      "sha256": "5a162f8df730afe2902bc15a869412e6cd64f572c2e4f7b2e4ea689e480d4777",
+      "mtime": 1786717074.6922398
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/5_2_route.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 5644484,
+      "sha256": "546951e67223489024a373103d0a9d21c44bf8e9413cd2cf1a8fc9b823ca3856",
+      "mtime": 1786717112.9116518
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/5_3_fillcell.odb",
+      "kind": "file",
+      "size_bytes": 3510602,
+      "sha256": "6b2e80a4c059ce2c508e9a9de07bd4af64186c1b0375e0f37a3c36e39da1ec54",
+      "mtime": 1786717076.2236805
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/5_3_fillcell.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 5889384,
+      "sha256": "e5a2e8531c6f69b61bf8efd19af8bc983e97579f1eb36ca8fd4dd6a643070380",
+      "mtime": 1786717115.0527894
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/5_route.odb",
+      "kind": "file",
+      "size_bytes": 3510602,
+      "sha256": "6b2e80a4c059ce2c508e9a9de07bd4af64186c1b0375e0f37a3c36e39da1ec54",
+      "mtime": 1786717076.6968455
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/5_route.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 5889384,
+      "sha256": "e5a2e8531c6f69b61bf8efd19af8bc983e97579f1eb36ca8fd4dd6a643070380",
+      "mtime": 1786717117.2178018
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/5_route.sdc",
+      "kind": "file",
+      "size_bytes": 6137,
+      "sha256": "0c7f9b72610bf1fa58369ff99708816e337b98dfc7f8c44f4007ecd0126e2cbb",
+      "mtime": 1786717077.0763419
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_1_fill.odb",
+      "kind": "file",
+      "size_bytes": 3510602,
+      "sha256": "6b2e80a4c059ce2c508e9a9de07bd4af64186c1b0375e0f37a3c36e39da1ec54",
+      "mtime": 1786717078.4522045
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_1_fill.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 5889384,
+      "sha256": "e5a2e8531c6f69b61bf8efd19af8bc983e97579f1eb36ca8fd4dd6a643070380",
+      "mtime": 1786717119.4010775
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_1_fill.sdc",
+      "kind": "file",
+      "size_bytes": 6137,
+      "sha256": "0c7f9b72610bf1fa58369ff99708816e337b98dfc7f8c44f4007ecd0126e2cbb",
+      "mtime": 1786717078.913555
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_1_merged.gds",
+      "kind": "file",
+      "size_bytes": 975050,
+      "sha256": "ffab8b7f50c2b6155cd2355c58abb4887d89c6c043c57148f60578d6f54a7aca",
+      "mtime": 1786717087.3467171
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_final.def",
+      "kind": "file",
+      "size_bytes": 410310,
+      "sha256": "7ae663b1a82625737710a5fac40c54222854c01adec7afc6e62c2288ca5d6816",
+      "mtime": 1786717080.404761
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_final.gds",
+      "kind": "file",
+      "size_bytes": 975050,
+      "sha256": "ffab8b7f50c2b6155cd2355c58abb4887d89c6c043c57148f60578d6f54a7aca",
+      "mtime": 1786717087.678887
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_final.odb",
+      "kind": "file",
+      "size_bytes": 3510602,
+      "sha256": "327d1bf99e99cabb8fabb1da0fe65c025601b0894f6ef523ea2286dbdfcc674d",
+      "mtime": 1786717080.3926067
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_final.odb.semantic.json",
+      "kind": "file",
+      "size_bytes": 5942724,
+      "sha256": "c858eb7ddfee687145504f10ebbece720b73af7fb1fd09744b8c8c08393d3262",
+      "mtime": 1786717121.7304685
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_final.sdc",
+      "kind": "file",
+      "size_bytes": 6137,
+      "sha256": "0c7f9b72610bf1fa58369ff99708816e337b98dfc7f8c44f4007ecd0126e2cbb",
+      "mtime": 1786717080.3926067
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_final.spef",
+      "kind": "file",
+      "size_bytes": 395707,
+      "sha256": "8d24801addc5583cb5e1d2fed688ec1a3bac68d8934ab664a69fcb0129ab1f4d",
+      "mtime": 1786717080.5546656
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/6_final.v",
+      "kind": "file",
+      "size_bytes": 45779,
+      "sha256": "6573bd8ced63f27985c6dafed01b5744d8dc6016b2aafbdcc22fc0f26c59ca1c",
+      "mtime": 1786717080.4493275
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/clock_period.txt",
+      "kind": "file",
+      "size_bytes": 4,
+      "sha256": "1523e9e982ff804c6d979e1bb2c6f3d7bae35307e8ce458bffc0d12a442b98da",
+      "mtime": 1786716833.0345218
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/mem.json",
+      "kind": "file",
+      "size_bytes": 72072,
+      "sha256": "57175dba3ab04c46386518b589a006869182ea78261bf3d2868cf78ac8da03cf",
+      "mtime": 1786716834.8708053
+    },
+    {
+      "path": "gcd-run-06/results/sky130hd/gcd/base/route.guide",
+      "kind": "file",
+      "size_bytes": 105870,
+      "sha256": "032db4c2320d96e71976cfdaf016033618b9d8e20bcb68245d6294a2640a659e",
+      "mtime": 1786716952.2752283
+    },
+    {
+      "path": "gcd-run-06/run-command.txt",
+      "kind": "file",
+      "size_bytes": 192,
+      "sha256": "af6c3b9235c1e44027a77ae2578665771fdb2b15cded4d7b70d8282ed89edd59",
+      "mtime": 1786716832.11624
+    },
+    {
+      "path": "gcd-run-06/run-metadata.json",
+      "kind": "file",
+      "size_bytes": 416,
+      "sha256": "55767a7c6dd200fbae91fc082843d9e2d9c807ea2db9fad0a91f8abc2d001990",
+      "mtime": 1786717122.0632527
+    }
+  ]
+}

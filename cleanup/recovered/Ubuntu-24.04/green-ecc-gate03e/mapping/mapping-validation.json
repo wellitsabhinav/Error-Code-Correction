@@ -1,0 +1,890 @@
+{
+  "generated_utc": "2026-08-14T10:46:21.827959Z",
+  "jobs": [
+    {
+      "cell_count": 594,
+      "cell_master_counts": {
+        "sky130_fd_sc_hd__a2111oi_0": 1,
+        "sky130_fd_sc_hd__a211oi_1": 1,
+        "sky130_fd_sc_hd__a21oi_1": 1,
+        "sky130_fd_sc_hd__and2_1": 2,
+        "sky130_fd_sc_hd__and3_1": 1,
+        "sky130_fd_sc_hd__and4b_1": 3,
+        "sky130_fd_sc_hd__buf_2": 6,
+        "sky130_fd_sc_hd__buf_4": 130,
+        "sky130_fd_sc_hd__buf_6": 2,
+        "sky130_fd_sc_hd__clkbuf_1": 8,
+        "sky130_fd_sc_hd__inv_1": 1,
+        "sky130_fd_sc_hd__mux2i_2": 1,
+        "sky130_fd_sc_hd__nand2_1": 26,
+        "sky130_fd_sc_hd__nand2b_4": 1,
+        "sky130_fd_sc_hd__nand3_1": 5,
+        "sky130_fd_sc_hd__nand3b_1": 1,
+        "sky130_fd_sc_hd__nand4_1": 15,
+        "sky130_fd_sc_hd__nand4_4": 1,
+        "sky130_fd_sc_hd__nand4b_1": 4,
+        "sky130_fd_sc_hd__nor2_1": 13,
+        "sky130_fd_sc_hd__nor2_2": 1,
+        "sky130_fd_sc_hd__nor3_1": 22,
+        "sky130_fd_sc_hd__nor3_2": 2,
+        "sky130_fd_sc_hd__nor3b_1": 4,
+        "sky130_fd_sc_hd__nor3b_2": 1,
+        "sky130_fd_sc_hd__nor4_1": 7,
+        "sky130_fd_sc_hd__nor4_2": 1,
+        "sky130_fd_sc_hd__nor4b_1": 6,
+        "sky130_fd_sc_hd__nor4b_2": 4,
+        "sky130_fd_sc_hd__or4_4": 1,
+        "sky130_fd_sc_hd__or4b_1": 2,
+        "sky130_fd_sc_hd__xnor2_1": 189,
+        "sky130_fd_sc_hd__xnor2_2": 3,
+        "sky130_fd_sc_hd__xnor2_4": 1,
+        "sky130_fd_sc_hd__xnor3_1": 38,
+        "sky130_fd_sc_hd__xnor3_2": 4,
+        "sky130_fd_sc_hd__xor2_1": 80,
+        "sky130_fd_sc_hd__xor3_1": 4,
+        "sky130_fd_sc_hd__xor3_2": 1
+      },
+      "checks": [
+        {
+          "name": "bounded_synthesis_exit_status",
+          "pass": true
+        },
+        {
+          "name": "timeout_is_1200_seconds",
+          "pass": true
+        },
+        {
+          "actual": [
+            "gate03e_secded_combinational_boundary"
+          ],
+          "name": "single_exact_top_module",
+          "pass": true
+        },
+        {
+          "name": "exact_port_contract",
+          "pass": true
+        },
+        {
+          "name": "mapped_cells_are_sky130hd_only",
+          "pass": true
+        },
+        {
+          "name": "no_latches",
+          "pass": true
+        },
+        {
+          "name": "sequential_structure_contract",
+          "pass": true
+        },
+        {
+          "name": "no_fault_injection_ports",
+          "pass": true
+        },
+        {
+          "name": "no_fatal_log_markers",
+          "pass": true
+        },
+        {
+          "name": "accepted_exact_proof_reference_present",
+          "pass": true
+        },
+        {
+          "name": "liberty_present",
+          "pass": true
+        }
+      ],
+      "design": "gate03e_secded_combinational_boundary",
+      "equivalence_setup_assessable": true,
+      "fatal_log_lines": [],
+      "generic_or_unmapped_cell_types": [],
+      "implementation": "independent-channel SECDED boundary; Gate-03R exact-proven package-free implementation",
+      "inferred_latch_warnings": [],
+      "job": "secded-combinational",
+      "latch_masters": [],
+      "mapped_artifacts": {
+        "container_log": {
+          "path": "secded-combinational/container.log",
+          "sha256": "83c630953a761fb7d5d13c913c9bcb7be16dc93eb09e6e49f69e906162c158f1",
+          "size_bytes": 18167
+        },
+        "netlist": {
+          "path": "secded-combinational/results/sky130hd/gate03e_secded_combinational_boundary/base/1_2_yosys.v",
+          "sha256": "96a9e8dbc3c4563d3d96d18b081b1ae088c60aed8b1a31d3848bd7afafcdb93d",
+          "size_bytes": 65979
+        },
+        "run_metadata": {
+          "path": "secded-combinational/run-metadata.json",
+          "sha256": "ab3bedb1ef72205fd9522e51ac9b6965bcece2c8891e87c169ca335659e5e83f",
+          "size_bytes": 237
+        },
+        "synthesis_database": {
+          "path": "secded-combinational/results/sky130hd/gate03e_secded_combinational_boundary/base/1_synth.odb",
+          "sha256": "7fba23a40bfdfa4a3376cf3ee43da6d8eb234e67f73df112f5d912414e2654c3",
+          "size_bytes": 2275957
+        },
+        "synthesis_log": {
+          "path": "secded-combinational/logs/sky130hd/gate03e_secded_combinational_boundary/base/1_synth.log",
+          "sha256": "447a953d33c6c011e7aaa4c7f8fd623236bf93478851b35d60a0e219dc8f2b57",
+          "size_bytes": 1514
+        },
+        "yosys_log": {
+          "path": "secded-combinational/logs/sky130hd/gate03e_secded_combinational_boundary/base/1_2_yosys.log",
+          "sha256": "1650a4d78375913573b007ed1d0239c2cb8cc8fd1972ebd9eecaa772e2108a8b",
+          "size_bytes": 13556
+        }
+      },
+      "normalized_netlist_sha256": "e645c7b35fe7448fc45861112c87a6fd0ff75277e029d4d07302724d922d2791",
+      "port_contract": {
+        "expected": {
+          "input dec_codeword_i": "[71:0]",
+          "input enc_data_i": "[63:0]",
+          "output dec_corrected_codeword_o": "[71:0]",
+          "output dec_corrected_o": "scalar",
+          "output dec_data_o": "[63:0]",
+          "output dec_detected_o": "scalar",
+          "output dec_uncorrectable_o": "scalar",
+          "output enc_codeword_o": "[71:0]"
+        },
+        "latency_cycles": {
+          "decoder": 0,
+          "encoder": 0
+        },
+        "observed": {
+          "input dec_codeword_i": "[71:0]",
+          "input enc_data_i": "[63:0]",
+          "output dec_corrected_codeword_o": "[71:0]",
+          "output dec_corrected_o": "scalar",
+          "output dec_data_o": "[63:0]",
+          "output dec_detected_o": "scalar",
+          "output dec_uncorrectable_o": "scalar",
+          "output enc_codeword_o": "[71:0]"
+        }
+      },
+      "proof_reference": {
+        "path": "docs/date2027/rigour_gate_03r/SECDED_PROOF_SUMMARY.json",
+        "sha256": "f63dc73401d616177edd5b5d2a84f8a1ab058234746571c5e02232e38e7f711a",
+        "size_bytes": 754
+      },
+      "sdc": {
+        "path": "scripts/gate03e/mapping/combinational.sdc",
+        "sha256": "9b8ed6606383ce4137a74b356abc1a0bc3ad1cff0a4bfe15c7e7b3ef5d38913f",
+        "size_bytes": 173
+      },
+      "sequential_cell_count": 0,
+      "source_files": [
+        {
+          "path": "scripts/gate03r/rtl/secded_characterization_tops.sv",
+          "sha256": "560bc8092ba759f7dd3412a106d86a30a7498d88285298c721be2d5ef4dc440b",
+          "size_bytes": 4916
+        },
+        {
+          "path": "scripts/gate03e/mapping/secded_package_free_boundary.sv",
+          "sha256": "b259dbb7608b27bdfd4113e78be0ac72d1e1f1ab7672617fbd88b14eedef6ddb",
+          "size_bytes": 980
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "cell_count": 924,
+      "cell_master_counts": {
+        "sky130_fd_sc_hd__and2_0": 1,
+        "sky130_fd_sc_hd__and2_1": 3,
+        "sky130_fd_sc_hd__and3_1": 4,
+        "sky130_fd_sc_hd__buf_1": 2,
+        "sky130_fd_sc_hd__buf_2": 2,
+        "sky130_fd_sc_hd__buf_4": 65,
+        "sky130_fd_sc_hd__clkbuf_1": 10,
+        "sky130_fd_sc_hd__dfxtp_1": 302,
+        "sky130_fd_sc_hd__mux2i_1": 2,
+        "sky130_fd_sc_hd__nand2_1": 32,
+        "sky130_fd_sc_hd__nand2b_1": 8,
+        "sky130_fd_sc_hd__nand3_1": 18,
+        "sky130_fd_sc_hd__nand3_2": 1,
+        "sky130_fd_sc_hd__nand3b_1": 2,
+        "sky130_fd_sc_hd__nand4_1": 6,
+        "sky130_fd_sc_hd__nor2_1": 44,
+        "sky130_fd_sc_hd__nor2_4": 1,
+        "sky130_fd_sc_hd__nor2b_1": 5,
+        "sky130_fd_sc_hd__nor3_1": 8,
+        "sky130_fd_sc_hd__nor4_4": 1,
+        "sky130_fd_sc_hd__o21ai_0": 3,
+        "sky130_fd_sc_hd__o31ai_1": 1,
+        "sky130_fd_sc_hd__or2_2": 2,
+        "sky130_fd_sc_hd__or3_1": 1,
+        "sky130_fd_sc_hd__or4b_2": 1,
+        "sky130_fd_sc_hd__xnor2_1": 307,
+        "sky130_fd_sc_hd__xnor2_2": 2,
+        "sky130_fd_sc_hd__xnor3_1": 5,
+        "sky130_fd_sc_hd__xnor3_2": 1,
+        "sky130_fd_sc_hd__xor2_1": 83,
+        "sky130_fd_sc_hd__xor2_2": 1
+      },
+      "checks": [
+        {
+          "name": "bounded_synthesis_exit_status",
+          "pass": true
+        },
+        {
+          "name": "timeout_is_1200_seconds",
+          "pass": true
+        },
+        {
+          "actual": [
+            "gate03e_secded_pipelined_boundary"
+          ],
+          "name": "single_exact_top_module",
+          "pass": true
+        },
+        {
+          "name": "exact_port_contract",
+          "pass": true
+        },
+        {
+          "name": "mapped_cells_are_sky130hd_only",
+          "pass": true
+        },
+        {
+          "name": "no_latches",
+          "pass": true
+        },
+        {
+          "name": "sequential_structure_contract",
+          "pass": true
+        },
+        {
+          "name": "no_fault_injection_ports",
+          "pass": true
+        },
+        {
+          "name": "no_fatal_log_markers",
+          "pass": true
+        },
+        {
+          "name": "accepted_exact_proof_reference_present",
+          "pass": true
+        },
+        {
+          "name": "liberty_present",
+          "pass": true
+        }
+      ],
+      "design": "gate03e_secded_pipelined_boundary",
+      "equivalence_setup_assessable": true,
+      "fatal_log_lines": [],
+      "generic_or_unmapped_cell_types": [],
+      "implementation": "independent-channel production pipelined SECDED boundary",
+      "inferred_latch_warnings": [],
+      "job": "secded-pipelined",
+      "latch_masters": [],
+      "mapped_artifacts": {
+        "container_log": {
+          "path": "secded-pipelined/container.log",
+          "sha256": "dac1ad64a76329d5e8be7f032d23df8a4ad062a4ac17c34e3db66dd442880e63",
+          "size_bytes": 18945
+        },
+        "netlist": {
+          "path": "secded-pipelined/results/sky130hd/gate03e_secded_pipelined_boundary/base/1_2_yosys.v",
+          "sha256": "7ebc87d3910e466ecf339a7b23f728e456a7eb20b14da1a7a6eb324e26e2c98f",
+          "size_bytes": 185631
+        },
+        "run_metadata": {
+          "path": "secded-pipelined/run-metadata.json",
+          "sha256": "1b8409cec16321e668bdfe31ae3860110ab6cd524e169794b31f0f5211f89eda",
+          "size_bytes": 229
+        },
+        "synthesis_database": {
+          "path": "secded-pipelined/results/sky130hd/gate03e_secded_pipelined_boundary/base/1_synth.odb",
+          "sha256": "8b19d6da63328dfdbca98a5020690bac7329a3a0ddf657f438e15e36e55a504f",
+          "size_bytes": 2475851
+        },
+        "synthesis_log": {
+          "path": "secded-pipelined/logs/sky130hd/gate03e_secded_pipelined_boundary/base/1_synth.log",
+          "sha256": "61df8c96ad02acdf93eccda64beffcf65d6c1bbdf6dcc061c55dcaae40b64ceb",
+          "size_bytes": 1499
+        },
+        "yosys_log": {
+          "path": "secded-pipelined/logs/sky130hd/gate03e_secded_pipelined_boundary/base/1_2_yosys.log",
+          "sha256": "0dda53e94379a6af4ab59c901645c99bc38680d390dcbde2b7792a7bf5a4aea3",
+          "size_bytes": 14001
+        }
+      },
+      "normalized_netlist_sha256": "0d4176981f490ca1272f4ee1208e87aac02966c91867ec4bbedd6de7cd90b319",
+      "port_contract": {
+        "expected": {
+          "input clk_i": "scalar",
+          "input dec_codeword_i": "[71:0]",
+          "input dec_valid_i": "scalar",
+          "input enc_data_i": "[63:0]",
+          "input enc_valid_i": "scalar",
+          "output dec_corrected_codeword_o": "[71:0]",
+          "output dec_corrected_o": "scalar",
+          "output dec_data_o": "[63:0]",
+          "output dec_detected_o": "scalar",
+          "output dec_uncorrectable_o": "scalar",
+          "output dec_valid_o": "scalar",
+          "output enc_codeword_o": "[71:0]",
+          "output enc_valid_o": "scalar"
+        },
+        "latency_cycles": {
+          "decoder": 2,
+          "encoder": 2
+        },
+        "observed": {
+          "input clk_i": "scalar",
+          "input dec_codeword_i": "[71:0]",
+          "input dec_valid_i": "scalar",
+          "input enc_data_i": "[63:0]",
+          "input enc_valid_i": "scalar",
+          "output dec_corrected_codeword_o": "[71:0]",
+          "output dec_corrected_o": "scalar",
+          "output dec_data_o": "[63:0]",
+          "output dec_detected_o": "scalar",
+          "output dec_uncorrectable_o": "scalar",
+          "output dec_valid_o": "scalar",
+          "output enc_codeword_o": "[71:0]",
+          "output enc_valid_o": "scalar"
+        }
+      },
+      "proof_reference": {
+        "path": "docs/date2027/rigour_gate_03r/SECDED_PROOF_SUMMARY.json",
+        "sha256": "f63dc73401d616177edd5b5d2a84f8a1ab058234746571c5e02232e38e7f711a",
+        "size_bytes": 754
+      },
+      "sdc": {
+        "path": "scripts/gate03e/mapping/pipelined.sdc",
+        "sha256": "dc666adab371c0a46bdce0b441636d3ed4a3fe9049f326f4993725e5d47e0e9f",
+        "size_bytes": 226
+      },
+      "sequential_cell_count": 302,
+      "source_files": [
+        {
+          "path": "asic/rtl/secded/secded_pipelined_72_64_v1.sv",
+          "sha256": "e250a6741b6aa56e0bdc5892ac5753e4487769a6683f68db6ab9155c26a3b155",
+          "size_bytes": 6095
+        },
+        {
+          "path": "scripts/gate03e/mapping/independent_channel_boundaries.sv",
+          "sha256": "1bfda42637b4ac9324cb910df64546e3d664806bfc9f64b53136842ea59ec413",
+          "size_bytes": 2388
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "cell_count": 366,
+      "cell_master_counts": {
+        "sky130_fd_sc_hd__buf_2": 1,
+        "sky130_fd_sc_hd__buf_4": 68,
+        "sky130_fd_sc_hd__buf_6": 2,
+        "sky130_fd_sc_hd__xnor2_1": 131,
+        "sky130_fd_sc_hd__xnor2_2": 13,
+        "sky130_fd_sc_hd__xnor2_4": 11,
+        "sky130_fd_sc_hd__xnor3_1": 72,
+        "sky130_fd_sc_hd__xnor3_2": 11,
+        "sky130_fd_sc_hd__xor2_1": 37,
+        "sky130_fd_sc_hd__xor2_2": 3,
+        "sky130_fd_sc_hd__xor2_4": 3,
+        "sky130_fd_sc_hd__xor3_1": 13,
+        "sky130_fd_sc_hd__xor3_2": 1
+      },
+      "checks": [
+        {
+          "name": "bounded_synthesis_exit_status",
+          "pass": true
+        },
+        {
+          "name": "timeout_is_1200_seconds",
+          "pass": true
+        },
+        {
+          "actual": [
+            "bch_78_64_t2_v1_encoder"
+          ],
+          "name": "single_exact_top_module",
+          "pass": true
+        },
+        {
+          "name": "exact_port_contract",
+          "pass": true
+        },
+        {
+          "name": "mapped_cells_are_sky130hd_only",
+          "pass": true
+        },
+        {
+          "name": "no_latches",
+          "pass": true
+        },
+        {
+          "name": "sequential_structure_contract",
+          "pass": true
+        },
+        {
+          "name": "no_fault_injection_ports",
+          "pass": true
+        },
+        {
+          "name": "no_fatal_log_markers",
+          "pass": true
+        },
+        {
+          "name": "accepted_exact_proof_reference_present",
+          "pass": true
+        },
+        {
+          "name": "liberty_present",
+          "pass": true
+        }
+      ],
+      "design": "bch_78_64_t2_v1_encoder",
+      "equivalence_setup_assessable": true,
+      "fatal_log_lines": [],
+      "generic_or_unmapped_cell_types": [],
+      "implementation": "exact BCH (78,64,t=2) encoder",
+      "inferred_latch_warnings": [
+        "Warning: Latch inferred for signal `\\bch_78_64_t2_v1_encoder.\\coefficient_index [3:0]' from process `\\bch_78_64_t2_v1_encoder.$proc$/gate03e-repo/asic/rtl/bch/bch_78_64_t2_v1.sv:14$5600': $auto$proc_dlatch.cc:545:proc_dlatch$10525",
+        "Warning: Latch inferred for signal `\\bch_78_64_t2_v1_encoder.\\coefficient_index [31:4]' from process `\\bch_78_64_t2_v1_encoder.$proc$/gate03e-repo/asic/rtl/bch/bch_78_64_t2_v1.sv:14$5600': $auto$proc_dlatch.cc:543:proc_dlatch$10528"
+      ],
+      "job": "bch-encoder",
+      "latch_masters": [],
+      "mapped_artifacts": {
+        "container_log": {
+          "path": "bch-encoder/container.log",
+          "sha256": "a87b89f5f3def69b4dabdc0626215c1f90778536a177ebf4bc9a48b68819a205",
+          "size_bytes": 17026
+        },
+        "netlist": {
+          "path": "bch-encoder/results/sky130hd/bch_78_64_t2_v1_encoder/base/1_2_yosys.v",
+          "sha256": "091eafca535a80b3780f5b7d2903e33a29de9fd474562ea2d7f9f6e46abaa679",
+          "size_bytes": 36978
+        },
+        "run_metadata": {
+          "path": "bch-encoder/run-metadata.json",
+          "sha256": "3c0e2d8384ea8a14abda0c3a39dd5e06b21ac2888a028b01d379fc7395c7bded",
+          "size_bytes": 214
+        },
+        "synthesis_database": {
+          "path": "bch-encoder/results/sky130hd/bch_78_64_t2_v1_encoder/base/1_synth.odb",
+          "sha256": "243e4e40139346b2e52da7e0a0c33d5dd1644a69d51e5cbc297cd2116fe095af",
+          "size_bytes": 2116958
+        },
+        "synthesis_log": {
+          "path": "bch-encoder/logs/sky130hd/bch_78_64_t2_v1_encoder/base/1_synth.log",
+          "sha256": "bf75283754468982fe16d5dfc02256f75e9448c77bccb879d5a2cfe8b0d88bae",
+          "size_bytes": 1458
+        },
+        "yosys_log": {
+          "path": "bch-encoder/logs/sky130hd/bch_78_64_t2_v1_encoder/base/1_2_yosys.log",
+          "sha256": "44fc22385489c3ebb265a9d7334e788ad18846cd834cf79009136d5614c6f09f",
+          "size_bytes": 13102
+        }
+      },
+      "normalized_netlist_sha256": "249fd6ccb06dd1501c05741c02c9bae33350ea3034f12418ee85f522be832267",
+      "port_contract": {
+        "expected": {
+          "input data_i": "[63:0]",
+          "output codeword_o": "[77:0]"
+        },
+        "latency_cycles": {
+          "encoder": 0
+        },
+        "observed": {
+          "input data_i": "[63:0]",
+          "output codeword_o": "[77:0]"
+        }
+      },
+      "proof_reference": {
+        "path": "docs/date2027/rigour_gate_03r/EXACT_PROOF_SUMMARY.json",
+        "sha256": "0cd22d61b7436a4898cf1149f693e9b32c978dacf8bb6fe43994becfa07802ab",
+        "size_bytes": 249
+      },
+      "sdc": {
+        "path": "scripts/gate03e/mapping/combinational.sdc",
+        "sha256": "9b8ed6606383ce4137a74b356abc1a0bc3ad1cff0a4bfe15c7e7b3ef5d38913f",
+        "size_bytes": 173
+      },
+      "sequential_cell_count": 0,
+      "source_files": [
+        {
+          "path": "asic/rtl/bch/bch_78_64_t2_v1.sv",
+          "sha256": "2cc8b0dd23f3cce9a091ea418a2c2d4fff5f016361228a66e6c151a7c49360e7",
+          "size_bytes": 12328
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "cell_count": 8669,
+      "cell_master_counts": {
+        "sky130_fd_sc_hd__a2111o_1": 8,
+        "sky130_fd_sc_hd__a2111oi_0": 19,
+        "sky130_fd_sc_hd__a2111oi_1": 5,
+        "sky130_fd_sc_hd__a2111oi_2": 13,
+        "sky130_fd_sc_hd__a2111oi_4": 8,
+        "sky130_fd_sc_hd__a211o_1": 20,
+        "sky130_fd_sc_hd__a211o_2": 13,
+        "sky130_fd_sc_hd__a211o_4": 2,
+        "sky130_fd_sc_hd__a211oi_1": 80,
+        "sky130_fd_sc_hd__a211oi_2": 14,
+        "sky130_fd_sc_hd__a211oi_4": 5,
+        "sky130_fd_sc_hd__a21bo_1": 1,
+        "sky130_fd_sc_hd__a21boi_0": 13,
+        "sky130_fd_sc_hd__a21boi_1": 8,
+        "sky130_fd_sc_hd__a21boi_2": 1,
+        "sky130_fd_sc_hd__a21boi_4": 7,
+        "sky130_fd_sc_hd__a21o_1": 37,
+        "sky130_fd_sc_hd__a21o_2": 9,
+        "sky130_fd_sc_hd__a21oi_1": 315,
+        "sky130_fd_sc_hd__a21oi_2": 24,
+        "sky130_fd_sc_hd__a21oi_4": 67,
+        "sky130_fd_sc_hd__a221o_1": 10,
+        "sky130_fd_sc_hd__a221o_2": 1,
+        "sky130_fd_sc_hd__a221oi_1": 30,
+        "sky130_fd_sc_hd__a221oi_2": 7,
+        "sky130_fd_sc_hd__a222oi_1": 7,
+        "sky130_fd_sc_hd__a22o_1": 2,
+        "sky130_fd_sc_hd__a22o_2": 3,
+        "sky130_fd_sc_hd__a22oi_1": 35,
+        "sky130_fd_sc_hd__a22oi_2": 6,
+        "sky130_fd_sc_hd__a2bb2oi_1": 12,
+        "sky130_fd_sc_hd__a2bb2oi_2": 2,
+        "sky130_fd_sc_hd__a311o_1": 3,
+        "sky130_fd_sc_hd__a311o_2": 2,
+        "sky130_fd_sc_hd__a311oi_1": 19,
+        "sky130_fd_sc_hd__a311oi_2": 1,
+        "sky130_fd_sc_hd__a31o_1": 3,
+        "sky130_fd_sc_hd__a31o_2": 7,
+        "sky130_fd_sc_hd__a31oi_1": 53,
+        "sky130_fd_sc_hd__a31oi_2": 1,
+        "sky130_fd_sc_hd__a31oi_4": 3,
+        "sky130_fd_sc_hd__a32o_1": 4,
+        "sky130_fd_sc_hd__a32oi_1": 23,
+        "sky130_fd_sc_hd__a32oi_2": 3,
+        "sky130_fd_sc_hd__a41o_1": 3,
+        "sky130_fd_sc_hd__a41o_2": 1,
+        "sky130_fd_sc_hd__a41oi_1": 6,
+        "sky130_fd_sc_hd__a41oi_2": 2,
+        "sky130_fd_sc_hd__and2_0": 5,
+        "sky130_fd_sc_hd__and2_1": 127,
+        "sky130_fd_sc_hd__and2_2": 25,
+        "sky130_fd_sc_hd__and2_4": 10,
+        "sky130_fd_sc_hd__and2b_1": 4,
+        "sky130_fd_sc_hd__and2b_2": 12,
+        "sky130_fd_sc_hd__and2b_4": 2,
+        "sky130_fd_sc_hd__and3_1": 106,
+        "sky130_fd_sc_hd__and3_2": 21,
+        "sky130_fd_sc_hd__and3_4": 8,
+        "sky130_fd_sc_hd__and3b_1": 18,
+        "sky130_fd_sc_hd__and3b_2": 3,
+        "sky130_fd_sc_hd__and3b_4": 1,
+        "sky130_fd_sc_hd__and4_1": 22,
+        "sky130_fd_sc_hd__and4_2": 6,
+        "sky130_fd_sc_hd__and4_4": 2,
+        "sky130_fd_sc_hd__and4b_1": 7,
+        "sky130_fd_sc_hd__and4b_2": 3,
+        "sky130_fd_sc_hd__and4bb_1": 1,
+        "sky130_fd_sc_hd__and4bb_4": 1,
+        "sky130_fd_sc_hd__buf_1": 38,
+        "sky130_fd_sc_hd__buf_12": 17,
+        "sky130_fd_sc_hd__buf_2": 42,
+        "sky130_fd_sc_hd__buf_4": 93,
+        "sky130_fd_sc_hd__buf_6": 101,
+        "sky130_fd_sc_hd__buf_8": 15,
+        "sky130_fd_sc_hd__bufbuf_8": 6,
+        "sky130_fd_sc_hd__clkbuf_1": 111,
+        "sky130_fd_sc_hd__clkbuf_2": 3,
+        "sky130_fd_sc_hd__clkbuf_4": 9,
+        "sky130_fd_sc_hd__clkbuf_8": 57,
+        "sky130_fd_sc_hd__clkinv_1": 5,
+        "sky130_fd_sc_hd__dlygate4sd1_1": 1,
+        "sky130_fd_sc_hd__dlymetal6s2s_1": 5,
+        "sky130_fd_sc_hd__inv_1": 168,
+        "sky130_fd_sc_hd__inv_2": 7,
+        "sky130_fd_sc_hd__inv_4": 2,
+        "sky130_fd_sc_hd__inv_6": 1,
+        "sky130_fd_sc_hd__inv_8": 2,
+        "sky130_fd_sc_hd__maj3_1": 48,
+        "sky130_fd_sc_hd__maj3_2": 2,
+        "sky130_fd_sc_hd__mux2_1": 7,
+        "sky130_fd_sc_hd__mux2_2": 38,
+        "sky130_fd_sc_hd__mux2_4": 5,
+        "sky130_fd_sc_hd__mux2i_1": 117,
+        "sky130_fd_sc_hd__mux2i_2": 7,
+        "sky130_fd_sc_hd__mux2i_4": 3,
+        "sky130_fd_sc_hd__mux4_2": 3,
+        "sky130_fd_sc_hd__nand2_1": 662,
+        "sky130_fd_sc_hd__nand2_2": 9,
+        "sky130_fd_sc_hd__nand2_4": 5,
+        "sky130_fd_sc_hd__nand2b_1": 90,
+        "sky130_fd_sc_hd__nand2b_2": 4,
+        "sky130_fd_sc_hd__nand2b_4": 2,
+        "sky130_fd_sc_hd__nand3_1": 239,
+        "sky130_fd_sc_hd__nand3_2": 9,
+        "sky130_fd_sc_hd__nand3_4": 1,
+        "sky130_fd_sc_hd__nand3b_1": 40,
+        "sky130_fd_sc_hd__nand3b_2": 1,
+        "sky130_fd_sc_hd__nand3b_4": 1,
+        "sky130_fd_sc_hd__nand4_1": 83,
+        "sky130_fd_sc_hd__nand4_2": 7,
+        "sky130_fd_sc_hd__nand4_4": 2,
+        "sky130_fd_sc_hd__nand4b_1": 10,
+        "sky130_fd_sc_hd__nand4b_2": 1,
+        "sky130_fd_sc_hd__nand4b_4": 1,
+        "sky130_fd_sc_hd__nand4bb_1": 1,
+        "sky130_fd_sc_hd__nor2_1": 832,
+        "sky130_fd_sc_hd__nor2_2": 29,
+        "sky130_fd_sc_hd__nor2_4": 13,
+        "sky130_fd_sc_hd__nor2_8": 2,
+        "sky130_fd_sc_hd__nor2b_1": 64,
+        "sky130_fd_sc_hd__nor2b_2": 2,
+        "sky130_fd_sc_hd__nor2b_4": 1,
+        "sky130_fd_sc_hd__nor3_1": 314,
+        "sky130_fd_sc_hd__nor3_2": 23,
+        "sky130_fd_sc_hd__nor3_4": 9,
+        "sky130_fd_sc_hd__nor3b_1": 58,
+        "sky130_fd_sc_hd__nor3b_2": 9,
+        "sky130_fd_sc_hd__nor3b_4": 1,
+        "sky130_fd_sc_hd__nor4_1": 118,
+        "sky130_fd_sc_hd__nor4_2": 24,
+        "sky130_fd_sc_hd__nor4_4": 8,
+        "sky130_fd_sc_hd__nor4b_1": 32,
+        "sky130_fd_sc_hd__nor4b_2": 10,
+        "sky130_fd_sc_hd__nor4b_4": 4,
+        "sky130_fd_sc_hd__nor4bb_1": 6,
+        "sky130_fd_sc_hd__o2111a_1": 7,
+        "sky130_fd_sc_hd__o2111ai_1": 32,
+        "sky130_fd_sc_hd__o2111ai_2": 4,
+        "sky130_fd_sc_hd__o211a_1": 25,
+        "sky130_fd_sc_hd__o211a_2": 1,
+        "sky130_fd_sc_hd__o211a_4": 1,
+        "sky130_fd_sc_hd__o211ai_1": 77,
+        "sky130_fd_sc_hd__o211ai_2": 4,
+        "sky130_fd_sc_hd__o211ai_4": 1,
+        "sky130_fd_sc_hd__o21a_1": 49,
+        "sky130_fd_sc_hd__o21a_2": 8,
+        "sky130_fd_sc_hd__o21ai_0": 264,
+        "sky130_fd_sc_hd__o21ai_1": 47,
+        "sky130_fd_sc_hd__o21ai_2": 8,
+        "sky130_fd_sc_hd__o21ai_4": 1,
+        "sky130_fd_sc_hd__o21ba_2": 2,
+        "sky130_fd_sc_hd__o21ba_4": 1,
+        "sky130_fd_sc_hd__o21bai_1": 22,
+        "sky130_fd_sc_hd__o21bai_2": 1,
+        "sky130_fd_sc_hd__o221a_2": 6,
+        "sky130_fd_sc_hd__o221ai_1": 22,
+        "sky130_fd_sc_hd__o221ai_2": 2,
+        "sky130_fd_sc_hd__o22a_1": 13,
+        "sky130_fd_sc_hd__o22a_2": 3,
+        "sky130_fd_sc_hd__o22ai_1": 43,
+        "sky130_fd_sc_hd__o22ai_2": 6,
+        "sky130_fd_sc_hd__o2bb2a_1": 1,
+        "sky130_fd_sc_hd__o2bb2ai_1": 10,
+        "sky130_fd_sc_hd__o311a_1": 4,
+        "sky130_fd_sc_hd__o311a_2": 2,
+        "sky130_fd_sc_hd__o311ai_0": 7,
+        "sky130_fd_sc_hd__o311ai_1": 9,
+        "sky130_fd_sc_hd__o31a_1": 18,
+        "sky130_fd_sc_hd__o31a_2": 2,
+        "sky130_fd_sc_hd__o31ai_1": 34,
+        "sky130_fd_sc_hd__o31ai_2": 3,
+        "sky130_fd_sc_hd__o32a_1": 4,
+        "sky130_fd_sc_hd__o32a_2": 3,
+        "sky130_fd_sc_hd__o32a_4": 1,
+        "sky130_fd_sc_hd__o32ai_1": 18,
+        "sky130_fd_sc_hd__o41a_1": 4,
+        "sky130_fd_sc_hd__o41ai_1": 9,
+        "sky130_fd_sc_hd__o41ai_2": 1,
+        "sky130_fd_sc_hd__or2_0": 5,
+        "sky130_fd_sc_hd__or2_1": 30,
+        "sky130_fd_sc_hd__or2_2": 67,
+        "sky130_fd_sc_hd__or2_4": 5,
+        "sky130_fd_sc_hd__or2b_1": 5,
+        "sky130_fd_sc_hd__or2b_2": 7,
+        "sky130_fd_sc_hd__or2b_4": 1,
+        "sky130_fd_sc_hd__or3_1": 77,
+        "sky130_fd_sc_hd__or3_2": 15,
+        "sky130_fd_sc_hd__or3_4": 6,
+        "sky130_fd_sc_hd__or3b_1": 8,
+        "sky130_fd_sc_hd__or3b_2": 7,
+        "sky130_fd_sc_hd__or4_1": 26,
+        "sky130_fd_sc_hd__or4_2": 2,
+        "sky130_fd_sc_hd__or4_4": 8,
+        "sky130_fd_sc_hd__or4b_1": 7,
+        "sky130_fd_sc_hd__or4b_2": 2,
+        "sky130_fd_sc_hd__or4b_4": 2,
+        "sky130_fd_sc_hd__xnor2_1": 1545,
+        "sky130_fd_sc_hd__xnor2_2": 82,
+        "sky130_fd_sc_hd__xnor2_4": 17,
+        "sky130_fd_sc_hd__xnor3_1": 197,
+        "sky130_fd_sc_hd__xnor3_2": 40,
+        "sky130_fd_sc_hd__xnor3_4": 3,
+        "sky130_fd_sc_hd__xor2_1": 694,
+        "sky130_fd_sc_hd__xor2_2": 38,
+        "sky130_fd_sc_hd__xor2_4": 3,
+        "sky130_fd_sc_hd__xor3_1": 29,
+        "sky130_fd_sc_hd__xor3_2": 16,
+        "sky130_fd_sc_hd__xor3_4": 3
+      },
+      "checks": [
+        {
+          "name": "bounded_synthesis_exit_status",
+          "pass": true
+        },
+        {
+          "name": "timeout_is_1200_seconds",
+          "pass": true
+        },
+        {
+          "actual": [
+            "bch_78_64_t2_v1_decoder"
+          ],
+          "name": "single_exact_top_module",
+          "pass": true
+        },
+        {
+          "name": "exact_port_contract",
+          "pass": true
+        },
+        {
+          "name": "mapped_cells_are_sky130hd_only",
+          "pass": true
+        },
+        {
+          "name": "no_latches",
+          "pass": true
+        },
+        {
+          "name": "sequential_structure_contract",
+          "pass": true
+        },
+        {
+          "name": "no_fault_injection_ports",
+          "pass": true
+        },
+        {
+          "name": "no_fatal_log_markers",
+          "pass": true
+        },
+        {
+          "name": "accepted_exact_proof_reference_present",
+          "pass": true
+        },
+        {
+          "name": "liberty_present",
+          "pass": true
+        }
+      ],
+      "design": "bch_78_64_t2_v1_decoder",
+      "equivalence_setup_assessable": true,
+      "fatal_log_lines": [],
+      "generic_or_unmapped_cell_types": [],
+      "implementation": "exact BCH (78,64,t=2) decoder",
+      "inferred_latch_warnings": [],
+      "job": "bch-decoder",
+      "latch_masters": [],
+      "mapped_artifacts": {
+        "container_log": {
+          "path": "bch-decoder/container.log",
+          "sha256": "8b6db89f3487a52ccf7b2bb4262e37d9804a6a8f3b078d9be0d2b79b39486bf2",
+          "size_bytes": 39556
+        },
+        "netlist": {
+          "path": "bch-decoder/results/sky130hd/bch_78_64_t2_v1_decoder/base/1_2_yosys.v",
+          "sha256": "c27fced1eb7a934cf2be6885733d73232dffebd1aa1467162b8a2d9cc47b4b87",
+          "size_bytes": 1019803
+        },
+        "run_metadata": {
+          "path": "bch-decoder/run-metadata.json",
+          "sha256": "e3ab786ba9f7900803807e433184847719bc0cd52b9eac4a86d63d5b24571b5c",
+          "size_bytes": 214
+        },
+        "synthesis_database": {
+          "path": "bch-decoder/results/sky130hd/bch_78_64_t2_v1_decoder/base/1_synth.odb",
+          "sha256": "3724219eacac84ede88cc300deeb4d97cbcaa91376e03a60608ce0f067b0a1a6",
+          "size_bytes": 6834495
+        },
+        "synthesis_log": {
+          "path": "bch-decoder/logs/sky130hd/bch_78_64_t2_v1_decoder/base/1_synth.log",
+          "sha256": "8f1a24e3f1b0a98993dcf354329c0deb89364b805c6ddfa1adb6c24b0d9e85db",
+          "size_bytes": 1460
+        },
+        "yosys_log": {
+          "path": "bch-decoder/logs/sky130hd/bch_78_64_t2_v1_decoder/base/1_2_yosys.log",
+          "sha256": "4360f172d648abfb14c29cb77353a4ec5d60d8a08f59b4a0d996d920a338746f",
+          "size_bytes": 35628
+        }
+      },
+      "normalized_netlist_sha256": "7a7bf492c705dd317ba2ae52786ca1fe1c63d710dcd869f9d94e5fefef53458c",
+      "port_contract": {
+        "expected": {
+          "input codeword_i": "[77:0]",
+          "output corrected_codeword_o": "[77:0]",
+          "output correction_mask_o": "[77:0]",
+          "output data_o": "[63:0]",
+          "output err_corrected_o": "scalar",
+          "output err_detected_o": "scalar",
+          "output err_uncorrectable_o": "scalar",
+          "output syndrome_o": "[27:0]"
+        },
+        "latency_cycles": {
+          "decoder": 0
+        },
+        "observed": {
+          "input codeword_i": "[77:0]",
+          "output corrected_codeword_o": "[77:0]",
+          "output correction_mask_o": "[77:0]",
+          "output data_o": "[63:0]",
+          "output err_corrected_o": "scalar",
+          "output err_detected_o": "scalar",
+          "output err_uncorrectable_o": "scalar",
+          "output syndrome_o": "[27:0]"
+        }
+      },
+      "proof_reference": {
+        "path": "docs/date2027/rigour_gate_03r/EXACT_PROOF_SUMMARY.json",
+        "sha256": "0cd22d61b7436a4898cf1149f693e9b32c978dacf8bb6fe43994becfa07802ab",
+        "size_bytes": 249
+      },
+      "sdc": {
+        "path": "scripts/gate03e/mapping/combinational.sdc",
+        "sha256": "9b8ed6606383ce4137a74b356abc1a0bc3ad1cff0a4bfe15c7e7b3ef5d38913f",
+        "size_bytes": 173
+      },
+      "sequential_cell_count": 0,
+      "source_files": [
+        {
+          "path": "asic/rtl/bch/bch_78_64_t2_v1.sv",
+          "sha256": "2cc8b0dd23f3cce9a091ea418a2c2d4fff5f016361228a66e6c151a7c49360e7",
+          "size_bytes": 12328
+        }
+      ],
+      "status": "PASS"
+    }
+  ],
+  "liberty": {
+    "path": "flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib",
+    "sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+    "size_bytes": 12800135
+  },
+  "orfs_image_digest": "sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+  "orfs_source_commit": "56496f3980fb6e9e58f10c8aea4a98949c0fe5f2",
+  "schema_version": 1,
+  "scope": "structural mapping readiness only; no comparative PPA claims",
+  "secded_structural_distinction": [
+    {
+      "name": "normalized_netlist_hashes_differ",
+      "pass": true
+    },
+    {
+      "name": "cell_master_histograms_differ",
+      "pass": true
+    },
+    {
+      "name": "pipeline_registers_preserved",
+      "pass": true
+    }
+  ],
+  "status": "PASS",
+  "validator_version": "gate03e-mapping-validator-v1"
+}

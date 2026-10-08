@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "job": "secded-combinational",
+  "design": "gate03e_secded_combinational_boundary",
+  "start_time": "2026-08-14T10:35:01Z",
+  "end_time": "2026-08-14T10:35:12Z",
+  "timeout_seconds": 1200,
+  "exit_status": 0
+}

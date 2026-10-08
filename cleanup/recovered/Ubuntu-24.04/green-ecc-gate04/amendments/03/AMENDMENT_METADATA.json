@@ -1,0 +1,14 @@
+{
+  "adjudicated_run": "secded-comb-10ns-seed11-attempt2",
+  "amendment": "03",
+  "equivalence_legs": [
+    "RTL-to-mapped",
+    "mapped-to-postroute"
+  ],
+  "frozen_at_utc": "2026-08-14T17:38:46Z",
+  "physical_flow_rerun": false,
+  "post_reset_initialization": "explicit zero via zinit -all",
+  "reason": "replace nonterminating per-bit SAT schedule with qualified exact ABC dsec and complete attempt2 post-flow analyses",
+  "schema_version": 1,
+  "scientific_contract_changed": false
+}

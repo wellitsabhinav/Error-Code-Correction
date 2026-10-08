@@ -75,3 +75,21 @@ tests/fixtures/runtime_ml_feature_pack/
 # External SRAM22 sources are fetched at the pinned revision documented beside
 # the campaign. The local checkout is intentionally not vendored as a gitlink.
 /campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/source_checkout/
+
+# Cleanup session state; public inventories and recovered evidence stay visible.
+/cleanup/local/
+/archives/**/*.tar.gz
+/archives/**/*.tar.zst
+/archives/**/*.7z
+.pytest_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+# Explicit scratch roots avoid ignoring canonical configs/results/manifests.
+/scratch/
+/experiment_scratch/
+/openram_tmp*/
+/orfs_scratch/
+*.vcd
+*.vvp

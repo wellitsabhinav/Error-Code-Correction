@@ -1,0 +1,37 @@
+{
+  "amends": {
+    "path": "command-manifest.json",
+    "sha256": "1de1eee9e3c38b9f8d20efa637ac45e0cb12bc9e04c63153bd76e2f4e0a1eac3"
+  },
+  "compatibility_setting": {
+    "name": "LEC_CHECK",
+    "pinned_documented_default": 0,
+    "scope": "Disable only the optional post-repair CTS formal equivalence check opportunistically enabled by flow/settings.mk when Kepler is present.",
+    "source": "flow/scripts/variables.yaml",
+    "value": "0"
+  },
+  "effective_environment_before_make": [
+    "source /OpenROAD-flow-scripts/env.sh",
+    "export LEC_CHECK=0",
+    "export WORK_HOME=<one of the two predeclared run roots>",
+    "cd /OpenROAD-flow-scripts/flow"
+  ],
+  "effective_runner_sha256": "86c2cd814b20af9bbc5625a81cbad849a66aeccc51a8a9120ff1775616ca1834",
+  "evidence_sha256": {
+    "attempts/gcd-native-lec-avx512-failure-01-inventory.json": "050d4133cbbdccd1510db559300c42c059669d6cf86ceec4623b98f7c0681ee8",
+    "image/kepler-direct-smoke.exit-status": "586900065999e00dfd03caec2bd5eb43dd939f082db4718edecd72fabfdcdbec",
+    "image/kepler-direct-smoke.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "image/kepler-illegal-instruction-analysis.log": "f0473a846d25af9697352b9873b6a9669bbf4a3652e3adf7d269b8f2e2f42889"
+  },
+  "failed_attempt_preserved_at": "/var/lib/green-ecc-gate03e/attempts/gcd-native-lec-avx512-failure-01",
+  "reason": "The pinned Kepler libnaja_python.so executes unconditional AVX-512VL while this AMD Ryzen 7 7735HS WSL2 host exposes AVX2 and no AVX-512; direct startup exits 132 (SIGILL).",
+  "schema_version": 1,
+  "unchanged_controls": {
+    "acceptance_outputs": true,
+    "default_goal_and_stage_chain": true,
+    "design_config_rtl_and_platform_bytes": true,
+    "frozen_reproducibility_policy": true,
+    "official_make_invocation": "make DESIGN_CONFIG=./designs/sky130hd/gcd/config.mk",
+    "orfs_image_digest": "sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e"
+  }
+}

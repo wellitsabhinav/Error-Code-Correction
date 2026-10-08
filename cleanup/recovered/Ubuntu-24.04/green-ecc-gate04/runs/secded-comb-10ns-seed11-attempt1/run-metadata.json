@@ -1,0 +1,19 @@
+{
+  "clock_period_ns": 10.0,
+  "container_id": "c73c21fddbefd4d9c573489adced5d3ed80d551c0f6893498389f771b67760bf",
+  "design_top": "gate04_secded_comb_72_64",
+  "end_time_utc": "2026-08-14T16:47:15Z",
+  "exit_status": 2,
+  "failure_reason": "",
+  "gpl_random_seed": 11,
+  "grt_seed": 11,
+  "implementation_id": "secded-rtl-combinational-72-64-v1",
+  "k": 64,
+  "kind": "candidate",
+  "n": 72,
+  "or_seed": 11,
+  "physical_seed": 11,
+  "run_id": "secded-comb-10ns-seed11-attempt1",
+  "schema_version": 1,
+  "start_time_utc": "2026-08-14T16:47:13Z"
+}

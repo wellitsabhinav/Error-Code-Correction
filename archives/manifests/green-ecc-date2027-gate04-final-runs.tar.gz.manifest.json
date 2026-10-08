@@ -1,0 +1,1576 @@
+{
+  "distribution": "Ubuntu-24.04",
+  "source": "/var/lib/green-ecc-date2027-gate04-final/runs",
+  "archive_path": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-date2027-gate04-final-runs.tar.gz",
+  "archive_sha256": "344c19bd035b558ae15d92dcf5dcecbfdb28959faff830c3176c12c283a12ce1",
+  "members": [
+    {
+      "path": "secded-comb-final-01",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/INFRASTRUCTURE_ATTEMPT.json",
+      "kind": "file",
+      "size_bytes": 400,
+      "sha256": "adff7f9bfac5b6fe8e77b608171002323d4aea1fe1b271c6dd69cda180757586",
+      "mtime": 1787587237.1510077
+    },
+    {
+      "path": "secded-comb-final-01/container.log",
+      "kind": "file",
+      "size_bytes": 149990,
+      "sha256": "9a18a6f546454043d0f00740acfa71d09946edbca7c6096d3223e71ec692d3f3",
+      "mtime": 1787587047.4097674
+    },
+    {
+      "path": "secded-comb-final-01/effective-run-environment.json",
+      "kind": "file",
+      "size_bytes": 392,
+      "sha256": "436e99456f0b9440dfc2d859779d4b88fa8473076da5ecb68c53d8af7806f07d",
+      "mtime": 1787586794.6860414
+    },
+    {
+      "path": "secded-comb-final-01/logs",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/1_1_yosys_canonicalize.log",
+      "kind": "file",
+      "size_bytes": 2237,
+      "sha256": "3e691ca8faa824ca3eb35764b34c26624b5c4953359bbef250501e0e17b32804",
+      "mtime": 1787586798.252878
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/1_2_yosys.log",
+      "kind": "file",
+      "size_bytes": 13972,
+      "sha256": "a863199391e20f3567678470595df6cc967ae329b468ae31b724991db6e0a0b7",
+      "mtime": 1787586803.7735448
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/1_synth.json",
+      "kind": "file",
+      "size_bytes": 751,
+      "sha256": "0e42f6d195a167783f77d14847527ee547a78e6546f63c837c7acd352c0bf026",
+      "mtime": 1787586805.9098783
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/1_synth.log",
+      "kind": "file",
+      "size_bytes": 1456,
+      "sha256": "6e7dacd8127d5e0490c409c3bef3a0373aba1939d753174d96e56581fba1dded",
+      "mtime": 1787586805.9878783
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/2_1_floorplan.json",
+      "kind": "file",
+      "size_bytes": 1967,
+      "sha256": "2bca868c609e2e70bed4ee3307fa4a5c6038413f0b8dab4684c41f926ab64d30",
+      "mtime": 1787586807.6866453
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/2_1_floorplan.log",
+      "kind": "file",
+      "size_bytes": 3714,
+      "sha256": "1204067f571e294baf68b675d8b91aa17a6c387efbf1da0be66273bb172e60e8",
+      "mtime": 1787586807.7646453
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/2_2_floorplan_macro.json",
+      "kind": "file",
+      "size_bytes": 92,
+      "sha256": "457f4501d1c2410a68df754e723af496c401b9bf93c5a1544083a4514ac2db40",
+      "mtime": 1787586809.2206452
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/2_2_floorplan_macro.log",
+      "kind": "file",
+      "size_bytes": 1062,
+      "sha256": "294db8c9d23813d1940f6df38ee3521c934049d88395c420cf95721e34c2e70e",
+      "mtime": 1787586809.3029785
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/2_3_floorplan_tapcell.json",
+      "kind": "file",
+      "size_bytes": 92,
+      "sha256": "457f4501d1c2410a68df754e723af496c401b9bf93c5a1544083a4514ac2db40",
+      "mtime": 1787586810.711312
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/2_3_floorplan_tapcell.log",
+      "kind": "file",
+      "size_bytes": 1067,
+      "sha256": "56d4fe263699273215eaf428e5d7ed5ee94c5f334a646ffc066fe213b982297b",
+      "mtime": 1787586810.7849786
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/2_4_floorplan_pdn.json",
+      "kind": "file",
+      "size_bytes": 130,
+      "sha256": "aa2cbdc4e39252df6c085acc299c1cfe0e8ee8c60fc6fcd115b2c9ef32307883",
+      "mtime": 1787586812.3189788
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/2_4_floorplan_pdn.log",
+      "kind": "file",
+      "size_bytes": 1230,
+      "sha256": "4b198705f4815778a6b13f4a733d9c0d8e0e6ea1889eb639d2a9d54605532ca4",
+      "mtime": 1787586812.3926454
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/3_1_place_gp_skip_io.json",
+      "kind": "file",
+      "size_bytes": 92,
+      "sha256": "457f4501d1c2410a68df754e723af496c401b9bf93c5a1544083a4514ac2db40",
+      "mtime": 1787586815.1234899
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/3_1_place_gp_skip_io.log",
+      "kind": "file",
+      "size_bytes": 6703,
+      "sha256": "457655de88e4eb0ca2c845efa65845aea0bee92016a66353bca8578022f9a5a4",
+      "mtime": 1787586815.2093072
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/3_2_place_iop.json",
+      "kind": "file",
+      "size_bytes": 154,
+      "sha256": "660eda366aa1bb347993d8d9ade0653fef4eb7c8bae5478301a619b1b6b138ce",
+      "mtime": 1787586816.655332
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/3_2_place_iop.log",
+      "kind": "file",
+      "size_bytes": 1467,
+      "sha256": "decb3cd4386d16a2c286fabb69065e3fc7a4d048db0858689d9d9353f0b73080",
+      "mtime": 1787586816.7325678
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/3_3_place_gp.json",
+      "kind": "file",
+      "size_bytes": 1551,
+      "sha256": "c15098eb4121013dedb9c48be0f647be6a8e6204eb97dd790156187951347b22",
+      "mtime": 1787586822.8566363
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/3_3_place_gp.log",
+      "kind": "file",
+      "size_bytes": 39988,
+      "sha256": "e97c512ccb0bbc8d2c965a2af2c668aa7d99facefd93d0a8d5ac130e98517cb6",
+      "mtime": 1787586822.9654827
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/3_4_place_resized.json",
+      "kind": "file",
+      "size_bytes": 1913,
+      "sha256": "48051fbda00a137651655e73528456164d8efbc28435b6054b6729c097b21570",
+      "mtime": 1787586823.7123675
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/3_4_place_resized.log",
+      "kind": "file",
+      "size_bytes": 13230,
+      "sha256": "86ec706d643dcd604c41a9d96391461c3242fedcb5b34120d01f3257ff316042",
+      "mtime": 1787586823.8054042
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/3_5_place_dp.json",
+      "kind": "file",
+      "size_bytes": 2531,
+      "sha256": "a5d832161aa69c6469c752e5d07209a108d1f88072ca11c7998525f1370c3ac3",
+      "mtime": 1787586826.2162683
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/3_5_place_dp.log",
+      "kind": "file",
+      "size_bytes": 6661,
+      "sha256": "518399e119e033e2d1fc5f261ed72e51f006a3bcb03d0d431e52e8b5be98bf05",
+      "mtime": 1787586826.29717
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/4_1_cts.json",
+      "kind": "file",
+      "size_bytes": 2508,
+      "sha256": "ad87944274e894c23c5911be77efdf3dfd840f32746fce7541c63b93b90d9c2e",
+      "mtime": 1787586830.2128015
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/4_1_cts.log",
+      "kind": "file",
+      "size_bytes": 6520,
+      "sha256": "ebda85413b1c55df634b63ae80f114afdaa2c938156defca4e30afa450e976a8",
+      "mtime": 1787586830.293703
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/5_1_grt.json",
+      "kind": "file",
+      "size_bytes": 5706,
+      "sha256": "55a875ab54d3cc013e60572b8b88bd32ffe508bc5f045d6118022e8d3db32f62",
+      "mtime": 1787586884.7855585
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/5_1_grt.log",
+      "kind": "file",
+      "size_bytes": 24908,
+      "sha256": "b615786088a16487e7daf44543e71f83d6df5d67dd0aaa824bcb6beff63defdd",
+      "mtime": 1787586884.8938918
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/5_2_route.json",
+      "kind": "file",
+      "size_bytes": 1273,
+      "sha256": "73f01903b6a7672002e58b9f1d37552b35a76c1779de271af69198a6eb8fa02b",
+      "mtime": 1787587033.9988787
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/5_2_route.log",
+      "kind": "file",
+      "size_bytes": 16888,
+      "sha256": "32a848ca15b31506eb786192bd9209b3b8e95a05498e8b83167c4d29bea417b8",
+      "mtime": 1787587034.1294582
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/5_3_fillcell.json",
+      "kind": "file",
+      "size_bytes": 118,
+      "sha256": "a3456fcc6e4094165cf946e287e77a86735b5668192d41bfb69d5d9fc3a5a072",
+      "mtime": 1787587035.5616195
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/5_3_fillcell.log",
+      "kind": "file",
+      "size_bytes": 1164,
+      "sha256": "58677572d667be22e55a779acd60ed0c325ae29f29e5f45989685b31c8a3b4de",
+      "mtime": 1787587035.6416519
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/6_1_fill.json",
+      "kind": "file",
+      "size_bytes": 92,
+      "sha256": "457f4501d1c2410a68df754e723af496c401b9bf93c5a1544083a4514ac2db40",
+      "mtime": 1787587036.031824
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/6_1_fill.log",
+      "kind": "file",
+      "size_bytes": 1027,
+      "sha256": "faa3fc1d129b810d3d24504755ec48124187c7a99523a51f127f95906f905d1e",
+      "mtime": 1787587036.1094651
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/6_1_merge.log",
+      "kind": "file",
+      "size_bytes": 320,
+      "sha256": "3869b3baac7acb606c80c3bfa6e88a80bc3f2448567b19b618d8b917d81aef21",
+      "mtime": 1787587046.857221
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/6_report.json",
+      "kind": "file",
+      "size_bytes": 3640,
+      "sha256": "0fe3d2e39913987e951f68b4e85eb2754b03a373c043b4236f9fdbd836f91ff2",
+      "mtime": 1787587041.9012938
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/6_report.log",
+      "kind": "file",
+      "size_bytes": 3735,
+      "sha256": "c3b32e80fd6d19dcab1fa6fa88392fa2aca6a450ee54bb955785f8d6967f29f2",
+      "mtime": 1787587041.9897509
+    },
+    {
+      "path": "secded-comb-final-01/logs/sky130hd/gate04_secded_comb_72_64/base/gate04_power.log",
+      "kind": "file",
+      "size_bytes": 901,
+      "sha256": "4e32e4d2d2d6d8572b28522b5e080f0fc73c9452836d8314adafd71a0af60245",
+      "mtime": 1787587051.8658931
+    },
+    {
+      "path": "secded-comb-final-01/objects",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/objects/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/objects/sky130hd/gate04_secded_comb_72_64",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/objects/sky130hd/gate04_secded_comb_72_64/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/objects/sky130hd/gate04_secded_comb_72_64/base/abc.constr",
+      "kind": "file",
+      "size_bytes": 51,
+      "sha256": "9fcc3bf9da3c85a2d6355e3c4fbc7ceafa4a6fb3978907fb15bcffe00ff05348",
+      "mtime": 1787586798.7858782
+    },
+    {
+      "path": "secded-comb-final-01/objects/sky130hd/gate04_secded_comb_72_64/base/copyright.txt",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1787586804.7528782
+    },
+    {
+      "path": "secded-comb-final-01/objects/sky130hd/gate04_secded_comb_72_64/base/klayout.lyt",
+      "kind": "file",
+      "size_bytes": 15539,
+      "sha256": "c7a1af6e0b87db3ac5e2602c642adb2f562bd7008bc45e995e6da336c1d343e7",
+      "mtime": 1787587042.7862546
+    },
+    {
+      "path": "secded-comb-final-01/objects/sky130hd/gate04_secded_comb_72_64/base/klayout_tech.lef",
+      "kind": "file",
+      "size_bytes": 18031,
+      "sha256": "8e99b4e8b016db0713029ebcae6b2cc2aedd9c2c49682e2f23521dd0b1a2085e",
+      "mtime": 1787587042.3808327
+    },
+    {
+      "path": "secded-comb-final-01/physical-command.txt",
+      "kind": "file",
+      "size_bytes": 635,
+      "sha256": "077f8c01c2fe632dfd9354a5101974142c64c82522a6a28d85ddcb147e1e3f9d",
+      "mtime": 1787586794.6862655
+    },
+    {
+      "path": "secded-comb-final-01/power",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/power-command.txt",
+      "kind": "file",
+      "size_bytes": 1148,
+      "sha256": "73710578d3dfa39d786e7231ebcd2caec5557bb04192b649e53a7a5ecae1f6cf",
+      "mtime": 1787587047.8110988
+    },
+    {
+      "path": "secded-comb-final-01/power-container.log",
+      "kind": "file",
+      "size_bytes": 1247,
+      "sha256": "94f2d6744aa4edf15a52abc6a398b421eb93378adaaf132f3d09ea8400a1b954",
+      "mtime": 1787587051.8658931
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-double_error.annotated.rpt",
+      "kind": "file",
+      "size_bytes": 3215,
+      "sha256": "1e7997da45d40e8f2a3940b8441027de558aabbc3012ec34220b9f27146f121f",
+      "mtime": 1787587051.7532265
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-double_error.annotation.rpt",
+      "kind": "file",
+      "size_bytes": 36,
+      "sha256": "588a76a391650a8f9ffc02f58dcf6a3b7ca4c5eab47a976a73f99889de6df944",
+      "mtime": 1787587051.7532265
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-double_error.native-rounded.power.json",
+      "kind": "file",
+      "size_bytes": 722,
+      "sha256": "8f3fd3f14e655217f8450479d3cb6163efcbc76e1dee5f8db3fbeea5678ef490",
+      "mtime": 1787587051.839893
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-double_error.power.rpt",
+      "kind": "file",
+      "size_bytes": 1098,
+      "sha256": "5c760618ef60bd005ef7a7df2aa3bd6951f50ad660da222f9d33283d35b5072f",
+      "mtime": 1787587051.839893
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-double_error.unannotated.rpt",
+      "kind": "file",
+      "size_bytes": 76484,
+      "sha256": "ed39ac2be0fca54c4081a2e5e299f285f07e85fd4b636243c9422017fd68e37b",
+      "mtime": 1787587051.7835598
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-no_error.annotated.rpt",
+      "kind": "file",
+      "size_bytes": 3215,
+      "sha256": "1e7997da45d40e8f2a3940b8441027de558aabbc3012ec34220b9f27146f121f",
+      "mtime": 1787587050.214893
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-no_error.annotation.rpt",
+      "kind": "file",
+      "size_bytes": 36,
+      "sha256": "588a76a391650a8f9ffc02f58dcf6a3b7ca4c5eab47a976a73f99889de6df944",
+      "mtime": 1787587050.2105598
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-no_error.native-rounded.power.json",
+      "kind": "file",
+      "size_bytes": 722,
+      "sha256": "8f3fd3f14e655217f8450479d3cb6163efcbc76e1dee5f8db3fbeea5678ef490",
+      "mtime": 1787587050.461893
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-no_error.power.rpt",
+      "kind": "file",
+      "size_bytes": 1098,
+      "sha256": "c84d002980bfac0627856e413e8fcfc06606fb77e52f49e5f7442c6ec6233e03",
+      "mtime": 1787587050.461893
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-no_error.unannotated.rpt",
+      "kind": "file",
+      "size_bytes": 76484,
+      "sha256": "ed39ac2be0fca54c4081a2e5e299f285f07e85fd4b636243c9422017fd68e37b",
+      "mtime": 1787587050.2495599
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-single_error.annotated.rpt",
+      "kind": "file",
+      "size_bytes": 3215,
+      "sha256": "1e7997da45d40e8f2a3940b8441027de558aabbc3012ec34220b9f27146f121f",
+      "mtime": 1787587051.033893
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-single_error.annotation.rpt",
+      "kind": "file",
+      "size_bytes": 36,
+      "sha256": "588a76a391650a8f9ffc02f58dcf6a3b7ca4c5eab47a976a73f99889de6df944",
+      "mtime": 1787587051.033893
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-single_error.native-rounded.power.json",
+      "kind": "file",
+      "size_bytes": 722,
+      "sha256": "8f3fd3f14e655217f8450479d3cb6163efcbc76e1dee5f8db3fbeea5678ef490",
+      "mtime": 1787587051.1248932
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-single_error.power.rpt",
+      "kind": "file",
+      "size_bytes": 1098,
+      "sha256": "63d733f41ddda40dd1546f2112330f3e46dd59a4da7db038a6be114ed61e22cc",
+      "mtime": 1787587051.1248932
+    },
+    {
+      "path": "secded-comb-final-01/power/conventional_secded-single_error.unannotated.rpt",
+      "kind": "file",
+      "size_bytes": 76484,
+      "sha256": "ed39ac2be0fca54c4081a2e5e299f285f07e85fd4b636243c9422017fd68e37b",
+      "mtime": 1787587051.06856
+    },
+    {
+      "path": "secded-comb-final-01/raw-artifacts.sha256",
+      "kind": "file",
+      "size_bytes": 15864,
+      "sha256": "cd84d0d709fe8b5d90e3f9ab0dbc1c9c7c084ef9f3994fa694ad9e67ffc58d27",
+      "mtime": 1787587237.4720247
+    },
+    {
+      "path": "secded-comb-final-01/reports",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/2_floorplan_final.rpt",
+      "kind": "file",
+      "size_bytes": 12078,
+      "sha256": "7face6658778fe0850c982e8e6638f91e708e694ad28f78b2f647059a62bfb46",
+      "mtime": 1787586807.6606452
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/3_detailed_place.rpt",
+      "kind": "file",
+      "size_bytes": 18730,
+      "sha256": "89c23a8d5407f24434cb8009398d61b3de8bc98e554bce59c184b14d16c7ba10",
+      "mtime": 1787586826.1879528
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/3_global_place.rpt",
+      "kind": "file",
+      "size_bytes": 11652,
+      "sha256": "239be050f19f67c20cb9cdcf346f944daea5ed308338ad3cf0549b045f29eec0",
+      "mtime": 1787586822.8326364
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/3_resizer.rpt",
+      "kind": "file",
+      "size_bytes": 18994,
+      "sha256": "fa4b73e95f30ce9fbe2cb25e3a9ac0c0744aba99745f82eabca0e4f2baf229e5",
+      "mtime": 1787586823.6880972
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/4_cts_final.rpt",
+      "kind": "file",
+      "size_bytes": 24877,
+      "sha256": "19bc6d0bc27c60c5c5c50f286fe6dcced6ca70fbb981ecb6dd67d5c3d9345071",
+      "mtime": 1787586830.176396
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/5_global_route.rpt",
+      "kind": "file",
+      "size_bytes": 24974,
+      "sha256": "c590a485897e676ce5660912c50bcf8f09cafd72fd983bf01d67c83f7456fe74",
+      "mtime": 1787586884.724892
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/5_route_drc.rpt",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1787587028.450198
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/6_finish.rpt",
+      "kind": "file",
+      "size_bytes": 25265,
+      "sha256": "95c9ad72c850e0c5088342e6ba2286bbb5005dcfbdffe40c312a6b592f0f7a7f",
+      "mtime": 1787587039.3739505
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/cts_default_clk_i.webp",
+      "kind": "file",
+      "size_bytes": 16356,
+      "sha256": "ae5a9012841e2036a1ae80b17397fd73d90014c009c21f2789597915e8f0a00c",
+      "mtime": 1787587040.8903565
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/cts_default_clk_i_layout.webp",
+      "kind": "file",
+      "size_bytes": 70308,
+      "sha256": "98f207e74e53302deb14ad52e22ba120f8cff66b78cd9c1139a3c4ba62e19470",
+      "mtime": 1787587041.0630584
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/drt_antennas.log",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1787587032.2022076
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/final_all.webp",
+      "kind": "file",
+      "size_bytes": 291366,
+      "sha256": "4e7fcd6f8a92196bd1a27d5b15f6ec640b72166252e5c415bef2acd874d01e67",
+      "mtime": 1787587039.929966
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/final_clocks.webp",
+      "kind": "file",
+      "size_bytes": 55980,
+      "sha256": "632bf06f848425607e007a13c745bdb24f67fbcf27e46aec64fd283c87b1f9be",
+      "mtime": 1787587040.759777
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/final_congestion.webp",
+      "kind": "file",
+      "size_bytes": 80240,
+      "sha256": "9cd8cf4ff328c638cd3ad6c63cc97f9d2e580efbf702d8912ed68e5f286631cd",
+      "mtime": 1787587041.4168863
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/final_ir_drop.webp",
+      "kind": "file",
+      "size_bytes": 95228,
+      "sha256": "5bfa4ff203f456638d339c004b4aa8ff2d8ffb71273480e35f8d6388ffe849d9",
+      "mtime": 1787587040.6123488
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/final_placement.webp",
+      "kind": "file",
+      "size_bytes": 100908,
+      "sha256": "336600db6fbbec1c2c1800d5f7286e5db95a2a43479b4b6c62f3316c4e28824c",
+      "mtime": 1787587040.4312224
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/final_resizer.webp",
+      "kind": "file",
+      "size_bytes": 105812,
+      "sha256": "edff9a4bad1f310eefe18ffa2c69d135a9c1a7771c774c8d5685a72168933d65",
+      "mtime": 1787587041.2441845
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/final_routing.webp",
+      "kind": "file",
+      "size_bytes": 314678,
+      "sha256": "fe3a026363ec5c9bc3c041bd7f09a374ede220d61eb4a971fe2b0b2430764883",
+      "mtime": 1787587040.2669451
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/final_worst_path.webp",
+      "kind": "file",
+      "size_bytes": 137126,
+      "sha256": "fae9e1438e27bde517c8bb19e779ad337e16ea6f89d5e26ac092807091d81cb5",
+      "mtime": 1787587041.6780453
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/grt_antennas.log",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1787586883.176726
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/synth_check.txt",
+      "kind": "file",
+      "size_bytes": 134,
+      "sha256": "946634c8981d248ce55f3ca2af788c34abec633428f0e25b1c074c85c7eab377",
+      "mtime": 1787586803.5946243
+    },
+    {
+      "path": "secded-comb-final-01/reports/sky130hd/gate04_secded_comb_72_64/base/synth_stat.txt",
+      "kind": "file",
+      "size_bytes": 3578,
+      "sha256": "7dde46b1672cbe1d64b31f7688f200a77d38f82c1b5e69f58f47383df8de2ce9",
+      "mtime": 1787586803.6738782
+    },
+    {
+      "path": "secded-comb-final-01/results",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/1_1_yosys_canonicalize.rtlil",
+      "kind": "file",
+      "size_bytes": 2401276,
+      "sha256": "bb9ead928066a70c4c2576c3f78400f68ce28d1ba3076ffede5c5cb1d01d3c42",
+      "mtime": 1787586798.1554594
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/1_2_yosys.sdc",
+      "kind": "file",
+      "size_bytes": 361,
+      "sha256": "7d8c4f563ace74fa762c1a8df4593a68aa0ca285519962c8121504333ec8fb09",
+      "mtime": 1787586041.9790056
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/1_2_yosys.v",
+      "kind": "file",
+      "size_bytes": 185725,
+      "sha256": "2a7f3f66afb6b19d1131e79b7556b45b2fa7969ab6014abce1239ab19d4699a5",
+      "mtime": 1787586803.6868782
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/1_synth.odb",
+      "kind": "file",
+      "size_bytes": 2633556,
+      "sha256": "68fc02e1559b76ce82bac7aa0247b4df941a2ce86759fac213f48df0ac59b412",
+      "mtime": 1787586805.9098783
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/1_synth.sdc",
+      "kind": "file",
+      "size_bytes": 46748,
+      "sha256": "a3d65f3ff25f3e40f5f12eb9162869282c594455ccf63f6e6f85ce35ace4a6bd",
+      "mtime": 1787586805.9098783
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/2_1_floorplan.odb",
+      "kind": "file",
+      "size_bytes": 2639567,
+      "sha256": "e9ca7c37c3b36817ea3f768391b7cbda05c829a11bf09e84d3c1e6943d2aaf67",
+      "mtime": 1787586807.682312
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/2_1_floorplan.sdc",
+      "kind": "file",
+      "size_bytes": 46748,
+      "sha256": "a3d65f3ff25f3e40f5f12eb9162869282c594455ccf63f6e6f85ce35ace4a6bd",
+      "mtime": 1787586807.6866453
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/2_2_floorplan_macro.odb",
+      "kind": "file",
+      "size_bytes": 2639567,
+      "sha256": "e9ca7c37c3b36817ea3f768391b7cbda05c829a11bf09e84d3c1e6943d2aaf67",
+      "mtime": 1787586809.2206452
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/2_2_floorplan_macro.tcl",
+      "kind": "file",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mtime": 1787586809.2206452
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/2_3_floorplan_tapcell.odb",
+      "kind": "file",
+      "size_bytes": 2757989,
+      "sha256": "b83f4003709e30fb6048c01e7da7866a7eb8f673e9d3ffb75f45026c87ae5d37",
+      "mtime": 1787586810.711312
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/2_4_floorplan_pdn.odb",
+      "kind": "file",
+      "size_bytes": 2885170,
+      "sha256": "55b9956de49c2d8326d9845fd05900b887540b3a8fc3f633c37948417aa93977",
+      "mtime": 1787586812.3189788
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/2_floorplan.odb",
+      "kind": "file",
+      "size_bytes": 2885170,
+      "sha256": "55b9956de49c2d8326d9845fd05900b887540b3a8fc3f633c37948417aa93977",
+      "mtime": 1787586812.7975543
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/2_floorplan.sdc",
+      "kind": "file",
+      "size_bytes": 46748,
+      "sha256": "a3d65f3ff25f3e40f5f12eb9162869282c594455ccf63f6e6f85ce35ace4a6bd",
+      "mtime": 1787586813.1790245
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/3_1_place_gp_skip_io.odb",
+      "kind": "file",
+      "size_bytes": 2885170,
+      "sha256": "b04e62110b60960282ea0e53446eed03250a8d448dcaac804a82adfb44716ced",
+      "mtime": 1787586815.1234899
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/3_2_place_iop.odb",
+      "kind": "file",
+      "size_bytes": 2913586,
+      "sha256": "b5934d3eb4560910851387e54fa5d9722e64c92e19368c8454b58b91d2db294d",
+      "mtime": 1787586816.6510413
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/3_2_place_iop.tcl",
+      "kind": "file",
+      "size_bytes": 34669,
+      "sha256": "54b4594ab8af6550d3b0a6e1920017f3e921dfca39c5ce175e7bdb603e76d32a",
+      "mtime": 1787586816.655332
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/3_3_place_gp.odb",
+      "kind": "file",
+      "size_bytes": 3062757,
+      "sha256": "f5b44f045ac2b5e441b412440c7757aa501d65e060648e5e40e88da067105c42",
+      "mtime": 1787586822.8566363
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/3_4_place_resized.odb",
+      "kind": "file",
+      "size_bytes": 3062757,
+      "sha256": "f5b44f045ac2b5e441b412440c7757aa501d65e060648e5e40e88da067105c42",
+      "mtime": 1787586823.7123675
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/3_5_place_dp.odb",
+      "kind": "file",
+      "size_bytes": 3062757,
+      "sha256": "9556dca96de4645c18dc2d3e37ce9be9c433a4cce704cbbe64dbc5263a9ebe1b",
+      "mtime": 1787586826.2122233
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/3_place.odb",
+      "kind": "file",
+      "size_bytes": 3062757,
+      "sha256": "9556dca96de4645c18dc2d3e37ce9be9c433a4cce704cbbe64dbc5263a9ebe1b",
+      "mtime": 1787586826.6733618
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/3_place.sdc",
+      "kind": "file",
+      "size_bytes": 46748,
+      "sha256": "a3d65f3ff25f3e40f5f12eb9162869282c594455ccf63f6e6f85ce35ace4a6bd",
+      "mtime": 1787586826.2162683
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/4_1_cts.odb",
+      "kind": "file",
+      "size_bytes": 3092005,
+      "sha256": "d121aea6ea06ce4166b85c7f878bd4d9dbb79d7c1f1bcd5875575f9014a3fa6e",
+      "mtime": 1787586830.2087564
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/4_cts.odb",
+      "kind": "file",
+      "size_bytes": 3092005,
+      "sha256": "d121aea6ea06ce4166b85c7f878bd4d9dbb79d7c1f1bcd5875575f9014a3fa6e",
+      "mtime": 1787586830.6577597
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/4_cts.sdc",
+      "kind": "file",
+      "size_bytes": 46790,
+      "sha256": "fcaf7fb012daddb364cfab4792355ae8e50d1ecc2866d0b96e284bcd8e476537",
+      "mtime": 1787586830.2128015
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/5_1_grt.odb",
+      "kind": "file",
+      "size_bytes": 3750757,
+      "sha256": "7155a3195fe9d5f05b201d05711701307270fb7c257a5d6c85ac8a66cd1886aa",
+      "mtime": 1787586884.7812252
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/5_1_grt.sdc",
+      "kind": "file",
+      "size_bytes": 46790,
+      "sha256": "fcaf7fb012daddb364cfab4792355ae8e50d1ecc2866d0b96e284bcd8e476537",
+      "mtime": 1787586884.7855585
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/5_2_route.odb",
+      "kind": "file",
+      "size_bytes": 4234046,
+      "sha256": "8e7406eb167a138b25017408440d9c7ae1b5bd2b9caf1d6a7ceb9c3492f7a7bf",
+      "mtime": 1787587033.9946666
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/5_3_fillcell.odb",
+      "kind": "file",
+      "size_bytes": 5364042,
+      "sha256": "2726029d679dbdad6a18f24fdeea7e1a0bce67113fabde0d364907579be47fbc",
+      "mtime": 1787587035.5574071
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/5_route.odb",
+      "kind": "file",
+      "size_bytes": 5364042,
+      "sha256": "2726029d679dbdad6a18f24fdeea7e1a0bce67113fabde0d364907579be47fbc",
+      "mtime": 1787587036.0207534
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/5_route.sdc",
+      "kind": "file",
+      "size_bytes": 46790,
+      "sha256": "fcaf7fb012daddb364cfab4792355ae8e50d1ecc2866d0b96e284bcd8e476537",
+      "mtime": 1787587036.4460542
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/6_1_fill.odb",
+      "kind": "file",
+      "size_bytes": 5364042,
+      "sha256": "2726029d679dbdad6a18f24fdeea7e1a0bce67113fabde0d364907579be47fbc",
+      "mtime": 1787587036.0294325
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/6_1_fill.sdc",
+      "kind": "file",
+      "size_bytes": 46790,
+      "sha256": "fcaf7fb012daddb364cfab4792355ae8e50d1ecc2866d0b96e284bcd8e476537",
+      "mtime": 1787587036.5071054
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/6_1_merged.gds",
+      "kind": "file",
+      "size_bytes": 1961710,
+      "sha256": "e8325a7e7f6389f258407822dce830fed31147313bc38d323b3450f76ca96897",
+      "mtime": 1787587046.557749
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/6_final.def",
+      "kind": "file",
+      "size_bytes": 1682313,
+      "sha256": "4129e890ad580f94d43a5d0b6557a35edbc19f2555f32ff8337a3d0f25b6acb2",
+      "mtime": 1787587038.0386705
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/6_final.gds",
+      "kind": "file",
+      "size_bytes": 1961710,
+      "sha256": "e8325a7e7f6389f258407822dce830fed31147313bc38d323b3450f76ca96897",
+      "mtime": 1787587046.8865194
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/6_final.odb",
+      "kind": "file",
+      "size_bytes": 5364042,
+      "sha256": "abb5d3d83eb5c98595a64238a6f4c8610c4c7806c8bab03370974751609521da",
+      "mtime": 1787587038.0049727
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/6_final.sdc",
+      "kind": "file",
+      "size_bytes": 46790,
+      "sha256": "fcaf7fb012daddb364cfab4792355ae8e50d1ecc2866d0b96e284bcd8e476537",
+      "mtime": 1787587038.0049727
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/6_final.spef",
+      "kind": "file",
+      "size_bytes": 1282185,
+      "sha256": "66ccdf56fb72aabac9c9b8e90c0e1e531f8b9da942c8902aaa20bb5be62ca358",
+      "mtime": 1787587038.3588006
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/6_final.v",
+      "kind": "file",
+      "size_bytes": 172724,
+      "sha256": "733d54854db80e3a501fb6f2db220814903cc5b41168c7761b153d183bfbadbb",
+      "mtime": 1787587038.0892174
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/clock_period.txt",
+      "kind": "file",
+      "size_bytes": 6,
+      "sha256": "876e13f4e07bb39705302c01f445ffd2d2c3b180a207e4d959d6b671c67da09b",
+      "mtime": 1787586796.975478
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/mem.json",
+      "kind": "file",
+      "size_bytes": 659954,
+      "sha256": "1a3d5eeec954c7f59c3302072a4058a645a5723306950ece4a1135e02e10d0ea",
+      "mtime": 1787586799.8865447
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/route.guide",
+      "kind": "file",
+      "size_bytes": 347500,
+      "sha256": "d3f30284c5a2f92a98cbe8c368797346fe9d0f7fe6825cbd873de1f67a9a0c6f",
+      "mtime": 1787586884.750892
+    },
+    {
+      "path": "secded-comb-final-01/results/sky130hd/gate04_secded_comb_72_64/base/updated_clks.sdc",
+      "kind": "file",
+      "size_bytes": 46747,
+      "sha256": "bbba5feb2a904519beb17cc9612d6c61a8feddc37018ba71664e256564d62b94",
+      "mtime": 1787586884.7465587
+    },
+    {
+      "path": "secded-pipe-final-01",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/INFRASTRUCTURE_ATTEMPT.json",
+      "kind": "file",
+      "size_bytes": 400,
+      "sha256": "740ef6938052b47ce0e3cd3ee16d47accae624a66283df5089c607a48dcfc935",
+      "mtime": 1787587237.4791226
+    },
+    {
+      "path": "secded-pipe-final-01/container.log",
+      "kind": "file",
+      "size_bytes": 108522,
+      "sha256": "442c0d2833718800e7720c29aa9bcf7261662d8d6897d2b77aa8d800df0fd451",
+      "mtime": 1787587147.9082563
+    },
+    {
+      "path": "secded-pipe-final-01/effective-run-environment.json",
+      "kind": "file",
+      "size_bytes": 388,
+      "sha256": "5db243b54c6b3646059100134006afb4526d904fc2e23158750eaa43fa89fbbb",
+      "mtime": 1787587052.4537191
+    },
+    {
+      "path": "secded-pipe-final-01/logs",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/1_1_yosys_canonicalize.log",
+      "kind": "file",
+      "size_bytes": 2725,
+      "sha256": "2347c97cba6aa2fd619e3ea60d7466fa9081d582443e25d64d55a981fe33a731",
+      "mtime": 1787587055.73556
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/1_2_yosys.log",
+      "kind": "file",
+      "size_bytes": 13972,
+      "sha256": "c322b2ac803ed331483f50ac35988548108a8b4b3af3509bf405b62d11c944ee",
+      "mtime": 1787587061.4683976
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/1_synth.json",
+      "kind": "file",
+      "size_bytes": 751,
+      "sha256": "8ea6d994abcc9dabcd241bffac4702aea134bc52432193e98a3222b8469d34f2",
+      "mtime": 1787587063.3890774
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/1_synth.log",
+      "kind": "file",
+      "size_bytes": 1456,
+      "sha256": "6f797b7c2d4b5f3dd89ea0bee707f9830f8bda0473a77dc9935fb187a863c41b",
+      "mtime": 1787587063.4829774
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/2_1_floorplan.json",
+      "kind": "file",
+      "size_bytes": 1969,
+      "sha256": "f1fd652f005937cefe5c5a40ddcc079b9e552731ec48056234cadb62ae199b36",
+      "mtime": 1787587065.3097572
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/2_1_floorplan.log",
+      "kind": "file",
+      "size_bytes": 3714,
+      "sha256": "24042838f868dbb7055103644f7482870ecba36bdc2800f0193b09d51d4b872f",
+      "mtime": 1787587065.3823164
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/2_2_floorplan_macro.json",
+      "kind": "file",
+      "size_bytes": 92,
+      "sha256": "457f4501d1c2410a68df754e723af496c401b9bf93c5a1544083a4514ac2db40",
+      "mtime": 1787587066.8047662
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/2_2_floorplan_macro.log",
+      "kind": "file",
+      "size_bytes": 1062,
+      "sha256": "c6727d7f684f525b64a105e5988d9c4a6375ef579c1f5915921f12633e16405c",
+      "mtime": 1787587066.8806474
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/2_3_floorplan_tapcell.json",
+      "kind": "file",
+      "size_bytes": 92,
+      "sha256": "457f4501d1c2410a68df754e723af496c401b9bf93c5a1544083a4514ac2db40",
+      "mtime": 1787587066.394888
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/2_3_floorplan_tapcell.log",
+      "kind": "file",
+      "size_bytes": 1067,
+      "sha256": "a0dc72394848af0aef21fb3daccdd1e1d998d2c5ba50f6b5fa6fe7ab0004d7eb",
+      "mtime": 1787587066.476312
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/2_4_floorplan_pdn.json",
+      "kind": "file",
+      "size_bytes": 130,
+      "sha256": "aa2cbdc4e39252df6c085acc299c1cfe0e8ee8c60fc6fcd115b2c9ef32307883",
+      "mtime": 1787587068.0192294
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/2_4_floorplan_pdn.log",
+      "kind": "file",
+      "size_bytes": 1230,
+      "sha256": "f942edda5ec4287c9514e67a13845f693a4e4208d7d3b826e70fd77d9cf8a8ee",
+      "mtime": 1787587068.0993261
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/3_1_place_gp_skip_io.json",
+      "kind": "file",
+      "size_bytes": 92,
+      "sha256": "457f4501d1c2410a68df754e723af496c401b9bf93c5a1544083a4514ac2db40",
+      "mtime": 1787587070.7214427
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/3_1_place_gp_skip_io.log",
+      "kind": "file",
+      "size_bytes": 6635,
+      "sha256": "daeea7ce103a75597bdbf45d6993a0b758239b067ba6b4977eb927c80470fa4d",
+      "mtime": 1787587070.818402
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/3_2_place_iop.json",
+      "kind": "file",
+      "size_bytes": 154,
+      "sha256": "7ca225d7456498da0083697a45f002c3c997b63454e85818e668c6fb3ecdd29c",
+      "mtime": 1787587072.2306352
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/3_2_place_iop.log",
+      "kind": "file",
+      "size_bytes": 1467,
+      "sha256": "e3c259984fad46bdf16e97bbb429e3d4f6413a6fcd276e72563e4f0c2028b4e3",
+      "mtime": 1787587072.3107321
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/3_3_place_gp.json",
+      "kind": "file",
+      "size_bytes": 1555,
+      "sha256": "7821476fc772626ff0ad92d10696d033dd5f531173116501b52ac87eda85642c",
+      "mtime": 1787587076.6958444
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/3_3_place_gp.log",
+      "kind": "file",
+      "size_bytes": 18831,
+      "sha256": "f719028b757ac06991b0555e559417c456ff21b91c05b8bd5fa8f32eed40bf66",
+      "mtime": 1787587076.802221
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/3_4_place_resized.json",
+      "kind": "file",
+      "size_bytes": 1917,
+      "sha256": "ef3bfc85795333850003741ac64f145217271aa8c128a8f0d9cc0ba7eecee3ed",
+      "mtime": 1787587079.3042045
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/3_4_place_resized.log",
+      "kind": "file",
+      "size_bytes": 15680,
+      "sha256": "0b8942a658b9765f4629273207ed8099f08408ebd6036b910e6c333ce69a7c78",
+      "mtime": 1787587079.4063263
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/3_5_place_dp.json",
+      "kind": "file",
+      "size_bytes": 2536,
+      "sha256": "d3474d0c0dd4ba65033edfd9629fe68330e461f21b3860650c67c1c23d2936ee",
+      "mtime": 1787587082.333817
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/3_5_place_dp.log",
+      "kind": "file",
+      "size_bytes": 6616,
+      "sha256": "52b01ad1d6c46d40a4b310fc84448bb7b6c7fc756505706d5648e1cbcb0473b0",
+      "mtime": 1787587082.4231737
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/4_1_cts.json",
+      "kind": "file",
+      "size_bytes": 2506,
+      "sha256": "35650b78c07e45ddf12711d0ee96bb078a0c76190705e552701250b8b55f6f37",
+      "mtime": 1787587087.4408407
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/4_1_cts.log",
+      "kind": "file",
+      "size_bytes": 6668,
+      "sha256": "ac60cc676dea58b5ff26f72d44f5f23f7c47389a44fbb3bd0d334456b99f8d0c",
+      "mtime": 1787587087.536174
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/5_1_grt.json",
+      "kind": "file",
+      "size_bytes": 5709,
+      "sha256": "f6dd8722b0b34b4ca47f4bfa4432f295c5e89287919d63b5db8ee5be0bb3baca",
+      "mtime": 1787587147.6297662
+    },
+    {
+      "path": "secded-pipe-final-01/logs/sky130hd/gate04_secded_pipe_72_64/base/5_1_grt.log",
+      "kind": "file",
+      "size_bytes": 27685,
+      "sha256": "f5eb8248ac3afcfd45580a903ac0a83746b94f67b6c44311a06c478eb3980058",
+      "mtime": 1787587147.677433
+    },
+    {
+      "path": "secded-pipe-final-01/objects",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/objects/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/objects/sky130hd/gate04_secded_pipe_72_64",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/objects/sky130hd/gate04_secded_pipe_72_64/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/objects/sky130hd/gate04_secded_pipe_72_64/base/abc.constr",
+      "kind": "file",
+      "size_bytes": 51,
+      "sha256": "9fcc3bf9da3c85a2d6355e3c4fbc7ceafa4a6fb3978907fb15bcffe00ff05348",
+      "mtime": 1787587056.2512267
+    },
+    {
+      "path": "secded-pipe-final-01/objects/sky130hd/gate04_secded_pipe_72_64/base/copyright.txt",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1787587062.2110605
+    },
+    {
+      "path": "secded-pipe-final-01/physical-command.txt",
+      "kind": "file",
+      "size_bytes": 635,
+      "sha256": "e6a4e33b25304f4cafc4728bca2f592de6579c0bd65cb53f7d657fe3a232df35",
+      "mtime": 1787587052.4538264
+    },
+    {
+      "path": "secded-pipe-final-01/raw-artifacts.sha256",
+      "kind": "file",
+      "size_bytes": 9033,
+      "sha256": "f6709019d8c805064bb71ea69cd660f2476b0dd2fce389211115b9ee02bdd7c3",
+      "mtime": 1787587237.6949065
+    },
+    {
+      "path": "secded-pipe-final-01/reports",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64/base/2_floorplan_final.rpt",
+      "kind": "file",
+      "size_bytes": 7372,
+      "sha256": "4b9fdd08440fe6727487cb6b1b00bc50d0adef95a03c69039e08fa14c16dedb8",
+      "mtime": 1787587065.27988
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64/base/3_detailed_place.rpt",
+      "kind": "file",
+      "size_bytes": 15649,
+      "sha256": "4239895f6d7b37660aecf949c99c78aff637bb07efee5211b10e4908041eb860",
+      "mtime": 1787587082.3040316
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64/base/3_global_place.rpt",
+      "kind": "file",
+      "size_bytes": 8357,
+      "sha256": "31f92fd6448d8deeaae460cf032be1c66222b109514525f555229688aad367eb",
+      "mtime": 1787587076.6575487
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64/base/3_resizer.rpt",
+      "kind": "file",
+      "size_bytes": 15531,
+      "sha256": "ff3c3673a9a6da38a34a24cfa9fcf5e7e310a96bff6dd923c56a48c60a21bf1a",
+      "mtime": 1787587079.274419
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64/base/4_cts_final.rpt",
+      "kind": "file",
+      "size_bytes": 19251,
+      "sha256": "6db320a78292428acb2b729d93de13e8813442df681f20f83a17b2a3babebe87",
+      "mtime": 1787587087.4105074
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64/base/5_global_route.rpt",
+      "kind": "file",
+      "size_bytes": 19344,
+      "sha256": "e8ed68a0bc409e3f1c4ef0014696214c33147dbca4a705e300615b054830438a",
+      "mtime": 1787587147.560433
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64/base/grt_antennas.log",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1787587142.9020994
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64/base/synth_check.txt",
+      "kind": "file",
+      "size_bytes": 134,
+      "sha256": "e06e8c036be4b6cd4e7e21387c293cfafbe521d5862658f5cb218e710af28b58",
+      "mtime": 1787587061.2851567
+    },
+    {
+      "path": "secded-pipe-final-01/reports/sky130hd/gate04_secded_pipe_72_64/base/synth_stat.txt",
+      "kind": "file",
+      "size_bytes": 2812,
+      "sha256": "bd8e02fcfd67e04401af8ec080beb9b255053ef15f45c2bd65a6af8fccd4e21c",
+      "mtime": 1787587061.3659613
+    },
+    {
+      "path": "secded-pipe-final-01/results",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/1_1_yosys_canonicalize.rtlil",
+      "kind": "file",
+      "size_bytes": 8083147,
+      "sha256": "bffc00342a17c88119b074f421dc707328d210e719cff2957ad1daf4bb802a02",
+      "mtime": 1787587055.5968933
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/1_2_yosys.sdc",
+      "kind": "file",
+      "size_bytes": 361,
+      "sha256": "7d8c4f563ace74fa762c1a8df4593a68aa0ca285519962c8121504333ec8fb09",
+      "mtime": 1787586041.9790056
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/1_2_yosys.v",
+      "kind": "file",
+      "size_bytes": 312469,
+      "sha256": "c972649f31c583d65c5c652ecb8cac89e38462e2ed79a311b0a39fe3a2f5ac62",
+      "mtime": 1787587061.3787658
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/1_synth.odb",
+      "kind": "file",
+      "size_bytes": 2838203,
+      "sha256": "41c0103da4f4edc23486ab749dd718611425639a2ced6c1c0cb7474311ce5194",
+      "mtime": 1787587063.3848093
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/1_synth.sdc",
+      "kind": "file",
+      "size_bytes": 46748,
+      "sha256": "3c73bb5efa1c2ccaa76a20b94013934b219f24623447f022d40b448c65a978df",
+      "mtime": 1787587063.3890774
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/2_1_floorplan.odb",
+      "kind": "file",
+      "size_bytes": 2844872,
+      "sha256": "26b86a1d0f8edd8d78f058f551f408f0f3fc8bd808740e91b311e87d54862adc",
+      "mtime": 1787587065.305489
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/2_1_floorplan.sdc",
+      "kind": "file",
+      "size_bytes": 46748,
+      "sha256": "3c73bb5efa1c2ccaa76a20b94013934b219f24623447f022d40b448c65a978df",
+      "mtime": 1787587065.3097572
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/2_2_floorplan_macro.odb",
+      "kind": "file",
+      "size_bytes": 2844872,
+      "sha256": "26b86a1d0f8edd8d78f058f551f408f0f3fc8bd808740e91b311e87d54862adc",
+      "mtime": 1787587066.8047662
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/2_2_floorplan_macro.tcl",
+      "kind": "file",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mtime": 1787587066.8047662
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/2_3_floorplan_tapcell.odb",
+      "kind": "file",
+      "size_bytes": 3010182,
+      "sha256": "c8cbb10608a56b6b560a50b732e702802c366983b888bcb6260621a2782ca6d2",
+      "mtime": 1787587066.3877838
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/2_4_floorplan_pdn.odb",
+      "kind": "file",
+      "size_bytes": 3186279,
+      "sha256": "8aa1bb8b718dabf110e38ae8000d7fad44233c2555131318b1be94766132b3ae",
+      "mtime": 1787587068.0150137
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/2_floorplan.odb",
+      "kind": "file",
+      "size_bytes": 3186279,
+      "sha256": "8aa1bb8b718dabf110e38ae8000d7fad44233c2555131318b1be94766132b3ae",
+      "mtime": 1787587068.5335352
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/2_floorplan.sdc",
+      "kind": "file",
+      "size_bytes": 46748,
+      "sha256": "3c73bb5efa1c2ccaa76a20b94013934b219f24623447f022d40b448c65a978df",
+      "mtime": 1787587068.910499
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/3_1_place_gp_skip_io.odb",
+      "kind": "file",
+      "size_bytes": 3186279,
+      "sha256": "8cc846e64a8f098a627f5936a0ec509e9885cb0b63bbc736d14102aabf19537b",
+      "mtime": 1787587070.7214427
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/3_2_place_iop.odb",
+      "kind": "file",
+      "size_bytes": 3205479,
+      "sha256": "eb3e4315acd7174e3fd160c7061dcec954079e72245c01b3e9ee1fb6ddd09d03",
+      "mtime": 1787587072.2264197
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/3_2_place_iop.tcl",
+      "kind": "file",
+      "size_bytes": 34679,
+      "sha256": "53b5bf4cb4e34709a479fb96b0564a80b06121881e89563c83f664e34e2bad89",
+      "mtime": 1787587072.2306352
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/3_3_place_gp.odb",
+      "kind": "file",
+      "size_bytes": 3352222,
+      "sha256": "a3c7e89b309244a395461dc0a11e0c970caa9289ff4358a86fdabc159e25cc47",
+      "mtime": 1787587076.6958444
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/3_4_place_resized.odb",
+      "kind": "file",
+      "size_bytes": 3352222,
+      "sha256": "a3c7e89b309244a395461dc0a11e0c970caa9289ff4358a86fdabc159e25cc47",
+      "mtime": 1787587079.3042045
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/3_5_place_dp.odb",
+      "kind": "file",
+      "size_bytes": 3352222,
+      "sha256": "2a90e18afe2d816f8ea59e80d5abcf6223bcca71fe7545975b559d8c22e25791",
+      "mtime": 1787587082.333817
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/3_place.odb",
+      "kind": "file",
+      "size_bytes": 3352222,
+      "sha256": "2a90e18afe2d816f8ea59e80d5abcf6223bcca71fe7545975b559d8c22e25791",
+      "mtime": 1787587082.845209
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/3_place.sdc",
+      "kind": "file",
+      "size_bytes": 46748,
+      "sha256": "3c73bb5efa1c2ccaa76a20b94013934b219f24623447f022d40b448c65a978df",
+      "mtime": 1787587082.333817
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/4_1_cts.odb",
+      "kind": "file",
+      "size_bytes": 3412952,
+      "sha256": "c4a9ee655a19df53234b6069dfc56b908b2d2f8e37fc6d3147dff6738691cd5d",
+      "mtime": 1787587087.4365075
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/4_cts.odb",
+      "kind": "file",
+      "size_bytes": 3412952,
+      "sha256": "c4a9ee655a19df53234b6069dfc56b908b2d2f8e37fc6d3147dff6738691cd5d",
+      "mtime": 1787587087.9738407
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/4_cts.sdc",
+      "kind": "file",
+      "size_bytes": 46790,
+      "sha256": "ae02e4ff97ee4f1837c433b6cb7a7eac6482d314e6300424d043edba1f05e246",
+      "mtime": 1787587087.4408407
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/5_1_grt.odb",
+      "kind": "file",
+      "size_bytes": 4148977,
+      "sha256": "eb554a4ca52da3349d4fddf7a8eb2052a969053a8d8f06971016db29fde2d17c",
+      "mtime": 1787587147.625433
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/5_1_grt.sdc",
+      "kind": "file",
+      "size_bytes": 46790,
+      "sha256": "ae02e4ff97ee4f1837c433b6cb7a7eac6482d314e6300424d043edba1f05e246",
+      "mtime": 1787587147.6297662
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/clock_period.txt",
+      "kind": "file",
+      "size_bytes": 6,
+      "sha256": "876e13f4e07bb39705302c01f445ffd2d2c3b180a207e4d959d6b671c67da09b",
+      "mtime": 1787587053.5240068
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/mem.json",
+      "kind": "file",
+      "size_bytes": 521188,
+      "sha256": "ee353680df548b2085657a1abc9782f0bc921637bd73c309e85d22d4d90e82c0",
+      "mtime": 1787587057.8718932
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/route.guide",
+      "kind": "file",
+      "size_bytes": 421532,
+      "sha256": "c4b4d43ccdeecbaa06a214e397c36decab2a7207622a4cf9dc29cf30aee66679",
+      "mtime": 1787587147.5907662
+    },
+    {
+      "path": "secded-pipe-final-01/results/sky130hd/gate04_secded_pipe_72_64/base/updated_clks.sdc",
+      "kind": "file",
+      "size_bytes": 46747,
+      "sha256": "0cc237ad6931d54ada97a511f74db0fa77c6e6bf2b7f577b161154fd5671c957",
+      "mtime": 1787587147.586433
+    }
+  ]
+}

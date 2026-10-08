@@ -1,0 +1,11 @@
+{
+  "bytes_consumed": 933888,
+  "completed_at_utc": "2026-08-29T13:45:22Z",
+  "elapsed_seconds": 18.664469235999995,
+  "failed_run_count": 20,
+  "free_bytes_after": 1004673671168,
+  "new_power_point_count": 40,
+  "run_count": 20,
+  "schema_version": 1,
+  "status": "FAIL"
+}

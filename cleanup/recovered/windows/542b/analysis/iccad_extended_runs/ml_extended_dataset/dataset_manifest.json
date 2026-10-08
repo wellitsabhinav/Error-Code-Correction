@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-04-07T19:16:59.920170+00:00",
+  "seed": 11,
+  "label_policy": "carbon_min",
+  "utility_weights": {
+    "alpha_fit": 1.0,
+    "beta_carbon": 1.0,
+    "gamma_energy": 1.0
+  },
+  "split_strategy": "scenario_hash",
+  "feature_version": 1,
+  "source_dir": "C:\\Users\\Abhinav\\.codex\\worktrees\\542b\\Error-Code-Correction\\analysis\\iccad_extended_runs\\aggregated\\ml_source_extended_only",
+  "source_files": [
+    "C:\\Users\\Abhinav\\.codex\\worktrees\\542b\\Error-Code-Correction\\analysis\\iccad_extended_runs\\aggregated\\ml_source_extended_only\\extended_selector_candidates.csv"
+  ],
+  "row_count": 439,
+  "dataset_file": "C:\\Users\\Abhinav\\.codex\\worktrees\\542b\\Error-Code-Correction\\analysis\\iccad_extended_runs\\ml_extended_dataset\\dataset.csv",
+  "git_commit": "unknown",
+  "configs": {
+    "tech_calib_sha256": "666cc5f5af12ccdf7ee21092d8e507613d4d3c1c892dc69129589257bde80ac4",
+    "qcrit_sram6t_sha256": "b0349161bae2951f0fd148f85ff4aba4acafac0ed706bf6ce3fb458f985c49cf"
+  }
+}

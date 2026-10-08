@@ -1,0 +1,111 @@
+{
+  "distribution": "Ubuntu-24.04",
+  "source": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt02/evidence",
+  "archive_path": "D:/GREENS_ARCHIVES/openram/Ubuntu-24.04-gate3_openram_attempt02-evidence.tar.gz",
+  "archive_sha256": "4094ec0dbc699484a08666cf0c2477ae6f640f812961cabd7b2b9cea944973d0",
+  "members": [
+    {
+      "path": "run04_failure",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "run04_failure/functional_meas.sp",
+      "kind": "file",
+      "size_bytes": 435097,
+      "sha256": "0093394fd67779831c6e0cb5c2018c71934030efc4bcdf3a29c1a2ce0f881dc3",
+      "mtime": 1788087079.2186396
+    },
+    {
+      "path": "run04_failure/functional_stim.sp",
+      "kind": "file",
+      "size_bytes": 1085627,
+      "sha256": "996e32cf94078d3f36f84c84fedb241ffcc43ad9ab9f86d810342ec33f37d316",
+      "mtime": 1788087079.2186396
+    },
+    {
+      "path": "run04_failure/openram_256x72_config.py",
+      "kind": "file",
+      "size_bytes": 1732,
+      "sha256": "f8cfa843bfdc0427a6e35e620db180e2d222bd8239025eafd388379a33243fe0",
+      "mtime": 1788029350.2732975
+    },
+    {
+      "path": "run04_failure/openram_256x72_run04.log",
+      "kind": "file",
+      "size_bytes": 12042745,
+      "sha256": "d4e57e2862930ba24edc02b7efb63c58702c61a750d15584df2b90e2510a82a8",
+      "mtime": 1788087081.1808429
+    },
+    {
+      "path": "run04_failure/run_drc.sh",
+      "kind": "file",
+      "size_bytes": 3388,
+      "sha256": "75beed1548e79f240504b0917c2c1476293201bbbfdcf87d6789c804594b0050",
+      "mtime": 1788035044.7655604
+    },
+    {
+      "path": "run04_failure/run_ext.sh",
+      "kind": "file",
+      "size_bytes": 1757,
+      "sha256": "35282a15a625dab309be5fba22c13c110e1377b21b5a6a2abbbea48933e9005d",
+      "mtime": 1788035044.7332258
+    },
+    {
+      "path": "run04_failure/run_lvs.sh",
+      "kind": "file",
+      "size_bytes": 555,
+      "sha256": "489e3042cbf4d5fe513205b47b37ab09738fe19588535a8e7a41d103fa65905d",
+      "mtime": 1788085809.7916896
+    },
+    {
+      "path": "run04_failure/sky130_sram_1rw_72x256_gate3a02.drc.out",
+      "kind": "file",
+      "size_bytes": 2182,
+      "sha256": "6aa7fd84892f6a225783730fe5818d0a382c01a1d4a4ce8c4ed4e1e7b03a3bc6",
+      "mtime": 1788085808.9023044
+    },
+    {
+      "path": "run04_failure/sky130_sram_1rw_72x256_gate3a02.gds",
+      "kind": "file",
+      "size_bytes": 19641466,
+      "sha256": "820ed565c0657a5391c88863acfc8f1cb830303b29b8050029f4b3e0441d40f6",
+      "mtime": 1788035044.7222917
+    },
+    {
+      "path": "run04_failure/sky130_sram_1rw_72x256_gate3a02.log",
+      "kind": "file",
+      "size_bytes": 13350339,
+      "sha256": "b9335aba50313f3b7c880d738ed4eb9410edb992f88525bdf3e63f5f4a93c955",
+      "mtime": 1788087081.1612208
+    },
+    {
+      "path": "run04_failure/sky130_sram_1rw_72x256_gate3a02.lvs.json",
+      "kind": "file",
+      "size_bytes": 4836378,
+      "sha256": "dff22374289a4d6620771bc1111d2523b8012a6229193e92cb17c75e5e8162fc",
+      "mtime": 1788087055.6829832
+    },
+    {
+      "path": "run04_failure/sky130_sram_1rw_72x256_gate3a02.lvs.out",
+      "kind": "file",
+      "size_bytes": 93519,
+      "sha256": "2954efbe3bddb8a587e571d67a948dcd78e1f60e759bb813e293f6b535c65bdc",
+      "mtime": 1788087057.276315
+    },
+    {
+      "path": "run04_failure/sky130_sram_1rw_72x256_gate3a02.lvs.report",
+      "kind": "file",
+      "size_bytes": 10452274,
+      "sha256": "a3a80bbb67fb0a1f11e912583626c215e55aa7d83e7c9491867bd76d1bf1eedc",
+      "mtime": 1788087054.2191586
+    },
+    {
+      "path": "run04_failure/sky130_sram_1rw_72x256_gate3a02.sp",
+      "kind": "file",
+      "size_bytes": 3676761,
+      "sha256": "03934a79ab8467090a8ce9b95cde56f0f1be1bd76d58da510bd3860375224efb",
+      "mtime": 1788087078.6025076
+    }
+  ]
+}

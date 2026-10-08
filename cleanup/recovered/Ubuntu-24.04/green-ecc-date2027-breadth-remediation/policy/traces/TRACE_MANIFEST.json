@@ -1,0 +1,41 @@
+{
+  "campaign": "DATE 2027 breadth remediation",
+  "schema_version": 1,
+  "traces": [
+    {
+      "clock_period_ns": 10.0,
+      "codeword_width_bits": 72,
+      "compressed_bytes": 2585973,
+      "compressed_sha256": "0117c68c59ca87e85b4aa699eca26be1d20d83e26213030ee835cc4739542c99",
+      "family": "hsiao",
+      "fault_schedule_seed": 7085774586302733229,
+      "file": "hsiao-10ns-no_error.vcd.gz",
+      "payload_seed": 104375203646206,
+      "position_mapping": "floor(q*N/2^64); second coordinate cyclically advanced only on equality",
+      "provenance": "byte-exact copy of immutable Revision-2 primary-input trace",
+      "source_path": "/var/lib/green-ecc-date2027-revision2/policy/traces/hsiao-10ns-no_error.vcd.gz",
+      "total_time_ps": 1000100000,
+      "trace_class": "no_error",
+      "uncompressed_bytes": 18867668,
+      "uncompressed_sha256": "4d078b7afee9e03e0a41860135377b021f08755f9d02a01f6939afecc11678ce",
+      "useful_operations": 100000
+    },
+    {
+      "clock_period_ns": 5.0,
+      "codeword_width_bits": 72,
+      "compressed_bytes": 3019393,
+      "compressed_sha256": "89dbff0e9f2b684e87916fca8a14251fa8792ece4b3202a17a27284558d0c225",
+      "family": "conventional_secded",
+      "fault_schedule_seed": 7085774586302733229,
+      "file": "conventional_secded-5ns-no_error.vcd.gz",
+      "generator_sha256": "d15b9fc4c5f659d75253955cce30ba2424ea82ba17ec56e70eb048646ff0debf",
+      "methodology_relation": "same Gate-04 primary-input sequence and reset/flush policy, with only the predeclared period changed to 5 ns",
+      "payload_seed": 104375203646206,
+      "total_time_ps": 500050000,
+      "trace_class": "no_error",
+      "uncompressed_bytes": 18834297,
+      "uncompressed_sha256": "6ac2a25788aeb1dfcc907c04162f3d51f5c16775370339beca8c0bc9a504fb22",
+      "useful_operations": 100000
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "attempts": {
+    "secded-comb-final-01": {
+      "cause": "Python NameError: metadata literal false was used instead of False after physical and power commands",
+      "classification": "INFRASTRUCTURE_POSTPROCESSING_FAILURE_EXCLUDED",
+      "physical_artifacts_present": true,
+      "replacement_justified": true,
+      "scientific_results_adjudicated": false,
+      "three_power_reports_present": true
+    },
+    "secded-pipe-final-01": {
+      "cause": "matrix intentionally interrupted after the deterministic postprocessing defect was discovered",
+      "classification": "INFRASTRUCTURE_INTERRUPTED_PARTIAL_ATTEMPT_EXCLUDED",
+      "physical_artifacts_present": false,
+      "replacement_justified": true,
+      "scientific_results_adjudicated": false,
+      "three_power_reports_present": false
+    }
+  },
+  "cause": "frozen runner metadata boolean NameError",
+  "namespace_status": "EXCLUDED_WHOLE_NAMESPACE_INFRASTRUCTURE_FAILURE",
+  "replacement_policy": "one clean replacement is justified for each affected run because no scientific input changes",
+  "schema_version": 1,
+  "scientific_metrics_used": false,
+  "sealed_at_utc": "2026-08-24T16:00:37Z"
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "run_label": "gcd-smoke",
+  "container_root": "/gate03e-run-02",
+  "start_time": "2026-08-14T10:24:00Z",
+  "end_time": "2026-08-14T10:26:38Z",
+  "exit_status": 0
+}

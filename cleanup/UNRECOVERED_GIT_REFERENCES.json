@@ -1,0 +1,38 @@
+[
+  {
+    "ref": "refs/tags/date-2027-breadth-remediation",
+    "sha": "4de0478b3487da36d470a169cd0afb8386e819ed"
+  },
+  {
+    "ref": "refs/tags/date-2027-paper-revision-3",
+    "sha": "dccf37c93255c90a71ec97f611c109b83f98c070"
+  },
+  {
+    "ref": "refs/tags/green-v2-refoundation",
+    "sha": "04657048826c96f2d2f1c6fa3056dbd89f4e5f21"
+  },
+  {
+    "ref": "refs/tags/green-v3.2-evidence-aware",
+    "sha": "d74acbf25de12053ae90c106dade01723e89d98b"
+  },
+  {
+    "ref": "refs/tags/green-v3.2-matched-openram-orfs",
+    "sha": "2601337efabedb6f26255e5db234245b70a8f1b9"
+  },
+  {
+    "ref": "refs/tags/green-v3.3-open-source-baseline",
+    "sha": "8f25f5d8f45ed43a4219d4aa3939d69df3ab97be"
+  },
+  {
+    "ref": "refs/tags/historical-ml-calibration-fix-2026-03",
+    "sha": "666d824fba9cf45afc228a0f6f795fa949f0962a"
+  },
+  {
+    "ref": "refs/tags/historical-ml-drift-baseline-fix-2026-03",
+    "sha": "b0305af04e3f0914ef91ad426b81edab8d3e243f"
+  },
+  {
+    "ref": "refs/tags/historical-ml-evaluation-fixes-2026-03",
+    "sha": "6b636e5a6a6ead2d61ab516080465b3eaebc7bac"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "checkpoint_tag": "gate03e-pre-reboot-db32a47",
+  "collateral_manifest_sha256": "dc1485fbbea46fcef76039aa34756b8db13ca2895764b87b3d5961590e0de5e9",
+  "deadline": "2026-08-16 AoE",
+  "environment_setup": "source /OpenROAD-flow-scripts/env.sh; export WORK_HOME=<run-root>; cd /OpenROAD-flow-scripts/flow",
+  "execution_subset_sha256": "33a788bf3dfe19105601fc181dcbf490ebc1d8898c110d169c995779dbf75ae7",
+  "frozen_reproducibility_bundle": {
+    "reproducibility.py": "9038cd174ccfd5c62d64908c6df9416f2ff542d58daa44faf3f9d6e5527d3a92",
+    "reproducibility_policy_v1.json": "258694f328084c3fb92dec24e07b3b40d261037d5b1bd8d32b119684211d0b9a"
+  },
+  "gate": "03E",
+  "gate03r_starting_commit": "db32a47d103495787a17b59388dfad3cc4cb77e8",
+  "official_make_invocation": "make DESIGN_CONFIG=./designs/sky130hd/gcd/config.mk",
+  "orfs": {
+    "default_dependency_chain": [
+      "check-yosys",
+      "check-openroad",
+      "synth",
+      "floorplan",
+      "place",
+      "cts",
+      "route",
+      "finish"
+    ],
+    "default_goal": "all",
+    "image": "openroad/orfs@sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+    "oci_digest": "sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+    "source_commit": "56496f3980fb6e9e58f10c8aea4a98949c0fe5f2",
+    "source_tree": "2b736d484fa7a26b38b1439f177aeb6c1f3e9d5a",
+    "tag_evidence": "26Q3-275-g56496f398"
+  },
+  "push_authorized": false,
+  "reconciliation_evidence_sha256": "e273421e9a259d28a7b10bb91996d37f6433c50cd133b6c0d8a8446b0a81dae2",
+  "runner_sha256": "82cd4400813915beef65a11195f02dc1111bbc8b56c06c0b6dea33ff6dbd851e",
+  "runs": [
+    {
+      "container_root": "/gate03e-run-01",
+      "host_root": "/var/lib/green-ecc-gate03e/runs/gcd-run-01",
+      "id": 1
+    },
+    {
+      "container_root": "/gate03e-run-02",
+      "host_root": "/var/lib/green-ecc-gate03e/runs/gcd-run-02",
+      "id": 2
+    }
+  ],
+  "schema_version": 1
+}

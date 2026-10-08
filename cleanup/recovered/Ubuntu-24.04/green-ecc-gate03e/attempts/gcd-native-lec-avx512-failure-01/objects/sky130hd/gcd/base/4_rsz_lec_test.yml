@@ -1,0 +1,7 @@
+format: verilog
+input_paths:
+  - /gate03e-run-01/results/sky130hd/gcd/base/4_before_rsz_lec.v
+  - /gate03e-run-01/results/sky130hd/gcd/base/4_after_rsz_lec.v
+liberty_files:
+ - /OpenROAD-flow-scripts/flow/platforms/sky130hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+log_file: /gate03e-run-01/logs/sky130hd/gcd/base/4_rsz_lec_check.log

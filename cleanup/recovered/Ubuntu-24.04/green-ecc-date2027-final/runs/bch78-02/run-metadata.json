@@ -1,0 +1,16 @@
+{
+  "clock_period_ns": 10.0,
+  "config": "bch.mk",
+  "design_family": "bch_78_64_t2",
+  "design_top": "gate04_bch_78_64",
+  "end_time_utc": "2026-08-24T11:51:47Z",
+  "physical_exit_status": 0,
+  "physical_failure_reason": "",
+  "physical_seed": 11,
+  "power_failure_reason": "",
+  "power_status": "ACTIVITY_POWER_PASS",
+  "routing_complete": true,
+  "run_id": "bch78-02",
+  "schema_version": 1,
+  "start_time_utc": "2026-08-24T11:26:08Z"
+}

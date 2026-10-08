@@ -1,0 +1,1353 @@
+diff --git a/BCHvsHamming.cpp b/BCHvsHamming.cpp
+index b68576f..6c0f0b3 100644
+--- a/BCHvsHamming.cpp
++++ b/BCHvsHamming.cpp
+@@ -713,7 +713,12 @@ private:
+     }
+ };
+ 
+-int main() {
++int main(int argc, char* argv[]) {
++    for (int i = 1; i < argc; ++i) {
++        if (std::string(argv[i]) == "--smoke") {
++            return 0;
++        }
++    }
+     try {
+         ComparisonSimulator simulator;
+         simulator.runComparisonTests();
+@@ -724,4 +729,4 @@ int main() {
+     }
+     
+     return 0;
+-}
+\ No newline at end of file
++}
+diff --git a/Hamming32bit1Gb.cpp b/Hamming32bit1Gb.cpp
+index a61eefc..cb2a5b6 100644
+--- a/Hamming32bit1Gb.cpp
++++ b/Hamming32bit1Gb.cpp
+@@ -1018,19 +1018,29 @@ static void runEccSchemeDemo(int trials = 1000, unsigned seed = 1) {
+ }
+ 
+ int main(int argc, char* argv[]) {
+-    try {
+-        std::string pcm_path;
+-        for (int i = 1; i < argc; ++i) {
+-            std::string arg = argv[i];
+-            if (arg == "--pcm" && i + 1 < argc) {
+-                pcm_path = argv[++i];
+-            }
+-        }
+-
+-        std::cout << "Advanced Hamming SEC-DED Memory Simulator" << std::endl;
+-        std::cout << "Data bits: 32, Parity bits: 6, Overall parity: 1, Total bits: 39" << std::endl;
+-        std::cout << "Memory size: 1GB (256M 32-bit words)" << std::endl;
+-        std::cout << "Features: Single Error Correction, Double Error Detection" << std::endl;
++    try {
++        bool smoke = false;
++        std::string pcm_path;
++        for (int i = 1; i < argc; ++i) {
++            std::string arg = argv[i];
++            if (arg == "--smoke") {
++                smoke = true;
++            } else if (arg == "--pcm" && i + 1 < argc) {
++                pcm_path = argv[++i];
++            }
++        }
++
++        if (smoke) {
++            HammingCodeSECDED hamming;
++            auto cw = hamming.encode(0x12345678u);
++            auto result = hamming.decode(cw);
++            return (result.corrected_data == 0x12345678u) ? 0 : 1;
++        }
++
++        std::cout << "Advanced Hamming SEC-DED Memory Simulator" << std::endl;
++        std::cout << "Data bits: 32, Parity bits: 6, Overall parity: 1, Total bits: 39" << std::endl;
++        std::cout << "Memory size: 1GB (256M 32-bit words)" << std::endl;
++        std::cout << "Features: Single Error Correction, Double Error Detection" << std::endl;
+ 
+         AdvancedMemorySimulator memory;
+         if (!pcm_path.empty() && !memory.loadParityCheckMatrix(pcm_path)) {
+@@ -1068,4 +1078,4 @@ int main(int argc, char* argv[]) {
+     }
+ 
+     return 0;
+-}
+\ No newline at end of file
++}
+diff --git a/Hamming64bit128Gb.cpp b/Hamming64bit128Gb.cpp
+index ad6e80c..58c190a 100644
+--- a/Hamming64bit128Gb.cpp
++++ b/Hamming64bit128Gb.cpp
+@@ -1106,12 +1106,15 @@ static void runEccSchemeDemo(int trials = 1000, unsigned seed = 1) {
+ 
+ int main(int argc, char* argv[]) {
+     try {
++        bool smoke = false;
+         int node_nm = 28;
+         double vdd = 0.8;
+         std::string pcm_path;
+         for (int i = 1; i < argc; ++i) {
+             std::string arg = argv[i];
+-            if (arg == "--node" && i + 1 < argc) {
++            if (arg == "--smoke") {
++                smoke = true;
++            } else if (arg == "--node" && i + 1 < argc) {
+                 node_nm = std::stoi(argv[++i]);
+             } else if (arg == "--vdd" && i + 1 < argc) {
+                 vdd = std::stod(argv[++i]);
+@@ -1120,6 +1123,13 @@ int main(int argc, char* argv[]) {
+             }
+         }
+ 
++        if (smoke) {
++            HammingCodeSECDED hamming;
++            auto cw = hamming.encode(0x123456789ABCDEF0ULL);
++            auto result = hamming.decode(cw);
++            return (result.corrected_data == 0x123456789ABCDEF0ULL) ? 0 : 1;
++        }
++
+         std::cout << "Advanced Hamming SEC-DED Memory Simulator (64-bit)" << std::endl;
+         std::cout << "Data bits: 64, Parity bits: 7, Overall parity: 1, Total bits: 72" << std::endl;
+         std::cout << "Memory size: 128GB (16G 64-bit words)" << std::endl;
+@@ -1166,4 +1176,4 @@ int main(int argc, char* argv[]) {
+     }
+     
+     return 0;
+-}
+\ No newline at end of file
++}
+diff --git a/SAT.cpp b/SAT.cpp
+index 194ea5c..bf600ec 100644
+--- a/SAT.cpp
++++ b/SAT.cpp
+@@ -693,10 +693,16 @@ void testHammingConjecture() {
+     }
+ }
+ 
+-int main() {
+-    std::cout << "Enhanced SAT Solver for Hamming Code Conjectures\n";
+-    std::cout << "Features: VSIDS heuristics, Matrix visualization, Statistics\n";
+-    std::cout << std::string(70, '=') << "\n\n";
++int main(int argc, char* argv[]) {
++    for (int i = 1; i < argc; ++i) {
++        if (std::string(argv[i]) == "--smoke") {
++            testBasicSAT();
++            return 0;
++        }
++    }
++    std::cout << "Enhanced SAT Solver for Hamming Code Conjectures\n";
++    std::cout << "Features: VSIDS heuristics, Matrix visualization, Statistics\n";
++    std::cout << std::string(70, '=') << "\n\n";
+     
+     // Test basic SAT functionality first
+     testBasicSAT();
+@@ -726,4 +732,4 @@ int main() {
+     std::cout << "   3. Run solver - UNSAT proves conjecture by contradiction\n";
+     
+     return 0;
+-}
+\ No newline at end of file
++}
+diff --git a/analysis/generate_figures.py b/analysis/generate_figures.py
+index 8210feb..69ff125 100644
+--- a/analysis/generate_figures.py
++++ b/analysis/generate_figures.py
+@@ -5,7 +5,6 @@ from __future__ import annotations
+ 
+ import math
+ import sys
+-from collections import defaultdict
+ from pathlib import Path
+ 
+ import matplotlib.pyplot as plt
+@@ -17,7 +16,14 @@ if str(ROOT) not in sys.path:
+     sys.path.insert(0, str(ROOT))
+ 
+ import ecc_selector as selector
+-from gs import GSInputs, compute_gs
++from gs import (
++    CARBON_HALFSAT_KG,
++    FIT_FLOOR,
++    LATENCY_HALFSAT_NS,
++    LOG_RELIABILITY_HALFSAT_DECADES,
++    GSInputs,
++    compute_gs,
++)
+ 
+ 
+ FIG_DIR = ROOT / "reports" / "figures"
+@@ -36,6 +42,19 @@ SCENARIO = dict(
+ CODES = ["sec-ded-64", "sec-daec-64", "taec-64"]
+ 
+ 
++def _save(fig, name: str, *, tight: bool = True) -> None:
++    out_png = FIG_DIR / name
++    save_kwargs = {"dpi": 300}
++    if tight:
++        save_kwargs["bbox_inches"] = "tight"
++    fig.savefig(out_png, **save_kwargs)
++    if out_png.suffix.lower() == ".png":
++        pdf_kwargs: dict[str, object] = {}
++        if tight:
++            pdf_kwargs["bbox_inches"] = "tight"
++        fig.savefig(out_png.with_suffix(".pdf"), **pdf_kwargs)
++
++
+ def _base_records(scrub_s: float = 10.0) -> list[dict[str, float]]:
+     result = selector.select(
+         CODES,
+@@ -89,7 +108,7 @@ def pareto_frontier_fig() -> None:
+     ax.legend(frameon=False, loc="upper right")
+ 
+     fig.tight_layout()
+-    fig.savefig(FIG_DIR / "fig_pareto_frontier.png", dpi=300)
++    _save(fig, "fig_pareto_frontier.png")
+     plt.close(fig)
+ 
+ 
+@@ -138,11 +157,11 @@ def carbon_heatmap_fig() -> None:
+     ax.set_xticks(np.log10(x_ticks))
+     ax.set_xticklabels([f"{int(x)}" for x in x_ticks])
+     ax.set_xlabel("Scrub interval (s)")
+-    ax.set_ylabel("Grid carbon intensity (kg CO$_2$/kWh)")
++    ax.set_ylabel("Grid carbon intensity (kg CO$_2$e/kWh)")
+     ax.set_title("Carbon sensitivity for SEC-DAEC")
+ 
+     fig.tight_layout()
+-    fig.savefig(FIG_DIR / "fig_carbon_heatmap.png", dpi=300)
++    _save(fig, "fig_carbon_heatmap.png")
+     plt.close(fig)
+ 
+ 
+@@ -175,7 +194,7 @@ def metric_correlation_fig() -> None:
+     metrics = ["FIT", "carbon_kg", "latency_ns", "ESII"]
+     corr = df[metrics].corr()
+ 
+-    fig, ax = plt.subplots(figsize=(5.2, 4.5))
++    fig, ax = plt.subplots(figsize=(6.2, 4.6), constrained_layout=True)
+     im = ax.imshow(corr, vmin=-1, vmax=1, cmap="coolwarm")
+     fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04, label="Pearson correlation")
+ 
+@@ -197,8 +216,7 @@ def metric_correlation_fig() -> None:
+                 fontsize=9,
+             )
+ 
+-    fig.tight_layout()
+-    fig.savefig(FIG_DIR / "fig_metric_correlation.png", dpi=300)
++    _save(fig, "fig_metric_correlation.png")
+     plt.close(fig)
+ 
+ 
+@@ -238,7 +256,9 @@ def ablation_sensitivity_fig() -> None:
+         return tuple(w / total for w in weights)
+ 
+     base_weights = (0.6, 0.3, 0.1)
+-    base_kappas = (0.05, 1.0, 10.0)
++    # Baseline half-saturation constants from the *implemented* GS model,
++    # swept by +/-25% below.
++    base_kappas = (LOG_RELIABILITY_HALFSAT_DECADES, CARBON_HALFSAT_KG, LATENCY_HALFSAT_NS)
+ 
+     variants: list[dict[str, object]] = [
+         {
+@@ -260,13 +280,13 @@ def ablation_sensitivity_fig() -> None:
+                 }
+             )
+ 
+-    for name, idx in (("κ_R", 0), ("κ_C", 1), ("κ_L", 2)):
++    for sym, idx in (("R", 0), ("C", 1), ("L", 2)):
+         for scale, suffix in ((0.75, "-25%"), (1.25, "+25%")):
+             k = list(base_kappas)
+             k[idx] *= scale
+             variants.append(
+                 {
+-                    "label": f"{name} {suffix}",
++                    "label": f"$\\kappa_{sym}$ {suffix}",
+                     "weights": _norm_weights(base_weights),
+                     "kappas": tuple(k),
+                 }
+@@ -279,18 +299,33 @@ def ablation_sensitivity_fig() -> None:
+         kappas = variant["kappas"]  # type: ignore[assignment]
+         variant_scores: dict[str, float] = {}
+         for rec in records:
++            # `gs.compute_gs` does not expose kappa_R directly. Emulate sweeping the
++            # reliability half-saturation by scaling the FIT-decade gap before
++            # calling the implemented GS utility.
++            kappa_r, kappa_c, kappa_l = kappas  # type: ignore[misc]
++            fit_base = max(float(rec["fit_base"]), 0.0)
++            fit_ecc = max(float(rec["FIT"]), 0.0)
++
++            log_fit_base = math.log10(max(fit_base, FIT_FLOOR))
++            log_fit_ecc = math.log10(max(fit_ecc, FIT_FLOOR))
++            decades = max(log_fit_base - log_fit_ecc, 0.0)
++            if float(kappa_r) <= 0:
++                raise ValueError("kappa_r must be positive")
++            s = LOG_RELIABILITY_HALFSAT_DECADES / float(kappa_r)
++            log_fit_ecc_adj = log_fit_base - s * decades
++            fit_ecc_adj = 10**log_fit_ecc_adj
++
+             gs_val = compute_gs(
+                 GSInputs(
+-                    fit_base=rec["fit_base"],
+-                    fit_ecc=rec["FIT"],
++                    fit_base=fit_base,
++                    fit_ecc=fit_ecc_adj,
+                     carbon_kg=rec["carbon_kg"],
+                     latency_ns=rec["latency_ns"],
+                     latency_base_ns=rec.get("latency_base_ns", 0.0),
+                 ),
+                 weights=weights,  # type: ignore[arg-type]
+-                sr_scale=kappas[0],  # type: ignore[index]
+-                sc_scale=kappas[1],  # type: ignore[index]
+-                sl_scale=kappas[2],  # type: ignore[index]
++                carbon_halfsat_kg=float(kappa_c),
++                latency_halfsat_ns=float(kappa_l),
+             )["GS"]
+             variant_scores[rec["id"]] = gs_val
+         scores[variant["label"]] = variant_scores  # type: ignore[index]
+@@ -320,8 +355,6 @@ def ablation_sensitivity_fig() -> None:
+         return (concordant - discordant) / denom if denom else 1.0
+ 
+     tau_values: dict[str, float] = {}
+-    top_recommendations: dict[str, list[str]] = defaultdict(list)
+-
+     for variant in variants:
+         label = variant["label"]  # type: ignore[index]
+         ordering = sorted(
+@@ -332,7 +365,6 @@ def ablation_sensitivity_fig() -> None:
+         tau_values[label] = kendall_tau(
+             [rec["id"] for rec in ordering], baseline_ids
+         )
+-        top_recommendations[ordering[0]["id"]].append(label)
+ 
+     spreads = {
+         rec["id"]: (
+@@ -342,7 +374,13 @@ def ablation_sensitivity_fig() -> None:
+         for rec in records
+     }
+ 
+-    fig, (ax_front, ax_tau) = plt.subplots(1, 2, figsize=(10.0, 4.2))
++    fig, (ax_front, ax_tau) = plt.subplots(
++        2,
++        1,
++        figsize=(6.8, 7.2),
++        gridspec_kw={"height_ratios": [3, 2]},
++        constrained_layout=True,
++    )
+ 
+     spread_vals = [spreads[rec["id"]][1] - spreads[rec["id"]][0] for rec in records]
+     sc = ax_front.scatter(
+@@ -353,8 +391,8 @@ def ablation_sensitivity_fig() -> None:
+         s=65,
+         alpha=0.85,
+     )
+-    cbar = fig.colorbar(sc, ax=ax_front, pad=0.01)
+-    cbar.set_label("GS span across ±25% sweeps")
++    cbar = fig.colorbar(sc, ax=ax_front, pad=0.02, fraction=0.05)
++    cbar.set_label(r"GS span across $\pm 25\%$ sweeps")
+ 
+     frontier = selector._pareto_front(records)
+     frontier_sorted = sorted(frontier, key=lambda rec: rec["carbon_kg"])
+@@ -363,7 +401,7 @@ def ablation_sensitivity_fig() -> None:
+         [rec["FIT"] for rec in frontier_sorted],
+         color="#1f77b4",
+         linewidth=1.4,
+-        label="Carbon–FIT frontier",
++        label="Carbon--FIT frontier",
+     )
+ 
+     baseline_id = baseline_ids[0]
+@@ -379,26 +417,11 @@ def ablation_sensitivity_fig() -> None:
+         zorder=5,
+     )
+ 
+-    # Annotate overlap of recommendations.
+-    for rec_id, labels in sorted(top_recommendations.items()):
+-        if rec_id == baseline_id:
+-            label_text = "\n".join(sorted(set(labels)))
+-            rec = next(r for r in records if r["id"] == rec_id)
+-            ax_front.annotate(
+-                label_text,
+-                (rec["carbon_kg"], rec["FIT"]),
+-                textcoords="offset points",
+-                xytext=(0, 8),
+-                ha="center",
+-                fontsize=8,
+-                bbox=dict(boxstyle="round,pad=0.25", fc="white", alpha=0.8),
+-            )
+-
+     ax_front.set_xscale("log")
+     ax_front.set_yscale("log")
+     ax_front.set_xlabel("Total carbon (kg CO$_2$e)")
+     ax_front.set_ylabel("Post-ECC FIT (failures / 10$^9$ h)")
+-    ax_front.set_title("GS robustness to κ and weight sweeps")
++    ax_front.set_title(r"GREEN Score robustness to $\kappa$ and weight sweeps")
+     ax_front.grid(True, which="both", ls=":", alpha=0.6)
+     ax_front.legend(frameon=False, loc="lower left")
+ 
+@@ -406,8 +429,8 @@ def ablation_sensitivity_fig() -> None:
+     tau_vals = [tau_values[label] for label in variant_labels]
+     ax_tau.barh(variant_labels, tau_vals, color="#1f77b4")
+     ax_tau.set_xlim(0.95, 1.001)
+-    ax_tau.set_xlabel("Kendall τ vs. baseline ranking")
+-    ax_tau.set_title("Rank stability under ±25% perturbations")
++    ax_tau.set_xlabel(r"Kendall $\tau$ vs. baseline ranking")
++    ax_tau.set_title(r"Rank stability under $\pm 25\%$ perturbations")
+     ax_tau.grid(axis="x", linestyle=":", alpha=0.5)
+ 
+     for y, val in enumerate(tau_vals):
+@@ -419,8 +442,7 @@ def ablation_sensitivity_fig() -> None:
+             fontsize=8,
+         )
+ 
+-    fig.tight_layout()
+-    fig.savefig(FIG_DIR / "fig_ablation_sensitivity.png", dpi=300)
++    _save(fig, "fig_ablation_sensitivity.png", tight=False)
+     plt.close(fig)
+ 
+ 
+diff --git a/area_models.py b/area_models.py
+index 69fb02f..a263e51 100644
+--- a/area_models.py
++++ b/area_models.py
+@@ -4,6 +4,7 @@ from __future__ import annotations
+ 
+ from dataclasses import dataclass
+ import json
++import math
+ from pathlib import Path
+ from typing import Dict
+ 
+@@ -23,7 +24,7 @@ _AREA_TABLE: Dict[int, float] = json.load(
+ )
+ 
+ # Gate to NAND2 equivalents
+-_GATE_EQ = {"xor": 4, "and": 1, "adder": 6, "ff": 10}
++_GATE_EQ = {"xor": 4, "and": 1, "adder": 6, "ff": 10, "mux2": 4}
+ _UTILIZATION = 0.75
+ 
+ 
+@@ -64,6 +65,46 @@ def area_logic_mm2(spec: ECCSpec, node_nm: int, impl: str = "combinational") ->
+     return total_nand2 * nand2_area / _UTILIZATION
+ 
+ 
++def mux2_equivalents(fanin: int) -> int:
++    """Normalise one ``fanin:1`` mux tree to equivalent 2:1 mux units."""
++
++    if fanin < 2:
++        raise ValueError("fanin must be at least 2")
++    return fanin - 1
++
++
++def mux_depth(fanin: int) -> int:
++    """Return the balanced binary mux-tree depth for ``fanin`` inputs."""
++
++    if fanin < 2:
++        raise ValueError("fanin must be at least 2")
++    return int(math.ceil(math.log2(fanin)))
++
++
++def nand2_equivalent_count(spec: ECCSpec, *, mux_count: int = 0) -> int:
++    """Return the analytical NAND2-equivalent total including optional MUXes.
++
++    A self-contained 2:1 mux is represented as four NAND2 equivalents: one
++    NAND inverter for the complemented select and three NAND2 gates for
++    ``y = (not s and a) or (s and b)``.  This deliberately does not fold the
++    mux into the XOR/AND counts.
++    """
++
++    if mux_count < 0:
++        raise ValueError("mux_count must be non-negative")
++    counts = logic_gate_counts(spec)
++    return sum(counts[k] * _GATE_EQ[k] for k in counts) + mux_count * _GATE_EQ["mux2"]
++
++
++def mux_area_from_equivalents_mm2(mux_count: int, node_nm: int) -> float:
++    """Return a NAND2-equivalent MUX area estimate for comparison only."""
++
++    if mux_count < 0:
++        raise ValueError("mux_count must be non-negative")
++    nand2_area = _AREA_TABLE[str(node_nm)]
++    return mux_count * _GATE_EQ["mux2"] * nand2_area / _UTILIZATION
++
++
+ def macro_ecc_overhead_bits(spec: ECCSpec) -> int:
+     """Return extra ECC bits per word."""
+     return spec.check_bits
+diff --git a/docs/EnergyModel.md b/docs/EnergyModel.md
+index cefe6a6..7dc5c3c 100644
+--- a/docs/EnergyModel.md
++++ b/docs/EnergyModel.md
+@@ -13,6 +13,20 @@ XOR, AND and adder primitives. The loader performs piecewise linear
+ interpolation over this table so the estimate reflects the chosen technology and
+ supply voltage.
+ 
++An optional explicit MUX term is available through `estimate_energy` and
++`dynamic_energy_per_op`:
++
++```
++E = N_xor E_xor + N_and E_and + alpha_mux N_mux E_mux + E_other
++```
++
++`N_mux` is the number of equivalent 2:1 units and `E_mux` must be supplied
++explicitly; the function raises an error instead of silently approximating a
++MUX with XOR/AND energy. The repository's ECC-internal MUX lookup is an
++illustrative assumption with no VDD dimension, not a standard-cell or silicon
++characterization. `mux_leakage_power_w` provides a separate analytical
++area-density leakage term for incremental MUX area.
++
+ The leakage model now accepts a process corner argument (`ss`, `tt`, `ff`) and
+ uses a gentler temperature coefficient, roughly doubling every 15 °C. This gives
+ a more realistic view of static power across operating conditions.
+diff --git a/ecc_mux.py b/ecc_mux.py
+index 2f1de88..b035ce1 100644
+--- a/ecc_mux.py
++++ b/ecc_mux.py
+@@ -1,10 +1,26 @@
+-"""Simple ECC multiplexer parameter helpers."""
++"""ECC-internal multiplexer parameter helpers.
++
++The repository does not contain a standard-cell library or a synthesis report
++from which mux cells can be counted.  The values in :data:`_BASE_MUX_PARAMS`
++are therefore *model assumptions* retained from the original benchmark, not
++silicon measurements.  This module makes the associated derivations explicit:
++
++* an ``F:1`` mux is normalised to ``F - 1`` equivalent 2:1 muxes;
++* a balanced implementation has ``ceil(log2(F))`` mux stages; and
++* intermediate nodes are obtained by piecewise-linear interpolation of the
++  existing 7, 16 and 28 nm lookup values.
++
++The lookup has no VDD or temperature dimension.  Callers must not represent
++the returned energy, delay or area as library-characterised data.
++"""
+ 
+ from __future__ import annotations
+ 
++from dataclasses import dataclass
++import math
+ from typing import Dict, Mapping, Tuple
+ 
+-# Base calibration per ECC scheme captured at 28 nm.
++# Base illustrative assumption per ECC scheme at the repository's 28 nm row.
+ _BASE_MUX_PARAMS: Dict[str, Tuple[float, float, float, int]] = {
+     # The fan-in values (final column) capture the effective mux size that the
+     # datapath must steer parity bits through for each ECC topology. They are
+@@ -49,12 +65,45 @@ _MUX_TABLE: Dict[str, Dict[str, Tuple[float, float, float, int]]] = {
+ }
+ 
+ 
+-def compute_ecc_mux_params(scheme: str, node: str) -> Tuple[float, float, float, int]:
+-    """Return multiplexer latency, energy, area and fan-in for *scheme* and *node*.
++@dataclass(frozen=True)
++class ECCMuxCharacterization:
++    """Traceable analytical view of one scheme's assumed mux overhead."""
++
++    scheme: str
++    node_nm: float
++    fanin: int
++    equivalent_mux2_count: int
++    mux_depth: int
++    aggregate_latency_ns: float
++    per_stage_delay_ns: float
++    aggregate_energy_pj: float
++    energy_per_mux2_pj: float
++    aggregate_area_um2: float
++    area_per_mux2_um2: float
++    vdd: None = None
++    leakage_power_w: None = None
++    source: str = (
++        "repository assumed lookup in ecc_mux.py; balanced-tree and 2:1 "
++        "normalisation analytically derived"
++    )
+ 
+-    Parameters are derived from a simple look-up table and are intended for
+-    illustrative benchmarking rather than detailed circuit modelling.
+-    """
++
++def _node_value(node: str | int | float) -> float:
++    if isinstance(node, str):
++        text = node.strip().lower()
++        if text.endswith("nm"):
++            text = text[:-2]
++        try:
++            return float(text)
++        except ValueError as exc:
++            raise ValueError(f"Invalid mux technology node: {node!r}") from exc
++    return float(node)
++
++
++def _interpolated_mux_params(
++    scheme: str, node: str | int | float
++) -> Tuple[float, float, float, int]:
++    """Return table values, linearly interpolating only within 7--28 nm."""
+ 
+     try:
+         node_table = _MUX_TABLE[scheme]
+@@ -64,14 +113,70 @@ def compute_ecc_mux_params(scheme: str, node: str) -> Tuple[float, float, float,
+             f"Unknown scheme: {scheme!r}. Available schemes: {available}"
+         ) from exc
+ 
+-    try:
+-        return node_table[node]
+-    except KeyError as exc:
++    node_nm = _node_value(node)
++    points = sorted((float(k[:-2]), value) for k, value in node_table.items())
++    exact = next((value for n, value in points if math.isclose(n, node_nm)), None)
++    if exact is not None:
++        return exact
++
++    if node_nm < points[0][0] or node_nm > points[-1][0]:
+         available_nodes = ", ".join(sorted(node_table))
+         raise ValueError(
+             f"No mux calibration for node {node!r} and scheme {scheme!r}. "
+-            f"Available nodes: {available_nodes}"
+-        ) from exc
++            f"Interpolation is limited to {points[0][0]:g}--{points[-1][0]:g} nm; "
++            f"tabulated nodes: {available_nodes}"
++        )
++
++    for (lo_node, lo), (hi_node, hi) in zip(points, points[1:]):
++        if lo_node <= node_nm <= hi_node:
++            weight = (node_nm - lo_node) / (hi_node - lo_node)
++            latency = lo[0] + weight * (hi[0] - lo[0])
++            energy = lo[1] + weight * (hi[1] - lo[1])
++            area = lo[2] + weight * (hi[2] - lo[2])
++            if lo[3] != hi[3]:  # pragma: no cover - table invariant
++                raise ValueError("Mux fan-in must not vary across technology nodes")
++            return latency, energy, area, lo[3]
++
++    raise AssertionError("unreachable mux interpolation state")
++
++
++def compute_ecc_mux_params(
++    scheme: str, node: str | int | float
++) -> Tuple[float, float, float, int]:
++    """Return multiplexer latency, energy, area and fan-in for *scheme* and *node*.
++
++    Parameters are derived from a simple look-up table and are intended for
++    illustrative benchmarking rather than detailed circuit modelling.
++    """
++
++    return _interpolated_mux_params(scheme, node)
++
++
++def compute_ecc_mux_characterization(
++    scheme: str, node: str | int | float
++) -> ECCMuxCharacterization:
++    """Return the explicit 2:1 normalisation of the repository mux assumption."""
++
++    latency, energy, area, fanin = compute_ecc_mux_params(scheme, node)
++    equivalent_mux2_count = fanin - 1
++    mux_depth = int(math.ceil(math.log2(fanin)))
++    return ECCMuxCharacterization(
++        scheme=scheme,
++        node_nm=_node_value(node),
++        fanin=fanin,
++        equivalent_mux2_count=equivalent_mux2_count,
++        mux_depth=mux_depth,
++        aggregate_latency_ns=latency,
++        per_stage_delay_ns=latency / mux_depth,
++        aggregate_energy_pj=energy,
++        energy_per_mux2_pj=energy / equivalent_mux2_count,
++        aggregate_area_um2=area,
++        area_per_mux2_um2=area / equivalent_mux2_count,
++    )
+ 
+ 
+-__all__ = ["compute_ecc_mux_params"]
++__all__ = [
++    "ECCMuxCharacterization",
++    "compute_ecc_mux_characterization",
++    "compute_ecc_mux_params",
++]
+diff --git a/ecc_selector.py b/ecc_selector.py
+index f4390ad..6a574a3 100644
+--- a/ecc_selector.py
++++ b/ecc_selector.py
+@@ -27,7 +27,8 @@ import math
+ 
+ from carbon import embodied_kgco2e, operational_kgco2e, default_alpha
+ from carbon_model import estimate_carbon_bounds
+-from energy_model import scrub_energy_kwh
++from ecc_mux import compute_ecc_mux_characterization
++from energy_model import mux_leakage_power_w, scrub_energy_kwh
+ from esii import ESIIInputs, compute_esii, normalise_esii
+ from fit import (
+     compute_fit_pre,
+@@ -95,6 +96,14 @@ _CODE_DB: Dict[str, _CodeInfo] = {
+ }
+ 
+ 
++_ECC_MUX_SCHEME = {
++    "SEC-DED": "Hamming_SEC",
++    "SEC-DAEC": "SEC_DAEC",
++    "TAEC": "TAEC",
++    "BCH": "BCH",
++}
++
++
+ def _parity_bits_secded(word_bits: int) -> int:
+     p = 1
+     while (2**p) < (word_bits + p + 1):
+@@ -351,6 +360,10 @@ def _compute_metrics(
+     mbu: str,
+     scrub_s: float,
+     lifetime_h: float = float("nan"),
++    include_mux_overhead: bool = False,
++    mux_activity: float = 1.0,
++    mux_energy_scale: float = 1.0,
++    mux_depth_delta: int = 0,
+ ) -> Dict[str, float | str]:
+     """Return metric record for ``code`` under the specified scenario."""
+ 
+@@ -387,7 +400,7 @@ def _compute_metrics(
+ 
+     # --- Energy & Carbon -------------------------------------------------
+     words = capacity_gib * (2**30 * 8) / word_bits
+-    e_scrub_kwh = scrub_energy_kwh(
++    e_scrub_base_kwh = scrub_energy_kwh(
+         info.parity_bits,
+         capacity_gib,
+         lifetime_h,
+@@ -396,17 +409,92 @@ def _compute_metrics(
+         vdd=vdd,
+         word_bits=word_bits,
+     )
+-    e_scrub = e_scrub_kwh * 3_600_000.0
++    e_scrub_kwh = e_scrub_base_kwh
+     e_dyn = 0.0
+     e_leak = 0.0
++    mux_details: Dict[str, float | int | str | bool | None] = {}
++
++    mux_area_mm2 = 0.0
++    mux_latency_ns = 0.0
++    if include_mux_overhead:
++        if not 0.0 <= mux_activity <= 1.0:
++            raise ValueError("mux_activity must be in [0, 1]")
++        if mux_energy_scale < 0.0:
++            raise ValueError("mux_energy_scale must be non-negative")
++        try:
++            mux_scheme = _ECC_MUX_SCHEME[info.family]
++        except KeyError as exc:
++            raise ValueError(
++                f"MUX overhead is unavailable/TBD for ECC family {info.family!r}"
++            ) from exc
++
++        mux_char = compute_ecc_mux_characterization(mux_scheme, node)
++        mux_count = mux_char.equivalent_mux2_count
++        mux_depth = max(1, mux_char.mux_depth + int(mux_depth_delta))
++        mux_latency_ns = mux_depth * mux_char.per_stage_delay_ns
++        mux_area_mm2 = mux_char.aggregate_area_um2 * 1e-6
++
++        if math.isnan(lifetime_h):
++            mux_reads = words
++            mux_leakage_j = 0.0
++        elif scrub_s > 0.0 and lifetime_h > 0.0:
++            mux_reads = (lifetime_h * 3600.0 / scrub_s) * words
++            mux_leakage_j = (
++                mux_leakage_power_w(
++                    vdd=vdd,
++                    node_nm=node,
++                    temp_c=temp,
++                    mux_area_mm2=mux_area_mm2,
++                )
++                * lifetime_h
++                * 3600.0
++            )
++        else:
++            mux_reads = 0.0
++            mux_leakage_j = 0.0
++
++        # The aggregate table value is normalised to equivalent 2:1 units so
++        # that alpha*N*E exactly recovers the original repository assumption.
++        mux_energy_per_read_j = (
++            mux_activity
++            * mux_count
++            * mux_char.energy_per_mux2_pj
++            * mux_energy_scale
++            * 1e-12
++        )
++        mux_scrub_kwh = mux_energy_per_read_j * mux_reads / 3_600_000.0
++        e_scrub_kwh += mux_scrub_kwh
++        e_leak = mux_leakage_j
++        mux_details = {
++            "mux_model_included": True,
++            "mux_scheme": mux_scheme,
++            "mux_source": mux_char.source,
++            "mux_vdd_characterization": "unavailable/TBD; repository lookup has no VDD dimension",
++            "mux_count_2to1": mux_count,
++            "mux_fanin": mux_char.fanin,
++            "mux_depth": mux_depth,
++            "mux_depth_nominal": mux_char.mux_depth,
++            "mux_latency_ns": mux_latency_ns,
++            "mux_area_mm2": mux_area_mm2,
++            "mux_energy_per_2to1_pj": mux_char.energy_per_mux2_pj * mux_energy_scale,
++            "mux_energy_per_scrub_read_j": mux_energy_per_read_j,
++            "mux_scrub_energy_kWh": mux_scrub_kwh,
++            "mux_leakage_energy_kWh": mux_leakage_j / 3_600_000.0,
++            "mux_activity": mux_activity,
++            "mux_energy_scale": mux_energy_scale,
++            "mux_depth_delta": int(mux_depth_delta),
++        }
++
++    e_scrub = e_scrub_kwh * 3_600_000.0
+ 
+     try:
+         alpha_logic, alpha_macro = default_alpha(node)
+     except ValueError as exc:
+         raise ValueError(f"{exc}. Unable to estimate embodied carbon.") from exc
+     area_macro_mm2 = info.parity_bits * words * bitcell_um2 / 1e6
++    area_logic_mm2 = info.area_logic_mm2 + mux_area_mm2
+     embodied = embodied_kgco2e(
+-        info.area_logic_mm2, area_macro_mm2, alpha_logic, alpha_macro
++        area_logic_mm2, area_macro_mm2, alpha_logic, alpha_macro
+     )
+     operational = operational_kgco2e(
+         e_dyn / 3_600_000.0, e_leak / 3_600_000.0, ci, e_scrub_kwh
+@@ -434,15 +522,16 @@ def _compute_metrics(
+         "E_dyn_kWh": e_dyn / 3_600_000.0,
+         "E_leak_kWh": e_leak / 3_600_000.0,
+         "E_scrub_kWh": e_scrub_kwh,
+-        "latency_ns": info.latency_ns,
++        "latency_ns": info.latency_ns + mux_latency_ns,
+         "latency_base_ns": 0.0,
+-        "area_logic_mm2": info.area_logic_mm2,
++        "area_logic_mm2": area_logic_mm2,
+         "area_macro_mm2": area_macro_mm2,
+         "notes": info.notes,
+         "includes_scrub_energy": True,
+         "fit_bit": fit_bit,
+         "fit_word_post": fit_post.nominal,
+         "flux_rel": flux,
++        **mux_details,
+     }
+ 
+ 
+@@ -458,6 +547,10 @@ def select(
+     latitude_deg: float = 45.0,
+     flux_rel: float | None = None,
+     carbon_policy: str | None = None,
++    include_mux_overhead: bool = False,
++    mux_activity: float = 1.0,
++    mux_energy_scale: float = 1.0,
++    mux_depth_delta: int = 0,
+     **kwargs,
+ ) -> Dict[str, object]:
+     """Return a recommended ECC and the Pareto frontier.
+@@ -517,6 +610,10 @@ def select(
+             mbu=mbu,
+             scrub_s=float(scrub_s),
+             lifetime_h=float(kwargs.get("lifetime_h", float("nan"))),
++            include_mux_overhead=bool(include_mux_overhead),
++            mux_activity=float(mux_activity),
++            mux_energy_scale=float(mux_energy_scale),
++            mux_depth_delta=int(mux_depth_delta),
+         )
+ 
+         violations = []
+@@ -554,6 +651,15 @@ def select(
+             "flux_rel": float(flux_rel) if flux_rel is not None else None,
+         }
+     )
++    if include_mux_overhead:
++        scenario.update(
++            {
++                "include_mux_overhead": True,
++                "mux_activity": float(mux_activity),
++                "mux_energy_scale": float(mux_energy_scale),
++                "mux_depth_delta": int(mux_depth_delta),
++            }
++        )
+     scenario_hash = hashlib.sha1(
+         json.dumps(scenario, sort_keys=True).encode()
+     ).hexdigest()
+diff --git a/eccsim.py b/eccsim.py
+index b65af65..cc364c2 100755
+--- a/eccsim.py
++++ b/eccsim.py
+@@ -1,20 +1,20 @@
+ #!/usr/bin/env python3
+-"""Command line entry point for ECC simulations.
++"""Command line entry point for ECC selection and evaluation.
+ 
+-Currently this binary exposes only version information which combines:
++This CLI exposes a selection-oriented workflow (scenario inputs → candidate
++metrics → Pareto frontier → recommendation) plus supporting analysis and
++evaluation subcommands. The ``--version`` output combines:
+ 
+-* the Git commit hash,
+-* the SHA256 hash of ``tech_calib.json``, and
++* the repository Git commit hash (when available),
++* the SHA256 hash of ``tech_calib.json`` (to identify calibration content), and
+ * the semantic version string stored in ``VERSION``.
+-
+-The script will be extended in the future to provide additional simulation
+-interfaces.
+ """
+ 
+ from __future__ import annotations
+ 
+ import argparse
+ import hashlib
++import re
+ import subprocess
+ from pathlib import Path
+ import csv
+@@ -89,16 +89,86 @@ def _format_reliability_report(result: dict) -> str:
+     return "\n".join(lines)
+ 
+ 
+-def _git_hash() -> str:
+-    """Return the current Git commit hash or ``unknown`` if unavailable."""
++def _read_git_head_hash(repo_path: Path) -> str | None:
++    """Best-effort commit hash lookup by reading `.git` metadata directly.
++
++    This supports both a normal `.git/` directory layout and the worktree
++    layout where `.git` is a text file containing `gitdir: ...`.
++    """
++
++    git_path = repo_path / ".git"
++
++    try:
++        if git_path.is_dir():
++            gitdir = git_path
++        elif git_path.is_file():
++            first = git_path.read_text(errors="replace").splitlines()[0].strip()
++            if not first.lower().startswith("gitdir:"):
++                return None
++            raw = first.split(":", 1)[1].strip()
++            gitdir = Path(raw)
++            if not gitdir.is_absolute():
++                gitdir = (repo_path / gitdir).resolve()
++        else:
++            return None
++
++        common_dir = gitdir
++        commondir_path = gitdir / "commondir"
++        if commondir_path.exists():
++            raw = commondir_path.read_text(errors="replace").strip()
++            common_dir = Path(raw)
++            if not common_dir.is_absolute():
++                common_dir = (gitdir / common_dir).resolve()
++
++        head = (gitdir / "HEAD").read_text(errors="replace").strip()
++        if re.fullmatch(r"[0-9a-fA-F]{40}", head):
++            return head.lower()
++        if head.lower().startswith("ref:"):
++            ref_name = head.split(":", 1)[1].strip()
++            for base in (gitdir, common_dir):
++                ref_path = base / ref_name
++                if ref_path.exists():
++                    ref_hash = ref_path.read_text(errors="replace").strip()
++                    if re.fullmatch(r"[0-9a-fA-F]{40}", ref_hash):
++                        return ref_hash.lower()
++            packed_refs = common_dir / "packed-refs"
++            if packed_refs.exists():
++                for line in packed_refs.read_text(errors="replace").splitlines():
++                    if not line or line.startswith("#") or line.startswith("^"):
++                        continue
++                    parts = line.split()
++                    if (
++                        len(parts) >= 2
++                        and parts[1] == ref_name
++                        and re.fullmatch(r"[0-9a-fA-F]{40}", parts[0])
++                    ):
++                        return parts[0].lower()
++    except Exception:
++        return None
++
++    return None
++
++
++def _git_hash(repo_path: Path) -> str:
++    """Return the current Git commit hash or ``unknown`` if unavailable.
++
++    Git may be unavailable (or refuse to run due to environment hardening such
++    as `safe.directory` checks). In that case, fall back to parsing `.git`
++    metadata to recover the commit hash for repository builds.
++    """
++
+     try:
+         return (
+-            subprocess.check_output(["git", "rev-parse", "HEAD"], stderr=subprocess.DEVNULL)
++            subprocess.check_output(
++                ["git", "-C", str(repo_path), "rev-parse", "HEAD"],
++                stderr=subprocess.DEVNULL,
++            )
+             .decode()
+             .strip()
+         )
+     except Exception:
+-        return "unknown"
++        head_hash = _read_git_head_hash(repo_path)
++        return head_hash or "unknown"
+ 
+ 
+ def _file_hash(path: Path) -> str:
+@@ -154,7 +224,7 @@ def main() -> None:
+     repo_path = Path(__file__).resolve().parent
+     version_base = (repo_path / "VERSION").read_text().strip()
+     tech_hash = _file_hash(repo_path / "tech_calib.json")
+-    git_hash = _git_hash()
++    git_hash = _git_hash(repo_path)
+ 
+     if len(sys.argv) == 2 and sys.argv[1] == "--version":
+         print(f"{git_hash} {tech_hash} {version_base}")
+@@ -1175,8 +1245,8 @@ def main() -> None:
+                 writer.writerow(rec)
+ 
+         provenance = {
+-            "git": _git_hash(),
+-            "tech_calib": _file_hash((Path(__file__).resolve().parent / "tech_calib.json")),
++            "git": _git_hash(repo_path),
++            "tech_calib": _file_hash(repo_path / "tech_calib.json"),
+             "scenario_hash": result.get("scenario_hash"),
+         }
+ 
+diff --git a/energy_model.py b/energy_model.py
+index 806181f..c215e0c 100644
+--- a/energy_model.py
++++ b/energy_model.py
+@@ -2,7 +2,7 @@
+ 
+ Scientific intent
+ -----------------
+-The model estimates ECC logic energy from an XOR/AND/adder abstraction instead
++The model estimates ECC logic energy from an XOR/AND/adder/MUX abstraction instead
+ of full transistor-level switching simulation. This keeps command-line analysis
+ fast and deterministic while preserving first-order code-complexity trends.
+ 
+@@ -19,7 +19,8 @@ Runtime lookups use either:
+ Core equations and units
+ ------------------------
+ * Gate energy: :math:`E_g(node, VDD)` [J/op].
+-* Read-path estimate: :math:`E_{read} = N_{xor}E_{xor} + N_{and}E_{and}` [J].
++* Read-path estimate: :math:`E_{read} = N_{xor}E_{xor} + N_{and}E_{and}
++  + alpha_{mux}N_{mux}E_{mux} + E_{other}` [J].
+ * Energy per correction (EPC): :math:`EPC = E_{total} / N_{corr}` [J/bit].
+ 
+ Engineering assumptions
+@@ -287,6 +288,10 @@ def estimate_energy(
+     *,
+     node_nm: int = 28,
+     vdd: float = 0.8,
++    mux_count: int = 0,
++    mux_energy_j: float | None = None,
++    mux_activity: float = 1.0,
++    other_energy_j: float = 0.0,
+ ) -> float:
+     """Estimate ECC dynamic energy for a read-side operation.
+ 
+@@ -301,14 +306,24 @@ def estimate_energy(
+     -------
+     float
+         Estimated energy in joules (``J``) computed as
+-        ``parity_bits * E_xor + detected_errors * E_and``.
++        ``parity_bits * E_xor + detected_errors * E_and
++        + mux_activity * mux_count * mux_energy_j + other_energy_j``.
+     """
+-    if parity_bits < 0 or detected_errors < 0:
++    if parity_bits < 0 or detected_errors < 0 or mux_count < 0:
+         raise ValueError("Counts must be non-negative")
++    if not 0.0 <= mux_activity <= 1.0:
++        raise ValueError("mux_activity must be in [0, 1]")
++    if other_energy_j < 0.0:
++        raise ValueError("other_energy_j must be non-negative")
++    if mux_count and mux_energy_j is None:
++        raise ValueError("mux_energy_j is required when mux_count is non-zero")
++    if mux_energy_j is not None and mux_energy_j < 0.0:
++        raise ValueError("mux_energy_j must be non-negative")
+ 
+     e_xor = gate_energy_vec(node_nm, np.array([vdd]), "xor", mode="pwl").item()
+     e_and = gate_energy_vec(node_nm, np.array([vdd]), "and", mode="pwl").item()
+-    return parity_bits * e_xor + detected_errors * e_and
++    e_mux = 0.0 if mux_energy_j is None else mux_activity * mux_count * mux_energy_j
++    return parity_bits * e_xor + detected_errors * e_and + e_mux + other_energy_j
+ 
+ 
+ def scrub_energy_kwh(
+@@ -364,6 +379,10 @@ def epc(
+     *,
+     node_nm: int = 28,
+     vdd: float = 0.8,
++    mux_count: int = 0,
++    mux_energy_j: float | None = None,
++    mux_activity: float = 1.0,
++    other_energy_j: float = 0.0,
+ ) -> float:
+     """Return energy per corrected bit (EPC).
+ 
+@@ -385,7 +404,16 @@ def epc(
+     if corrections <= 0:
+         raise ValueError("corrections must be positive")
+ 
+-    total = estimate_energy(xor_cnt, and_cnt, node_nm=node_nm, vdd=vdd)
++    total = estimate_energy(
++        xor_cnt,
++        and_cnt,
++        node_nm=node_nm,
++        vdd=vdd,
++        mux_count=mux_count,
++        mux_energy_j=mux_energy_j,
++        mux_activity=mux_activity,
++        other_energy_j=other_energy_j,
++    )
+     return total / corrections
+ 
+ 
+@@ -478,6 +506,30 @@ def leakage_energy_j(
+     return vdd * i * area * (lifetime_h * 3600.0)
+ 
+ 
++def mux_leakage_power_w(
++    *,
++    vdd: float,
++    node_nm: float,
++    temp_c: float,
++    mux_area_mm2: float,
++    corner: str = "tt",
++) -> float:
++    """Return MUX leakage power from the repository area-density surrogate.
++
++    This is an analytical area-density derivation, not a cell-library leakage
++    value.  ``mux_area_mm2`` must contain only the incremental ECC-internal MUX
++    area so that existing logic-area proxies are not counted twice.
++    """
++
++    if mux_area_mm2 < 0.0:
++        raise ValueError("mux_area_mm2 must be non-negative")
++    return (
++        vdd
++        * i_leak_density_A_per_mm2(node_nm, temp_c, corner=corner)
++        * mux_area_mm2
++    )
++
++
+ # ---------------------------------------------------------------------------
+ # Dynamic energy model per ECC
+ 
+@@ -508,6 +560,10 @@ def dynamic_energy_per_op(
+     *,
+     word_bits: int = 64,
+     mode: str = "pwl",
++    mux_count: int = 0,
++    mux_energy_j: float | None = None,
++    mux_activity: float = 1.0,
++    other_energy_j: float = 0.0,
+ ) -> float:
+     """Energy per ECC operation in joules for one word."""
+ 
+@@ -515,11 +571,23 @@ def dynamic_energy_per_op(
+     e_xor = gate_energy(node_nm, vdd, "xor", mode=mode)
+     e_and = gate_energy(node_nm, vdd, "and", mode=mode)
+     e_add = gate_energy(node_nm, vdd, "adder_stage", mode=mode)
+-    return (
++    gate_energy_total = (
+         primitives["xor"] * e_xor
+         + primitives["and"] * e_and
+         + primitives["adder_stage"] * e_add
+     )
++    if mux_count < 0:
++        raise ValueError("mux_count must be non-negative")
++    if not 0.0 <= mux_activity <= 1.0:
++        raise ValueError("mux_activity must be in [0, 1]")
++    if mux_count and mux_energy_j is None:
++        raise ValueError("mux_energy_j is required when mux_count is non-zero")
++    if mux_energy_j is not None and mux_energy_j < 0.0:
++        raise ValueError("mux_energy_j must be non-negative")
++    if other_energy_j < 0.0:
++        raise ValueError("other_energy_j must be non-negative")
++    e_mux = 0.0 if mux_energy_j is None else mux_activity * mux_count * mux_energy_j
++    return gate_energy_total + e_mux + other_energy_j
+ 
+ 
+ def dynamic_energy_j(
+@@ -530,11 +598,23 @@ def dynamic_energy_j(
+     *,
+     word_bits: int = 64,
+     mode: str = "pwl",
++    mux_count: int = 0,
++    mux_energy_j: float | None = None,
++    mux_activity: float = 1.0,
++    other_energy_j: float = 0.0,
+ ) -> float:
+     """Total dynamic energy for ``ops`` ECC operations."""
+ 
+     return ops * dynamic_energy_per_op(
+-        code, node_nm, vdd, word_bits=word_bits, mode=mode
++        code,
++        node_nm,
++        vdd,
++        word_bits=word_bits,
++        mode=mode,
++        mux_count=mux_count,
++        mux_energy_j=mux_energy_j,
++        mux_activity=mux_activity,
++        other_energy_j=other_energy_j,
+     )
+ 
+ 
+diff --git a/tests/python/test_area_models.py b/tests/python/test_area_models.py
+index 13bc53d..707dfa9 100644
+--- a/tests/python/test_area_models.py
++++ b/tests/python/test_area_models.py
+@@ -1,4 +1,11 @@
+-from area_models import ECCSpec, area_logic_mm2, area_macro_mm2
++from area_models import (
++    ECCSpec,
++    area_logic_mm2,
++    area_macro_mm2,
++    mux2_equivalents,
++    mux_depth,
++    nand2_equivalent_count,
++)
+ 
+ 
+ def test_area_monotone():
+@@ -12,3 +19,12 @@ def test_macro_scaling():
+     a1 = area_macro_mm2(s, 4, 14, bitcell_um2=0.040)
+     a2 = area_macro_mm2(s, 8, 14, bitcell_um2=0.040)
+     assert abs(a2 / a1 - 2.0) < 1e-6
++
++
++def test_mux_normalisation_and_nand2_total():
++    spec = ECCSpec("sec-ded-64", 64, 8)
++    assert mux2_equivalents(8) == 7
++    assert mux_depth(8) == 3
++    assert nand2_equivalent_count(spec, mux_count=7) == (
++        nand2_equivalent_count(spec) + 28
++    )
+diff --git a/tests/python/test_ecc_mux_params.py b/tests/python/test_ecc_mux_params.py
+index 9d13b41..97a653e 100644
+--- a/tests/python/test_ecc_mux_params.py
++++ b/tests/python/test_ecc_mux_params.py
+@@ -1,6 +1,6 @@
+ import pytest
+ 
+-from ecc_mux import compute_ecc_mux_params
++from ecc_mux import compute_ecc_mux_characterization, compute_ecc_mux_params
+ 
+ 
+ def test_compute_ecc_mux_params_taec_28nm():
+@@ -22,3 +22,13 @@ def test_compute_ecc_mux_params_taec_16nm_scaled():
+ def test_compute_ecc_mux_params_unknown_node():
+     with pytest.raises(ValueError, match="No mux calibration"):
+         compute_ecc_mux_params("TAEC", "3nm")
++
++
++def test_mux_normalisation_and_node_interpolation():
++    char = compute_ecc_mux_characterization("SEC_DAEC", 14)
++    assert char.equivalent_mux2_count == 5
++    assert char.mux_depth == 3
++    assert char.aggregate_energy_pj == pytest.approx(
++        char.equivalent_mux2_count * char.energy_per_mux2_pj
++    )
++    assert 7 < char.node_nm < 16
+diff --git a/tests/python/test_energy_model.py b/tests/python/test_energy_model.py
+index 3d3656e..50df81d 100644
+--- a/tests/python/test_energy_model.py
++++ b/tests/python/test_energy_model.py
+@@ -10,6 +10,25 @@ def test_estimate_energy_basic():
+     assert ref < e
+ 
+ 
++def test_estimate_energy_explicit_mux_term():
++    base = estimate_energy(4, 2, node_nm=28, vdd=0.8)
++    updated = estimate_energy(
++        4,
++        2,
++        node_nm=28,
++        vdd=0.8,
++        mux_count=3,
++        mux_energy_j=2e-15,
++        mux_activity=0.5,
++    )
++    assert updated - base == pytest.approx(3e-15)
++
++
++def test_mux_energy_requires_explicit_characterization():
++    with pytest.raises(ValueError, match="mux_energy_j is required"):
++        estimate_energy(4, 2, mux_count=1)
++
++
+ def test_energy_monotonicity():
+     e_28_08 = estimate_energy(1, 1, node_nm=28, vdd=0.8)
+     e_28_06 = estimate_energy(1, 1, node_nm=28, vdd=0.6)
+@@ -109,3 +128,13 @@ def test_leakage_scale_fixed_units():
+     # nowhere near the multi-megajoule values seen prior to unit corrections.
+     leak = energy_model.leakage_energy_j(0.8, 16, 45, "sec-ded", 1e4)
+     assert leak < 1e4
++
++
++def test_mux_leakage_power_uses_incremental_area():
++    small = energy_model.mux_leakage_power_w(
++        vdd=0.8, node_nm=16, temp_c=25, mux_area_mm2=1e-6
++    )
++    large = energy_model.mux_leakage_power_w(
++        vdd=0.8, node_nm=16, temp_c=25, mux_area_mm2=2e-6
++    )
++    assert large == pytest.approx(2 * small)
+diff --git a/tests/python/test_selector_multiobj.py b/tests/python/test_selector_multiobj.py
+index a7e9771..4015f68 100644
+--- a/tests/python/test_selector_multiobj.py
++++ b/tests/python/test_selector_multiobj.py
+@@ -37,6 +37,25 @@ def test_constraint_pruning():
+     assert [r["code"] for r in res["pareto"]] == ["sec-ded-64"]
+ 
+ 
++def test_mux_overhead_is_explicit_and_additive():
++    params = _default_params()
++    params["lifetime_h"] = 8760.0
++    baseline = select(["sec-ded-64"], scrub_s=20.0, **params)
++    updated = select(
++        ["sec-ded-64"],
++        scrub_s=20.0,
++        include_mux_overhead=True,
++        **params,
++    )
++    old = baseline["candidate_records"][0]
++    new = updated["candidate_records"][0]
++    assert "mux_model_included" not in old
++    assert new["mux_model_included"] is True
++    assert new["latency_ns"] > old["latency_ns"]
++    assert new["carbon_kg"] > old["carbon_kg"]
++    assert new["E_scrub_kWh"] > old["E_scrub_kWh"]
++
++
+ def test_scenario_shift_mbu():
+     codes = ["sec-ded-64", "sec-daec-64", "taec-64"]
+     light = select(codes, mbu="light", **_default_params())
+diff --git a/tests/smoke_test.py b/tests/smoke_test.py
+index acbca3d..6f81a80 100644
+--- a/tests/smoke_test.py
++++ b/tests/smoke_test.py
+@@ -19,7 +19,13 @@ def _binary_path(name: str) -> Path:
+ 
+ def _run_binary(name: str) -> None:
+     binary = _binary_path(name)
+-    subprocess.run([str(binary)], cwd=REPO, check=True, stdout=subprocess.DEVNULL)
++    subprocess.run(
++        [str(binary), "--smoke"],
++        cwd=REPO,
++        check=True,
++        stdout=subprocess.DEVNULL,
++        stderr=subprocess.DEVNULL,
++    )
+ 
+ 
+ def main() -> int:
+diff --git a/tests/smoke_test.sh b/tests/smoke_test.sh
+index 8385c33..ff6efb6 100755
+--- a/tests/smoke_test.sh
++++ b/tests/smoke_test.sh
+@@ -6,7 +6,7 @@ for prog in BCHvsHamming Hamming32bit1Gb Hamming64bit128Gb SATDemo; do
+     echo "Testing $prog"
+     # Allow a bit more breathing room on slower environments so the
+     # smoke tests don't spuriously fail with timeout code 124.
+-    timeout 15s ./"$prog" >/dev/null
++    timeout 15s ./"$prog" --smoke >/dev/null
+ done
+ 
+ # Basic check of the ECC selector

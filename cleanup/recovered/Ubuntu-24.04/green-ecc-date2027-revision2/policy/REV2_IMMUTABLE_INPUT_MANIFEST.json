@@ -1,0 +1,158 @@
+{
+  "algorithm": "sha256-raw-bytes",
+  "authoritative_environment_manifest_sha256": "df0d50ea3093e45cad50769facdaf588142ec56c9c66afde534504c5f9dc93cb",
+  "repository_snapshot": [
+    {
+      "bytes": 12328,
+      "path": "asic/rtl/bch/bch_78_64_t2_v1.sv",
+      "sha256": "2cc8b0dd23f3cce9a091ea418a2c2d4fff5f016361228a66e6c151a7c49360e7"
+    },
+    {
+      "bytes": 6095,
+      "path": "asic/rtl/secded/secded_pipelined_72_64_v1.sv",
+      "sha256": "e250a6741b6aa56e0bdc5892ac5753e4487769a6683f68db6ab9155c26a3b155"
+    },
+    {
+      "bytes": 31387,
+      "path": "docs/date2027/revision2/REV2_HSIAO_EXACT_IDENTITY.log",
+      "sha256": "c143110753be356c24f7443eed182c19af7956ca92efc89972855eb0793beabf"
+    },
+    {
+      "bytes": 3657,
+      "path": "docs/date2027/revision2/REV2_HSIAO_IDENTITY_SPEC.json",
+      "sha256": "29d4565c21ef804f091a7d712fd2cff23ea9995dc236bdbbd1a86e7bb93c2fc0"
+    },
+    {
+      "bytes": 929,
+      "path": "docs/date2027/revision2/REV2_HSIAO_QUALIFICATION.json",
+      "sha256": "b83ce1802e3d413227fdf108964bd8e0537afb6b237292eca54295606c30635a"
+    },
+    {
+      "bytes": 1872,
+      "path": "docs/date2027/revision2/REV2_HSIAO_RTL_FREEZE.json",
+      "sha256": "45236de15ef6a3893a710570148fcea0a258a7262923282e6608079b9822a571"
+    },
+    {
+      "bytes": 24307,
+      "path": "docs/date2027/revision2/REV2_HSIAO_STRUCTURE.log",
+      "sha256": "00a279764f31eb270ccfe6ce9ca228452712e0ecf353fa1861dccc5f59b06f05"
+    },
+    {
+      "bytes": 3160,
+      "path": "docs/date2027/revision2/REV2_MULTI_SEED_ENVIRONMENT.json",
+      "sha256": "73eb82d3b7a04e4566e483cc9f2e215ed0a2474d117dbf7ad0ffa7750991fc92"
+    },
+    {
+      "bytes": 4142,
+      "path": "docs/date2027/revision2/REV2_MULTI_SEED_PROTOCOL.md",
+      "sha256": "a4437c24cc79c568bb0b024077a6fafea2e25e1f844beb79409da0e1c0158ee9"
+    },
+    {
+      "bytes": 2735,
+      "path": "docs/date2027/revision2/REV2_TIMING_SEMANTICS_AUDIT.md",
+      "sha256": "2c3c05767330f4417fe8ac887b9f1f2197cb2fa759cdd72a8eacae8f23fe159b"
+    },
+    {
+      "bytes": 4853,
+      "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_encoder.sv",
+      "sha256": "638b36ff3ab1ee31bb8e29b8d5ea064b5b36d1d7df7a3f2b96c52e305a31e036"
+    },
+    {
+      "bytes": 2711,
+      "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_syndrome.sv",
+      "sha256": "5b232248546e1945ab5084b7f4850851bb62c6e54dc9c4fa00950e2a457590be"
+    },
+    {
+      "bytes": 4572,
+      "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v2_algorithmic_decoder.sv",
+      "sha256": "3c422dbbddab55e8e2ae141b571e60e63f4ecd87ac409d64b59cc184f21aadcf"
+    },
+    {
+      "bytes": 4916,
+      "path": "scripts/gate03r/rtl/secded_characterization_tops.sv",
+      "sha256": "560bc8092ba759f7dd3412a106d86a30a7498d88285298c721be2d5ef4dc440b"
+    },
+    {
+      "bytes": 10836,
+      "path": "scripts/gate04/rtl/gate04_boundaries.sv",
+      "sha256": "7de8e8d2933cdf17740ec5ec6f45a3654d5d54d9e419ed1c628ab29ca03308f8"
+    },
+    {
+      "bytes": 22779,
+      "path": "scripts/revision2/analyze_results.py",
+      "sha256": "12313910b79aa1edfad374de860499ba9114e77a8ddde3f455462d708e51a8b6"
+    },
+    {
+      "bytes": 388,
+      "path": "scripts/revision2/configs/bch78.mk",
+      "sha256": "6955b4f01d3517bf196a24922e0408ce070dd568792ae5aae71457df0a036889"
+    },
+    {
+      "bytes": 361,
+      "path": "scripts/revision2/configs/ecc.sdc",
+      "sha256": "7d8c4f563ace74fa762c1a8df4593a68aa0ca285519962c8121504333ec8fb09"
+    },
+    {
+      "bytes": 669,
+      "path": "scripts/revision2/configs/hsiao_algorithmic.mk",
+      "sha256": "5ce91243b040fb7cbee7ba979715545468c68e4361fe94d48df90734e01291ae"
+    },
+    {
+      "bytes": 416,
+      "path": "scripts/revision2/configs/secded_comb.mk",
+      "sha256": "f0506ceb1a9adc9c82c7f2096e98279874ab5bf1bc65b7892655f44fbed34918"
+    },
+    {
+      "bytes": 476,
+      "path": "scripts/revision2/configs/secded_pipe.mk",
+      "sha256": "07747a32c55cd04821fdcc73b0513272ac797bd7287af1e932b74b4a651aa8d7"
+    },
+    {
+      "bytes": 6044,
+      "path": "scripts/revision2/contract_v1.json",
+      "sha256": "175a3bac36dca99dfb015a99b32e5f6dfd6e659b4c5bc293c56034c2f3be51d1"
+    },
+    {
+      "bytes": 758,
+      "path": "scripts/revision2/power.tcl",
+      "sha256": "66b2d4c4f7fc6a1381059ea20d04781e01e647cc121bced63f988ddca7b45c4a"
+    },
+    {
+      "bytes": 9646,
+      "path": "scripts/revision2/prepare_experiment.py",
+      "sha256": "ba56b185ec124055be678b1154d790da2168badbc64e17ba58295ecd4dc01909"
+    },
+    {
+      "bytes": 1496,
+      "path": "scripts/revision2/publish_results.py",
+      "sha256": "01c9eb95fce9d96ff6c8f722a5aba567d841870b3ff7fe9ec0ffede3cf96fb6d"
+    },
+    {
+      "bytes": 7105,
+      "path": "scripts/revision2/qualify_hsiao.py",
+      "sha256": "26b84a9bc36aaa2ba0708732ba090ebf3af8fe5a7cdbe510e4246007b3d5c9cc"
+    },
+    {
+      "bytes": 897,
+      "path": "scripts/revision2/rtl/hsiao_exact_identity_miter.sv",
+      "sha256": "76cd9d8958e4940df4b6d2401fc4e4d7dc88497d2fcdf3bd2fbd596cdbf50585"
+    },
+    {
+      "bytes": 1995,
+      "path": "scripts/revision2/rtl/rev2_hsiao_boundary.sv",
+      "sha256": "3fdc3984b222b925ccc9d415a548e88f5e75a82539c67ac187e5c1d0c33f9c73"
+    },
+    {
+      "bytes": 10592,
+      "path": "scripts/revision2/run_characterization.py",
+      "sha256": "c81236dddcbc98b33f0a3fdb69f3aa9c8cd172081c5f841949e829229c5d3981"
+    },
+    {
+      "bytes": 2241,
+      "path": "scripts/revision2/run_matrix.py",
+      "sha256": "55e6e25d3afd810c5a310dfb122b78085fa4c5a44c8e2633ec7e82a5bd24e845"
+    }
+  ],
+  "schema_version": 1,
+  "trace_manifest_sha256": "5608b592deef797e5426430ce3b8ad83a0a5359ce452c87e4b54bfdaa9a9c9aa"
+}

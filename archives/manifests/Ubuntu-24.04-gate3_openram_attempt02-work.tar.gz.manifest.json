@@ -1,0 +1,2120 @@
+{
+  "distribution": "Ubuntu-24.04",
+  "source": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt02/work",
+  "archive_path": "D:/GREENS_ARCHIVES/openram/Ubuntu-24.04-gate3_openram_attempt02-work.tar.gz",
+  "archive_sha256": "b9af5ebb0b217253c5bdb7329ba931d8f6510dc4105f7fd19aa5da84839dcaee",
+  "members": [
+    {
+      "path": "openram_tmp_256x72",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "openram_tmp_256x72/.magicrc",
+      "kind": "file",
+      "size_bytes": 3503,
+      "sha256": "f717a54ec62b7df3e77426c38c6fbe925b4872b57a193b66d4d336e56e1fb88b",
+      "mtime": 1788035044.7328126
+    },
+    {
+      "path": "openram_tmp_256x72/run_drc.sh",
+      "kind": "file",
+      "size_bytes": 3388,
+      "sha256": "75beed1548e79f240504b0917c2c1476293201bbbfdcf87d6789c804594b0050",
+      "mtime": 1788035044.7655604
+    },
+    {
+      "path": "openram_tmp_256x72/run_ext.sh",
+      "kind": "file",
+      "size_bytes": 1757,
+      "sha256": "35282a15a625dab309be5fba22c13c110e1377b21b5a6a2abbbea48933e9005d",
+      "mtime": 1788035044.7332258
+    },
+    {
+      "path": "openram_tmp_256x72/run_lvs.sh",
+      "kind": "file",
+      "size_bytes": 555,
+      "sha256": "489e3042cbf4d5fe513205b47b37ab09738fe19588535a8e7a41d103fa65905d",
+      "mtime": 1788085809.7916896
+    },
+    {
+      "path": "openram_tmp_256x72/setup.tcl",
+      "kind": "file",
+      "size_bytes": 18252,
+      "sha256": "84cb9d3193951823187cdf82597b953918a02c3201800ba2664be9f74574db8d",
+      "mtime": 1788085809.7960572
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_dff.ext",
+      "kind": "file",
+      "size_bytes": 8670,
+      "sha256": "05ed19568d6cc8625281ab7cceee23ff551dc9eae9e40c5b9088582707ecec93",
+      "mtime": 1788035626.1406007
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_dff.mag",
+      "kind": "file",
+      "size_bytes": 18965,
+      "sha256": "088ed9317f5c0f0106d8ec2db41a510f4fc2c468c5ecfe17299228d7c074b3fc",
+      "mtime": 1788035403.131625
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_dp_cell.mag",
+      "kind": "file",
+      "size_bytes": 1817,
+      "sha256": "24adf66f8734c5ac5bad13052e28c8f79414abb3f69f32f9b07c1d87beb2b58d",
+      "mtime": 1788085745.4978437
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_dp_cell_dummy.mag",
+      "kind": "file",
+      "size_bytes": 1705,
+      "sha256": "bd92cd88c4314adda406d00c37c488ff0702e2943ac4370a88629cf8d4e66c19",
+      "mtime": 1788085745.5017917
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_dp_cell_replica.mag",
+      "kind": "file",
+      "size_bytes": 1817,
+      "sha256": "c63c45a70fed29d89d218ff371ccc0e390602ec2820dfbda6a31b611bb6e3552",
+      "mtime": 1788085745.5051732
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sense_amp.ext",
+      "kind": "file",
+      "size_bytes": 4806,
+      "sha256": "f8414b4541ed4d035d41a9ba4ffc57f56fec955d5058a6383e81c4e4b7240ef1",
+      "mtime": 1788035679.071122
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sense_amp.mag",
+      "kind": "file",
+      "size_bytes": 11270,
+      "sha256": "85d29b76c5504ae7b7b8de139fa270c05ba8cd80a1e4c955842479160d509dda",
+      "mtime": 1788035403.5874321
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_cell_opt1_replica.ext",
+      "kind": "file",
+      "size_bytes": 4764,
+      "sha256": "33f4b68b97aaf70562d5f51f157a2aac8bb8151730799c7cbfa826055ddb53f2",
+      "mtime": 1788035708.248142
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_cell_opt1_replica.mag",
+      "kind": "file",
+      "size_bytes": 2755,
+      "sha256": "4e4a2844e43b46b8f4124b3e657e4f091386c823c8983a82b4ee4bb1483063d1",
+      "mtime": 1788085745.5217285
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_cell_opt1a_dummy.ext",
+      "kind": "file",
+      "size_bytes": 6740,
+      "sha256": "3f643bacc5467582f1b1a8e9662d772b37828c9c3e043c4551aa21283ad2812c",
+      "mtime": 1788035703.3826776
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_cell_opt1a_dummy.mag",
+      "kind": "file",
+      "size_bytes": 3084,
+      "sha256": "a9bda682dc0a2957fe345b5742ff7ae9ae96e9edd05907b8334a967c8573df62",
+      "mtime": 1788085745.5116289
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_cell_opt1a_replica.ext",
+      "kind": "file",
+      "size_bytes": 4772,
+      "sha256": "3127f4f160c4d2f099480aae07ecaf59e3b1eecd1c425381250d9fdc737f5c06",
+      "mtime": 1788035708.2589898
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_cell_opt1a_replica.mag",
+      "kind": "file",
+      "size_bytes": 2755,
+      "sha256": "4aed413cc03f3096cd14b9557a3695ca649c4301dd820258b63cf3e669d9d376",
+      "mtime": 1788085745.5249758
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_nand2_dec.ext",
+      "kind": "file",
+      "size_bytes": 2271,
+      "sha256": "424bd620faea4d60bed1c7b11affeb1ed925cc06796643c6f1864e3b258bcea9",
+      "mtime": 1788035633.8455315
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_nand2_dec.mag",
+      "kind": "file",
+      "size_bytes": 3255,
+      "sha256": "9c3617bbcd60dd22815eae6e0870a3a59d69480f9b0dea1ade845a96e5e89f35",
+      "mtime": 1788035403.1909482
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_nand3_dec.ext",
+      "kind": "file",
+      "size_bytes": 3184,
+      "sha256": "b1eafe14f85d3f42656e04922ca63587a7ca457c1f969047a4d5d3e9b7b4953d",
+      "mtime": 1788035640.6114705
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_nand3_dec.mag",
+      "kind": "file",
+      "size_bytes": 5056,
+      "sha256": "a45298b078edf79edc620e4aec8534daa97e0a4338841bdc29196c9251baee4c",
+      "mtime": 1788035403.1289554
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_rowend_replica.ext",
+      "kind": "file",
+      "size_bytes": 2451,
+      "sha256": "0d941a5172cb8d601ee1783ba0aaf95fda1504e56a37308132a0a528f4ac68c5",
+      "mtime": 1788035697.6174865
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_rowend_replica.mag",
+      "kind": "file",
+      "size_bytes": 2034,
+      "sha256": "ac3f4947c1068a47d0b2caecde48bdebbdfe231648c0c81c78bc3215eec8bcb6",
+      "mtime": 1788085745.5532446
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_rowenda_replica.ext",
+      "kind": "file",
+      "size_bytes": 2451,
+      "sha256": "556d8699a69f74cb238386fd88b2852b6fc3628f8728ab81f4a60b5394c7824c",
+      "mtime": 1788035697.6140938
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_sp_rowenda_replica.mag",
+      "kind": "file",
+      "size_bytes": 2034,
+      "sha256": "9e8cd882b72aad0a334b29b8508130d7e1738b8476f1900e415ede0f8b945c49",
+      "mtime": 1788085745.5564249
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_write_driver.ext",
+      "kind": "file",
+      "size_bytes": 7388,
+      "sha256": "5c34c9e25822a3dca795b34b99518b7f10b34dcfc3dd7fcce80fb6318ae7a04b",
+      "mtime": 1788035676.4054239
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__openram_write_driver.mag",
+      "kind": "file",
+      "size_bytes": 9447,
+      "sha256": "5f79dccd30e195c53836326fc58a97c430f93496b7ce1f2aeda20b6dabdef22a",
+      "mtime": 1788035403.2107809
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_l1m1.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.592709
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1219854
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_addpoly.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1961017
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_addpoly_sizing.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1228173
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_fom_serif_nmos.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1820655
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_fom_serif_pmos.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1096861
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_fom_serifs.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.096138
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_met2.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.176253
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_metopt1.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.5863361
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_opt1.ext",
+      "kind": "file",
+      "size_bytes": 5360,
+      "sha256": "66c28f187cb4d099a0b3a3b444127f2ed900da683f895ef2408145d039c998b3",
+      "mtime": 1788035713.6456258
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_opt1.mag",
+      "kind": "file",
+      "size_bytes": 2313,
+      "sha256": "f7caf8d4c0eec194b9a64c56223f48d971acb35bb6a509f346eb930071582163",
+      "mtime": 1788085745.5186384
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_opt1_ce.mag",
+      "kind": "file",
+      "size_bytes": 541,
+      "sha256": "a8b365f2335d7482c58a14da2fc3821105f65d788f8233525c357f832a6450fb",
+      "mtime": 1788085745.5149167
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_opt1a.ext",
+      "kind": "file",
+      "size_bytes": 5372,
+      "sha256": "21fdb2a5172dd968535cb196cd542ba0f7d0058d783ba802878133e58ed5ef17",
+      "mtime": 1788035713.6589785
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_opt1a.mag",
+      "kind": "file",
+      "size_bytes": 2313,
+      "sha256": "2adcfc82573296f0e628c1eeea9247b764699a944fe3865c0de090bd7dd3ccc5",
+      "mtime": 1788085745.5085282
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_p1_serif.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1133335
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_p1_serifs.ext",
+      "kind": "file",
+      "size_bytes": 381,
+      "sha256": "8ad6452565f479c291cf283207445439866ff5a3e51f49a0b2a15d04a06ea0b6",
+      "mtime": 1788035713.6425428
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_p1_serifs.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1818292
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_p1m_sizing.ext",
+      "kind": "file",
+      "size_bytes": 645,
+      "sha256": "5f36f818866c61fa2c68115a3aa419f93f54a6a4f30dd917f1819a3b1159ce98",
+      "mtime": 1788035713.6428044
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_p1m_sizing.mag",
+      "kind": "file",
+      "size_bytes": 245,
+      "sha256": "622122f24c6319c87a3f3037e7ae090068062129df89dfb93dbfd10ca4c646a4",
+      "mtime": 1788035403.2600431
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cell_via.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.2471826
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colend.ext",
+      "kind": "file",
+      "size_bytes": 3092,
+      "sha256": "65e1469a73ae399f483562c02052172e64af483b721531efea51e9ddf3edfefc",
+      "mtime": 1788035698.7825792
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colend.mag",
+      "kind": "file",
+      "size_bytes": 2369,
+      "sha256": "3bff142bbd0831341a906feea4fec45fc6dd3325f3ca66fd16ec904d4ff66e2b",
+      "mtime": 1788085745.5278978
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colend_cent.ext",
+      "kind": "file",
+      "size_bytes": 1682,
+      "sha256": "b8d6f1ae8dd246098e6e63ca5b1d733ddd47854595e0b28a8b03f52adf4444ed",
+      "mtime": 1788035698.7856727
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colend_cent.mag",
+      "kind": "file",
+      "size_bytes": 3871,
+      "sha256": "1ccd9a0061dbe876bfe55f9a592c88c5618eb1a67807a8a9bc40ca6824e5334e",
+      "mtime": 1788085745.5309765
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colend_p_cent.ext",
+      "kind": "file",
+      "size_bytes": 1838,
+      "sha256": "1485e72fd07649dcb25f2d0469cb5a06b1d810359f9b66039743454b667bf4a1",
+      "mtime": 1788035698.7868817
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colend_p_cent.mag",
+      "kind": "file",
+      "size_bytes": 4344,
+      "sha256": "2bbba4d1b4aee2bcabfc21a66c8d5dfbeb394b371611af5a73b0922c32f7c9b5",
+      "mtime": 1788085745.534438
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colenda.ext",
+      "kind": "file",
+      "size_bytes": 3124,
+      "sha256": "9bc69650f7ee0c645010795295e0b035b3f46e3b5df90a3436675a26de4e306c",
+      "mtime": 1788035701.0014703
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colenda.mag",
+      "kind": "file",
+      "size_bytes": 2369,
+      "sha256": "f38fee3963cc5f0e60470ce01779b8cebaa57ebc622ae042107ff895aeb936fb",
+      "mtime": 1788085745.5376892
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colenda_cent.ext",
+      "kind": "file",
+      "size_bytes": 1682,
+      "sha256": "50c69811009fd18fbd54f39361482aa968f53a987aec2a6972991a529f30393c",
+      "mtime": 1788035701.0028515
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colenda_cent.mag",
+      "kind": "file",
+      "size_bytes": 3871,
+      "sha256": "165c2bcf5c71248e73195e1e8abdaffd98fa0e355d617b8cf2def10e088e612a",
+      "mtime": 1788085745.540861
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colenda_p_cent.ext",
+      "kind": "file",
+      "size_bytes": 1838,
+      "sha256": "501b04ea8439c92385a874eb7e9e2fe2320d3d0f5a9a83f92c29d62a0822e744",
+      "mtime": 1788035701.0042243
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_colenda_p_cent.mag",
+      "kind": "file",
+      "size_bytes": 4344,
+      "sha256": "85c73e42340ee4ea85d54eda4d4e8d0e7988086890d41418268ec3888d9e9e8c",
+      "mtime": 1788085745.544043
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_corner.ext",
+      "kind": "file",
+      "size_bytes": 3891,
+      "sha256": "a1c13e57de0c6f9dd860e1b78171fa9a9ca35556538cc731194332714e79594d",
+      "mtime": 1788035697.6190388
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_corner.mag",
+      "kind": "file",
+      "size_bytes": 3422,
+      "sha256": "eff49f68b5aff8baa6d246d25d9b79c3bf084cf754cb5c295f9afdcf4d5897c0",
+      "mtime": 1788085745.5595126
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_corner_ce.ext",
+      "kind": "file",
+      "size_bytes": 1153,
+      "sha256": "6df0c6bc197d91c75215a5c3404a11f17a9c06d7f7e167a84cd50c792acd3133",
+      "mtime": 1788035696.4241571
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_corner_ce.mag",
+      "kind": "file",
+      "size_bytes": 1907,
+      "sha256": "8ff457655643a929796bfad25c83e643c84e154892f835e9cd0f4660362e439f",
+      "mtime": 1788035403.1310992
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_corner_met2.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.190487
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_corner_met2_b.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1805508
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_corner_p1m_serif.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1827304
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cornera.ext",
+      "kind": "file",
+      "size_bytes": 3891,
+      "sha256": "d0c805fdbbf40189528a895ed0719870eee32248f025660a60ed620f2a01828f",
+      "mtime": 1788035696.430504
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cornera.mag",
+      "kind": "file",
+      "size_bytes": 3422,
+      "sha256": "db1bf180a6fbebd74ef751ae95b50ef884ceff74146327281b278449fb5db825",
+      "mtime": 1788085745.5634375
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cornera_p1m_serif.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1824281
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cornerb.ext",
+      "kind": "file",
+      "size_bytes": 3821,
+      "sha256": "7a78fb3b0c5546f13e09fa81facc67f659a644fc5e5cf97dc387934838e5fb7c",
+      "mtime": 1788035696.438361
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_cornerb.mag",
+      "kind": "file",
+      "size_bytes": 3422,
+      "sha256": "1f53f5febb07f78597f2f03a621b0049eb5e6245eb9903c121d1d59df13b3419",
+      "mtime": 1788085745.5738065
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowend.ext",
+      "kind": "file",
+      "size_bytes": 2363,
+      "sha256": "1da20a9a223b390427c888bd8b5ce56a857be014e79be5730d40665bfc37ff16",
+      "mtime": 1788035696.4361746
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowend.mag",
+      "kind": "file",
+      "size_bytes": 2034,
+      "sha256": "bfec32557b90321f9c4d90d43dfeaef481c68d5bc54e1f8bcf9256c5444a63d1",
+      "mtime": 1788085745.5467067
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowend_ce.ext",
+      "kind": "file",
+      "size_bytes": 1195,
+      "sha256": "3ee4f68f9f826c6fedc3689e6857a4be4cf82890e6d7c1c39a5ecaa889697516",
+      "mtime": 1788035696.4313314
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowend_ce.mag",
+      "kind": "file",
+      "size_bytes": 1970,
+      "sha256": "1b76f1658206c158b77f4f075f2b4735ea04c08423d8c089a95ef73ff739fae7",
+      "mtime": 1788035403.1888037
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowend_met2.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "bd71ffd813085a62c3274a529649e44b2e170fb101395f80685245f816e09ca2",
+      "mtime": 1788035403.5932882
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowend_p1m_siz.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "6ce36beb986e9204aa7a48fe29850cb3376dac62317e051d6079ae64b94a825e",
+      "mtime": 1788035403.129604
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowend_replica_ce.ext",
+      "kind": "file",
+      "size_bytes": 1195,
+      "sha256": "2c5567e169272f27357b68581aedd72a958166a24f407cd4bbf990bf848377b9",
+      "mtime": 1788035697.6072857
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowend_replica_ce.mag",
+      "kind": "file",
+      "size_bytes": 1970,
+      "sha256": "49bcafb94c49c8c85cc08ceba790eb3e1ba9a672a476129b28049706e24d68fa",
+      "mtime": 1788035403.186198
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowenda.ext",
+      "kind": "file",
+      "size_bytes": 2363,
+      "sha256": "f238edfee4ebaece29024a78966cde8f5c5c1c2908fdaa282584b6055c5e28f5",
+      "mtime": 1788035696.4339902
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowenda.mag",
+      "kind": "file",
+      "size_bytes": 2034,
+      "sha256": "d1c5b88e7fe9ef2a1ee8cc2e007d7b7fb6d1b0941f2c33070c6c115c279a38aa",
+      "mtime": 1788085745.5498888
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_rowenda_p1m_siz.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "bd71ffd813085a62c3274a529649e44b2e170fb101395f80685245f816e09ca2",
+      "mtime": 1788035403.186449
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrap.ext",
+      "kind": "file",
+      "size_bytes": 1585,
+      "sha256": "48c93c0bf78c6eb6e8015dcff9bf9fde7d5d4d6b2da46e3e80b4de26cdb300e4",
+      "mtime": 1788035713.6471727
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrap.mag",
+      "kind": "file",
+      "size_bytes": 2148,
+      "sha256": "4917f41928e0911538d96f87864eb8b5f14a3f9624555443a3e7a2e839fcdaaf",
+      "mtime": 1788085745.5909116
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrap_ce.mag",
+      "kind": "file",
+      "size_bytes": 1164,
+      "sha256": "e31ab915b51f7ed17596e8b446eb840d16bbf7b1bed01f57693f2916f98aff0a",
+      "mtime": 1788085745.5869868
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrap_met2.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1844912
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrap_p.ext",
+      "kind": "file",
+      "size_bytes": 1718,
+      "sha256": "f8c842d2666075b13fc68be083936408272e3613e994117a4ced178a12bfce26",
+      "mtime": 1788035708.2520766
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrap_p.mag",
+      "kind": "file",
+      "size_bytes": 1973,
+      "sha256": "5ecc2a6e63fef68c9e2aeafdd430701a8005277cdf398fa6c67c2cea73f56e58",
+      "mtime": 1788085745.6105359
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrap_p1m_siz.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.2598393
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrap_p_ce.mag",
+      "kind": "file",
+      "size_bytes": 945,
+      "sha256": "bc0855b0e324aff3cedbd237eff2c2215e2d8481cf1472a0d37e52fd42638a5e",
+      "mtime": 1788085745.5987613
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrap_p_met2.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1217506
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrapa.ext",
+      "kind": "file",
+      "size_bytes": 1585,
+      "sha256": "1e629928529a18feb734e6d0d57e683026cf2f59c30a38a05eff844410028ed4",
+      "mtime": 1788035703.3852777
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrapa.mag",
+      "kind": "file",
+      "size_bytes": 2148,
+      "sha256": "76d809fce74333494701ad3c18b7cdb1eada972ff74b9e485d6299874ab18da7",
+      "mtime": 1788085745.5791368
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrapa_p.ext",
+      "kind": "file",
+      "size_bytes": 1723,
+      "sha256": "2307f2e58047565a31f29e3f1bf1912dc3dbd83eb49f141a123bd83753bd243e",
+      "mtime": 1788035703.3870285
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrapa_p.mag",
+      "kind": "file",
+      "size_bytes": 3247,
+      "sha256": "166850473ec26bec5fba620e154e7a28b1ea5737154a571fed0a8be33c80690e",
+      "mtime": 1788035403.2013247
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_fd_bd_sram__sram_sp_wlstrapa_p1m_siz.mag",
+      "kind": "file",
+      "size_bytes": 102,
+      "sha256": "1696f9304e5c57ff9d6e2bf6d99243654afe55b1e92d41ae3fbb12abc144864a",
+      "mtime": 1788035403.1098957
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.drc.err",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1788085745.4025178
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.drc.out",
+      "kind": "file",
+      "size_bytes": 2182,
+      "sha256": "6aa7fd84892f6a225783730fe5818d0a382c01a1d4a4ce8c4ed4e1e7b03a3bc6",
+      "mtime": 1788085808.9023044
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.ext",
+      "kind": "file",
+      "size_bytes": 292033747,
+      "sha256": "56bb394d77c820df2a3af6f1a47761c5fcec8063b1d50d584bdc2b8456c05485",
+      "mtime": 1788085682.7782238
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.ext.err",
+      "kind": "file",
+      "size_bytes": 200814,
+      "sha256": "4aa3199f4efc95de46576d13fb600e78798b3b97ccd8d392590fb018b7069297",
+      "mtime": 1788085720.3348753
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.ext.out",
+      "kind": "file",
+      "size_bytes": 67472,
+      "sha256": "04d1460a08b7fb61cf7b40f1f83efdecdd65ee6b8a71d69d3ff305821150886a",
+      "mtime": 1788085745.210199
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.gds",
+      "kind": "file",
+      "size_bytes": 19641466,
+      "sha256": "820ed565c0657a5391c88863acfc8f1cb830303b29b8050029f4b3e0441d40f6",
+      "mtime": 1788035044.7222917
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.lvs.err",
+      "kind": "file",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mtime": 1788085809.7960572
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.lvs.json",
+      "kind": "file",
+      "size_bytes": 4836378,
+      "sha256": "dff22374289a4d6620771bc1111d2523b8012a6229193e92cb17c75e5e8162fc",
+      "mtime": 1788087055.6829832
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.lvs.out",
+      "kind": "file",
+      "size_bytes": 93519,
+      "sha256": "2954efbe3bddb8a587e571d67a948dcd78e1f60e759bb813e293f6b535c65bdc",
+      "mtime": 1788087057.276315
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.lvs.report",
+      "kind": "file",
+      "size_bytes": 10452274,
+      "sha256": "a3a80bbb67fb0a1f11e912583626c215e55aa7d83e7c9491867bd76d1bf1eedc",
+      "mtime": 1788087054.2191586
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.mag",
+      "kind": "file",
+      "size_bytes": 608524,
+      "sha256": "ac9a09c109b841ca3cd5ebbfc06249c29a0dc58d4bbc0f4c91a8eeae7b7f192d",
+      "mtime": 1788035403.170569
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.sp",
+      "kind": "file",
+      "size_bytes": 3675319,
+      "sha256": "57a8bcd4c9888a7d59aa3f222a9cbe5b84cc410907d9099baef6415800b318ed",
+      "mtime": 1788035042.6650608
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02.spice",
+      "kind": "file",
+      "size_bytes": 3216782,
+      "sha256": "b6ee8372660d7b64d1d5413293d7ded9dbdc64d2f9cfd66068910ce35891f50a",
+      "mtime": 1788085743.5382047
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_and2_dec.ext",
+      "kind": "file",
+      "size_bytes": 5431,
+      "sha256": "57eafcaa28c209195dff7a36a1178db25fd88a61e9edda8e408344438e427e92",
+      "mtime": 1788035640.5228915
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_and2_dec.mag",
+      "kind": "file",
+      "size_bytes": 1019,
+      "sha256": "65b0ac15eff6c665a05fbc11204843dfcba07f3a7ad69444d67e06b7f74e32cd",
+      "mtime": 1788035403.114293
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_and2_dec_0.ext",
+      "kind": "file",
+      "size_bytes": 4953,
+      "sha256": "2624ba8172b80fdcaec92ed7a2c6c5fc5dc2808efce0c9a06f7e2e21afc725c4",
+      "mtime": 1788035633.8469431
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_and2_dec_0.mag",
+      "kind": "file",
+      "size_bytes": 1024,
+      "sha256": "1e7f9b63c90f1d530f68438cdb277965757d12694a2df306e307d48964d12342",
+      "mtime": 1788035403.1850994
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_and3_dec.ext",
+      "kind": "file",
+      "size_bytes": 6584,
+      "sha256": "2719928653fad56e95b400207d901a864ba4d5581e410e649b7748f654c76ab7",
+      "mtime": 1788035640.6157277
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_and3_dec.mag",
+      "kind": "file",
+      "size_bytes": 1156,
+      "sha256": "42a0ba984986e365a4935eda91634d69ffd5e635d842f713a708d7cff395dec2",
+      "mtime": 1788035403.2398882
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_bank.ext",
+      "kind": "file",
+      "size_bytes": 245388395,
+      "sha256": "c7432379bafc69ed1811ad720e1ae89966b9c2382c675b3341894af1db75f4c5",
+      "mtime": 1788083764.4653544
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_bank.mag",
+      "kind": "file",
+      "size_bytes": 106228,
+      "sha256": "2582499fdfbd4577d02646600c2c42c5467c141af2ac442ba7c78b50db37e027",
+      "mtime": 1788035403.583541
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_col_addr_dff.ext",
+      "kind": "file",
+      "size_bytes": 4532,
+      "sha256": "2c45072e588c4d5bdbbb62d276c4b98a889f40c152c7b8e0be7edfd090874a94",
+      "mtime": 1788035628.6386554
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_col_addr_dff.mag",
+      "kind": "file",
+      "size_bytes": 1844,
+      "sha256": "27cd8e59adb46c6f971299241479b9a7f203890ba6affc4306a077f9bc680b26",
+      "mtime": 1788035403.1837087
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_column_decoder.ext",
+      "kind": "file",
+      "size_bytes": 3012,
+      "sha256": "d0a272eebeed432df79a9dab87a9f0296fa606310bc3fa49d33843427648f5d7",
+      "mtime": 1788035633.8390875
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_column_decoder.mag",
+      "kind": "file",
+      "size_bytes": 771,
+      "sha256": "866edf3ce1df8739b08826f80cc66625a5c74886f82a788d926dbd3cd7cc2ad0",
+      "mtime": 1788035403.208369
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_column_mux.ext",
+      "kind": "file",
+      "size_bytes": 1843,
+      "sha256": "b73c73b007911f009c545870daaa8282d74ef44476d74898ab909bc87a75d6c4",
+      "mtime": 1788035674.3285844
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_column_mux.mag",
+      "kind": "file",
+      "size_bytes": 2250,
+      "sha256": "6105ef657969dc2e11d816a0c96626f6edd16f2a53c3aa1ed8e1e2ea8e5f3c0c",
+      "mtime": 1788035403.1194391
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_column_mux_array.ext",
+      "kind": "file",
+      "size_bytes": 1093102,
+      "sha256": "d9d862bbcdcffd3dea2772ebf4c9e93a3e276c28011f32091cbf45e7b8088c57",
+      "mtime": 1788035676.3936768
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_column_mux_array.mag",
+      "kind": "file",
+      "size_bytes": 286918,
+      "sha256": "52d1c9ffbd642bbc45927e9c7aaec5266914366b349af9d1d7cfa6a66280bf37",
+      "mtime": 1788035403.1037068
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_10.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.130509
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_11.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.14662
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_12.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.1770303
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_13.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.1801965
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_14.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.1811252
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_15.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.1831727
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_16.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.1840663
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_18.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.1865964
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_19.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.1878183
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_20.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "2da60b0242eac4d04ac6a0e4d4bc77ef4b2ea3496f0d124ac7e4291627322d2f",
+      "mtime": 1788035403.129781
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_21.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "7d0221621a5eba0e1a47700bc5460c4140b8e6f396841fbb8fcaed0ca150b1c6",
+      "mtime": 1788035403.1303973
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_22.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "9a7a3d7a0daac55e6d50ef0b08d90f4a55c6f39cd017506433616fdf994191ea",
+      "mtime": 1788035403.1468081
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_23.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "9a7a3d7a0daac55e6d50ef0b08d90f4a55c6f39cd017506433616fdf994191ea",
+      "mtime": 1788035403.1772141
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_24.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "9a7a3d7a0daac55e6d50ef0b08d90f4a55c6f39cd017506433616fdf994191ea",
+      "mtime": 1788035403.18043
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_25.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "9a7a3d7a0daac55e6d50ef0b08d90f4a55c6f39cd017506433616fdf994191ea",
+      "mtime": 1788035403.181282
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_26.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.183305
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_27.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1843274
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_30.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "242e9174e2c8c10e99de8500f4d164f09d33d80a1357511dc0992ad12bbd8920",
+      "mtime": 1788035403.1237276
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_36.ext",
+      "kind": "file",
+      "size_bytes": 526,
+      "sha256": "404f95bc26a18e4ad118ac102edb1b048fdb52bc4c778f0704032190d82bf50b",
+      "mtime": 1788035633.8125615
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_36.mag",
+      "kind": "file",
+      "size_bytes": 247,
+      "sha256": "8a6ff14830591e39f2abde29e6a195833ed0263ec4176a941a60b399e4539c90",
+      "mtime": 1788035403.1809404
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_7.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.1806889
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_contact_8.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.1830175
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_control_logic_rw.ext",
+      "kind": "file",
+      "size_bytes": 383091,
+      "sha256": "7094c108a28b1a4368c483ace139983a6ea9421d76d542fc4a6163ab36da4f72",
+      "mtime": 1788035628.2260177
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_control_logic_rw.mag",
+      "kind": "file",
+      "size_bytes": 22921,
+      "sha256": "91e7baf4e9fc2faaa1c068e30973f0e8fc58b41d753554646135549c41e57e9c",
+      "mtime": 1788035403.5935633
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_cr_2.ext",
+      "kind": "file",
+      "size_bytes": 550,
+      "sha256": "2e1e6da677e7509047822c87cb0afeef8fb9b8bac544fac10909e79921212b00",
+      "mtime": 1788035633.7330363
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_cr_2.mag",
+      "kind": "file",
+      "size_bytes": 927,
+      "sha256": "6c92304ee18cfbe5bbdf74017826d0e8229d5d1a64504ad0384fea4183854dfb",
+      "mtime": 1788035403.2394865
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_cr_3.ext",
+      "kind": "file",
+      "size_bytes": 27536,
+      "sha256": "0e7bd5dddc1f6285437c6b639f65ff927c49a1cf26b0356c0c612d701058d7ab",
+      "mtime": 1788035633.8076649
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_cr_3.mag",
+      "kind": "file",
+      "size_bytes": 114269,
+      "sha256": "f8241b900d167d403e59b34e66f5817f78a7d6b9758698b2d905cd1de1ef69f1",
+      "mtime": 1788035403.2492304
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_data_dff.ext",
+      "kind": "file",
+      "size_bytes": 1875777,
+      "sha256": "2a4c2e5d19b2945e2e59f70971e517233870ec7bbba25ded02a62e19a028c600",
+      "mtime": 1788035633.7251806
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_data_dff.mag",
+      "kind": "file",
+      "size_bytes": 59142,
+      "sha256": "a2db8554569b59efd5bf937a066eb2958f2d0d63a5f1df8b5265c7d5c0cad805",
+      "mtime": 1788035403.2413642
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_delay_chain.ext",
+      "kind": "file",
+      "size_bytes": 133821,
+      "sha256": "0054837507a327409e4474ad4313c9b0e8f9d37352f6c9065913076b46a43ad7",
+      "mtime": 1788035626.9393547
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_delay_chain.mag",
+      "kind": "file",
+      "size_bytes": 40037,
+      "sha256": "ad180806368ce624ac4d24284a6cc265a7172bf2799e4595259ee2617bb8b004",
+      "mtime": 1788035403.1919477
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_dff_buf_0.ext",
+      "kind": "file",
+      "size_bytes": 10864,
+      "sha256": "2d97e0500ee9909e2e7b5026af37c2c3218e17c2fdef498f64b8f9c33e12cc2b",
+      "mtime": 1788035626.179948
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_dff_buf_0.mag",
+      "kind": "file",
+      "size_bytes": 2042,
+      "sha256": "df12c695e48a292faa7ee13ccc0365d31f5da75839ad2512eca16c23cc7a53dc",
+      "mtime": 1788035403.1875327
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_dff_buf_array.ext",
+      "kind": "file",
+      "size_bytes": 41225,
+      "sha256": "993fed5368e1e4b04e1fe7836c8ed3f70f6a9cdb282c2e14ecbefb85e79975cb",
+      "mtime": 1788035626.309795
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_dff_buf_array.mag",
+      "kind": "file",
+      "size_bytes": 3489,
+      "sha256": "1e6c41279e19b435e8f25a9b61ca0f893fb7a68968c686ed70e6d35379ae3ab5",
+      "mtime": 1788035403.0968933
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_hierarchical_decoder.ext",
+      "kind": "file",
+      "size_bytes": 6270260,
+      "sha256": "33b0c1c7dbcc7471b2054561026b6add410732c14a1cda407478de4fa6b143b5",
+      "mtime": 1788035653.4105585
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_hierarchical_decoder.mag",
+      "kind": "file",
+      "size_bytes": 528300,
+      "sha256": "6ed0193716de3474d780d0974d78411dac42ed3dfb844977283589bda5d3ecb7",
+      "mtime": 1788035403.233498
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_hierarchical_predecode2x4.ext",
+      "kind": "file",
+      "size_bytes": 36740,
+      "sha256": "20bf305e57b733ed62cf1236b8ea3ea69c522011d95d7c3083c121e738a50152",
+      "mtime": 1788035640.604123
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_hierarchical_predecode2x4.mag",
+      "kind": "file",
+      "size_bytes": 9010,
+      "sha256": "d352aec030b17dbe75a21c92856340ff3d2f2c431289184717133d7b46c85fb4",
+      "mtime": 1788035403.1223474
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_hierarchical_predecode3x8.ext",
+      "kind": "file",
+      "size_bytes": 138766,
+      "sha256": "2879e3c3f0f673500ca036d2ac11d0620772d45f88a964470528b3e18f5e8411",
+      "mtime": 1788035640.855554
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_hierarchical_predecode3x8.mag",
+      "kind": "file",
+      "size_bytes": 15954,
+      "sha256": "16c34ac6e5dd03dde599e6597538c2c7baddd8ddcb02d1deff94fc0f2a714eeb",
+      "mtime": 1788035403.2074704
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m1_w0_360_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.1281142
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m1_w0_740_sactive_dactive.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.5828216
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m1_w0_740_sactive_dli.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.094847
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m1_w0_740_sli_dactive.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.2060513
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m1_w2_880_sli_dli.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "9a7a3d7a0daac55e6d50ef0b08d90f4a55c6f39cd017506433616fdf994191ea",
+      "mtime": 1788035403.189253
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m1_w7_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "2da60b0242eac4d04ac6a0e4d4bc77ef4b2ea3496f0d124ac7e4291627322d2f",
+      "mtime": 1788035403.0965557
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m24_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.187116
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m26_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.2652094
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m2_w0_740_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1095178
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m3_w1_680_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1847274
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m3_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1822762
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m40_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.2138717
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m44_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1872735
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m77_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1914415
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m7_w1_680_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.116762
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m8_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1453638
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_nmos_m9_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1858432
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pand2.ext",
+      "kind": "file",
+      "size_bytes": 4179,
+      "sha256": "54178d31767411f197af46069e2469f74b63d5e0b8fb4aaf135619e7cb6b035b",
+      "mtime": 1788035625.9674716
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pand2.mag",
+      "kind": "file",
+      "size_bytes": 874,
+      "sha256": "dac2b8d636355e8af190d2b5f3166e414656baa48e0549c5a8907b178fcee1f1",
+      "mtime": 1788035403.1231303
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pand3.ext",
+      "kind": "file",
+      "size_bytes": 7383,
+      "sha256": "69cd3d65c669abf0575ee43d9db0748506895daaee46c425c3fc16a8562480f8",
+      "mtime": 1788035626.4907932
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pand3.mag",
+      "kind": "file",
+      "size_bytes": 952,
+      "sha256": "5b4fb213f7bce865b70c221d49788af722ad498b36e48d0e5427ad3ad09008ef",
+      "mtime": 1788035403.128602
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pand3_0.ext",
+      "kind": "file",
+      "size_bytes": 7341,
+      "sha256": "cc5fae8f8252648a66a08c8893655ed5339122cf063b6ec541347aa7d0830326",
+      "mtime": 1788035626.400294
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pand3_0.mag",
+      "kind": "file",
+      "size_bytes": 952,
+      "sha256": "8979e398db639f740d04328ef62e43eedda6a4974088a30ab82298e5643072d9",
+      "mtime": 1788035403.2021062
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver.ext",
+      "kind": "file",
+      "size_bytes": 2454,
+      "sha256": "78fe32cf0c1fd43a943206335fc5435a286e64679fd4146825e0eb197792b5b0",
+      "mtime": 1788035625.959602
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver.mag",
+      "kind": "file",
+      "size_bytes": 640,
+      "sha256": "55f42bdeac6f4fa462b2b5383c79530e3c9fe9709343a2607e13657a7b1a4f26",
+      "mtime": 1788035403.183929
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver_0.ext",
+      "kind": "file",
+      "size_bytes": 25152,
+      "sha256": "6ea1b58e0630959703fb8a9e43b1c257169f64bdd0fe4ca6df44b5d844a22f37",
+      "mtime": 1788035626.1248617
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver_0.mag",
+      "kind": "file",
+      "size_bytes": 1902,
+      "sha256": "1d69a98430452d6dfe8d69871f8130f68b83792c2abe1303f61edb53abff7572",
+      "mtime": 1788035403.1856036
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver_1.ext",
+      "kind": "file",
+      "size_bytes": 4220,
+      "sha256": "f1a1ee653cea8a50ea8696eae87d0d12e5187385891620b346ed007bc0dee973",
+      "mtime": 1788035626.5773578
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver_1.mag",
+      "kind": "file",
+      "size_bytes": 827,
+      "sha256": "4903b521c9a56bb17401f155f7ea99d1d7110d10bbb6178651e02366642f6bc6",
+      "mtime": 1788035403.1869192
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver_2.ext",
+      "kind": "file",
+      "size_bytes": 2953,
+      "sha256": "bd44a2379a84b12d96bedfec7ea839b0331494be994590f33848d3f5155b428a",
+      "mtime": 1788035626.4553807
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver_2.mag",
+      "kind": "file",
+      "size_bytes": 650,
+      "sha256": "a17a5c0102bdc3323a5abb32a0215aa67a1be3f12318b0edfc1b67ecd14e366a",
+      "mtime": 1788035403.1900096
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver_3.ext",
+      "kind": "file",
+      "size_bytes": 2949,
+      "sha256": "e5e607597cf21aade3430630af2dd2cc69d747d95049093a1c022fba61c28d53",
+      "mtime": 1788035626.3570118
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver_3.mag",
+      "kind": "file",
+      "size_bytes": 650,
+      "sha256": "23b6e9eae1a861e9a923e719572519c39918a69440d0036d07f0855b3fabac58",
+      "mtime": 1788035403.194196
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver_4.ext",
+      "kind": "file",
+      "size_bytes": 14941,
+      "sha256": "5772778f9bf9c339c3c5783f7a8e290314598914d3424a9cd30e647ce65bbbec",
+      "mtime": 1788035626.541945
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pdriver_4.mag",
+      "kind": "file",
+      "size_bytes": 1540,
+      "sha256": "f07c92fa01077193a2e09526ee254bcc55371ad4ce5f5be7ba82cf418686b7a2",
+      "mtime": 1788035403.1948574
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv.ext",
+      "kind": "file",
+      "size_bytes": 1348,
+      "sha256": "87539a589ed21a87ab64872ff42a6711c66c3f0a1faac94d8c4c9a56d4590857",
+      "mtime": 1788035625.9710665
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv.mag",
+      "kind": "file",
+      "size_bytes": 1833,
+      "sha256": "26b66697de328dd569be91fffb92529975b9d6afabe550f196af85cfada8b647",
+      "mtime": 1788035403.1952047
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_0.ext",
+      "kind": "file",
+      "size_bytes": 1559,
+      "sha256": "8139b669d28900fb2648f96b395d65e2d55b13924a4a7ec384f41d4aeaf68e79",
+      "mtime": 1788035626.1340172
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_0.mag",
+      "kind": "file",
+      "size_bytes": 2365,
+      "sha256": "50cbf43904f1569d163398e2e6847c5a43da7a44944abed40a5ab971414464fb",
+      "mtime": 1788035403.5861135
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_1.ext",
+      "kind": "file",
+      "size_bytes": 1766,
+      "sha256": "f1b29ad7920a76379f1ce0d39578ee91f08dd7185bec3b9e46b1735fdede1683",
+      "mtime": 1788035626.1287963
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_1.mag",
+      "kind": "file",
+      "size_bytes": 2888,
+      "sha256": "516c5156c3a93f5de5809b80ad898fc67c0e5eae7ed30e2418acf9f9f16ed83f",
+      "mtime": 1788035403.5869298
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_10.ext",
+      "kind": "file",
+      "size_bytes": 17164,
+      "sha256": "f728ca89fa37118213fe20dc3279599bba42ffac54517bf06782e32dd336a120",
+      "mtime": 1788035625.99108
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_10.mag",
+      "kind": "file",
+      "size_bytes": 37609,
+      "sha256": "a0fdf042ef07901703700be8c320a788b26fe9f2f59e4331c4c88d92d3c3c187",
+      "mtime": 1788035403.1982195
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_11.ext",
+      "kind": "file",
+      "size_bytes": 2787,
+      "sha256": "c202bf045b6622c0b57c2a1fc7276815a12e6527378bb211c5b8dc3390ec1ddb",
+      "mtime": 1788035626.5549302
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_11.mag",
+      "kind": "file",
+      "size_bytes": 5064,
+      "sha256": "e130bbdb8f10634217efcba757418810546b53bf99aa6ef608bac93b8c24c32e",
+      "mtime": 1788035403.202458
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_12.ext",
+      "kind": "file",
+      "size_bytes": 6132,
+      "sha256": "6f13693236eaeda3e8ca9a5e56399cfb5202cab03c1a4ae74831f45c71317f83",
+      "mtime": 1788035626.5498145
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_12.mag",
+      "kind": "file",
+      "size_bytes": 12619,
+      "sha256": "125b0db04ac61d4b182f9abcac3b1258086d0f0d69275279cc02a655dfef9f91",
+      "mtime": 1788035403.2032063
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_13.ext",
+      "kind": "file",
+      "size_bytes": 10294,
+      "sha256": "24d484e82427c4b7ae89ac9c555c79a07020631f116ae4b5ed7cf0035ca930e6",
+      "mtime": 1788035626.4120984
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_13.mag",
+      "kind": "file",
+      "size_bytes": 22049,
+      "sha256": "e49e37349a99682458b49f7735f67ed7fe284b048a34bb87754b808c530a7e47",
+      "mtime": 1788035403.204527
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_14.ext",
+      "kind": "file",
+      "size_bytes": 9462,
+      "sha256": "f1c5a5bd158aa21bbafaef09ee18cefb817c0773b705c289401ea97aca7b0ed8",
+      "mtime": 1788035626.3176644
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_14.mag",
+      "kind": "file",
+      "size_bytes": 20163,
+      "sha256": "6b95be27affb520b53e238d648ce7b00e64d17af5d798c7ba3405db83a37fdf5",
+      "mtime": 1788035403.2091265
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_15.ext",
+      "kind": "file",
+      "size_bytes": 6549,
+      "sha256": "6d3df3d476999aae418dee415c9119cac93d6dd3c8f41a029eb9f07a2a8aabbc",
+      "mtime": 1788035626.4986627
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_15.mag",
+      "kind": "file",
+      "size_bytes": 13562,
+      "sha256": "795f38ce5ded0917f95fbeaedcd79b0a626077abcf8e8a799f4b38a203c0cbff",
+      "mtime": 1788035403.2144392
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_16.ext",
+      "kind": "file",
+      "size_bytes": 1348,
+      "sha256": "34671738140fbd12041e8132915056dd3edb47591a2484367f4a9f0c242f8c07",
+      "mtime": 1788035626.5809891
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_16.mag",
+      "kind": "file",
+      "size_bytes": 1833,
+      "sha256": "d0df5ff8a388ee2dbb38891bc1f7be3dc0715e08e4772248559f26b4ab22266e",
+      "mtime": 1788035403.2465591
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_2.ext",
+      "kind": "file",
+      "size_bytes": 2584,
+      "sha256": "70e22c8875f3c1010d4a5f73dcdd9249d759e1459ad9a4097e4e98d4e7ce485b",
+      "mtime": 1788035625.9556675
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_2.mag",
+      "kind": "file",
+      "size_bytes": 4604,
+      "sha256": "7de89519c8b7957be7c25b83d197ce9d4328fabf3057d4c07799e7d635d8976c",
+      "mtime": 1788035403.5886984
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_5.ext",
+      "kind": "file",
+      "size_bytes": 1348,
+      "sha256": "87539a589ed21a87ab64872ff42a6711c66c3f0a1faac94d8c4c9a56d4590857",
+      "mtime": 1788035626.0043032
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_5.mag",
+      "kind": "file",
+      "size_bytes": 1833,
+      "sha256": "26b66697de328dd569be91fffb92529975b9d6afabe550f196af85cfada8b647",
+      "mtime": 1788035403.0956693
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_6.ext",
+      "kind": "file",
+      "size_bytes": 1559,
+      "sha256": "4bafe13589578f7cf94519d882ca5b8fad5c552260fea116787217e582be0352",
+      "mtime": 1788035626.0036964
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_6.mag",
+      "kind": "file",
+      "size_bytes": 2365,
+      "sha256": "50cbf43904f1569d163398e2e6847c5a43da7a44944abed40a5ab971414464fb",
+      "mtime": 1788035403.0977004
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_7.ext",
+      "kind": "file",
+      "size_bytes": 1764,
+      "sha256": "e2fe736788ca37de7828f2fd945aa2bed0ac1efb525cafb2c220426540b4bfb3",
+      "mtime": 1788035626.0029304
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_7.mag",
+      "kind": "file",
+      "size_bytes": 2874,
+      "sha256": "4142c0c314b84680ddc146290bebb125b2e0cfd469f6ed34626a1543f3fdd8b1",
+      "mtime": 1788035403.1130898
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_8.ext",
+      "kind": "file",
+      "size_bytes": 2995,
+      "sha256": "10f231672ffcfa21e5ddb6d7b64aa820e26681e05d9b322c96f729bc380c0d05",
+      "mtime": 1788035626.0017571
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_8.mag",
+      "kind": "file",
+      "size_bytes": 5535,
+      "sha256": "eb02b4a2862672ac242f437aeaaf86e85cf9d94e846da3b07ed7b821a1acd2af",
+      "mtime": 1788035403.113834
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_9.ext",
+      "kind": "file",
+      "size_bytes": 6549,
+      "sha256": "048cf69ed359519a28e4285b75ac16800f8d28726b37f19dd5731789dae40289",
+      "mtime": 1788035625.995015
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_9.mag",
+      "kind": "file",
+      "size_bytes": 13562,
+      "sha256": "5ff3055de532cf0ebcf8db2a0ebabaad2df5d5a63e399acbfc8c6b1a1467bc54",
+      "mtime": 1788035403.1157074
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_dec.ext",
+      "kind": "file",
+      "size_bytes": 1348,
+      "sha256": "ad0abd9f3fdf735fdeab2621b0170ea58ee11f01ca4b3a1702a96f6796cf21c6",
+      "mtime": 1788035640.5190234
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_dec.mag",
+      "kind": "file",
+      "size_bytes": 2337,
+      "sha256": "08789945c015a075272b6d7016cf21bc26e22f862bab9af866b09844aae8c44a",
+      "mtime": 1788035403.095255
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_dec_0.ext",
+      "kind": "file",
+      "size_bytes": 1369,
+      "sha256": "755e54d9dace29b5aa6550132dfabd3cba299377dfa08573daef633cff7e58e2",
+      "mtime": 1788035633.8430152
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinv_dec_0.mag",
+      "kind": "file",
+      "size_bytes": 2427,
+      "sha256": "5f76b8abadc0b96c62d5c7e6b3d9205c51ba93cdc8d66613e097b501768e3469",
+      "mtime": 1788035403.1956348
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinvbuf.ext",
+      "kind": "file",
+      "size_bytes": 7165,
+      "sha256": "bffe9fb87bcd439d93b1c35a268729986f1a330764fe0ed0decf05a8622829fa",
+      "mtime": 1788035633.827304
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pinvbuf.mag",
+      "kind": "file",
+      "size_bytes": 1678,
+      "sha256": "cc26b2637033ac99734163e8c877a2e4a91c716876eacc3d33fec16bb69d8eff",
+      "mtime": 1788035403.195934
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m1_w0_550_sli_dli.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "7d0221621a5eba0e1a47700bc5460c4140b8e6f396841fbb8fcaed0ca150b1c6",
+      "mtime": 1788035403.1236002
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m1_w1_120_sli_dli.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.096352
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m1_w1_120_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "ccebe6d5bfaf96ea57e224ff7db2389cdef0ca50ec6ee36cf40ccaeebc64d0c5",
+      "mtime": 1788035403.0958753
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m1_w7_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "2da60b0242eac4d04ac6a0e4d4bc77ef4b2ea3496f0d124ac7e4291627322d2f",
+      "mtime": 1788035403.1852338
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m24_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1146562
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m26_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1863024
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m2_w1_260_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1859941
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m3_w1_680_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.2611866
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m3_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.215286
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m40_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1834288
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m44_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1150577
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m77_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.1218743
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m7_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.188353
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m8_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.2026968
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pmos_m9_w2_000_sli_dli_da_p.mag",
+      "kind": "file",
+      "size_bytes": 107,
+      "sha256": "e9137e1c12acd32993005d435432b2cf68f5375d6f76f918d93e0a083558ab39",
+      "mtime": 1788035403.5826902
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pnand2.ext",
+      "kind": "file",
+      "size_bytes": 2622,
+      "sha256": "800a5bd07ca03485021377a0e267b47e8fdb801104b434f1ba46491f21b92ef1",
+      "mtime": 1788035625.963193
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pnand2.mag",
+      "kind": "file",
+      "size_bytes": 2015,
+      "sha256": "e37a21f1d9abc89bf595bd0a19c3b188e78e19ccaa59cfba8ffdd570b51355fa",
+      "mtime": 1788035403.1283925
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pnand2_0.ext",
+      "kind": "file",
+      "size_bytes": 2071,
+      "sha256": "4eb1503a4aa22cfa81896b4be945e9c46a97fa87689c0269c76ff4c11762969f",
+      "mtime": 1788035626.5472126
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pnand2_0.mag",
+      "kind": "file",
+      "size_bytes": 2404,
+      "sha256": "1c20227ee95b661e627db052cd572c5bd5749fa91f8f16bdb66817f608d8e32c",
+      "mtime": 1788035403.5925646
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pnand3.ext",
+      "kind": "file",
+      "size_bytes": 3378,
+      "sha256": "4ee8c7afb5ab9a7848c2a1ce4fe465d92770362561407936bb1ae6e62c1597c5",
+      "mtime": 1788035626.3623502
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_pnand3.mag",
+      "kind": "file",
+      "size_bytes": 2513,
+      "sha256": "9add229801379acbc797893a12512104002dc2bc9e6caebc456de94480b40b03",
+      "mtime": 1788035403.1301045
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_port_address.ext",
+      "kind": "file",
+      "size_bytes": 2561377,
+      "sha256": "c1370a989c30e0dd98d6a1ab4ec029ccfdf5ddef147eb0c98890b355a48d8f65",
+      "mtime": 1788035674.3222866
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_port_address.mag",
+      "kind": "file",
+      "size_bytes": 28119,
+      "sha256": "a48cd260b468e02da58dbbfa9f65d940f591b724382ec024ee91d14f7b4f4062",
+      "mtime": 1788035403.0933201
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_port_data.ext",
+      "kind": "file",
+      "size_bytes": 4670573,
+      "sha256": "936623e189863820e80fe4d50139cb88c11083c2e8a183d20f022f888150466f",
+      "mtime": 1788035696.4202394
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_port_data.mag",
+      "kind": "file",
+      "size_bytes": 78068,
+      "sha256": "f1a043a31c7b5b8ed1d72449b2e2ba6f56533e919f62bd76eac038be6b3e28e7",
+      "mtime": 1788035403.2114503
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_precharge_0.ext",
+      "kind": "file",
+      "size_bytes": 1649,
+      "sha256": "ccaac7fa47866fa75ddf2efaafd289a0e26cbe6902dda2569d3874b7c000047c",
+      "mtime": 1788035682.0672455
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_precharge_0.mag",
+      "kind": "file",
+      "size_bytes": 2669,
+      "sha256": "521e0a9c7212f83093c67f1ad04a713f6aca417743cf22ab9624a1b630af1ab1",
+      "mtime": 1788035403.1766026
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_precharge_array.ext",
+      "kind": "file",
+      "size_bytes": 416985,
+      "sha256": "36e38792343b2e5efda080ebd5d02c05d3cf77a4267c6137966d3700205984f9",
+      "mtime": 1788035683.5030732
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_precharge_array.mag",
+      "kind": "file",
+      "size_bytes": 125122,
+      "sha256": "4fd73b08dff920d7666ab2c4989af74e3a04355bac00f6fd8372cbc70f20d4e0",
+      "mtime": 1788035403.124357
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_row_addr_dff.ext",
+      "kind": "file",
+      "size_bytes": 126723,
+      "sha256": "453a8e05959b2237e45f46fb4c9ac5bd8e7231f01dae6cf5cd0cbc643fcc6d33",
+      "mtime": 1788035628.6072328
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_row_addr_dff.mag",
+      "kind": "file",
+      "size_bytes": 9241,
+      "sha256": "f2ae34b34872464f25405c6ca057df2bd29b3e1cfbdb3ceb5b8bc0532b42ba79",
+      "mtime": 1788035403.2080534
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sense_amp_array.ext",
+      "kind": "file",
+      "size_bytes": 1303171,
+      "sha256": "904c0dc58e0cfead3e3c02277d4b77c43d950ed44e398b7b50076889fb8a1f08",
+      "mtime": 1788035682.0624924
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sense_amp_array.mag",
+      "kind": "file",
+      "size_bytes": 138112,
+      "sha256": "0e669a693d4b99b886fea7ae2dc6a4645d74661881b2684316d0c743b85efb2e",
+      "mtime": 1788035403.1170568
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_bitcell_array.ext",
+      "kind": "file",
+      "size_bytes": 667197519,
+      "sha256": "9e86ca20b0e952230e6875b8992c8084a9c6faf664b233c8227177c28ab9cd61",
+      "mtime": 1788078115.8223438
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_bitcell_array.mag",
+      "kind": "file",
+      "size_bytes": 10504275,
+      "sha256": "3be9133073292f38c84213c83dfe90bd6ebc5e78f5e99eb6552fb5d931ad3b35",
+      "mtime": 1788035403.5796077
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_capped_replica_bitcell_array.ext",
+      "kind": "file",
+      "size_bytes": 184489029,
+      "sha256": "a2532f2c3da9de2331fcb6c82e52d1b0511e58d3dcad6e54abb46192ef514c25",
+      "mtime": 1788081881.4718006
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_capped_replica_bitcell_array.mag",
+      "kind": "file",
+      "size_bytes": 37044,
+      "sha256": "c422375593647a7f8dc9ff60cefb486d8caaed3b18f03121db8487823234b05b",
+      "mtime": 1788035403.108049
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_col_cap_array.ext",
+      "kind": "file",
+      "size_bytes": 1044308,
+      "sha256": "22a56d60417bfdd4bfc4fb80b535054b3908074bf4bf460895c6d3e286b01a5d",
+      "mtime": 1788035700.9960482
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_col_cap_array.mag",
+      "kind": "file",
+      "size_bytes": 129118,
+      "sha256": "c1fcf0dcd7257f4fd036c68268f1f0194895ba30e71f72b6fce32bef7ede661b",
+      "mtime": 1788035403.261492
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_col_cap_array_0.ext",
+      "kind": "file",
+      "size_bytes": 1050282,
+      "sha256": "678b7f97f9a5beac324c72be0ee219f35dab8d399e5fff1332e9531929053385",
+      "mtime": 1788035703.3787918
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_col_cap_array_0.mag",
+      "kind": "file",
+      "size_bytes": 129696,
+      "sha256": "a0af5c177acc0e9da09d507d7ba9d7d57b75c5630fb451065ebf1b8deaaf6d2b",
+      "mtime": 1788035403.1101205
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_dummy_array.ext",
+      "kind": "file",
+      "size_bytes": 6331051,
+      "sha256": "f46a66e2e9940b10a89d4e6c6f4022d3d21ac3a9d0e737831b3d5728b88846d0",
+      "mtime": 1788035708.2442071
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_dummy_array.mag",
+      "kind": "file",
+      "size_bytes": 113217,
+      "sha256": "44ccfc03567d7c589953728c393da93732f428ca5ec9ba1f3811fde2fc751270",
+      "mtime": 1788035403.0893023
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_replica_bitcell_array.ext",
+      "kind": "file",
+      "size_bytes": 157885047,
+      "sha256": "f9e01252b5e61fc74096a0f00f975486ffb3c68e3df86dcc2f5a88eb197fa8e2",
+      "mtime": 1788080012.6693544
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_replica_bitcell_array.mag",
+      "kind": "file",
+      "size_bytes": 256129,
+      "sha256": "b5a23e10bf1e2f4dde18a1447eb49585cd0ea5fd105423a17d079227784ed60c",
+      "mtime": 1788035403.2570965
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_replica_column.ext",
+      "kind": "file",
+      "size_bytes": 1283985,
+      "sha256": "354061e778c3fa5448f4e935635d6cfbbbacbbd6c00b60ed4d92f01f796912b8",
+      "mtime": 1788035713.6353667
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_replica_column.mag",
+      "kind": "file",
+      "size_bytes": 109796,
+      "sha256": "9d00081702c12695cbd955d28a5999e49a7f677870e5b67758cfcdc4ac6902ec",
+      "mtime": 1788035403.5893865
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_row_cap_array.ext",
+      "kind": "file",
+      "size_bytes": 733882,
+      "sha256": "e2c434471c3f956cab36ce8e3b4d6d4ce9378fd6478052b872b86d68cdaa96f2",
+      "mtime": 1788035698.7786615
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_row_cap_array.mag",
+      "kind": "file",
+      "size_bytes": 40019,
+      "sha256": "8aaecbf187c311ebe9fd5b45089f8d8a3fbaa63eb041a81d809d0e71e50aee59",
+      "mtime": 1788035403.2602699
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_row_cap_array_0.ext",
+      "kind": "file",
+      "size_bytes": 643975,
+      "sha256": "24a77ac53dd171298f5923db2811e98a320c771fff8ea45ba21567e3d44cad1a",
+      "mtime": 1788035697.603368
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_sky130_row_cap_array_0.mag",
+      "kind": "file",
+      "size_bytes": 37161,
+      "sha256": "4a11d9a76cf51627dbb37ca82ea03f9e3d2c57bfcaec781a0b62f8ed98286687",
+      "mtime": 1788035403.145723
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_wordline_driver.ext",
+      "kind": "file",
+      "size_bytes": 4953,
+      "sha256": "f5f4417696d0e9045d359326d65732f12c07a301ad87d5a6aca8ae58963abbc1",
+      "mtime": 1788035633.8547988
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_wordline_driver.mag",
+      "kind": "file",
+      "size_bytes": 1024,
+      "sha256": "b9cf087defa3db2bbc3af6a0d9d6418b5b52bfc03a279497e44d8bcf8cefaa6c",
+      "mtime": 1788035403.2610745
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_wordline_driver_array.ext",
+      "kind": "file",
+      "size_bytes": 2463593,
+      "sha256": "bb4d18ab31154a7b789e51879799416320cef728b7cffbe5fb65257c0542c3cc",
+      "mtime": 1788035640.515155
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_wordline_driver_array.mag",
+      "kind": "file",
+      "size_bytes": 393565,
+      "sha256": "452794f536f9a94d06af80f95b28f842a56ec87441f4248b2d3c8433d3969da7",
+      "mtime": 1788035403.1391046
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_write_driver_array.ext",
+      "kind": "file",
+      "size_bytes": 1867730,
+      "sha256": "4529af0e57b59ee5c556f62c48bf4533ff8ad665c58461113fa652cec5e59768",
+      "mtime": 1788035679.0671859
+    },
+    {
+      "path": "openram_tmp_256x72/sky130_sram_1rw_72x256_gate3a02_write_driver_array.mag",
+      "kind": "file",
+      "size_bytes": 113025,
+      "sha256": "48b5f977d86bf09de5be030c80d690d8bd91e33059a6fcbd57fb3bf9ddd54698",
+      "mtime": 1788035403.2452972
+    },
+    {
+      "path": "openram_tmp_256x72/sram.sp",
+      "kind": "file",
+      "size_bytes": 3676761,
+      "sha256": "03934a79ab8467090a8ce9b95cde56f0f1be1bd76d58da510bd3860375224efb",
+      "mtime": 1788087078.626054
+    },
+    {
+      "path": "openram_tmp_256x72/temp.gds",
+      "kind": "file",
+      "size_bytes": 19613584,
+      "sha256": "b0acd3f6483e021400eab76a3adca5a2c2d43876bbdb1ba4f525710dbf043cff",
+      "mtime": 1788031841.377956
+    },
+    {
+      "path": "openram_tmp_256x72/trimmed.sp",
+      "kind": "file",
+      "size_bytes": 3676760,
+      "sha256": "b76f4c4fe275ffe763c1a2bc9e4783b01dc9cfd3fa800c8ce02d994cd96a171e",
+      "mtime": 1788087079.9171839
+    }
+  ]
+}

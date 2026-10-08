@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "job": "bch-encoder",
+  "design": "bch_78_64_t2_v1_encoder",
+  "start_time": "2026-08-14T10:35:22Z",
+  "end_time": "2026-08-14T10:35:31Z",
+  "timeout_seconds": 1200,
+  "exit_status": 0
+}

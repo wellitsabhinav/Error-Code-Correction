@@ -1,0 +1,12 @@
+{
+  "sram_capacity_gib": 6.103515625e-05,
+  "word_length_bits": 64,
+  "tech_node_nm": 14,
+  "vdd_volts": 0.9,
+  "temperature_c": 25.0,
+  "ber": 1e-09,
+  "fault_modes": [
+    "burst"
+  ],
+  "carbon_intensity_kgco2_per_kwh": 0.9
+}

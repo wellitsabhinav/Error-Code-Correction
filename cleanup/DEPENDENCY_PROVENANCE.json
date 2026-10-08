@@ -1,0 +1,586 @@
+[
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt02/pdk/sky130_fd_bd_sram",
+    "commit": "dd64256961317205343a3fd446908b42bafba388",
+    "remote": "origin\thttps://github.com/vlsida/sky130_fd_bd_sram.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt02/pdk/skywater-pdk",
+    "commit": "f70d8ca46961ff92719d8870a18a076370b85f6c",
+    "remote": "origin\thttps://github.com/google/skywater-pdk.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt02/pdk/skywater-pdk/libraries/sky130_fd_sc_hd/latest",
+    "commit": "ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1",
+    "remote": "origin\thttps://github.com/google/skywater-pdk-libs-sky130_fd_sc_hd.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt02/pdk/skywater-pdk/libraries/sky130_fd_pr/latest",
+    "commit": "f62031a1be9aefe902d6d54cddd6f59b57627436",
+    "remote": "origin\thttps://github.com/google/skywater-pdk-libs-sky130_fd_pr.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt02/source/OpenRAM",
+    "commit": "b6a6f12642df6b84facc24a77f9a6f67a0d62dab",
+    "remote": "origin\thttps://github.com/VLSIDA/OpenRAM.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts",
+    "commit": "56496f3980fb6e9e58f10c8aea4a98949c0fe5f2",
+    "remote": "origin\thttps://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys",
+    "commit": "a5af9d690a43744bf6b2cc3dea2717c16b54621c",
+    "remote": "origin\thttps://github.com/The-OpenROAD-Project/yosys.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/tomlplusplus",
+    "commit": "a43ad3787293f4a46b1d70c0924b5a25d10e79fc",
+    "remote": "origin\thttps://github.com/marzer/tomlplusplus (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/boost_regex",
+    "commit": "2b3ac0834f31086c6e3c0e0ceb8516e427d5c39d",
+    "remote": "origin\thttps://github.com/MikePopoloski/regex (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/cxxopts",
+    "commit": "4bf61f08697b110d9e3991864650a405b3dd515d",
+    "remote": "origin\thttps://github.com/jarro2783/cxxopts (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/fmt",
+    "commit": "a00f82c6b66dcae15503ba19c1598b2733057dea",
+    "remote": "origin\thttps://github.com/fmtlib/fmt (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/slang",
+    "commit": "8acc660a20b70de48ecec1c7471863e6f4b3ae6f",
+    "remote": "origin\thttps://github.com/MikePopoloski/slang (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/symfpu",
+    "commit": "5d5e50867437fe5cabd6ab5aad3b3808ec86701f",
+    "remote": "origin\thttps://github.com/YosysHQ/symfpu (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/abc",
+    "commit": "2a9e9c2a00e44abd90fc593edfc2c0ff4573f318",
+    "remote": "origin\thttps://github.com/YosysHQ/abc (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/frontends/slang/lib",
+    "commit": "3dddccd478618d68f8a5e160fb4b5783c4da35d4",
+    "remote": "origin\thttps://github.com/povik/sv-elab (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/frontends/slang/lib/third_party/fmt",
+    "commit": "1be298e1bd68957e4cd352e1f676f00e07dcfb57",
+    "remote": "origin\thttps://github.com/fmtlib/fmt (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/frontends/slang/lib/third_party/slang",
+    "commit": "8acc660a20b70de48ecec1c7471863e6f4b3ae6f",
+    "remote": "origin\thttps://github.com/MikePopoloski/slang.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD",
+    "commit": "ab6fd26351dc449e69059684dc6aa9ae9046eb36",
+    "remote": "origin\thttps://github.com/The-OpenROAD-Project/OpenROAD.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD/src/sta",
+    "commit": "31e8fffddce247c0000dd1332ad975b69a50f722",
+    "remote": "origin\thttps://github.com/The-OpenROAD-Project/OpenSTA.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc",
+    "commit": "d527cfab4ad731b767ea0a2be2021d920d3afece",
+    "remote": "origin\thttps://github.com/The-OpenROAD-Project/abc.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD/third-party/slang-elab",
+    "commit": "82effc8d9541be69e1ed3ec44759a4449f5d9247",
+    "remote": "origin\thttps://github.com/povik/yosys-slang.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD/third-party/slang-elab/third_party/fmt",
+    "commit": "553ec11ec06fbe0beebfbb45f9dc3c9eabd83d28",
+    "remote": "origin\thttps://github.com/fmtlib/fmt (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD/third-party/slang-elab/third_party/slang",
+    "commit": "f04e81565793c768b747a8fd058f3e7aeceee1b5",
+    "remote": "origin\thttps://github.com/MikePopoloski/slang.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal",
+    "commit": "9dd032c6ffb885c232801bc20f39cd5c80dc05fe",
+    "remote": "origin\thttps://github.com/keplertech/kepler-formal (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja",
+    "commit": "f65692a1eb8ede66e47645aa86c87713ed832636",
+    "remote": "origin\thttps://github.com/nanocoh/naja.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/googletest",
+    "commit": "52eb8108c5bdec04579160ae17225d66034bd723",
+    "remote": "origin\thttps://github.com/google/googletest (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/naja-verilog",
+    "commit": "5da040bb34f0e4e5bb8d67223b999a0132fb401f",
+    "remote": "origin\thttps://github.com/najaeda/naja-verilog (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/naja-verilog/thirdparty/googletest",
+    "commit": "52eb8108c5bdec04579160ae17225d66034bd723",
+    "remote": "origin\thttps://github.com/google/googletest (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/cpptrace",
+    "commit": "3db8da80111171c219ab5839905771386bee06b3",
+    "remote": "origin\thttps://github.com/jeremy-rifkin/cpptrace (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/slang",
+    "commit": "512c327c209d3043aa98ecfd02d06a1b73fcd5fb",
+    "remote": "origin\thttps://github.com/najaeda/slang (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/naja-if",
+    "commit": "318b8faa01aedd990058854b4de4ee2d779d8237",
+    "remote": "origin\thttps://github.com/najaeda/naja-if (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/kissat",
+    "commit": "8af8e56f174b778aef3aa45af9f739b2a5f492c2",
+    "remote": "origin\thttps://github.com/arminbiere/kissat (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/yaml-cpp",
+    "commit": "a83cd31548b19d50f3f983b069dceb4f4d50756d",
+    "remote": "origin\thttps://github.com/jbeder/yaml-cpp.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/glucose",
+    "commit": "7f887abba7cf13636a5ac2d28653668a20a91b25",
+    "remote": "origin\thttps://github.com/audemard/glucose.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Ubuntu-24.04",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/cadical",
+    "commit": "7b99c07f0bcab5824a5a3ce62c7066554017f641",
+    "remote": "origin\thttps://github.com/arminbiere/cadical (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt04_sky130_control_integration_repair/pdk/sky130_fd_bd_sram",
+    "commit": "dd64256961317205343a3fd446908b42bafba388",
+    "remote": "origin\thttps://github.com/vlsida/sky130_fd_bd_sram.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt04_sky130_control_integration_repair/pdk/skywater-pdk",
+    "commit": "f70d8ca46961ff92719d8870a18a076370b85f6c",
+    "remote": "origin\thttps://github.com/google/skywater-pdk.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt04_sky130_control_integration_repair/pdk/skywater-pdk/libraries/sky130_fd_sc_hd/latest",
+    "commit": "ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1",
+    "remote": "origin\thttps://github.com/google/skywater-pdk-libs-sky130_fd_sc_hd.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt04_sky130_control_integration_repair/pdk/skywater-pdk/libraries/sky130_fd_pr/latest",
+    "commit": "f62031a1be9aefe902d6d54cddd6f59b57627436",
+    "remote": "origin\thttps://github.com/google/skywater-pdk-libs-sky130_fd_pr.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt04_sky130_control_integration_repair/source/OpenRAM",
+    "commit": "b6a6f12642df6b84facc24a77f9a6f67a0d62dab",
+    "remote": "origin\thttps://github.com/VLSIDA/OpenRAM.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt04_sky130_control_integration_repair/source/sky130_sram_8dcc",
+    "commit": "8dccd8d8ddb0a9de1b02207b2cd0c0d697807aa9",
+    "remote": "origin\thttps://github.com/vlsida/sky130_fd_bd_sram.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt04_sky130_control_integration_repair/source/OpenRAM-p2",
+    "commit": "b6a6f12642df6b84facc24a77f9a6f67a0d62dab",
+    "remote": "origin\thttps://github.com/VLSIDA/OpenRAM.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt04_sky130_control_integration_repair/source/OpenRAM-p1",
+    "commit": "b6a6f12642df6b84facc24a77f9a6f67a0d62dab",
+    "remote": "origin\thttps://github.com/VLSIDA/OpenRAM.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts",
+    "commit": "56496f3980fb6e9e58f10c8aea4a98949c0fe5f2",
+    "remote": "origin\thttps://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys",
+    "commit": "a5af9d690a43744bf6b2cc3dea2717c16b54621c",
+    "remote": "origin\thttps://github.com/The-OpenROAD-Project/yosys.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/tomlplusplus",
+    "commit": "a43ad3787293f4a46b1d70c0924b5a25d10e79fc",
+    "remote": "origin\thttps://github.com/marzer/tomlplusplus (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/boost_regex",
+    "commit": "2b3ac0834f31086c6e3c0e0ceb8516e427d5c39d",
+    "remote": "origin\thttps://github.com/MikePopoloski/regex (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/cxxopts",
+    "commit": "4bf61f08697b110d9e3991864650a405b3dd515d",
+    "remote": "origin\thttps://github.com/jarro2783/cxxopts (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/fmt",
+    "commit": "a00f82c6b66dcae15503ba19c1598b2733057dea",
+    "remote": "origin\thttps://github.com/fmtlib/fmt (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/slang",
+    "commit": "8acc660a20b70de48ecec1c7471863e6f4b3ae6f",
+    "remote": "origin\thttps://github.com/MikePopoloski/slang (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/libs/symfpu",
+    "commit": "5d5e50867437fe5cabd6ab5aad3b3808ec86701f",
+    "remote": "origin\thttps://github.com/YosysHQ/symfpu (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/abc",
+    "commit": "2a9e9c2a00e44abd90fc593edfc2c0ff4573f318",
+    "remote": "origin\thttps://github.com/YosysHQ/abc (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/frontends/slang/lib",
+    "commit": "3dddccd478618d68f8a5e160fb4b5783c4da35d4",
+    "remote": "origin\thttps://github.com/povik/sv-elab (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/frontends/slang/lib/third_party/fmt",
+    "commit": "1be298e1bd68957e4cd352e1f676f00e07dcfb57",
+    "remote": "origin\thttps://github.com/fmtlib/fmt (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/yosys/frontends/slang/lib/third_party/slang",
+    "commit": "8acc660a20b70de48ecec1c7471863e6f4b3ae6f",
+    "remote": "origin\thttps://github.com/MikePopoloski/slang.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD",
+    "commit": "ab6fd26351dc449e69059684dc6aa9ae9046eb36",
+    "remote": "origin\thttps://github.com/The-OpenROAD-Project/OpenROAD.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD/src/sta",
+    "commit": "31e8fffddce247c0000dd1332ad975b69a50f722",
+    "remote": "origin\thttps://github.com/The-OpenROAD-Project/OpenSTA.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD/third-party/abc",
+    "commit": "d527cfab4ad731b767ea0a2be2021d920d3afece",
+    "remote": "origin\thttps://github.com/The-OpenROAD-Project/abc.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD/third-party/slang-elab",
+    "commit": "82effc8d9541be69e1ed3ec44759a4449f5d9247",
+    "remote": "origin\thttps://github.com/povik/yosys-slang.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD/third-party/slang-elab/third_party/fmt",
+    "commit": "553ec11ec06fbe0beebfbb45f9dc3c9eabd83d28",
+    "remote": "origin\thttps://github.com/fmtlib/fmt (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/OpenROAD/third-party/slang-elab/third_party/slang",
+    "commit": "f04e81565793c768b747a8fd058f3e7aeceee1b5",
+    "remote": "origin\thttps://github.com/MikePopoloski/slang.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal",
+    "commit": "9dd032c6ffb885c232801bc20f39cd5c80dc05fe",
+    "remote": "origin\thttps://github.com/keplertech/kepler-formal (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja",
+    "commit": "f65692a1eb8ede66e47645aa86c87713ed832636",
+    "remote": "origin\thttps://github.com/nanocoh/naja.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/googletest",
+    "commit": "52eb8108c5bdec04579160ae17225d66034bd723",
+    "remote": "origin\thttps://github.com/google/googletest (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/naja-verilog",
+    "commit": "5da040bb34f0e4e5bb8d67223b999a0132fb401f",
+    "remote": "origin\thttps://github.com/najaeda/naja-verilog (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/naja-verilog/thirdparty/googletest",
+    "commit": "52eb8108c5bdec04579160ae17225d66034bd723",
+    "remote": "origin\thttps://github.com/google/googletest (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/cpptrace",
+    "commit": "3db8da80111171c219ab5839905771386bee06b3",
+    "remote": "origin\thttps://github.com/jeremy-rifkin/cpptrace (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/slang",
+    "commit": "512c327c209d3043aa98ecfd02d06a1b73fcd5fb",
+    "remote": "origin\thttps://github.com/najaeda/slang (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/naja/thirdparty/naja-if",
+    "commit": "318b8faa01aedd990058854b4de4ee2d779d8237",
+    "remote": "origin\thttps://github.com/najaeda/naja-if (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/kissat",
+    "commit": "8af8e56f174b778aef3aa45af9f739b2a5f492c2",
+    "remote": "origin\thttps://github.com/arminbiere/kissat (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/yaml-cpp",
+    "commit": "a83cd31548b19d50f3f983b069dceb4f4d50756d",
+    "remote": "origin\thttps://github.com/jbeder/yaml-cpp.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/glucose",
+    "commit": "7f887abba7cf13636a5ac2d28653668a20a91b25",
+    "remote": "origin\thttps://github.com/audemard/glucose.git (fetch)",
+    "status": "",
+    "status_exit": 0
+  },
+  {
+    "distribution": "Attempt04-Recovery",
+    "path": "/var/lib/green-ecc-gate03e/source/OpenROAD-flow-scripts/tools/kepler-formal/thirdparty/cadical",
+    "commit": "7b99c07f0bcab5824a5a3ce62c7066554017f641",
+    "remote": "origin\thttps://github.com/arminbiere/cadical (fetch)",
+    "status": "",
+    "status_exit": 0
+  }
+]
