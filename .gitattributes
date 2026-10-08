@@ -100,6 +100,8 @@
 /campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/README.md text eol=lf
 /campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/RUNTIME_STATE.json text eol=lf
 /campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/**/*.vvp text eol=lf
+# This manifest is emitted by the same CRLF writer as top-level v3.3 artifacts.
+/campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/hashes/CAMPAIGN_ARTIFACTS.sha256 text eol=crlf
 /campaigns/date_2027_activity_qualified_ecc_energy/** -text whitespace=-trailing-space,-blank-at-eof
 /campaigns/date_2027_activity_qualified_ecc_energy_rev2/** -text whitespace=-trailing-space,-blank-at-eof
 /paper/date2027_revision/** -text whitespace=-trailing-space,-blank-at-eof
