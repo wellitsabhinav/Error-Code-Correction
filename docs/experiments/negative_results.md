@@ -11,3 +11,6 @@
 | Missing SKY130 inventory/yield/lifetime | Same status; [sustainability](../sustainability-model.md) | Lifecycle carbon/global ranking blocked |
 
 Failed runs may be compressed after unique source/configs and compact summaries are published and archives verified. Decisive logs, manifests, seeds, tool pins, constraints, and block/null states remain discoverable. Cleanup changes no evidence ceiling.
+
+
+Cleanup CI replay also exposed a failing legacy generic `asic/rtl/bch/bch_codec.sv` BCH(63,51) example: its bench fails double-bit correction before reaching the expected triple-collision test. This code is distinct from the verified primitive software and shortened BCH(78,64) registry artifacts. See [the recorded replay](../../cleanup/BCH_RTL_CI_NEGATIVE_RESULT.json). Cleanup preserves this negative result and does not repair or qualify that legacy RTL.

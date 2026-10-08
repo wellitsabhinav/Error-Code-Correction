@@ -1,0 +1,785 @@
+[
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/00_source_state_pre.log",
+    "sha256": "916ea07dfebf9a79dda3aecd3c9ac53e945dc515b04aebdf8fa09d892e619615",
+    "size_bytes": 1521,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/01_isolated_state.log",
+    "sha256": "135e9689be7287a90c45f5ad23d5a6239453c1624363444233e2ba171df769f3",
+    "size_bytes": 1107,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/02_inventory.log",
+    "sha256": "536e31caea54779466f1547402d2d3a5e4ef8169790c9fa3d20c9f31e21ebcde",
+    "size_bytes": 58278,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/03_tool_versions.log",
+    "sha256": "e6792095ad3f709c8f129e6b977c0ffd52999a922a85d86e48b9095e76e0a00a",
+    "size_bytes": 3622,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/04_doctor.log",
+    "sha256": "fcb4378940637662270630687e1e987230a2cae83ccc91fdfa8e57100da517bd",
+    "size_bytes": 4735,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/05_ecc_list.log",
+    "sha256": "ad96350a88e1acfa4dd0d6aa0dc867b44d17cf32d90ee66d2f6aa4c2dd703109",
+    "size_bytes": 853,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/06_dependencies.log",
+    "sha256": "d6661fe521e264aea7072e88909a7a1c62a09255367b2c2bab3b303e510de027",
+    "size_bytes": 1851,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/07_targeted_golden.log",
+    "sha256": "aa4ff7a1ee60e18c4ed898c0fea0ad1212e0df5306fca15db892270695300e33",
+    "size_bytes": 424,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/08_targeted_bch.log",
+    "sha256": "3a5861a79bc5ad28e0c4167ee6e9918ead0f02be6b9f1fac47f0326ffa0696a4",
+    "size_bytes": 376,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/09_targeted_framework.log",
+    "sha256": "9f84076f941fa31d2dc9bd5ed9afa3f44d60ffcbd3a7d17a0ce0a9607f15e470",
+    "size_bytes": 39137,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/10_targeted_pareto.log",
+    "sha256": "fd6b8bd87ff7077487bec2969b3f14469ffba6b309bc7ae6eb3344539f0e7566",
+    "size_bytes": 423,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/11_verify_hsiao.log",
+    "sha256": "c7431276295e849968d7fdedb156b4715829337eb39ef4cf58c78005bb8f1542",
+    "size_bytes": 1002,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/12_make.log",
+    "sha256": "0c57d8f79d78c1a8ea5ef2b6a6b0eda7f7bb43f10351c7f222a76a16d7b32dc5",
+    "size_bytes": 1118,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/13_make_test.log",
+    "sha256": "1a0200bf305134ff23be3a673b184d314f9418944fd9fb05f9f5c7dbdba771c1",
+    "size_bytes": 41193,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/14_python3_pytest.log",
+    "sha256": "1d5fe48a1e4a13c45f14f642f30e009762677e5fc7211205834a6c509d950886",
+    "size_bytes": 39499,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/15_documentation_check.log",
+    "sha256": "8afe7ddc752e5e8d93d7bb0fdc22c263982cddf40862d32453f6e3cfac73b7f6",
+    "size_bytes": 1937,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/16_rtl_regression.log",
+    "sha256": "d6db41e1d064c0150935405e240efed5c8759813c4530c641b630ce5f7d72fbf",
+    "size_bytes": 784,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/17_hash_and_eol_audit.log",
+    "sha256": "6bbf137d2b16462b768331446396e1c0e288130926541c6150fff1503a555a2f",
+    "size_bytes": 2464,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/18_line_ending_diagnosis.log",
+    "sha256": "aa3233172ba5a70dbf7d17847f664fd84c002dc3cbdfab607d0278d47c35df2b",
+    "size_bytes": 485,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/19_registry_derivation.log",
+    "sha256": "64c68651d3e96e05196b8a98399aa1b2dbd1b82617cd10f121c0f0ce4a2fedbb",
+    "size_bytes": 12146,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/21_manuscript_claim_inventory.log",
+    "sha256": "d48878b1d46a9564a451859eb3297fcb7680c6633a5408bb02632e1a53c7d29c",
+    "size_bytes": 186596,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/22_static_inventory.log",
+    "sha256": "b8f219c8a709c3fd8af547087fa698a33351e8eebaa8f2b4847c85c965d6fd65",
+    "size_bytes": 27576,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/23_verification_and_scope.log",
+    "sha256": "a9aebedaf19141a537ba5e8bf96cd0bcd5b0eb1f6047d3e82b2012b440f5e0b1",
+    "size_bytes": 30850,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/24_artifact_validation.log",
+    "sha256": "9b0a81fedca3090433313671c60e12ab6d5b7c97c756d95938c9a7875abdb409",
+    "size_bytes": 588,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/25_artifact_validation.log",
+    "sha256": "0db67c55a8359489580ff345b7c4e0819c7d6aa0eddc38f88683542dcb3a80cc",
+    "size_bytes": 390,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/26_artifact_validation.log",
+    "sha256": "2fdf92d78cd14f80ea2a8c0263a3ed8317a177ff5a0886878f9e28e66592753c",
+    "size_bytes": 325,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/27_reference_and_scope_validation.log",
+    "sha256": "ddc56e48585245f3848896024c8ebaecc38548b2412b45d76f2c1e853fef7c14",
+    "size_bytes": 339,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/28_final_tree_state.log",
+    "sha256": "052169b9412c041d223126fbee3766f2711e4585f4029e9fa8b445fe87976cfa",
+    "size_bytes": 2830,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/29_final_validation.log",
+    "sha256": "8203f1ff66868faff377bc62c56acafd06dc879e16fcea00bfd750a91f6beb54",
+    "size_bytes": 1786,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_01/baseline/30_final_validation.log",
+    "sha256": "733a60dec9a615160c095467f0b4af0d95c69b69c74cc80a1b7b262ce479e591",
+    "size_bytes": 261,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/GATE_02_REPORT.md",
+    "sha256": "176dd2c98d00b05d056090c070f2bcb60bbdc92e79e057312458c133144f5387",
+    "size_bytes": 14940,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/IMPLEMENTATION_EQUIVALENCE.md",
+    "sha256": "4534c4b6fa03eb3fff28bb1e7a5ac05f3740edc1b774d17edfb6e2e6b6601f3a",
+    "size_bytes": 3807,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/MINIMUM_DISTANCE_CERTIFICATES.json",
+    "sha256": "98e6ad43366a4b06d18af202e6c519b44c244ded6635d05ce693b53084b6dace",
+    "size_bytes": 57619,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/STATUS_CHANGELOG.md",
+    "sha256": "734427d3292265c586a61e53c078c48c135fe47dbe637e84295ba5f683a68512",
+    "size_bytes": 2670,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/UNIVERSE_DEFINITIONS.json",
+    "sha256": "4b4009f24fff23ab6d8e2eb56e026d88030de87c3a01874cde2d0784fc283ec2",
+    "size_bytes": 60233,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/environment_manifest.json",
+    "sha256": "d5b8100f1d388ddfc80f932d7048c543415a0516fdce5a79c0ed6e680a7e2d1a",
+    "size_bytes": 1630,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/evidence_hash_manifest.json",
+    "sha256": "1f727e7715d36ee00705367ee6777848a7b9ac57595e33209eec9b31d4367503",
+    "size_bytes": 5523,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/gate01_hashes.json",
+    "sha256": "b4d383b8be96de8d1a51edfa0f7ba5f15985393c76b03afb39b687d1b9cc9934",
+    "size_bytes": 5330,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/generation.log",
+    "sha256": "782d7521f08dba137e824da0575a03dc93fd804e6353fac25ede7cba5e7e1ae4",
+    "size_bytes": 67,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/cyclic-rtl-bounded-search-63-51-v1.json",
+    "sha256": "52befa846cdb128b2c77f4e0a7389b41e37fd085505be974eeb9a13db25659f4",
+    "size_bytes": 6109,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/forge-hotspot-8-4-v1-archived-table-decoder.json",
+    "sha256": "6a771c05fcfd95a780476848996b7c7719521359e1fcad93b6e9967bbbee7131",
+    "size_bytes": 8895,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/forge-spatial-hotspot-72-64-v1-archived-table-decoder.json",
+    "sha256": "901a1af818b6ecbb3b8240e111e004036605fa6fa2a1c143f5c7783275256535",
+    "size_bytes": 7805,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/forge-sram-portfolio-72-64-v1-geometry-filtered-joint-archived-table-decoder.json",
+    "sha256": "7dce9910a82d43b165d481c4dd0e29520316f8270fb96258e88ce77fcfe72343",
+    "size_bytes": 8425,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/forge-sram-portfolio-72-64-v1-spatial-hotspot-joint-archived-table-decoder.json",
+    "sha256": "513f5734d0faf1009da20fad99f394895c1493acd8254811af38f803df00f58e",
+    "size_bytes": 8368,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/hsiao-generated-combinational-72-64-v1.json",
+    "sha256": "502b2caaf6b9fe66cd87677f03ed5f5a3baa2c9093786c4ace2ed0d961982800",
+    "size_bytes": 5903,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/odd-column-secded-4-8-archived-table-decoder.json",
+    "sha256": "cf767d9de05d62f226c3932e72a2ae27b9308e3ca699ede3e3d263a4a327f7ae",
+    "size_bytes": 8876,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/odd-column-secded-64-72-archived-table-decoder.json",
+    "sha256": "4301990bd0616550eb37115db0d124e5be2db4bb6e4f23de24ad761f6a68a745",
+    "size_bytes": 7541,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/primitive-bch-63-51-t2-v1-reference-decoder.json",
+    "sha256": "759ab35de7c2802d57f2c86a232b02f72f8dc9259a400cbcfcb53562e1959edd",
+    "size_bytes": 6003,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/safeforge-robust-72-64-mapping-v1-archived-table-decoder.json",
+    "sha256": "ede9579b094db7ea01cb2b065cb5c4ad3b6e12355fb2de60cd6e72139bb76122",
+    "size_bytes": 7909,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/safeforge-robust-8-4-v1-archived-table-decoder.json",
+    "sha256": "8664d71718a46807929321cf420f9aba47564b6dbfa47d30ac51d7c5accebb30",
+    "size_bytes": 8993,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/secdaec-rtl-bounded-72-64-v1.json",
+    "sha256": "12277102eeb9605bb57742e1bc276e3ec7f4285f072fa147e2ab6e68f27e22e7",
+    "size_bytes": 9438,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/secded-rtl-combinational-72-64-v1.json",
+    "sha256": "42a8efb1820c8eaca64ef774d0a7c744912e5bfca68b438b9023acf052e45f95",
+    "size_bytes": 5869,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/shortened-bch-71-64-t1-v1-reference-decoder.json",
+    "sha256": "b4a36c0e93a34bac6f8dc5b97178a9a9ef3454faef92f33a8cc29191ca47f1bb",
+    "size_bytes": 6067,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/shortened-bch-78-64-t2-v1-reference-decoder.json",
+    "sha256": "8793ec34a63344c4a7d84b6bca1cfa704221955ae2c870b70929674f34bbad86",
+    "size_bytes": 6006,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/shortened-bch-85-64-t3-v1-reference-decoder.json",
+    "sha256": "bf14544439bd056372b75d1efc8b127f47c6170508854e5a8aacf50504610ab7",
+    "size_bytes": 5948,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_aggregates/taec-rtl-bounded-72-64-v1.json",
+    "sha256": "478de63e703a59207bffe1666b9abc829531d7641badaf9876e1f34b7056c47c",
+    "size_bytes": 9216,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/implementation_equivalence.json",
+    "sha256": "5d037bfee367709d5f621be2599063085337adcf15a70e08285f47d8eab1b8fb",
+    "size_bytes": 22012,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/source_state_post.json",
+    "sha256": "78b7c1ddca8cb8f04c64a838b9e335d1f69a87830e2dfb2f0303d96f9056447f",
+    "size_bytes": 641,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/source_state_pre.json",
+    "sha256": "5031c651a4f99ec270e9c05ab23d9aa1336558924786da7d6572e68462786b2e",
+    "size_bytes": 641,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_02/baseline/translation_invariance.json",
+    "sha256": "0940ba41f0d9a2b00875db427be7af2f4f38c75a7df64cd3a75c18746bcf2ded",
+    "size_bytes": 12932,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/provision/docker-package-install.log",
+    "sha256": "ec176ea5b4d1f55a4a6c8785bd83651fc27d2e5dcb13de8d635764f48535f73f",
+    "size_bytes": 6336,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "raw blob; mixed embedded progress newlines"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/provision/ubuntu-package-install.log",
+    "sha256": "4d35c7c036dca6113461cef0daa38b679c04ae5eaa43950931eecd5230122bab",
+    "size_bytes": 2882,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "raw blob; mixed embedded progress newlines"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/gate03e-artifact-scope-validator.log",
+    "sha256": "cdbc6d730d23db87ced22065d0df5cd466de4066914eb8128475953b4f8f23f6",
+    "size_bytes": 4825,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/gate03e-focused-tests.log",
+    "sha256": "06de305242f8a99627210f0d98d373b22e7e3468f5828cdb150d667cdb722770",
+    "size_bytes": 423,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/gate03r-validator.log",
+    "sha256": "4ebbf0a85b8cb0e0a8798b7a27885a2a2631d05cfedaba1187ea3d0a172148b3",
+    "size_bytes": 263,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/make-test.log",
+    "sha256": "2164eed2c250e4102de89e145bb5faed65ae0ae6ebf655b7f6756ed95b91b575",
+    "size_bytes": 6023,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/make.log",
+    "sha256": "43d99a8c8eb7b42bb9c852c73031ea8530696c64a3458a744066332a771fbd4b",
+    "size_bytes": 534,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/python3-pytest-q.log",
+    "sha256": "426971ee4a42f2c1afc37d3947e3e74d8c62ba17f7cea07a679ae7ff6c509ec4",
+    "size_bytes": 4588,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation/gate03e-artifact-scope-validator.log",
+    "sha256": "15a1c7d0fce328615d1d7b96785f6cc72e96d62f2ea07d6b768578fded222a3a",
+    "size_bytes": 282,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation/gate03e-focused-tests.log",
+    "sha256": "0f56dec9f523eaa7fc439952a50d3dc23585fe4f7ef89ae0df6c2e8a3fa92109",
+    "size_bytes": 423,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation/gate03r-validator.log",
+    "sha256": "660480204f0713f018f3ec8aa5c36f798bb1beff2eb21f2b807d1a63a7a5baff",
+    "size_bytes": 263,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation/make-test.log",
+    "sha256": "9a0bd65c8ee18a7e01a87bc5b6b31d37f25d08c77dae5b05142faceaff8bd7a2",
+    "size_bytes": 2115,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation/make.log",
+    "sha256": "c4cef833c1f5306f84bb96f08c4071a35f525a1c28880d5afb6b7d8771bae7dc",
+    "size_bytes": 534,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03e/raw_logs/repository-validation/python3-pytest-q.log",
+    "sha256": "b33a713a238cc5ec5e8443388df3b707ff40cf0de09f348dba94938783824efa",
+    "size_bytes": 701,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    },
+    "checkout_rule": "LF Git object plus explicit opt-in mixed-newline restoration"
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03es/PRIOR_EVIDENCE_HASH_REVALIDATION.json",
+    "sha256": "9f78d782b551c7270f3bf222ef534e8694a4e66fa4abfc62023cb551633044a6",
+    "size_bytes": 7040,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03es/QOR_METRIC_SCHEMA_V3.json",
+    "sha256": "ca1452f1230de44d7fc78dda4bca76e4059449169d864458ed0067262a6847f7",
+    "size_bytes": 281257,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_encoder.json",
+    "sha256": "57d3538c604e8f175b34e6eea8cdcecb2e87f42d09e93948ce29d5cc14109e6b",
+    "size_bytes": 291585,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_combined.json",
+    "sha256": "e263e77f44faa518bf726d011e116c98b66ff762e4df9de1165ab7cbf7631bb2",
+    "size_bytes": 336868,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_decoder.json",
+    "sha256": "f89fcca4196b7b70dbfaf2ef4b8b764c79bd79d130ed10cdacb162f0245c174b",
+    "size_bytes": 494326,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_encoder.json",
+    "sha256": "791c2812630ca10c4ec9482f513b18eef9d9ca175f903ec2be017d04c2a7e758",
+    "size_bytes": 193128,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/secded_pipelined_72_64_v1_encoder.json",
+    "sha256": "7e5fdfd182b92d25fd192bf6238118a3bacb7eca72b09542baebdf5cc36eced1",
+    "size_bytes": 248490,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_06/figures/F01_CROSS_LAYER_METHOD.svg",
+    "sha256": "6cac9e4ed66ffed7107ae23f05d4fd4bc8236c6d87cfdba88c55242c1f7b26b0",
+    "size_bytes": 8652,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_06/figures/F02_AREA_VS_FMAX.svg",
+    "sha256": "132f55fc9ca2770db762cc5ed9ace8cc427cb5c024cd83051f3dbd66c514db37",
+    "size_bytes": 16688,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_06/figures/F03_NORMALIZED_PHYSICAL_COST.svg",
+    "sha256": "a272bb4bb2760c01c24fd2d64c4c074c7a05756f15b62180ecc9b95ebab79224",
+    "size_bytes": 15012,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  },
+  {
+    "path": "docs/date2027/rigour_gate_06/figures/F04_RELIABILITY_OUTCOMES.svg",
+    "sha256": "21150d046cc72abd56622561a5a30149cb60a66adea570f7d89712af0c1a2826",
+    "size_bytes": 9921,
+    "existing_attributes": {
+      "text": "unspecified",
+      "eol": "unspecified"
+    }
+  }
+]

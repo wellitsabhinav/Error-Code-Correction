@@ -1,0 +1,84 @@
+{
+  "distribution": "Ubuntu-24.04",
+  "source": "/var/lib/green-ecc-iscas-sustainability/gate3_openram_attempt02/output",
+  "archive_path": "D:/GREENS_ARCHIVES/openram/Ubuntu-24.04-gate3_openram_attempt02-output.tar.gz",
+  "archive_sha256": "1ad1f8d5cae18ac90a66dafa9ee9a5e57aec235c280ebe6aed8b96a7483a1e9a",
+  "members": [
+    {
+      "path": "geometry_constraint_failure_02",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "geometry_constraint_failure_02/sky130_sram_1rw_72x256_gate3a02.log",
+      "kind": "file",
+      "size_bytes": 5820,
+      "sha256": "67e5e04fff43bd59544b164336655e6af242b86c6a957f4403fa99d7bf92f872",
+      "mtime": 1788016568.6517918
+    },
+    {
+      "path": "geometry_constraint_failure_03",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "geometry_constraint_failure_03/sky130_sram_1rw_72x256_gate3a02.log",
+      "kind": "file",
+      "size_bytes": 5823,
+      "sha256": "c6c8b607ad6924796410bbb5a055fbf043122fea09ea62065dc343bab7cf22fb",
+      "mtime": 1788029219.702318
+    },
+    {
+      "path": "launcher_bootstrap_failure_01",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "launcher_bootstrap_failure_01/sky130_sram_1rw_72x256_gate3a02.log",
+      "kind": "file",
+      "size_bytes": 5907,
+      "sha256": "94ed69bf1a3e5d8e8f96c3370ad36f21dfedeb1f98b72af5bd88c308d0002693",
+      "mtime": 1788016344.6140592
+    },
+    {
+      "path": "sky130_sram_1rw_72x256_gate3a02",
+      "kind": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "sky130_sram_1rw_72x256_gate3a02/functional_meas.sp",
+      "kind": "file",
+      "size_bytes": 435097,
+      "sha256": "0093394fd67779831c6e0cb5c2018c71934030efc4bcdf3a29c1a2ce0f881dc3",
+      "mtime": 1788087079.2186396
+    },
+    {
+      "path": "sky130_sram_1rw_72x256_gate3a02/functional_stim.sp",
+      "kind": "file",
+      "size_bytes": 1085627,
+      "sha256": "996e32cf94078d3f36f84c84fedb241ffcc43ad9ab9f86d810342ec33f37d316",
+      "mtime": 1788087079.2186396
+    },
+    {
+      "path": "sky130_sram_1rw_72x256_gate3a02/sky130_sram_1rw_72x256_gate3a02.log",
+      "kind": "file",
+      "size_bytes": 13350339,
+      "sha256": "b9335aba50313f3b7c880d738ed4eb9410edb992f88525bdf3e63f5f4a93c955",
+      "mtime": 1788087081.1612208
+    },
+    {
+      "path": "sky130_sram_1rw_72x256_gate3a02/sky130_sram_1rw_72x256_gate3a02.sp",
+      "kind": "file",
+      "size_bytes": 3676761,
+      "sha256": "03934a79ab8467090a8ce9b95cde56f0f1be1bd76d58da510bd3860375224efb",
+      "mtime": 1788087078.6025076
+    },
+    {
+      "path": "sky130_sram_1rw_72x256_gate3a02/sram.sp",
+      "kind": "file",
+      "size_bytes": 3676761,
+      "sha256": "03934a79ab8467090a8ce9b95cde56f0f1be1bd76d58da510bd3860375224efb",
+      "mtime": 1788087079.921414
+    }
+  ]
+}

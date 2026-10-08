@@ -1,0 +1,10 @@
+﻿{
+  "sram_capacity_gib": 8.0,
+  "word_length_bits": 64,
+  "tech_node_nm": 14,
+  "vdd_volts": 0.8,
+  "temperature_c": 75.0,
+  "ber": 1e-9,
+  "fault_modes": ["sbu", "mbu"],
+  "carbon_intensity_kgco2_per_kwh": 0.55
+}

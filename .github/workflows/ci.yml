@@ -19,6 +19,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          # Frozen campaign validators compare historical Git trees.
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -28,6 +31,9 @@ jobs:
 
       - name: Install Python dependencies
         run: python -m pip install -r requirements.txt
+
+      - name: Restore frozen mixed-newline evidence
+        run: python scripts/restore_frozen_checkout_bytes.py --restore --refresh-index
 
       - name: Validate public artifact contract
         run: python scripts/check_artifact.py
@@ -48,8 +54,13 @@ jobs:
     name: Windows / Python 3.11 / UCRT64
     runs-on: windows-latest
     steps:
+      - name: Enable long scientific artifact paths
+        shell: pwsh
+        run: git config --global core.longpaths true
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -59,6 +70,9 @@ jobs:
 
       - name: Install Python dependencies
         run: python -m pip install -r requirements.txt
+
+      - name: Restore frozen mixed-newline evidence
+        run: python scripts/restore_frozen_checkout_bytes.py --restore --refresh-index
 
       - name: Validate public artifact contract
         run: python scripts/check_artifact.py
@@ -89,6 +103,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Install open-source RTL tools
         run: sudo apt-get update && sudo apt-get install -y iverilog verilator yosys

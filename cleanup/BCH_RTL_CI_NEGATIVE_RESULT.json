@@ -1,0 +1,9 @@
+{
+  "compile_exit": 0,
+  "compile_log": "asic/rtl/bch/bch_codec.sv:22: sorry: constant selects in always_* processes are not currently supported (all bits will be included).\nasic/rtl/bch/bch_codec.sv:73: sorry: constant selects in always_* processes are not currently supported (all bits will be included).\nasic/rtl/bch/bch_codec.sv:73: sorry: constant selects in always_* processes are not currently supported (all bits will be included).\nasic/rtl/bch/bch_codec.sv:99: warning: A for statement must have a constant initial value to be synthesized in an always_comb process.\n",
+  "run_exit": 1,
+  "run_log": "FATAL: asic/tb/tb_bch.sv:21: bch double-bit correction failed\n       Time: 4000  Scope: tb_bch\n",
+  "ci_run": "https://github.com/wellitsabhinav/Error-Code-Correction/actions/runs/37724275188",
+  "scope": "Legacy generic asic/rtl/bch/bch_codec.sv BCH(63,51) example; distinct from qualified primitive software and shortened BCH(78,64) registry artifacts",
+  "rtl_modified": false
+}
