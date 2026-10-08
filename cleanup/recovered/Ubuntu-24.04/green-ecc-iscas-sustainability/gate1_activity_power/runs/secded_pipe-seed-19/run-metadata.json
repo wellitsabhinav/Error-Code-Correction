@@ -1,0 +1,19 @@
+{
+  "activity_classes": [
+    "W1",
+    "W2"
+  ],
+  "architecture": "secded_pipe",
+  "elapsed_seconds": 0.9684380759999982,
+  "evidence_origin": "SUSTAINABILITY_EXTENSION",
+  "exit_code": 126,
+  "failure_reason": "OpenROAD activity-power invocation exited 126",
+  "hardware_identity": "secded-rtl-pipelined-72-64-v1",
+  "ordinal": 9,
+  "physical_inputs_read_only": true,
+  "run_id": "secded_pipe-seed-19",
+  "schema_version": 1,
+  "seed": 19,
+  "status": "FAIL",
+  "target_ns": 10.0
+}

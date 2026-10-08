@@ -1,0 +1,10 @@
+{
+  "authorization_basis": "SCIENTIFIC_ENVIRONMENT_READY_FORMAL_GATE_FAILED",
+  "candidate_flows": 40,
+  "container_image": "openroad/orfs@sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+  "frozen_at_utc": "2026-08-14T16:44:59Z",
+  "orfs_commit": "56496f3980fb6e9e58f10c8aea4a98949c0fe5f2",
+  "reference_flows": 20,
+  "schema_version": 1,
+  "total_flows": 60
+}

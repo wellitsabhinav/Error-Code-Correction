@@ -1,0 +1,238 @@
+{
+  "authoritative_environment_identity": "DATE_FINAL_PHYSICAL_ENVIRONMENT_FROZEN",
+  "authoritative_environment_manifest_sha256": "df0d50ea3093e45cad50769facdaf588142ec56c9c66afde534504c5f9dc93cb",
+  "authoritative_gate03f_policy_hash_manifest_sha256": "d95f97404eb2a8f96bf78060dbf906c87bc9034aa914c81aa31639e6fe94ccae",
+  "comparison_boundary": {
+    "fault_injection_location": "trace construction at decoder codeword input",
+    "independent_encoder_decoder_channels": true,
+    "initiation_interval_cycles": 1,
+    "latency_cycles": {
+      "hsiao-generated-combinational-72-64-v1": 1,
+      "secded-rtl-combinational-72-64-v1": 1,
+      "secded-rtl-pipelined-72-64-v1": 3,
+      "shortened-bch-78-64-t2-v1-rtl-syndrome-chien-v1": 1
+    },
+    "useful_payload_bits": 64,
+    "valid_control": "one accepted operation per asserted valid cycle; no backpressure"
+  },
+  "evidence_root": "/var/lib/green-ecc-date2027-gate04-final",
+  "exact_commands": {
+    "analysis": "python3 /var/lib/green-ecc-date2027-gate04-final/policy/repo_snapshot/scripts/gate04_final/analyze_results.py",
+    "freeze": "python3 scripts/gate04_final/prepare_experiment.py --repo /mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction",
+    "matrix": "python3 /var/lib/green-ecc-date2027-gate04-final/policy/repo_snapshot/scripts/gate04_final/run_matrix.py"
+  },
+  "execution_policy": {
+    "individual_tuning_forbidden": true,
+    "infrastructure_failure_preserved_before_any_replacement": true,
+    "no_retry_for_poor_result": true,
+    "one_run_per_included_implementation": true,
+    "optional_clock_sweep_authorized": false,
+    "timing_failure_is_characterization_data": true
+  },
+  "flow": {
+    "abc_clock_period_ps": 10000,
+    "clock_period_ns": 10.0,
+    "core_aspect_ratio": 1.0,
+    "core_margin_um": 10.0,
+    "core_utilization_percent": 35,
+    "input_delay_fraction": 0.1,
+    "lec_check": 0,
+    "num_cores": 1,
+    "output_delay_fraction": 0.1,
+    "output_load_pf": 0.05,
+    "physical_seed": 11,
+    "place_density": 0.55,
+    "relevant_environment": {
+      "ABC_CLOCK_PERIOD_IN_PS": "10000",
+      "CLOCK_PERIOD": "10.0",
+      "GPL_RANDOM_SEED": "11",
+      "GRT_SEED": "11",
+      "LEC_CHECK": "0",
+      "NUM_CORES": "1",
+      "OR_SEED": "11"
+    },
+    "seed_environment_variables": [
+      "GPL_RANDOM_SEED",
+      "GRT_SEED",
+      "OR_SEED"
+    ]
+  },
+  "frozen_at_utc": "2026-08-24T15:52:00Z",
+  "gate": "DATE 2027 Gate 04 final ECC physical characterization",
+  "power": {
+    "arbitrary_toggle_rates": false,
+    "authoritative_extraction_source": "report_power -digits 12 text Total row",
+    "field_rate_weighting": false,
+    "method": "OpenSTA post-route read_vcd on final ODB/SDC/SPEF, followed by activity propagation and report_power",
+    "native_json_role": "diagnostic only because native serialization rounds to approximately three significant digits",
+    "payload_operations_per_trace": 100000,
+    "report_power_text_digits": 12,
+    "silicon_measurement": false,
+    "trace_classes": [
+      "no_error",
+      "single_error",
+      "double_error"
+    ],
+    "trace_manifest_sha256": "5608b592deef797e5426430ce3b8ad83a0a5359ce452c87e4b54bfdaa9a9c9aa"
+  },
+  "reference_implementation_id": "secded-rtl-combinational-72-64-v1",
+  "repository": {
+    "git_commit": "ceae4ad9b5a3ba612596fb7ac1a93dd144114409",
+    "snapshot_file_count": 22,
+    "snapshot_files": [
+      {
+        "bytes": 12328,
+        "path": "asic/rtl/bch/bch_78_64_t2_v1.sv",
+        "sha256": "2cc8b0dd23f3cce9a091ea418a2c2d4fff5f016361228a66e6c151a7c49360e7"
+      },
+      {
+        "bytes": 6095,
+        "path": "asic/rtl/secded/secded_pipelined_72_64_v1.sv",
+        "sha256": "e250a6741b6aa56e0bdc5892ac5753e4487769a6683f68db6ab9155c26a3b155"
+      },
+      {
+        "bytes": 17207,
+        "path": "docs/date2027/rigour_gate_04_final/GATE04_FINAL_ECC_SET.json",
+        "sha256": "ad8b11339e9d97595b9cb23affd540a22f61beb5f720337d26d9f8b707fd909d"
+      },
+      {
+        "bytes": 11021,
+        "path": "docs/date2027/rigour_gate_04_final/GATE04_POWER_ACTIVITY_AUDIT.json",
+        "sha256": "d9fd43845c32db45597a9b8d95ec88dbb8191b66e95e8e3e5c1ad3eb6b517ac0"
+      },
+      {
+        "bytes": 3227,
+        "path": "docs/date2027/rigour_gate_04_final/GATE04_POWER_PRECISION_ADJUDICATION.md",
+        "sha256": "9d4fb425ff6f5b6dca288418e4e143b1dc312291fd236f71ed3816bc1ee393ee"
+      },
+      {
+        "bytes": 11695,
+        "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_decoder.sv",
+        "sha256": "9f74648a861c0506bdd698ab53bb47f8f999eed2bdcc1f6e3c0cf548d9929bfb"
+      },
+      {
+        "bytes": 4853,
+        "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_encoder.sv",
+        "sha256": "638b36ff3ab1ee31bb8e29b8d5ea064b5b36d1d7df7a3f2b96c52e305a31e036"
+      },
+      {
+        "bytes": 2711,
+        "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_syndrome.sv",
+        "sha256": "5b232248546e1945ab5084b7f4850851bb62c6e54dc9c4fa00950e2a457590be"
+      },
+      {
+        "bytes": 4916,
+        "path": "scripts/gate03r/rtl/secded_characterization_tops.sv",
+        "sha256": "560bc8092ba759f7dd3412a106d86a30a7498d88285298c721be2d5ef4dc440b"
+      },
+      {
+        "bytes": 10836,
+        "path": "scripts/gate04/rtl/gate04_boundaries.sv",
+        "sha256": "7de8e8d2933cdf17740ec5ec6f45a3654d5d54d9e419ed1c628ab29ca03308f8"
+      },
+      {
+        "bytes": 23944,
+        "path": "scripts/gate04_final/analyze_results.py",
+        "sha256": "ac0fbdc05153bd3520d9d0c9fef4875af612e40388605d8b23bd8daec5fa4182"
+      },
+      {
+        "bytes": 4116,
+        "path": "scripts/gate04_final/audit_trace_activity.py",
+        "sha256": "d4cdac40533553597113c036171518cc17ef651e459cbbb1ca0692661aed76f3"
+      },
+      {
+        "bytes": 397,
+        "path": "scripts/gate04_final/configs/bch78.mk",
+        "sha256": "c168cef2b04a5803fb5fa79dd4310898b5f356ff9c1729e3fe354083eadf471b"
+      },
+      {
+        "bytes": 361,
+        "path": "scripts/gate04_final/configs/ecc.sdc",
+        "sha256": "7d8c4f563ace74fa762c1a8df4593a68aa0ca285519962c8121504333ec8fb09"
+      },
+      {
+        "bytes": 660,
+        "path": "scripts/gate04_final/configs/hsiao.mk",
+        "sha256": "29f508400cc9b9e09058f11fe26242999bdfffe6962637e29b4acc84ec7a27bb"
+      },
+      {
+        "bytes": 425,
+        "path": "scripts/gate04_final/configs/secded_comb.mk",
+        "sha256": "1b6bd355480e8575b112f2f25153cac82c43849ee2d6add8d1bf7ec7151b51e4"
+      },
+      {
+        "bytes": 487,
+        "path": "scripts/gate04_final/configs/secded_pipe.mk",
+        "sha256": "98c490b8762a1b9adcd1f723d8624d0945be4c1c28f5f30aa3cc9c845826026a"
+      },
+      {
+        "bytes": 5219,
+        "path": "scripts/gate04_final/contract_v1.json",
+        "sha256": "20a7e2c4c204f4c0b61dc4c5cef23c30e6bab0d54719d2e8750f2c67ca71221b"
+      },
+      {
+        "bytes": 869,
+        "path": "scripts/gate04_final/power.tcl",
+        "sha256": "a0e80227f6a16b65a022cc115a9cab7f0f9529dd331d76d1099d59baefa496b4"
+      },
+      {
+        "bytes": 9029,
+        "path": "scripts/gate04_final/prepare_experiment.py",
+        "sha256": "20535e703fe53431b3ef8745ded7e0a0dfd08b5a0cf0848b1539f34ff66bbd8c"
+      },
+      {
+        "bytes": 9664,
+        "path": "scripts/gate04_final/run_characterization.py",
+        "sha256": "66a3bbbd531657bd184f7440ee6b6ffaf18ef46d64c5f67f0b428312a98dbe1c"
+      },
+      {
+        "bytes": 1993,
+        "path": "scripts/gate04_final/run_matrix.py",
+        "sha256": "8b6faae93a040d40225f389f524faf7871b9804f740253761a43a391abb802db"
+      }
+    ],
+    "worktree_status_sha256": "5411ec83f72d114a43d7aa203c8b9e366f9038bc14281b148dff9663a3b56fef"
+  },
+  "runs": [
+    {
+      "config": "secded_comb.mk",
+      "design_top": "gate04_secded_comb_72_64",
+      "implementation_id": "secded-rtl-combinational-72-64-v1",
+      "power_family": "conventional_secded",
+      "run_id": "secded-comb-final-01"
+    },
+    {
+      "config": "secded_pipe.mk",
+      "design_top": "gate04_secded_pipe_72_64",
+      "implementation_id": "secded-rtl-pipelined-72-64-v1",
+      "power_family": "conventional_secded",
+      "run_id": "secded-pipe-final-01"
+    },
+    {
+      "config": "hsiao.mk",
+      "design_top": "gate04_hsiao_72_64",
+      "implementation_id": "hsiao-generated-combinational-72-64-v1",
+      "power_family": "hsiao",
+      "run_id": "hsiao-final-01"
+    },
+    {
+      "config": "bch78.mk",
+      "design_top": "gate04_bch_78_64",
+      "implementation_id": "shortened-bch-78-64-t2-v1-rtl-syndrome-chien-v1",
+      "power_family": "bch78",
+      "run_id": "bch78-final-01"
+    }
+  ],
+  "schema_version": 1,
+  "state": "GATE04_FINAL_EXPERIMENT_FROZEN_BEFORE_EXECUTION",
+  "technology": {
+    "container_image": "openroad/orfs@sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+    "corner": "tt_025C_1v80",
+    "openroad_binary_sha256": "2fc67d3a82df36014b615e710ce2e68600b592b27b051e4533c30248a2e2eb91",
+    "openroad_git_commit": "ab6fd26351dc449e69059684dc6aa9ae9046eb36",
+    "orfs_git_commit": "56496f3980fb6e9e58f10c8aea4a98949c0fe5f2",
+    "platform": "sky130hd",
+    "temperature_c": 25,
+    "voltage_v": 1.8
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "checks": [
+    {
+      "check": "all full-flow physical artifacts exist",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "all mandatory stage logs exist",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "required physical metric present: finish__design__die__area",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "required physical metric present: finish__design__instance__area",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "required physical metric present: finish__design__instance__count",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "required physical metric present: finish__design__instance__count__class:sequential_cell",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "required physical metric present: finish__timing__setup__ws",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "required physical metric present: finish__timing__fmax",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "final flow error count is zero",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "final detailed-route DRC error count is zero",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "final antenna violating-net count is zero",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "final antenna violating-pin count is zero",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "detailed-route DRC report is empty",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "mandatory 10 ns setup timing met",
+      "detail": 5.89964,
+      "status": "PASS"
+    },
+    {
+      "check": "final netlist contains only the expected top module",
+      "detail": [
+        "gate04_secded_comb_72_64"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "no generic Yosys cell type remains",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "no unintended latch cell remains",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "no fault/test port synthesized",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "common registered boundary survived",
+      "detail": {
+        "floor": 344,
+        "observed": 349
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "exact mapped-equivalence-dsec passed",
+      "detail": {
+        "aigs": [
+          "mapped-equivalence-dsec.gold.aig",
+          "mapped-equivalence-dsec.gate.aig"
+        ],
+        "comparison": "RTL-to-mapped"
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "exact postroute-equivalence-dsec passed",
+      "detail": {
+        "aigs": [
+          "postroute-equivalence-dsec.gold.aig",
+          "postroute-equivalence-dsec.gate.aig"
+        ],
+        "comparison": "mapped-to-postroute"
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "all activity power conditions exist",
+      "detail": {
+        "expected": 3,
+        "observed": 3
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "all activity annotation reports exist",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "direct VCD coverage recorded: conventional_secded-double_error.annotation.rpt",
+      "detail": {
+        "input_pin_floor": 139,
+        "unannotated": 4705,
+        "vcd": 139
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "direct VCD coverage recorded: conventional_secded-no_error.annotation.rpt",
+      "detail": {
+        "input_pin_floor": 139,
+        "unannotated": 4705,
+        "vcd": 139
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "direct VCD coverage recorded: conventional_secded-single_error.annotation.rpt",
+      "detail": {
+        "input_pin_floor": 139,
+        "unannotated": 4705,
+        "vcd": 139
+      },
+      "status": "PASS"
+    },
+    {
+      "check": "positive post-route power total: conventional_secded-double_error.power.json",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "positive post-route power total: conventional_secded-no_error.power.json",
+      "detail": null,
+      "status": "PASS"
+    },
+    {
+      "check": "positive post-route power total: conventional_secded-single_error.power.json",
+      "detail": null,
+      "status": "PASS"
+    }
+  ],
+  "clock_period_ns": 10.0,
+  "design_top": "gate04_secded_comb_72_64",
+  "direct_annotation_coverage": [
+    {
+      "trace": "conventional_secded-double_error",
+      "unannotated": 4705,
+      "vcd": 139
+    },
+    {
+      "trace": "conventional_secded-no_error",
+      "unannotated": 4705,
+      "vcd": 139
+    },
+    {
+      "trace": "conventional_secded-single_error",
+      "unannotated": 4705,
+      "vcd": 139
+    }
+  ],
+  "implementation_id": "secded-rtl-combinational-72-64-v1",
+  "schema_version": 1,
+  "sequential_cells": 349,
+  "status": "PASS",
+  "timing_met": true,
+  "validated_artifacts": [
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/1_synth.odb",
+      "sha256": "68fc02e1559b76ce82bac7aa0247b4df941a2ce86759fac213f48df0ac59b412"
+    },
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/2_floorplan.odb",
+      "sha256": "55b9956de49c2d8326d9845fd05900b887540b3a8fc3f633c37948417aa93977"
+    },
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/3_place.odb",
+      "sha256": "9556dca96de4645c18dc2d3e37ce9be9c433a4cce704cbbe64dbc5263a9ebe1b"
+    },
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/4_cts.odb",
+      "sha256": "d121aea6ea06ce4166b85c7f878bd4d9dbb79d7c1f1bcd5875575f9014a3fa6e"
+    },
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/5_route.odb",
+      "sha256": "2726029d679dbdad6a18f24fdeea7e1a0bce67113fabde0d364907579be47fbc"
+    },
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/6_final.odb",
+      "sha256": "abb5d3d83eb5c98595a64238a6f4c8610c4c7806c8bab03370974751609521da"
+    },
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/6_final.v",
+      "sha256": "733d54854db80e3a501fb6f2db220814903cc5b41168c7761b153d183bfbadbb"
+    },
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/6_final.sdc",
+      "sha256": "fcaf7fb012daddb364cfab4792355ae8e50d1ecc2866d0b96e284bcd8e476537"
+    },
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/6_final.def",
+      "sha256": "4129e890ad580f94d43a5d0b6557a35edbc19f2555f32ff8337a3d0f25b6acb2"
+    },
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/6_final.gds",
+      "sha256": "3593ef3770cd3979634db04adfe7c65a340c004f46df32ce070447a95db953d6"
+    },
+    {
+      "path": "results/sky130hd/gate04_secded_comb_72_64/base/6_final.spef",
+      "sha256": "450c483fccb18dd93bafb82065a23d1d226f0db6910d52e1d19e715343d778b9"
+    }
+  ]
+}

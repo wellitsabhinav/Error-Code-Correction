@@ -1,0 +1,17 @@
+{
+  "clock_period_ns": 10.0,
+  "config": "hsiao.mk",
+  "design_top": "gate04_hsiao_72_64",
+  "end_time_utc": "2026-08-24T16:11:18Z",
+  "implementation_id": "hsiao-generated-combinational-72-64-v1",
+  "physical_exit_status": 2,
+  "physical_failure_reason": "",
+  "physical_seed": 11,
+  "power_failure_reason": "",
+  "power_status": "NOT_RUN_PHYSICAL_FAILURE",
+  "replacement_attempt": false,
+  "routing_complete": false,
+  "run_id": "hsiao-final-01",
+  "schema_version": 1,
+  "start_time_utc": "2026-08-24T16:11:14Z"
+}

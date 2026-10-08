@@ -1,0 +1,19 @@
+{
+  "architecture": "bch78",
+  "clock_period_ns": 10.0,
+  "config": "bch78.mk",
+  "design_top": "gate04_bch_78_64",
+  "end_time_utc": "2026-08-25T21:09:33Z",
+  "implementation_id": "shortened-bch-78-64-t2-v1-rtl-syndrome-chien-v1",
+  "physical_exit_status": 0,
+  "physical_failure_reason": "",
+  "physical_seed": 23,
+  "power_failure_reason": "",
+  "power_status": "NOT_REQUIRED_BY_PROTOCOL",
+  "replacement_attempt": false,
+  "routing_complete": true,
+  "run_id": "bch78-seed-23",
+  "schema_version": 1,
+  "start_time_utc": "2026-08-25T20:41:07Z",
+  "timing_feasible": false
+}

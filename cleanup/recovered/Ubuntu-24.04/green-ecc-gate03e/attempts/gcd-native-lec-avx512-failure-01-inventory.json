@@ -1,0 +1,625 @@
+{
+  "artifact_count": 61,
+  "artifacts": [
+    {
+      "canonical_sha256": "4c0a3e46ea5b324f45dd3b5dd027439c952fa8173a275ab48181fbd5c0c47e54",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field",
+        "yosys_peak_memory_metadata"
+      ],
+      "path": "container.log",
+      "raw_sha256": "49be286b0da61f3728d8aaf29869ae15ffba0752f6db094c11227d69f00aa656",
+      "size_bytes": 136906
+    },
+    {
+      "canonical_sha256": "2f65863465c676a56f0cd72bee6d6aab9491fbb7321971de10e7f0ceaf305919",
+      "kind": "file",
+      "normalizations_applied": [
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field",
+        "yosys_peak_memory_metadata"
+      ],
+      "path": "logs/sky130hd/gcd/base/1_1_yosys_canonicalize.log",
+      "raw_sha256": "358b8aed0098ea9cb3aa30b52be6975d860deb112c087e2097ecfe86c8ae0351",
+      "size_bytes": 3433
+    },
+    {
+      "canonical_sha256": "7b53e6f5fb34ef5bf9cb91c4c274a526e55990f2732e4f4f7f2ad04c68777279",
+      "kind": "file",
+      "normalizations_applied": [
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field",
+        "yosys_peak_memory_metadata"
+      ],
+      "path": "logs/sky130hd/gcd/base/1_2_yosys.log",
+      "raw_sha256": "9bb6b65197c990512ac3e531cbd7bcc1acf20195a881dd4fac5384ddfdec0304",
+      "size_bytes": 18952
+    },
+    {
+      "canonical_sha256": "e3fe3e50360a4aeb9af0bbd8ab95af1a83098f5ba0cfe84587b9d2f8f8b9963a",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/1_synth.json",
+      "raw_sha256": "897e5bb3a4be24c642115b3dbdff1fee4f44dfb29954473157f4738ffe5e726e",
+      "size_bytes": 792
+    },
+    {
+      "canonical_sha256": "611748eaaa4b4a306dae314c652a3d98ffc6ae1889b9f7f3615d101a716b4efc",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/1_synth.log",
+      "raw_sha256": "e5facb93d40dec57d420a6f9e4c51f14b3304b5e36fddba61532bd5eb6b2d4b1",
+      "size_bytes": 1534
+    },
+    {
+      "canonical_sha256": "aeb9dce7ed32a86edc3846fd24ea164a92740c963f56c55ec98bae7169c4f93a",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/2_1_floorplan.json",
+      "raw_sha256": "663f6a4016fe9c0b774a96a060e5bd0b4e88e993938d89ca39a66984124de189",
+      "size_bytes": 2141
+    },
+    {
+      "canonical_sha256": "6c44f77b59e3eab4b3379536239d0f993f92d542f33f404a08cab505bb98f74b",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/2_1_floorplan.log",
+      "raw_sha256": "d523eeac5258a269b17026927fa793abb68457767c8b227310afb16d6af1ec58",
+      "size_bytes": 21698
+    },
+    {
+      "canonical_sha256": "4f9394dd7dda0e8c27060cad6beda45d65480b11ebed85e96bd49f3ef835ce19",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/2_2_floorplan_macro.json",
+      "raw_sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "size_bytes": 130
+    },
+    {
+      "canonical_sha256": "93fd4b30be8ec9bf31b105ae8253f48905a2ef770ea207400f710819b28a2433",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/2_2_floorplan_macro.log",
+      "raw_sha256": "9b71d14e7c01c036737caf9875be07ba64352aae75629fbc026927ae6dd33d55",
+      "size_bytes": 1160
+    },
+    {
+      "canonical_sha256": "4f9394dd7dda0e8c27060cad6beda45d65480b11ebed85e96bd49f3ef835ce19",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/2_3_floorplan_tapcell.json",
+      "raw_sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "size_bytes": 130
+    },
+    {
+      "canonical_sha256": "684eeb4423de345fd017788376018aa85eb2da50f69baa5f35392e84cabbcf88",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/2_3_floorplan_tapcell.log",
+      "raw_sha256": "11217be037fab778f5437ba82534083d30bda978411c5e86c6ef46fe75fe6259",
+      "size_bytes": 1165
+    },
+    {
+      "canonical_sha256": "1c60fef74a3b18a0335d32b9c4140da96abc2235c835e7f1e6a106106374b6c2",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/2_4_floorplan_pdn.json",
+      "raw_sha256": "bdb90d02a996414b027d6703bb9d2523f078b5e964cfba10fb3d725b19f8a74c",
+      "size_bytes": 168
+    },
+    {
+      "canonical_sha256": "ac810493cd01e5a90e2be9d7993edf20b3721fd765a344875c3dd21ad4906cb7",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/2_4_floorplan_pdn.log",
+      "raw_sha256": "c0bbafcd57b0ab4c287913e3a6d7dc4cbdbe66623c46e4102f193a76df8774ae",
+      "size_bytes": 1328
+    },
+    {
+      "canonical_sha256": "4f9394dd7dda0e8c27060cad6beda45d65480b11ebed85e96bd49f3ef835ce19",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/3_1_place_gp_skip_io.json",
+      "raw_sha256": "306f2ba2336b16aedb16121b9f8184a688740745a4a7564251da46ebd0d48534",
+      "size_bytes": 130
+    },
+    {
+      "canonical_sha256": "3184b8675cdde5302f909e72cc2797af936bb603197a5d0d572a399ea5a2a774",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/3_1_place_gp_skip_io.log",
+      "raw_sha256": "58c80bbc1f2336e9bc339e1ae1db74e9c41c369a8f7263c2b56af79ec866e36f",
+      "size_bytes": 6583
+    },
+    {
+      "canonical_sha256": "fad0ee5244a302b73c0f25be0f69e9b5be4dfe512beb1a2b770bb438cc878c1d",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/3_2_place_iop.json",
+      "raw_sha256": "c5073fa049f4f820f7d28507345e9b728b8bea90050cb57d61a5e7858714513a",
+      "size_bytes": 190
+    },
+    {
+      "canonical_sha256": "c4616b1bb7b45d2822b7598c523ca11567ffd99e7992bc154fe05188bbb74580",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/3_2_place_iop.log",
+      "raw_sha256": "1c1b3ae9be4c2b099bdf8a2c70acada89a9c085f36633870e2b147380fe09b81",
+      "size_bytes": 1562
+    },
+    {
+      "canonical_sha256": "25467a3fe5b6d9fad13389bd9f768c54000f1e46b76eae527af81ad361070965",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/3_3_place_gp.json",
+      "raw_sha256": "1b7fb47420cd53305808533ffec7e795eee1804c1bbd9195aaa930b6919f6300",
+      "size_bytes": 1659
+    },
+    {
+      "canonical_sha256": "6c76942b5a75e03dbb14e0987828e27769a2a39ebd14b2ab1771a17d648372c2",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/3_3_place_gp.log",
+      "raw_sha256": "316efb0affb67c033e20b08555efa3087c8858db08ab809336671eb485d3808f",
+      "size_bytes": 26329
+    },
+    {
+      "canonical_sha256": "a3cba8df4fcb5722b752b7aa3e1171ba5fb72f32823eff15210d4d3e197441f9",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/3_4_place_resized.json",
+      "raw_sha256": "83f6e8e863366cd0186f75acbe15fd36c1c4aaf49069c641160636fa9ab7bf15",
+      "size_bytes": 2031
+    },
+    {
+      "canonical_sha256": "0454be40d76359e4662be6a58415077db9e6f2dac0b33b21e45a33b61f5e5202",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/3_4_place_resized.log",
+      "raw_sha256": "56369dfc7a243701341d6b2b3422cb87a72f76c2a2c9e594fe28d2b4f8ee20ea",
+      "size_bytes": 6993
+    },
+    {
+      "canonical_sha256": "140fa7d52553fce6d0e04f1bb50cf01fd1907b0960c387501349b554bf5f8b3e",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/3_5_place_dp.json",
+      "raw_sha256": "1b2ce7067b91fa90bb90cb26f5ca61285e7f14f40ab279809c15b6920d096ea7",
+      "size_bytes": 2581
+    },
+    {
+      "canonical_sha256": "d7af73ef11f99850eb184842c904950853746d47b2b51e1161f507325b666a78",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/3_5_place_dp.log",
+      "raw_sha256": "836742517038bc6f42daccb825c7a79e2164457c5585590250f3bf0d6d54ba54",
+      "size_bytes": 6730
+    },
+    {
+      "canonical_sha256": "a3da0dbaf4ae4df81ff36172afa8a3ae3603c1d3567e71247e4d4aba4deb2e11",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "logs/sky130hd/gcd/base/4_1_cts.json",
+      "raw_sha256": "f9eae389b3f7c75824cd7e8246650a46706776e538246503cd995511253afd57",
+      "size_bytes": 670
+    },
+    {
+      "canonical_sha256": "69ffca4352605c70eb924462b131318da34a3c7142189441514e8ef932f4ae71",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace",
+        "absolute_run_root",
+        "elapsed_time_field",
+        "cpu_time_field",
+        "peak_memory_field"
+      ],
+      "path": "logs/sky130hd/gcd/base/4_1_cts.log",
+      "raw_sha256": "e1348bb6831dc7a941625eb7c38c4704e7f02a41fb73279c8c08a4c13ff2276b",
+      "size_bytes": 40085
+    },
+    {
+      "canonical_sha256": "4935590f60b7bba053eeb2019cb91326045cfd54b44443a68f9f664a63f2d347",
+      "kind": "file",
+      "normalizations_applied": [
+        "absolute_run_root"
+      ],
+      "path": "objects/sky130hd/gcd/base/4_rsz_lec_test.yml",
+      "raw_sha256": "bc785b35cebddc31df0f3789c6cd4c61109ae3b315376fdf8b031b505c03a6b5",
+      "size_bytes": 330
+    },
+    {
+      "canonical_sha256": "9fcc3bf9da3c85a2d6355e3c4fbc7ceafa4a6fb3978907fb15bcffe00ff05348",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "objects/sky130hd/gcd/base/abc.constr",
+      "raw_sha256": "9fcc3bf9da3c85a2d6355e3c4fbc7ceafa4a6fb3978907fb15bcffe00ff05348",
+      "size_bytes": 51
+    },
+    {
+      "canonical_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "objects/sky130hd/gcd/base/copyright.txt",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "canonical_sha256": "0d974d87666ea6d7228aad6bb869a7c6dc1e827bb0ab758f172d24c7363d94d1",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "reports/sky130hd/gcd/base/2_floorplan_final.rpt",
+      "raw_sha256": "0d974d87666ea6d7228aad6bb869a7c6dc1e827bb0ab758f172d24c7363d94d1",
+      "size_bytes": 18329
+    },
+    {
+      "canonical_sha256": "7bce709316c63c6512311769bb0fc61b01c22cf3d8a30ea2dc923f68e8d21b77",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "reports/sky130hd/gcd/base/3_detailed_place.rpt",
+      "raw_sha256": "7bce709316c63c6512311769bb0fc61b01c22cf3d8a30ea2dc923f68e8d21b77",
+      "size_bytes": 28103
+    },
+    {
+      "canonical_sha256": "beb0674eef6417d5dd83f72bdd6c262e5c8be04af88a0f3364dce0a0298e77cb",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "reports/sky130hd/gcd/base/3_global_place.rpt",
+      "raw_sha256": "beb0674eef6417d5dd83f72bdd6c262e5c8be04af88a0f3364dce0a0298e77cb",
+      "size_bytes": 20408
+    },
+    {
+      "canonical_sha256": "4750609199e16919c81fb8cfa5beff1ca7c4e40827affccac1696ad7c6dafad2",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "reports/sky130hd/gcd/base/3_resizer.rpt",
+      "raw_sha256": "4750609199e16919c81fb8cfa5beff1ca7c4e40827affccac1696ad7c6dafad2",
+      "size_bytes": 27892
+    },
+    {
+      "canonical_sha256": "156513a2034517f18d0da48dd4c69f6c607a2a6f875865a90f53b0953b66e7f6",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "reports/sky130hd/gcd/base/synth_check.txt",
+      "raw_sha256": "156513a2034517f18d0da48dd4c69f6c607a2a6f875865a90f53b0953b66e7f6",
+      "size_bytes": 373
+    },
+    {
+      "canonical_sha256": "fd8b050e6803cb578cc8f734474d4636c71645d3a85cf979953ca1a00aaa8cd7",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace"
+      ],
+      "path": "reports/sky130hd/gcd/base/synth_stat.txt",
+      "raw_sha256": "1c7473f3496f00e3bd2353e125a4d5cb1179287e343f5f4a11f5227d9210a750",
+      "size_bytes": 14454
+    },
+    {
+      "canonical_sha256": "11a32f344e3e5e1c9e742a4210e5a613b783d800231e7161c5a58410dded96de",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/1_1_yosys_canonicalize.rtlil",
+      "raw_sha256": "11a32f344e3e5e1c9e742a4210e5a613b783d800231e7161c5a58410dded96de",
+      "size_bytes": 1149109
+    },
+    {
+      "canonical_sha256": "7dc2766d530b78c92e12c8e84462f8dade2f0bf2074e85580f7364976252767c",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/1_2_yosys.sdc",
+      "raw_sha256": "7dc2766d530b78c92e12c8e84462f8dade2f0bf2074e85580f7364976252767c",
+      "size_bytes": 603
+    },
+    {
+      "canonical_sha256": "8f2401e9707cc9c5600aa472600fbfe6755560cb3c7c9724347daf94f06ced93",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/1_2_yosys.v",
+      "raw_sha256": "8f2401e9707cc9c5600aa472600fbfe6755560cb3c7c9724347daf94f06ced93",
+      "size_bytes": 65749
+    },
+    {
+      "canonical_sha256": "378ffd1d2f85c7e314d584a51e5cf2d8acf9af06571d22a06752552f8d0959e2",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/1_synth.odb",
+      "raw_sha256": "378ffd1d2f85c7e314d584a51e5cf2d8acf9af06571d22a06752552f8d0959e2",
+      "size_bytes": 2570322
+    },
+    {
+      "canonical_sha256": "7feea356ac4b2044aae917d3d18aeb4b39ba079b036f251d95ebac1679853d57",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace"
+      ],
+      "path": "results/sky130hd/gcd/base/1_synth.sdc",
+      "raw_sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "size_bytes": 6141
+    },
+    {
+      "canonical_sha256": "694f74044d4fde4a7993b1a0b62385bb1e6ef4e41f19b5bd185ae8748fec4f17",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/2_1_floorplan.odb",
+      "raw_sha256": "694f74044d4fde4a7993b1a0b62385bb1e6ef4e41f19b5bd185ae8748fec4f17",
+      "size_bytes": 2751648
+    },
+    {
+      "canonical_sha256": "7feea356ac4b2044aae917d3d18aeb4b39ba079b036f251d95ebac1679853d57",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace"
+      ],
+      "path": "results/sky130hd/gcd/base/2_1_floorplan.sdc",
+      "raw_sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "size_bytes": 6141
+    },
+    {
+      "canonical_sha256": "694f74044d4fde4a7993b1a0b62385bb1e6ef4e41f19b5bd185ae8748fec4f17",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/2_2_floorplan_macro.odb",
+      "raw_sha256": "694f74044d4fde4a7993b1a0b62385bb1e6ef4e41f19b5bd185ae8748fec4f17",
+      "size_bytes": 2751648
+    },
+    {
+      "canonical_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/2_2_floorplan_macro.tcl",
+      "raw_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_bytes": 1
+    },
+    {
+      "canonical_sha256": "99036bd332a11b198a12e5b2de652bb6aaee509fd1cc6b6770673d11b787a1ef",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/2_3_floorplan_tapcell.odb",
+      "raw_sha256": "99036bd332a11b198a12e5b2de652bb6aaee509fd1cc6b6770673d11b787a1ef",
+      "size_bytes": 2776261
+    },
+    {
+      "canonical_sha256": "245e9c7fc5135ab6f1bcca8d6ff860a97f8b18009fcaf5e073ed043c03f0a2d8",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/2_4_floorplan_pdn.odb",
+      "raw_sha256": "245e9c7fc5135ab6f1bcca8d6ff860a97f8b18009fcaf5e073ed043c03f0a2d8",
+      "size_bytes": 2808822
+    },
+    {
+      "canonical_sha256": "245e9c7fc5135ab6f1bcca8d6ff860a97f8b18009fcaf5e073ed043c03f0a2d8",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/2_floorplan.odb",
+      "raw_sha256": "245e9c7fc5135ab6f1bcca8d6ff860a97f8b18009fcaf5e073ed043c03f0a2d8",
+      "size_bytes": 2808822
+    },
+    {
+      "canonical_sha256": "7feea356ac4b2044aae917d3d18aeb4b39ba079b036f251d95ebac1679853d57",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace"
+      ],
+      "path": "results/sky130hd/gcd/base/2_floorplan.sdc",
+      "raw_sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "size_bytes": 6141
+    },
+    {
+      "canonical_sha256": "bde3864e668307c2d52a730d24c2973cb48c0ddf465ab24dca846ed8e3dfca26",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/3_1_place_gp_skip_io.odb",
+      "raw_sha256": "bde3864e668307c2d52a730d24c2973cb48c0ddf465ab24dca846ed8e3dfca26",
+      "size_bytes": 2808822
+    },
+    {
+      "canonical_sha256": "7a99227d57fd3eae28e158bb469e1b8aaee4880f453a8a9e82fed911bd05b86b",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/3_2_place_iop.odb",
+      "raw_sha256": "7a99227d57fd3eae28e158bb469e1b8aaee4880f453a8a9e82fed911bd05b86b",
+      "size_bytes": 2811414
+    },
+    {
+      "canonical_sha256": "fe9e826c026a0209cb7333c47ce2c8fdf490e43af38f1166e82531fab075c603",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/3_2_place_iop.tcl",
+      "raw_sha256": "fe9e826c026a0209cb7333c47ce2c8fdf490e43af38f1166e82531fab075c603",
+      "size_bytes": 4920
+    },
+    {
+      "canonical_sha256": "bfa02c92a32ac6faeac1f7e438a50d96afa1a86f46f7da1342ae05f74a3d4bf6",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/3_3_place_gp.odb",
+      "raw_sha256": "bfa02c92a32ac6faeac1f7e438a50d96afa1a86f46f7da1342ae05f74a3d4bf6",
+      "size_bytes": 2874802
+    },
+    {
+      "canonical_sha256": "bfa02c92a32ac6faeac1f7e438a50d96afa1a86f46f7da1342ae05f74a3d4bf6",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/3_4_place_resized.odb",
+      "raw_sha256": "bfa02c92a32ac6faeac1f7e438a50d96afa1a86f46f7da1342ae05f74a3d4bf6",
+      "size_bytes": 2874802
+    },
+    {
+      "canonical_sha256": "fab9ae36ae9fbd13054e6bdd57e4ce78100b39bf3ae2a6134505f17e5c5fc4ef",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/3_5_place_dp.odb",
+      "raw_sha256": "fab9ae36ae9fbd13054e6bdd57e4ce78100b39bf3ae2a6134505f17e5c5fc4ef",
+      "size_bytes": 2874802
+    },
+    {
+      "canonical_sha256": "fab9ae36ae9fbd13054e6bdd57e4ce78100b39bf3ae2a6134505f17e5c5fc4ef",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/3_place.odb",
+      "raw_sha256": "fab9ae36ae9fbd13054e6bdd57e4ce78100b39bf3ae2a6134505f17e5c5fc4ef",
+      "size_bytes": 2874802
+    },
+    {
+      "canonical_sha256": "7feea356ac4b2044aae917d3d18aeb4b39ba079b036f251d95ebac1679853d57",
+      "kind": "file",
+      "normalizations_applied": [
+        "trailing_horizontal_whitespace"
+      ],
+      "path": "results/sky130hd/gcd/base/3_place.sdc",
+      "raw_sha256": "1da6837b5ccc68d322143f103895c0b77ca89fd3f6f74c13e5c97c3b0dafbf16",
+      "size_bytes": 6141
+    },
+    {
+      "canonical_sha256": "e9381c4145ecc75c6560cb3b906d1a4c339c4ed2d6c9f67012ca43d9ed02e4e2",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/4_after_rsz_lec.v",
+      "raw_sha256": "e9381c4145ecc75c6560cb3b906d1a4c339c4ed2d6c9f67012ca43d9ed02e4e2",
+      "size_bytes": 44007
+    },
+    {
+      "canonical_sha256": "724a42e1d315ec4de14e6b19e6d5da83394d05eebe5939a1a612326896497c3c",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/4_before_rsz_lec.v",
+      "raw_sha256": "724a42e1d315ec4de14e6b19e6d5da83394d05eebe5939a1a612326896497c3c",
+      "size_bytes": 41762
+    },
+    {
+      "canonical_sha256": "1523e9e982ff804c6d979e1bb2c6f3d7bae35307e8ce458bffc0d12a442b98da",
+      "kind": "file",
+      "normalizations_applied": [],
+      "path": "results/sky130hd/gcd/base/clock_period.txt",
+      "raw_sha256": "1523e9e982ff804c6d979e1bb2c6f3d7bae35307e8ce458bffc0d12a442b98da",
+      "size_bytes": 4
+    },
+    {
+      "canonical_sha256": "b376d465a140a49efeabcdaf97582cece5d4c24affe8a7434835a8c9ca9e00dd",
+      "kind": "file",
+      "normalizations_applied": [
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "results/sky130hd/gcd/base/mem.json",
+      "raw_sha256": "57175dba3ab04c46386518b589a006869182ea78261bf3d2868cf78ac8da03cf",
+      "size_bytes": 72072
+    },
+    {
+      "canonical_sha256": "e03e5b5cbc0c71a4978a4dbd8b82aacc2432da157bc195745047f1c72b390a59",
+      "kind": "file",
+      "normalizations_applied": [
+        "absolute_run_root"
+      ],
+      "path": "run-command.txt",
+      "raw_sha256": "f29fa21d18272165956310be7bd9163f2e55c87f751a7a1b97b0f5c8adc7ac67",
+      "size_bytes": 153
+    },
+    {
+      "canonical_sha256": "77b3e902b613d4d4d0a19db751ea3f4c4f4198cc00d4b1c3d71ff0aeaee8bdb5",
+      "kind": "file",
+      "normalizations_applied": [
+        "absolute_run_root",
+        "json_metadata_key:end_time",
+        "json_metadata_key:start_time",
+        "json_object_key_order_and_encoding"
+      ],
+      "path": "run-metadata.json",
+      "raw_sha256": "1194480058da7b549cd0f4a50ddf4f93e2abe81e24d027510a6844aed5ec0d13",
+      "size_bytes": 191
+    }
+  ],
+  "policy_sha256": "258694f328084c3fb92dec24e07b3b40d261037d5b1bd8d32b119684211d0b9a",
+  "run_label": "failed-native-lec-attempt",
+  "run_root": "/var/lib/green-ecc-gate03e/attempts/gcd-native-lec-avx512-failure-01",
+  "schema_version": 1
+}

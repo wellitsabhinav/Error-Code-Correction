@@ -1,0 +1,16 @@
+{
+  "clock_period_ns": 10.0,
+  "config": "gcd.mk",
+  "design_family": "gcd",
+  "design_top": "gcd",
+  "end_time_utc": "2026-08-24T10:48:26Z",
+  "physical_exit_status": 0,
+  "physical_failure_reason": "",
+  "physical_seed": 11,
+  "power_failure_reason": "",
+  "power_status": "NOT_APPLICABLE_GCD",
+  "routing_complete": true,
+  "run_id": "gcd-01",
+  "schema_version": 1,
+  "start_time_utc": "2026-08-24T10:46:51Z"
+}

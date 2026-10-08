@@ -1,0 +1,9 @@
+{
+  "amendment": "01",
+  "frozen_at_utc": "2026-08-14T16:52:10Z",
+  "original_failed_run": "secded-comb-10ns-seed11-attempt1",
+  "reason": "supply ORFS ABC_CLOCK_PERIOD_IN_PS consistently with unchanged frozen SDC CLOCK_PERIOD",
+  "retry_run": "secded-comb-10ns-seed11-attempt2",
+  "schema_version": 1,
+  "scientific_contract_changed": false
+}

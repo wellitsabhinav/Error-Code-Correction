@@ -1,0 +1,128 @@
+{
+  "algorithm": "sha256-raw-bytes",
+  "authoritative_environment_manifest_sha256": "df0d50ea3093e45cad50769facdaf588142ec56c9c66afde534504c5f9dc93cb",
+  "repository_snapshot": [
+    {
+      "bytes": 12328,
+      "path": "asic/rtl/bch/bch_78_64_t2_v1.sv",
+      "sha256": "2cc8b0dd23f3cce9a091ea418a2c2d4fff5f016361228a66e6c151a7c49360e7"
+    },
+    {
+      "bytes": 6095,
+      "path": "asic/rtl/secded/secded_pipelined_72_64_v1.sv",
+      "sha256": "e250a6741b6aa56e0bdc5892ac5753e4487769a6683f68db6ab9155c26a3b155"
+    },
+    {
+      "bytes": 17207,
+      "path": "docs/date2027/rigour_gate_04_final/GATE04_FINAL_ECC_SET.json",
+      "sha256": "ad8b11339e9d97595b9cb23affd540a22f61beb5f720337d26d9f8b707fd909d"
+    },
+    {
+      "bytes": 1392,
+      "path": "docs/date2027/rigour_gate_04_final/GATE04_INFRASTRUCTURE_INCIDENT.md",
+      "sha256": "eebdfdeb2663fc743c4340460ddf85e49cf6484b25792a25173bceb12eaa695b"
+    },
+    {
+      "bytes": 11021,
+      "path": "docs/date2027/rigour_gate_04_final/GATE04_POWER_ACTIVITY_AUDIT.json",
+      "sha256": "d9fd43845c32db45597a9b8d95ec88dbb8191b66e95e8e3e5c1ad3eb6b517ac0"
+    },
+    {
+      "bytes": 3227,
+      "path": "docs/date2027/rigour_gate_04_final/GATE04_POWER_PRECISION_ADJUDICATION.md",
+      "sha256": "9d4fb425ff6f5b6dca288418e4e143b1dc312291fd236f71ed3816bc1ee393ee"
+    },
+    {
+      "bytes": 11695,
+      "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_decoder.sv",
+      "sha256": "9f74648a861c0506bdd698ab53bb47f8f999eed2bdcc1f6e3c0cf548d9929bfb"
+    },
+    {
+      "bytes": 4853,
+      "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_encoder.sv",
+      "sha256": "638b36ff3ab1ee31bb8e29b8d5ea064b5b36d1d7df7a3f2b96c52e305a31e036"
+    },
+    {
+      "bytes": 2711,
+      "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_syndrome.sv",
+      "sha256": "5b232248546e1945ab5084b7f4850851bb62c6e54dc9c4fa00950e2a457590be"
+    },
+    {
+      "bytes": 4916,
+      "path": "scripts/gate03r/rtl/secded_characterization_tops.sv",
+      "sha256": "560bc8092ba759f7dd3412a106d86a30a7498d88285298c721be2d5ef4dc440b"
+    },
+    {
+      "bytes": 10836,
+      "path": "scripts/gate04/rtl/gate04_boundaries.sv",
+      "sha256": "7de8e8d2933cdf17740ec5ec6f45a3654d5d54d9e419ed1c628ab29ca03308f8"
+    },
+    {
+      "bytes": 24011,
+      "path": "scripts/gate04_final/analyze_results.py",
+      "sha256": "d5f3a619b54b2d943e17366e74906d43ce6114ca39f914de27b5cab9d51a94f5"
+    },
+    {
+      "bytes": 4116,
+      "path": "scripts/gate04_final/audit_trace_activity.py",
+      "sha256": "d4cdac40533553597113c036171518cc17ef651e459cbbb1ca0692661aed76f3"
+    },
+    {
+      "bytes": 397,
+      "path": "scripts/gate04_final/configs/bch78.mk",
+      "sha256": "c168cef2b04a5803fb5fa79dd4310898b5f356ff9c1729e3fe354083eadf471b"
+    },
+    {
+      "bytes": 361,
+      "path": "scripts/gate04_final/configs/ecc.sdc",
+      "sha256": "7d8c4f563ace74fa762c1a8df4593a68aa0ca285519962c8121504333ec8fb09"
+    },
+    {
+      "bytes": 660,
+      "path": "scripts/gate04_final/configs/hsiao.mk",
+      "sha256": "29f508400cc9b9e09058f11fe26242999bdfffe6962637e29b4acc84ec7a27bb"
+    },
+    {
+      "bytes": 425,
+      "path": "scripts/gate04_final/configs/secded_comb.mk",
+      "sha256": "1b6bd355480e8575b112f2f25153cac82c43849ee2d6add8d1bf7ec7151b51e4"
+    },
+    {
+      "bytes": 487,
+      "path": "scripts/gate04_final/configs/secded_pipe.mk",
+      "sha256": "98c490b8762a1b9adcd1f723d8624d0945be4c1c28f5f30aa3cc9c845826026a"
+    },
+    {
+      "bytes": 5550,
+      "path": "scripts/gate04_final/contract_v1.json",
+      "sha256": "42546c19f1be1d3301e3b7de556a7841e2b36749863f41e225dd5d579ad0b89b"
+    },
+    {
+      "bytes": 869,
+      "path": "scripts/gate04_final/power.tcl",
+      "sha256": "a0e80227f6a16b65a022cc115a9cab7f0f9529dd331d76d1099d59baefa496b4"
+    },
+    {
+      "bytes": 9321,
+      "path": "scripts/gate04_final/prepare_experiment.py",
+      "sha256": "f8efdb90b6b8927833c556cf213e0f85f134823fa632d4ad6f8d3aa07f87b577"
+    },
+    {
+      "bytes": 9724,
+      "path": "scripts/gate04_final/run_characterization.py",
+      "sha256": "ee349c94f001744998696513cb2d756fa41a6b90e5c8e5e4bd94f7d2e3ecf36b"
+    },
+    {
+      "bytes": 2179,
+      "path": "scripts/gate04_final/run_matrix.py",
+      "sha256": "360565ea710f6d4d77197cfb53d87db4f2a3a22ccb326b2adf05251610f2dc35"
+    },
+    {
+      "bytes": 4217,
+      "path": "scripts/gate04_final/seal_failed_namespace.py",
+      "sha256": "12a22ed7204271ade6e617c510a33115e03a810cda90d91b342a9c651720c16d"
+    }
+  ],
+  "schema_version": 1,
+  "trace_manifest_sha256": "5608b592deef797e5426430ce3b8ad83a0a5359ce452c87e4b54bfdaa9a9c9aa"
+}

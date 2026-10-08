@@ -1,0 +1,200 @@
+{
+  "architecture_id": "U0",
+  "clock_period_ns": 5.0,
+  "commands": {
+    "finish": [
+      "docker",
+      "run",
+      "--rm",
+      "--platform",
+      "linux/amd64",
+      "--volume",
+      "/var/lib/green-ecc-v32-matched-openram-orfs-validation/runs/u0_clk5p0ns_seed19:/campaign-run",
+      "--volume",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction:/repo:ro",
+      "--workdir",
+      "/OpenROAD-flow-scripts/flow",
+      "openroad/orfs@sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+      "make",
+      "DESIGN_CONFIG=/repo/campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/orfs/u0.mk",
+      "WORK_HOME=/campaign-run",
+      "FLOW_VARIANT=clk5p0ns_seed19",
+      "GPL_RANDOM_SEED=19",
+      "GRT_SEED=19",
+      "OR_SEED=19",
+      "CLOCK_PERIOD=5.0",
+      "ABC_CLOCK_PERIOD_IN_PS=5000",
+      "finish"
+    ],
+    "place": [
+      "docker",
+      "run",
+      "--rm",
+      "--platform",
+      "linux/amd64",
+      "--volume",
+      "/var/lib/green-ecc-v32-matched-openram-orfs-validation/runs/u0_clk5p0ns_seed19:/campaign-run",
+      "--volume",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction:/repo:ro",
+      "--workdir",
+      "/OpenROAD-flow-scripts/flow",
+      "openroad/orfs@sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+      "make",
+      "DESIGN_CONFIG=/repo/campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/orfs/u0.mk",
+      "WORK_HOME=/campaign-run",
+      "FLOW_VARIANT=clk5p0ns_seed19",
+      "GPL_RANDOM_SEED=19",
+      "GRT_SEED=19",
+      "OR_SEED=19",
+      "CLOCK_PERIOD=5.0",
+      "ABC_CLOCK_PERIOD_IN_PS=5000",
+      "/campaign-run/results/sky130hd/u0_matched_sram_top/clk5p0ns_seed19/3_3_place_gp.odb"
+    ]
+  },
+  "common_documented_exception": {
+    "applied": true,
+    "compliance_claimed": false,
+    "id": "UPSTREAM_SRAM22_MAX_TRANSITION_RESIZE_STAGE_BYPASS",
+    "scope": "All architectures, timing conditions, and seeds",
+    "semantics": "Copies the routed-input 3_3 placement ODB to the 3_4 handoff; no Liberty, LEF, GDS, RTL, or SDC value is modified. Final DRVs remain reported."
+  },
+  "config_sha256": {
+    "campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/orfs/common.mk": "3d0d2831042c1f33492439a672e5fcd3ff1926f560d1f58272e75f766eba1ada",
+    "campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/orfs/macro_placement_u0.tcl": "de500d895ee0b490d057f084ce034b98f3cf383b11c9514995d734506275d6a7",
+    "campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/orfs/pdn_sram22.tcl": "2cb27f0819bea0307bcffb685bcbb98ae22882cc704c97dd58e2e878e09ab3ff",
+    "campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/orfs/pre_io_placement.tcl": "6501a80a4875f94c101a6c3d24f1ce4aee01dfa5a1e4136f65191f4acc09070a",
+    "campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/orfs/u0.mk": "1432bd3ae1af1efe37ddce99cfbf8d0540845b031c65071bb52f8155bb086d76"
+  },
+  "constraint_sha256": "5789be3e279bab4013a1b1a0915dfd3a6595401060bc135c8aa917ee8cd97628",
+  "drc_state": "DRC_CLEAN_EXTERNAL_ROUTING_MACRO_INTERNAL_NOT_REVERIFIED",
+  "e5_qualified": false,
+  "end_time_utc": "2026-09-08T12:56:05Z",
+  "energy_evidence": "E4_DIAGNOSTIC",
+  "external_evidence_root": "/var/lib/green-ecc-v32-matched-openram-orfs-validation/runs/u0_clk5p0ns_seed19",
+  "final_artifact_sha256": {
+    "1_synth.odb": "7fe94473edcfc7e9c5833828744bb56f310bba84f2d61d7a96c5591396cd2e6f",
+    "2_floorplan.odb": "e58df33939c2b77df0b48f00ba54fc6ec9752ac7d8343612db687e0772ae5ec2",
+    "3_place.odb": "b0d6c4f6c008a234afc57df5464b5da7ae9c2f289c639e095049d47308f07050",
+    "4_cts.odb": "9d2796c9d3253fcb6255d2a476447aa74e09fa5af8922ed61b5b0d878dae8d19",
+    "5_route.odb": "b53235152df6d9efc8e3322e8960b82afdf0a0f10cccfe3cc6ec706fc2e8103a",
+    "6_final.def": "e217e147683c08d2253df62bf45e093cc4e63b6991ff97f29b1f8da70aee7bc0",
+    "6_final.gds": "af0b2b4d50bd0818eb8523e2c4eed014c57e72f593a36e6557d8f67fbff10633",
+    "6_final.odb": "b2f4389275954cdc73cc944091985411e574c2d1b0cf37683deee50d70068150",
+    "6_final.sdc": "aa50c4200d793c7932d0a6294c5e8503ea8069cff7ed38a8ea2fc825eea1ae40",
+    "6_final.spef": "5a0a28bf5a75badc8eb5fe11c0db482cb09d0ae291584ee08833516014129c0c",
+    "6_final.v": "0063a251250887c656e1b7d96a7fa53b2e7b3040c028d24ff5348de8f0bb0140"
+  },
+  "finish_exit_code": 0,
+  "gds_success": true,
+  "lvs_state": "LVS_UNAVAILABLE_NOT_INDEPENDENTLY_REPRODUCED",
+  "macro_count": 1,
+  "macro_sha256": {
+    "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/derived_gds/sram22_256x64m4w8.gds": "b6d5e63d819133c617e96eaa12123b66a6b771ecbdaeb153b87f868d0e94abd5",
+    "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/source_checkout/sram22_256x64m4w8/sram22_256x64m4w8.lef": "81769d697e955cba4b7ff0607d4680c3b10645f9fa92689dc4aad603b2433353",
+    "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/source_checkout/sram22_256x64m4w8/sram22_256x64m4w8_tt_025C_1v80.lib": "e800b5681e8d8c2e263e6fafb0f58ddf7754e185193ac4d69543eb4a229d1fcb"
+  },
+  "metrics": {
+    "clock": {
+      "clock_buffer_count": null,
+      "clock_inverter_count": null,
+      "clock_tree_depth": null,
+      "hold_skew_ns": 0,
+      "latency_ns": null,
+      "setup_skew_ns": 0
+    },
+    "floorplan_placement": {
+      "core_area_um2": 439734,
+      "die_area_um2": 470000,
+      "macro_area_um2": 201267,
+      "placement_density_target": 0.3,
+      "row_count": 275,
+      "standard_cell_area_um2": 5426.45,
+      "standard_cell_utilization": 0.0227555,
+      "total_instance_area_um2": 206693,
+      "utilization": 0.470041
+    },
+    "physical_outputs": {
+      "cts_odb_generated": true,
+      "def_generated": true,
+      "final_odb_generated": true,
+      "floorplan_odb_generated": true,
+      "gds_generated": true,
+      "netlist_generated": true,
+      "placement_odb_generated": true,
+      "route_odb_generated": true,
+      "spef_generated": true,
+      "synthesis_odb_generated": true
+    },
+    "power": {
+      "activity_hash": null,
+      "clock_w": null,
+      "internal_w": 0.0015345,
+      "leakage_w": 6.42529e-07,
+      "qualification": "E4_DIAGNOSTIC_VECTORLESS",
+      "switching_w": 5.92549e-05,
+      "total_w": 0.0015944,
+      "workload_hash": null
+    },
+    "routing": {
+      "antenna_violating_nets": 0,
+      "congestion_metric": null,
+      "detailed_route_drc_errors": 0,
+      "route_overflow": 0,
+      "total_wirelength_um": 21056,
+      "via_count": 1208,
+      "wirelength_by_layer_um": null
+    },
+    "synthesis": {
+      "buffers_inverters": 0,
+      "combinational_cells": null,
+      "macro_count": 1,
+      "mapped_cell_count": null,
+      "register_count": 0,
+      "sequential_cells": 0,
+      "synthesized_area_um2": 22.5216,
+      "xor_xnor_cells": 0
+    },
+    "timing": {
+      "critical_path_delay_ns": null,
+      "derived_fmax_hz": 212409000.0,
+      "derived_frequency_qualified": true,
+      "hold_tns_ns": -4.22717,
+      "hold_violation_count": 1,
+      "hold_wns_ns": -4.22717,
+      "requested_clock_period_ns": 5.0,
+      "setup_tns_ns": 0,
+      "setup_violation_count": 0,
+      "setup_wns_ns": 0.292094
+    }
+  },
+  "parasitic_extraction_state": "SPEF_GENERATED",
+  "pdk": {
+    "corner": "tt_025C_1v80",
+    "platform": "sky130hd",
+    "release": "NOT_SEPARATELY_EXPOSED_BY_PINNED_IMAGE",
+    "standard_cell_liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+    "temperature_c": 25,
+    "voltage_v": 1.8
+  },
+  "physical_stored_bits": 16384,
+  "physical_validation_classification": "OPEN_SOURCE_RTL_TO_GDS_FLOW_VALIDATED",
+  "place_exit_code": 0,
+  "route_success": true,
+  "rtl_sha256": {
+    "campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/validation/rtl/matched_memory_tops.sv": "a5335c81eb209d4f2c5c140b2fb16431e1ebd4713e17ab26f9b1c7fddaf8ba01"
+  },
+  "run_id": "u0_clk5p0ns_seed19",
+  "schema_version": 1,
+  "seed": 19,
+  "start_time_utc": "2026-09-08T12:54:46Z",
+  "toolchain": {
+    "container_image": "openroad/orfs@sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+    "openroad_binary_sha256": "2fc67d3a82df36014b615e710ce2e68600b592b27b051e4533c30248a2e2eb91",
+    "openroad_commit": "ab6fd26351dc449e69059684dc6aa9ae9046eb36",
+    "openroad_version": "26Q3-1080-gab6fd26351",
+    "opensta_version": "3.1.0",
+    "orfs_commit": "56496f3980fb6e9e58f10c8aea4a98949c0fe5f2",
+    "yosys_version": "0.68+post"
+  },
+  "user_payload_capacity_bits": 16384
+}

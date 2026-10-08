@@ -1,0 +1,19 @@
+{
+  "activity_classes": [
+    "W1",
+    "W2"
+  ],
+  "architecture": "hsiao_flat",
+  "elapsed_seconds": 3.8831781749999976,
+  "evidence_origin": "SUSTAINABILITY_EXTENSION",
+  "exit_code": 0,
+  "failure_reason": "",
+  "hardware_identity": "hsiao-algorithmic-combinational-72-64-rev2-v1",
+  "ordinal": 5,
+  "physical_inputs_read_only": true,
+  "run_id": "hsiao_flat-seed-17",
+  "schema_version": 1,
+  "seed": 17,
+  "status": "PASS",
+  "target_ns": 10.0
+}

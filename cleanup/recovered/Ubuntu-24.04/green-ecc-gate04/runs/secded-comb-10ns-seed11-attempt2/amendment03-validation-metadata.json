@@ -1,0 +1,13 @@
+{
+  "activity_power": "PASS",
+  "amendment": "03",
+  "completed_at_utc": "2026-08-14T17:40:02Z",
+  "mapped_to_postroute_dsec": "PASS",
+  "original_runner_exit_status": 93,
+  "physical_flow_reused_without_rerun": true,
+  "rtl_to_mapped_dsec": "PASS",
+  "rtl_to_postroute_by_transitivity": "PASS",
+  "run_validation": "PASS",
+  "schema_version": 1,
+  "status": "PASS"
+}

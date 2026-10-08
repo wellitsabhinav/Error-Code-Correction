@@ -1,0 +1,670 @@
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_dff.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_dff.sp
+new file mode 100644
+index 0000000..6854df7
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_dff.sp
+@@ -0,0 +1,42 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++* SPICE3 file created from sky130_fd_bd_sram__openram_dff.ext - technology: EFS8A
++
++.subckt sky130_fd_bd_sram__openram_dff D Q CLK VDD GND
++X1000 a_511_725# a_n8_115# VDD VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1001 a_353_115# CLK a_11_624# GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X1002 a_353_725# a_203_89# a_11_624# VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1003 a_11_624# a_203_89# a_161_115# GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X1004 a_11_624# CLK a_161_725# VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1005 GND Q a_703_115# GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X1006 VDD Q a_703_725# VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1007 a_203_89# CLK GND GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X1008 a_203_89# CLK VDD VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1009 a_161_115# D GND GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X1010 a_161_725# D VDD VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1011 GND a_11_624# a_n8_115# GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X1012 a_703_115# a_203_89# ON GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X1013 VDD a_11_624# a_n8_115# VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1014 a_703_725# CLK ON VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1015 Q ON VDD VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1016 Q ON GND GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X1017 ON a_203_89# a_511_725# VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1018 ON CLK a_511_115# GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X1019 GND a_n8_115# a_353_115# GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X1020 VDD a_n8_115# a_353_725# VDD sky130_fd_pr__pfet_01v8 W=3u L=0.15u m=1
++X1021 a_511_115# a_n8_115# GND GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++.ends
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell.sp
+new file mode 100644
+index 0000000..c5a79c6
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell.sp
+@@ -0,0 +1,47 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++.SUBCKT sky130_fd_bd_sram__openram_dp_cell BL0 BR0 BL1 BR1 WL0 WL1 VDD GND
++
++X0 Q WL1 BL1 GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X4 Q_bar WL1 BR1 GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++
++X3 BL0 WL0 Q GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X7 BR0 WL0 Q_bar GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++
++* Bitcell Core
++X1 GND Q_bar Q GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X2 GND Q_bar Q GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X9 Q Q_bar VDD VDD sky130_fd_pr__special_pfet_pass W=0.14u L=0.15u m=1
++
++X5 GND Q Q_bar GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X6 GND Q Q_bar GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X8 VDD Q Q_bar VDD sky130_fd_pr__special_pfet_pass W=0.14u L=0.15u m=1
++
++* tap under poly
++X10 GND GND BL1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++X11 GND GND BR1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++
++* drainOnly PMOS
++X12 Q_bar WL1 Q_bar VDD sky130_fd_pr__special_pfet_pass W=0.07u L=0.15u m=1
++X13 Q WL0 Q VDD sky130_fd_pr__special_pfet_pass W=0.07u L=0.15u m=1
++
++* drainOnly NMOS
++X14 GND GND BL1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++X15 GND GND BR1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++
++
++.ENDS
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_cap_col.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_cap_col.sp
+new file mode 100644
+index 0000000..e8cf836
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_cap_col.sp
+@@ -0,0 +1,20 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++
++.SUBCKT sky130_fd_bd_sram__openram_dp_cell_cap_col BL0 BR0 BL1 BR1 VDD
++
++.ENDS
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_cap_row.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_cap_row.sp
+new file mode 100644
+index 0000000..463d8ab
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_cap_row.sp
+@@ -0,0 +1,20 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++
++.SUBCKT sky130_fd_bd_sram__openram_dp_cell_cap_row WL0 WL1 GND
++
++.ENDS
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_dummy.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_dummy.sp
+new file mode 100644
+index 0000000..7bbce32
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_dummy.sp
+@@ -0,0 +1,37 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++.SUBCKT sky130_fd_bd_sram__openram_dp_cell_dummy BL0 BR0 BL1 BR1 WL0 WL1 VDD GND
++
++* Bitcell Core
++X1 1 GND GND GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X2 1 WL1 BL1 GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X3 2 GND GND GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X4 2 WL1 BR1 GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X5 3 GND GND GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X6 3 WL0 BL0 GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X7 4 GND GND GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X8 4 WL0 BR0 GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++
++* tap under poly
++X9 GND GND BL1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++X10 GND GND BR1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++
++* drainOnly NMOS
++X11 GND GND BL1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++X12 GND GND BR1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++
++.ENDS
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_replica.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_replica.sp
+new file mode 100644
+index 0000000..e90df97
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_cell_replica.sp
+@@ -0,0 +1,44 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++* Ingore first line
++.SUBCKT sky130_fd_bd_sram__openram_dp_cell_replica BL0 BR0 BL1 BR1 WL0 WL1 VDD GND
++
++* Bitcell Core
++X0 Q WL1 BL1 GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X1 GND VDD Q GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X2 GND VDD Q GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X3 BL0 WL0 Q GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X4 VDD WL1 BR1 GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X5 GND Q VDD GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X6 GND Q VDD GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X7 BR0 WL0 VDD GND sky130_fd_pr__special_nfet_latch W=0.21u L=0.15u m=1
++X8 VDD Q VDD VDD sky130_fd_pr__special_pfet_pass W=0.14u L=0.15u m=1
++X9 Q VDD VDD VDD sky130_fd_pr__special_pfet_pass W=0.14u L=0.15u m=1
++
++* tap under poly
++X10 GND GND BL1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++X11 GND GND BR1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++
++* drainOnly PMOS
++X12 Q WL0 Q VDD sky130_fd_pr__special_pfet_pass w=0.07u l=0.15u m=1
++X13 VDD WL1 VDD VDD sky130_fd_pr__special_pfet_pass w=0.07u l=0.15u m=1
++
++* drainOnly NMOS
++X14 GND GND BL1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++X15 GND GND BR1 GND sky130_fd_pr__special_nfet_latch w=0.21u l=0.08u m=1
++
++.ENDS
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_dp_nand2_dec.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_nand2_dec.sp
+new file mode 100644
+index 0000000..f12668c
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_nand2_dec.sp
+@@ -0,0 +1,28 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++* NGSPICE file created from sky130_fd_bd_sram__openram_dp_nand2_dec.ext - technology: EFS8A
++
++
++* Top level circuit sky130_fd_bd_sram__openram_dp_nand2_dec
++.subckt sky130_fd_bd_sram__openram_dp_nand2_dec A B Z VDD GND
++
++X1001 Z B VDD VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1002 VDD A Z VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1000 Z A a_n722_276# GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1003 a_n722_276# B GND GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++.ends
++
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_dp_nand3_dec.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_nand3_dec.sp
+new file mode 100644
+index 0000000..1dddac8
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_nand3_dec.sp
+@@ -0,0 +1,30 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++* NGSPICE file created from sky130_fd_bd_sram__openram_dp_nand3_dec.ext - technology: EFS8A
++
++
++* Top level circuit sky130_fd_bd_sram__openram_dp_nand3_dec
++.subckt sky130_fd_bd_sram__openram_dp_nand3_dec A B C Z VDD GND
++
++X1001 Z A a_n346_328# GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1002 a_n346_256# C GND GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1003 a_n346_328# B a_n346_256# GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1000 Z B VDD VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1004 Z A VDD VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1005 Z C VDD VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++.ends
++
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_dp_nand4_dec.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_nand4_dec.sp
+new file mode 100644
+index 0000000..f742be4
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_dp_nand4_dec.sp
+@@ -0,0 +1,29 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++* NGSPICE file created from sky130_fd_bd_sram__openram_dp_nand4_dec.ext - technology: EFS8A
++
++.subckt sky130_fd_bd_sram__openram_dp_nand4_dec A B C D Z VDD GND
++X1000 Z A a_406_334# GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1004 a_406_190# D GND GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1005 a_406_262# C a_406_190# GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1007 a_406_334# B a_406_262# GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1001 Z A VDD VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1002 VDD C Z VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1003 VDD D Z VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1006 Z B VDD VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++.ends
++
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_sense_amp.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_sense_amp.sp
+new file mode 100644
+index 0000000..9ba4b90
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_sense_amp.sp
+@@ -0,0 +1,33 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++*********************** "sky130_fd_bd_sram__openram_sense_amp" ******************************
++
++.SUBCKT sky130_fd_bd_sram__openram_sense_amp BL BR DOUT EN VDD GND
++X1000 GND EN a_56_432# GND sky130_fd_pr__nfet_01v8 W=0.65u L=0.15u m=1
++X1001 a_56_432# dint_bar dint GND sky130_fd_pr__nfet_01v8 W=0.65u L=0.15u m=1
++X1002 dint_bar dint a_56_432# GND sky130_fd_pr__nfet_01v8 W=0.65u L=0.15u m=1
++
++X1003 VDD dint_bar dint VDD sky130_fd_pr__pfet_01v8 W=1.26u L=0.15u m=1
++X1004 dint_bar dint VDD VDD sky130_fd_pr__pfet_01v8 W=1.26u L=0.15u m=1
++
++X1005 BL EN dint VDD sky130_fd_pr__pfet_01v8 W=2u L=0.15u m=1
++X1006 dint_bar EN BR VDD sky130_fd_pr__pfet_01v8 W=2u L=0.15u m=1
++
++X1007 VDD dint_bar DOUT VDD sky130_fd_pr__pfet_01v8 W=1.26u L=0.15u m=1
++X1008 DOUT dint_bar GND GND sky130_fd_pr__nfet_01v8 W=0.65u L=0.15u m=1
++
++.ENDS sky130_fd_bd_sram__openram_sense_amp
+diff --git a/patches/p1/original/sky130_fd_bd_sram__openram_sp_cell_opt1_dummy.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_cell_opt1_dummy.sp
+index e28be84..8d38e90 100644
+--- a/patches/p1/original/sky130_fd_bd_sram__openram_sp_cell_opt1_dummy.sp
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_cell_opt1_dummy.sp
+@@ -4,8 +4,8 @@
+ X0 ll WL BR VNB sky130_fd_pr__special_nfet_pass w=0.14u l=0.15u
+ X1 ul Q_bar_float VGND VNB sky130_fd_pr__special_nfet_latch w=0.21u l=0.15u
+ X2 BL WL ul VNB sky130_fd_pr__special_nfet_pass w=0.14u l=0.15u
+-X3 ur WL ur VPB sky130_fd_pr__special_pfet_pass w=0.07u l=0.095u
+-X4 lr WL lr VPB sky130_fd_pr__special_pfet_pass w=0.07u l=0.095u
++X3 ur WL ur VPB sky130_fd_pr__special_pfet_pass w=0.14u l=25n
++X4 lr WL lr VPB sky130_fd_pr__special_pfet_pass w=0.14u l=25n
+ X5 VPWR Q_float lr VPB sky130_fd_pr__special_pfet_pass w=0.14u l=0.15u
+ X6 ur Q_bar_float VPWR VPB sky130_fd_pr__special_pfet_pass w=0.14u l=0.15u
+ X7 VGND Q_float ll VNB sky130_fd_pr__special_nfet_latch w=0.21u l=0.15u
+diff --git a/patches/p1/original/sky130_fd_bd_sram__openram_sp_cell_opt1_replica.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_cell_opt1_replica.sp
+index c71747c..1e619bf 100644
+--- a/patches/p1/original/sky130_fd_bd_sram__openram_sp_cell_opt1_replica.sp
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_cell_opt1_replica.sp
+@@ -4,8 +4,8 @@
+ X0 VPWR WL BR VNB sky130_fd_pr__special_nfet_pass ad=4.375e+10p pd=920000u as=1.68e+10p ps=520000u w=0.14u l=0.15u
+ X1 Q VPWR VGND VNB sky130_fd_pr__special_nfet_latch ad=1.56e+11p pd=2.38e+06u as=8.08e+10p ps=1.28e+06u w=0.21u l=0.15u
+ X2 BL WL Q VNB sky130_fd_pr__special_nfet_pass ad=1.68e+10p pd=520000u as=4.25e+10p ps=920000u w=0.14u l=0.15u
+-X3 Q WL Q VPB sky130_fd_pr__special_pfet_pass ad=3.5e+10p pd=780000u as=0p ps=0u w=0.07u l=0.095u
+-X4 VPWR WL VPWR VPB sky130_fd_pr__special_pfet_pass ad=9.72e+10p pd=1.86e+06u as=0p ps=0u w=0.07u l=0.095u
++X3 Q WL Q VPB sky130_fd_pr__special_pfet_pass ad=3.5e+10p pd=780000u as=0p ps=0u w=0.14u l=25n
++X4 VPWR WL VPWR VPB sky130_fd_pr__special_pfet_pass ad=9.72e+10p pd=1.86e+06u as=0p ps=0u w=0.14u l=25n
+ X5 VPWR Q VPWR VPB sky130_fd_pr__special_pfet_pass ad=0p pd=0u as=0p ps=0u w=0.14u l=0.15u
+ X6 Q VPWR VPWR VPB sky130_fd_pr__special_pfet_pass ad=0p pd=0u as=0p ps=0u w=0.14u l=0.15u
+ X7 VGND Q VPWR VNB sky130_fd_pr__special_nfet_latch ad=0p pd=0u as=0p ps=0u w=0.21u l=0.15u
+diff --git a/patches/p1/original/sky130_fd_bd_sram__openram_sp_cell_opt1a_dummy.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_cell_opt1a_dummy.sp
+index 02b2d60..887e780 100644
+--- a/patches/p1/original/sky130_fd_bd_sram__openram_sp_cell_opt1a_dummy.sp
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_cell_opt1a_dummy.sp
+@@ -4,8 +4,8 @@
+ X0 ll WL BR VNB sky130_fd_pr__special_nfet_pass w=0.14u l=0.15u
+ X1 ul Q_bar_float VGND VNB sky130_fd_pr__special_nfet_latch w=0.21u l=0.15u
+ X2 BL WL ul VNB sky130_fd_pr__special_nfet_pass w=0.14u l=0.15u
+-X3 ur WL ur VPB sky130_fd_pr__special_pfet_pass w=0.07u l=0.095u
+-X4 lr WL lr VPB sky130_fd_pr__special_pfet_pass w=0.07u l=0.095u
++X3 ur WL ur VPB sky130_fd_pr__special_pfet_pass w=0.14u l=25n
++X4 lr WL lr VPB sky130_fd_pr__special_pfet_pass w=0.14u l=25n
+ X5 VPWR Q_float lr VPB sky130_fd_pr__special_pfet_pass w=0.14u l=0.15u
+ X6 ur Q_bar_float VPWR VPB sky130_fd_pr__special_pfet_pass w=0.14u l=0.15u
+ X7 VGND Q_float ll VNB sky130_fd_pr__special_nfet_latch w=0.21u l=0.15u
+diff --git a/patches/p1/original/sky130_fd_bd_sram__openram_sp_cell_opt1a_replica.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_cell_opt1a_replica.sp
+index 02fd61c..b31bd3c 100644
+--- a/patches/p1/original/sky130_fd_bd_sram__openram_sp_cell_opt1a_replica.sp
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_cell_opt1a_replica.sp
+@@ -4,8 +4,8 @@
+ X0 VPWR WL BR VNB sky130_fd_pr__special_nfet_pass ad=4.375e+10p pd=920000u as=1.68e+10p ps=520000u w=0.14u l=0.15u
+ X1 Q VPWR VGND VNB sky130_fd_pr__special_nfet_latch ad=1.56e+11p pd=2.38e+06u as=8.08e+10p ps=1.28e+06u w=0.21u l=0.15u
+ X2 BL WL Q VNB sky130_fd_pr__special_nfet_pass ad=1.68e+10p pd=520000u as=4.25e+10p ps=920000u w=0.14u l=0.15u
+-X3 Q WL Q VPB sky130_fd_pr__special_pfet_pass ad=3.5e+10p pd=780000u as=0p ps=0u w=0.07u l=0.095u
+-X4 VPWR WL VPWR VPB sky130_fd_pr__special_pfet_pass ad=9.72e+10p pd=1.86e+06u as=0p ps=0u w=0.07u l=0.095u
++X3 Q WL Q VPB sky130_fd_pr__special_pfet_pass ad=3.5e+10p pd=780000u as=0p ps=0u w=0.14u l=25n
++X4 VPWR WL VPWR VPB sky130_fd_pr__special_pfet_pass ad=9.72e+10p pd=1.86e+06u as=0p ps=0u w=0.14u l=25n
+ X5 VPWR Q VPWR VPB sky130_fd_pr__special_pfet_pass ad=0p pd=0u as=0p ps=0u w=0.14u l=0.15u
+ X6 Q VPWR VPWR VPB sky130_fd_pr__special_pfet_pass ad=0p pd=0u as=0p ps=0u w=0.14u l=0.15u
+ X7 VGND Q VPWR VNB sky130_fd_pr__special_nfet_latch ad=0p pd=0u as=0p ps=0u w=0.21u l=0.15u
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_sp_nand2_dec.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_nand2_dec.sp
+new file mode 100644
+index 0000000..ab685ee
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_nand2_dec.sp
+@@ -0,0 +1,28 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++* NGSPICE file created from sky130_fd_bd_sram__openram_sp_nand2_dec.ext - technology: EFS8A
++
++
++* Top level circuit sky130_fd_bd_sram__openram_sp_nand2_dec
++.subckt sky130_fd_bd_sram__openram_sp_nand2_dec A B Z VDD GND
++
++X1001 Z B VDD VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1002 VDD A Z VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1000 Z A a_n722_276# GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1003 a_n722_276# B GND GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++.ends
++
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_sp_nand3_dec.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_nand3_dec.sp
+new file mode 100644
+index 0000000..ead0207
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_nand3_dec.sp
+@@ -0,0 +1,30 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++* NGSPICE file created from sky130_fd_bd_sram__openram_sp_nand3_dec.ext - technology: EFS8A
++
++
++* Top level circuit sky130_fd_bd_sram__openram_sp_nand3_dec
++.subckt sky130_fd_bd_sram__openram_sp_nand3_dec A B C Z VDD GND
++
++X1001 Z A a_n346_328# GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1002 a_n346_256# C GND GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1003 a_n346_328# B a_n346_256# GND sky130_fd_pr__nfet_01v8 W=0.74u L=0.15u m=1
++X1000 Z B VDD VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1004 Z A VDD VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++X1005 Z C VDD VDD sky130_fd_pr__pfet_01v8 W=1.12u L=0.15u m=1
++.ends
++
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_sp_nand4_dec.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_nand4_dec.sp
+new file mode 100644
+index 0000000..4ed0109
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_sp_nand4_dec.sp
+@@ -0,0 +1,12 @@
++* NGSPICE file created from sky130_fd_bd_sram__openram_sp_nand4_dec.ext - technology: sky130A
++
++.subckt sky130_fd_bd_sram__openram_sp_nand4_dec A B C D Z VDD GND
++X0 VDD C Z VDD sky130_fd_pr__pfet_01v8 w=1.12u l=0.15u
++X1 a_n384_98# C a_128_208# GND sky130_fd_pr__nfet_01v8 w=0.74u l=0.15u
++X2 Z D VDD VDD sky130_fd_pr__pfet_01v8 w=1.12u l=0.15u
++X3 Z B VDD VDD sky130_fd_pr__pfet_01v8 w=1.12u l=0.15u
++X4 a_128_136# A Z GND sky130_fd_pr__nfet_01v8 w=0.74u l=0.15u
++X5 VDD A Z VDD sky130_fd_pr__pfet_01v8 w=1.12u l=0.15u
++X6 a_128_208# B a_128_136# GND sky130_fd_pr__nfet_01v8 w=0.74u l=0.15u
++X7 GND D a_n384_98# GND sky130_fd_pr__nfet_01v8 w=0.74u l=0.15u
++.ends
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__openram_write_driver.sp b/patches/p1/patched/sky130_fd_bd_sram__openram_write_driver.sp
+new file mode 100644
+index 0000000..3be79cf
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__openram_write_driver.sp
+@@ -0,0 +1,51 @@
++* Copyright 2020 The SkyWater PDK Authors
++*
++* Licensed under the Apache License, Version 2.0 (the "License");
++* you may not use this file except in compliance with the License.
++* You may obtain a copy of the License at
++*
++*     https://www.apache.org/licenses/LICENSE-2.0
++*
++* Unless required by applicable law or agreed to in writing, software
++* distributed under the License is distributed on an "AS IS" BASIS,
++* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++* See the License for the specific language governing permissions and
++* limitations under the License.
++*
++* SPDX-License-Identifier: Apache-2.0
++
++*********************** "sky130_fd_bd_sram__openram_write_driver" ******************************
++
++.SUBCKT sky130_fd_bd_sram__openram_write_driver DIN BL BR EN VDD GND
++
++**** Inverter to conver Data_in to data_in_bar ******
++* din_bar = inv(DIN)
++X_1 din_bar DIN GND GND sky130_fd_pr__nfet_01v8 W=0.36u L=0.15u m=1
++X_2 din_bar DIN VDD VDD sky130_fd_pr__pfet_01v8 W=0.55u L=0.15u m=1
++
++**** 2input nand gate follwed by inverter to drive BL ******
++* din_bar_gated = nand(EN, DIN)
++X_3 din_bar_gated EN net_7 GND sky130_fd_pr__nfet_01v8 W=0.55u L=0.15u m=1
++X_4 net_7 DIN GND GND sky130_fd_pr__nfet_01v8 W=0.55u L=0.15u m=1
++X_5 din_bar_gated EN VDD VDD sky130_fd_pr__pfet_01v8 W=0.55u L=0.15u m=1
++X_6 din_bar_gated DIN VDD VDD sky130_fd_pr__pfet_01v8 W=0.55u L=0.15u m=1
++* din_bar_gated_bar = inv(din_bar_gated)
++X_7 din_bar_gated_bar din_bar_gated VDD VDD sky130_fd_pr__pfet_01v8 W=0.55u L=0.15u m=1
++X_8 din_bar_gated_bar din_bar_gated GND GND sky130_fd_pr__nfet_01v8 W=0.36u L=0.15u m=1
++
++**** 2input nand gate follwed by inverter to drive BR******
++* din_gated = nand(EN, din_bar)
++X_9 din_gated EN VDD VDD sky130_fd_pr__pfet_01v8 W=0.55u L=0.15u m=1
++X_10 din_gated EN net_8 GND sky130_fd_pr__nfet_01v8 W=0.55u L=0.15u m=1
++X_11 net_8 din_bar GND GND sky130_fd_pr__nfet_01v8 W=0.55u L=0.15u m=1
++X_12 din_gated din_bar VDD VDD sky130_fd_pr__pfet_01v8 W=0.55u L=0.15u m=1
++* din_gated_bar = inv(din_gated)
++X_13 din_gated_bar din_gated VDD VDD sky130_fd_pr__pfet_01v8 W=0.55u L=0.15u m=1
++X_14 din_gated_bar din_gated GND GND sky130_fd_pr__nfet_01v8 W=0.36u L=0.15u m=1
++
++************************************************
++* pull down with EN enable
++X_15 BL din_gated_bar GND GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++X_16 BR din_bar_gated_bar GND GND sky130_fd_pr__nfet_01v8 W=1u L=0.15u m=1
++
++.ENDS sky130_fd_bd_sram__openram_write_driver
+diff --git a/patches/p1/original/sky130_fd_bd_sram__sram_sp_cell_opt1.sp b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_cell_opt1.sp
+index 2cc8ee9..de9c22d 100644
+--- a/patches/p1/original/sky130_fd_bd_sram__sram_sp_cell_opt1.sp
++++ b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_cell_opt1.sp
+@@ -4,8 +4,8 @@
+ X0 Q_bar WL BR VNB sky130_fd_pr__special_nfet_pass w=0.14u l=0.15u
+ X1 Q Q_bar VGND VNB sky130_fd_pr__special_nfet_latch w=0.21u l=0.15u
+ X2 BL WL Q VNB sky130_fd_pr__special_nfet_pass w=0.14u l=0.15u
+-X3 Q WL Q VPB sky130_fd_pr__special_pfet_pass w=0.07u l=0.095u
+-X4 Q_bar WL Q_bar VPB sky130_fd_pr__special_pfet_pass w=0.07u l=0.095u
++X3 Q WL Q VPB sky130_fd_pr__special_pfet_pass w=0.14u l=25n
++X4 Q_bar WL Q_bar VPB sky130_fd_pr__special_pfet_pass w=0.14u l=25n
+ X5 VPWR Q Q_bar VPB sky130_fd_pr__special_pfet_pass w=0.14u l=0.15u
+ X6 Q Q_bar VPWR VPB sky130_fd_pr__special_pfet_pass w=0.14u l=0.15u
+ X7 VGND Q Q_bar VNB sky130_fd_pr__special_nfet_latch w=0.21u l=0.15u
+diff --git a/patches/p1/original/sky130_fd_bd_sram__sram_sp_cell_opt1a.sp b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_cell_opt1a.sp
+index 458c7b4..b7dc3e3 100644
+--- a/patches/p1/original/sky130_fd_bd_sram__sram_sp_cell_opt1a.sp
++++ b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_cell_opt1a.sp
+@@ -4,8 +4,8 @@
+ X0 Q_bar WL BR VNB sky130_fd_pr__special_nfet_pass w=0.14u l=0.15u
+ X1 Q Q_bar VGND VNB sky130_fd_pr__special_nfet_latch w=0.21u l=0.15u
+ X2 BL WL Q VNB sky130_fd_pr__special_nfet_pass w=0.14u l=0.15u
+-X3 Q WL Q VPB sky130_fd_pr__special_pfet_pass w=0.07u l=0.095u
+-X4 Q_bar WL Q_bar VPB sky130_fd_pr__special_pfet_pass w=0.07u l=0.095u
++X3 Q WL Q VPB sky130_fd_pr__special_pfet_pass w=0.14u l=25n
++X4 Q_bar WL Q_bar VPB sky130_fd_pr__special_pfet_pass w=0.14u l=25n
+ X5 VPWR Q Q_bar VPB sky130_fd_pr__special_pfet_pass w=0.14u l=0.15u
+ X6 Q Q_bar VPWR VPB sky130_fd_pr__special_pfet_pass w=0.14u l=0.15u
+ X7 VGND Q Q_bar VNB sky130_fd_pr__special_nfet_latch w=0.21u l=0.15u
+diff --git a/patches/p1/original/sky130_fd_bd_sram__sram_sp_colend.sp b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_colend.sp
+index 51de0f7..6820838 100644
+--- a/patches/p1/original/sky130_fd_bd_sram__sram_sp_colend.sp
++++ b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_colend.sp
+@@ -1,5 +1,5 @@
+ * NGSPICE file created from sky130_fd_bd_sram__sram_sp_colend.ext - technology: sky130A
+ 
+ .subckt sky130_fd_bd_sram__sram_sp_colend bl br vdd gnd vpb vnb gate
+-X0 br gate br vnb sky130_fd_pr__special_nfet_pass w=0.07u l=0.21u
++X0 br gate br vnb sky130_fd_pr__special_nfet_pass w=0.14u l=0.14u
+ .ends
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__sram_sp_colend_ce.sp b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_colend_ce.sp
+new file mode 100644
+index 0000000..dd0391a
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_colend_ce.sp
+@@ -0,0 +1,5 @@
++* NGSPICE file created from sky130_fd_bd_sram__sram_sp_colend_ce.ext - technology: sky130A
++
++.subckt sky130_fd_bd_sram__sram_sp_colend_ce
++X0 a_174_0# a_0_24# a_174_0# w_96_0# sky130_fd_pr__nfet_01v8 w=0.07 l=0.21
++.ends
+diff --git a/patches/p1/original/sky130_fd_bd_sram__sram_sp_colenda.sp b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_colenda.sp
+index 2ebbd99..7a84b9f 100644
+--- a/patches/p1/original/sky130_fd_bd_sram__sram_sp_colenda.sp
++++ b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_colenda.sp
+@@ -1,6 +1,6 @@
+ * NGSPICE file created from sky130_fd_bd_sram__sram_sp_colenda.ext - technology: sky130A
+ 
+ .subckt sky130_fd_bd_sram__sram_sp_colenda bl br vdd gnd vpb vnb gate
+-X0 br gate br vnb sky130_fd_pr__special_nfet_pass w=0.07u l=0.21u
++X0 br gate br vnb sky130_fd_pr__special_nfet_pass w=0.14u l=0.14u
+ .ends
+ 
+diff --git a/patches/p1/patched/sky130_fd_bd_sram__sram_sp_colenda_ce.sp b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_colenda_ce.sp
+new file mode 100644
+index 0000000..1f63ad2
+--- /dev/null
++++ b/patches/p1/patched/sky130_fd_bd_sram__sram_sp_colenda_ce.sp
+@@ -0,0 +1,5 @@
++* NGSPICE file created from sky130_fd_bd_sram__sram_sp_colenda_ce.ext - technology: sky130A
++
++.subckt sky130_fd_bd_sram__sram_sp_colenda_ce
++X0 a_174_0# a_0_24# a_174_0# w_96_0# sky130_fd_pr__nfet_01v8 w=0.7 l=0.21
++.ends

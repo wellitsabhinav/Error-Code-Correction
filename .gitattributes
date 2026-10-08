@@ -104,3 +104,6 @@
 /campaigns/date_2027_activity_qualified_ecc_energy_rev2/** -text whitespace=-trailing-space,-blank-at-eof
 /paper/date2027_revision/** -text whitespace=-trailing-space,-blank-at-eof
 /paper/iscas2027/** -text whitespace=-trailing-space,-blank-at-eof
+
+# Recovered historical evidence is published byte-for-byte with SHA256 provenance.
+/cleanup/recovered/** -text

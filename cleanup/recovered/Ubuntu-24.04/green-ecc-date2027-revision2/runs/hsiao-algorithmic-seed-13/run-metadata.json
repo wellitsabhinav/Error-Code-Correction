@@ -1,0 +1,19 @@
+{
+  "architecture": "hsiao_algorithmic",
+  "clock_period_ns": 10.0,
+  "config": "hsiao_algorithmic.mk",
+  "design_top": "gate04_rev2_hsiao_72_64",
+  "end_time_utc": "2026-08-25T16:56:50Z",
+  "implementation_id": "hsiao-algorithmic-combinational-72-64-rev2-v1",
+  "physical_exit_status": 0,
+  "physical_failure_reason": "",
+  "physical_seed": 13,
+  "power_failure_reason": "",
+  "power_status": "ACTIVITY_POWER_PASS_FULL_PRECISION_TEXT",
+  "replacement_attempt": false,
+  "routing_complete": true,
+  "run_id": "hsiao-algorithmic-seed-13",
+  "schema_version": 1,
+  "start_time_utc": "2026-08-25T16:50:44Z",
+  "timing_feasible": true
+}

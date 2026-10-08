@@ -1,0 +1,19 @@
+{
+  "architecture": "secded_pipe",
+  "clock_period_ns": 10.0,
+  "config": "secded_pipe.mk",
+  "design_top": "gate04_secded_pipe_72_64",
+  "end_time_utc": "2026-08-25T18:55:10Z",
+  "implementation_id": "secded-rtl-pipelined-72-64-v1",
+  "physical_exit_status": 0,
+  "physical_failure_reason": "",
+  "physical_seed": 23,
+  "power_failure_reason": "",
+  "power_status": "ACTIVITY_POWER_PASS_FULL_PRECISION_TEXT",
+  "replacement_attempt": false,
+  "routing_complete": true,
+  "run_id": "secded-pipe-seed-23",
+  "schema_version": 1,
+  "start_time_utc": "2026-08-25T18:50:02Z",
+  "timing_feasible": true
+}

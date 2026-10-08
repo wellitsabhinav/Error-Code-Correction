@@ -1,0 +1,602 @@
+[
+  {
+    "sha": "5f09ad71fba476ce0ae26158007f1c94a9814d46",
+    "size_bytes": 55064438,
+    "packed_entry_bytes": 8911013,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/6_1_merged.gds"
+  },
+  {
+    "sha": "d23d8c0571c473de35c02b118d9071243fd569fe",
+    "size_bytes": 53157928,
+    "packed_entry_bytes": 8740602,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed13/6_1_merged.gds"
+  },
+  {
+    "sha": "f111b94dc217f0a9691335779adde033a6670300",
+    "size_bytes": 37327068,
+    "packed_entry_bytes": 6417459,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/derived_gds/sram22_256x64m4w8.gds"
+  },
+  {
+    "sha": "73eac22486c311a44d6c096703abe6eb5c0d5014",
+    "size_bytes": 29053140,
+    "packed_entry_bytes": 1311520,
+    "path": "docs/date2027/rigour_gate_01/baseline/20_claim_search.log"
+  },
+  {
+    "sha": "9b4f7358c0d2ae01963911d6476b74e4436fcb2f",
+    "size_bytes": 27534279,
+    "packed_entry_bytes": 1457151,
+    "path": "green_ecc_physical_simulation/multi_ecc_evaluation/scenario_selection_results.json"
+  },
+  {
+    "sha": "e81d76d2522c82c482d4b7d57310248f2decab54",
+    "size_bytes": 26445773,
+    "packed_entry_bytes": 3820594,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/5_3_fillcell.odb"
+  },
+  {
+    "sha": "2e53b16478cdf1c365097acba62f144facc5a07f",
+    "size_bytes": 20754279,
+    "packed_entry_bytes": 3515212,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed23_common_hold_margin_0p03/results/6_final.odb"
+  },
+  {
+    "sha": "a5ca37b8315f9cb409da84819cc876d141ed0e97",
+    "size_bytes": 20750638,
+    "packed_entry_bytes": 3514513,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed11/6_final.odb"
+  },
+  {
+    "sha": "2ac52e1865e62cebab434889eed10a5f09b02229",
+    "size_bytes": 20749384,
+    "packed_entry_bytes": 3513915,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed23/6_final.odb"
+  },
+  {
+    "sha": "b6080a19fceab06cadea538f6b63bdc6c58bbaa6",
+    "size_bytes": 20718876,
+    "packed_entry_bytes": 3036254,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed23/5_3_fillcell.odb"
+  },
+  {
+    "sha": "5cbe429773ff6e862d816f7a1c6851b8507f4a55",
+    "size_bytes": 16473908,
+    "packed_entry_bytes": 1554461,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/6_final.def"
+  },
+  {
+    "sha": "95b4d146031deb538103b8d5f74713d6ec328929",
+    "size_bytes": 14015806,
+    "packed_entry_bytes": 118017,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt10_green_matrix_physical_model_validation/green_matrix/GREEN_MATRIX_RAW.csv"
+  },
+  {
+    "sha": "5773657fe730d984ac06726d0addfdad80395b9b",
+    "size_bytes": 12800135,
+    "packed_entry_bytes": 2217805,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt08_sram22_slew_provenance_and_drv_closure/raw/liberty/sky130_fd_sc_hd__tt_025C_1v80.lib"
+  },
+  {
+    "sha": "fe973ad52e3630afe439d84a7ba86cb6ce1fc988",
+    "size_bytes": 10836682,
+    "packed_entry_bytes": 4006955,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/6_final.odb"
+  },
+  {
+    "sha": "b04ec77a4957519d2035abdfaaf2723f73364e3c",
+    "size_bytes": 10116428,
+    "packed_entry_bytes": 487309,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/physical/drc/sram22_256x64m4w8.lyrdb"
+  },
+  {
+    "sha": "3ad4721abf0efaef0f4f1d51fd7c73187e987f0e",
+    "size_bytes": 9429370,
+    "packed_entry_bytes": 1510806,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/derived_gds/sram22_256x8m8w1.gds"
+  },
+  {
+    "sha": "97358236d3304fa308a1687b3a158ee683b3a172",
+    "size_bytes": 8759314,
+    "packed_entry_bytes": 298763,
+    "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_decoder.json"
+  },
+  {
+    "sha": "19a2c759e2634d325bc3cb5e895ddbe324fadecd",
+    "size_bytes": 8190304,
+    "packed_entry_bytes": 631379,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed23_common_hold_margin_0p02/results/6_final.def"
+  },
+  {
+    "sha": "b38e193e5a5d09d010e8eda491a7a538ed800ea0",
+    "size_bytes": 7694006,
+    "packed_entry_bytes": 295757,
+    "path": "reports/safeforge_hardening/fixed_72bit_risk_frontiers.json"
+  },
+  {
+    "sha": "fe99ee582a5b424d99904687d5f8bd5e8339ddf3",
+    "size_bytes": 7354065,
+    "packed_entry_bytes": 1243521,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt08_sram22_slew_provenance_and_drv_closure/raw/openroad/work/results/sky130hd/attempt08_e0/seed19/5_2_route.odb"
+  },
+  {
+    "sha": "f7716cbdecb76a98d939b0bf3068ca3e91fc5259",
+    "size_bytes": 7251311,
+    "packed_entry_bytes": 227373,
+    "path": "reports/transition_aware/data/schedule_result.json"
+  },
+  {
+    "sha": "9ebf7ed4dd8d7c20f8292fb1a2ddae1438627562",
+    "size_bytes": 7039093,
+    "packed_entry_bytes": 1171119,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed23_common_hold_margin_0p03/results/5_1_grt.odb"
+  },
+  {
+    "sha": "f96678ea10d89d37f1603050d35fe1fbca2f26cb",
+    "size_bytes": 7035883,
+    "packed_entry_bytes": 1171010,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed11/5_1_grt.odb"
+  },
+  {
+    "sha": "4e63febc3e332d2211cc33bbf1b2c3e57029c004",
+    "size_bytes": 7033982,
+    "packed_entry_bytes": 1170693,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed23/5_1_grt.odb"
+  },
+  {
+    "sha": "a5a5de59829b9a5378222e837d70336fb922dd8f",
+    "size_bytes": 6562505,
+    "packed_entry_bytes": 1175202,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/3_4_place_resized.odb"
+  },
+  {
+    "sha": "4335ed83b64496a29e119adf78e596d15d0b0b61",
+    "size_bytes": 6533487,
+    "packed_entry_bytes": 1171830,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/3_3_place_gp.odb"
+  },
+  {
+    "sha": "3e89d80ff717ee354379e2cb141ed0a20727479f",
+    "size_bytes": 6455100,
+    "packed_entry_bytes": 4384865,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/source_checkout/sram22_256x64m4w8/sram22_256x64m4w8.gds.gz"
+  },
+  {
+    "sha": "254dc39ae229b41c7096084527096a65b78cfa91",
+    "size_bytes": 6291589,
+    "packed_entry_bytes": 1128252,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/3_2_place_iop.odb"
+  },
+  {
+    "sha": "40d3063489a472f277bd154b568d1eefaf0a05ee",
+    "size_bytes": 6283621,
+    "packed_entry_bytes": 1115061,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/2_4_floorplan_pdn.odb"
+  },
+  {
+    "sha": "088412ff49cc343e0a0bff0671295bdfa0e00ecb",
+    "size_bytes": 6283621,
+    "packed_entry_bytes": 1126005,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/3_1_place_gp_skip_io.odb"
+  },
+  {
+    "sha": "fc531c8466cd30e668b6362024bb083cac4cef20",
+    "size_bytes": 6025455,
+    "packed_entry_bytes": 2365222,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed23_common_hold_margin_0p03/results/5_3_fillcell.odb"
+  },
+  {
+    "sha": "2ecc5e2bf75deaef92231278d1c7d33f5e52cca7",
+    "size_bytes": 5801305,
+    "packed_entry_bytes": 2658268,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed13/6_final.odb"
+  },
+  {
+    "sha": "8e07507b8b0c1499da1674f55f3ec81d19e717a5",
+    "size_bytes": 5564702,
+    "packed_entry_bytes": 2597575,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_common_hold_margin_0p02/seed17/results/6_final.odb"
+  },
+  {
+    "sha": "d7e461f0a12d0346fc43be1743b7c82bdb13f106",
+    "size_bytes": 5470513,
+    "packed_entry_bytes": 2566682,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed13/6_final.odb"
+  },
+  {
+    "sha": "0e87ea7b15092d37b7fb2f4a1d22d467885ead1e",
+    "size_bytes": 5436905,
+    "packed_entry_bytes": 2130193,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_u0/seed11/6_final.odb"
+  },
+  {
+    "sha": "021999982459a1de4448b887ec46050d6c762e5d",
+    "size_bytes": 5345804,
+    "packed_entry_bytes": 2501853,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed23_common_hold_margin_0p02/results/6_final.odb"
+  },
+  {
+    "sha": "8386e9e19b7fc74caa48f1f086c248c00ad22608",
+    "size_bytes": 5060820,
+    "packed_entry_bytes": 209565,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_openram_attempt04_sky130_control_integration_repair/raw/runs/prepatch/work_control_8x16/sky130_sram_1rw_8x16_gate3a03_control.ext"
+  },
+  {
+    "sha": "2570cfeea6770e8611e24820d04af65606c96669",
+    "size_bytes": 4911873,
+    "packed_entry_bytes": 1959403,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_u0/seed23/6_final.odb"
+  },
+  {
+    "sha": "0da773735d622db6e8d156582f26bf7b08786da3",
+    "size_bytes": 4891962,
+    "packed_entry_bytes": 2318909,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_common_hold_margin_0p02/seed11/results/6_final.odb"
+  },
+  {
+    "sha": "ee980d80695ca2606c23623ea65e03c64c6a60b8",
+    "size_bytes": 4886442,
+    "packed_entry_bytes": 1961453,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_u0/seed19/6_final.odb"
+  },
+  {
+    "sha": "4a56bec5182fb9798c920f9d3e50861ceb5bd859",
+    "size_bytes": 4864873,
+    "packed_entry_bytes": 2273800,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed23/6_final.odb"
+  },
+  {
+    "sha": "8abb130d1b68e908123b97f881368a3ee78e221a",
+    "size_bytes": 4825874,
+    "packed_entry_bytes": 2262554,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt08_sram22_slew_provenance_and_drv_closure/raw/openroad/work/results/sky130hd/attempt08_e0/seed19/6_final.odb"
+  },
+  {
+    "sha": "a7d671c863a854953248a009f80c07b1065cf448",
+    "size_bytes": 4795747,
+    "packed_entry_bytes": 2263123,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed11_balanced_clock_no_post_interface_hold_repair/results/6_final.odb"
+  },
+  {
+    "sha": "f0ffccd80e6f3d54408592cbf2251f36b5e9ae40",
+    "size_bytes": 4718628,
+    "packed_entry_bytes": 2225165,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed17/6_final.odb"
+  },
+  {
+    "sha": "92ae62a5d79176420a78e624f44133123662344f",
+    "size_bytes": 4713691,
+    "packed_entry_bytes": 2217324,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_common_hold_margin_0p02/seed19/results/6_final.odb"
+  },
+  {
+    "sha": "6b808634b9df785c25bbc26ecb6e7172e0239284",
+    "size_bytes": 4651786,
+    "packed_entry_bytes": 2179469,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_common_hold_margin_0p02/seed13/results/6_final.odb"
+  },
+  {
+    "sha": "8477bf015e874c9b80cb67ce88f174fa3586ba1e",
+    "size_bytes": 4546332,
+    "packed_entry_bytes": 2132220,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt08_sram22_slew_provenance_and_drv_closure/raw/openroad/work/results/sky130hd/attempt08_e0/seed23/6_final.odb"
+  },
+  {
+    "sha": "cb3bd11765342e3fb516bff843aac949a9e30175",
+    "size_bytes": 4268846,
+    "packed_entry_bytes": 773028,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_u0/seed13/3_5_place_dp.odb"
+  },
+  {
+    "sha": "88654386dc1fd9334f58a86e5c5635646ac3a547",
+    "size_bytes": 4181890,
+    "packed_entry_bytes": 2063641,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed11_hold5ps_unbalanced_clock/results/6_final.odb"
+  },
+  {
+    "sha": "c6ffb96b9f3950f01c9cb1c0f8a8f5d191804389",
+    "size_bytes": 4158391,
+    "packed_entry_bytes": 1889470,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt08_sram22_slew_provenance_and_drv_closure/raw/openroad/work/results/sky130hd/attempt08_e0/seed11/6_final.odb"
+  },
+  {
+    "sha": "fe72023d27d27fc245b39137f0d35e99d4b702d0",
+    "size_bytes": 4148658,
+    "packed_entry_bytes": 1988701,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed11/6_final.odb"
+  },
+  {
+    "sha": "c5762beb8d1bbf459cd4f0c13fed4d12fa28806c",
+    "size_bytes": 3933265,
+    "packed_entry_bytes": 1864345,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed19/6_final.odb"
+  },
+  {
+    "sha": "6afed7f28312e2a7ae4930819941e96d53abe0c8",
+    "size_bytes": 3821366,
+    "packed_entry_bytes": 202392,
+    "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_decoder.log"
+  },
+  {
+    "sha": "2d4cab4ffba8c4eb110db4975a9f9d05d6c73882",
+    "size_bytes": 3126599,
+    "packed_entry_bytes": 1317357,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_u0/seed23/5_3_fillcell.odb"
+  },
+  {
+    "sha": "38fb518366516ce1d9722a9ed36e963efe052a22",
+    "size_bytes": 3098195,
+    "packed_entry_bytes": 1595914,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed11/5_3_fillcell.odb"
+  },
+  {
+    "sha": "231b5461e67a6d6a93e8cedc8a04934b91a4b959",
+    "size_bytes": 3080184,
+    "packed_entry_bytes": 1585109,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed17/5_3_fillcell.odb"
+  },
+  {
+    "sha": "231da862f1d14f5def226734f0300233a31a0466",
+    "size_bytes": 2990376,
+    "packed_entry_bytes": 27898,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt10_green_matrix_physical_model_validation/green_matrix/GREEN_MATRIX_METADATA.json"
+  },
+  {
+    "sha": "a18d1c7bb37bbbf25d11cfa23d308b949e67bd48",
+    "size_bytes": 2873427,
+    "packed_entry_bytes": 954345,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/5_2_route.odb"
+  },
+  {
+    "sha": "1e195c7ae3405191ccec69f659f104c0619ac37a",
+    "size_bytes": 2860214,
+    "packed_entry_bytes": 27517,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt10_green_matrix_physical_model_validation/pareto/PARETO_RESULTS.json"
+  },
+  {
+    "sha": "1dd003b52b16974602a8bdb102c47fdad76121ef",
+    "size_bytes": 2853772,
+    "packed_entry_bytes": 45627,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt10_green_matrix_physical_model_validation/pareto/PARETO_RESULTS.csv"
+  },
+  {
+    "sha": "d625d4e3b104c5c13cd5a83b1115e68655ccfae0",
+    "size_bytes": 2748755,
+    "packed_entry_bytes": 1348075,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt08_sram22_slew_provenance_and_drv_closure/raw/openroad/work/results/sky130hd/attempt08_e0/seed19/5_3_fillcell.odb"
+  },
+  {
+    "sha": "3caf8d26808431797cda9d023a73533d67f00548",
+    "size_bytes": 2689640,
+    "packed_entry_bytes": 1433704,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_common_hold_margin_0p02/seed17/results/5_3_fillcell.odb"
+  },
+  {
+    "sha": "4ce9241e54341a9d6e152c5d5eec84bf6ef35a21",
+    "size_bytes": 2689095,
+    "packed_entry_bytes": 1448947,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed23_common_hold_margin_0p02/results/5_3_fillcell.odb"
+  },
+  {
+    "sha": "2adbc049865734976243ce80fce188ad6d83d574",
+    "size_bytes": 2679641,
+    "packed_entry_bytes": 1456753,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed23/5_3_fillcell.odb"
+  },
+  {
+    "sha": "c470506c95e44aecde3e776e32bc5c00a893244d",
+    "size_bytes": 2641626,
+    "packed_entry_bytes": 1330099,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed19/5_3_fillcell.odb"
+  },
+  {
+    "sha": "3be2f9c36ead2ce3fb6c5d46213e70b3fd5db20e",
+    "size_bytes": 2636208,
+    "packed_entry_bytes": 1325370,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_common_hold_margin_0p02/seed11/results/5_3_fillcell.odb"
+  },
+  {
+    "sha": "57d3e6917fe77921a13416a5e21da5e6bb4b6509",
+    "size_bytes": 2617427,
+    "packed_entry_bytes": 1323464,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed11/5_3_fillcell.odb"
+  },
+  {
+    "sha": "41b650d2cbef37d1bd3000feb5a7303ceb5251e4",
+    "size_bytes": 2589252,
+    "packed_entry_bytes": 1316541,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed13/5_3_fillcell.odb"
+  },
+  {
+    "sha": "4a07c660fd3395d2285bd3af5997b413720eb76c",
+    "size_bytes": 2576669,
+    "packed_entry_bytes": 1311197,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_common_hold_margin_0p02/seed19/results/5_3_fillcell.odb"
+  },
+  {
+    "sha": "bbff0eb8d68aa76157cec78dbb3ed0c4ad291fdb",
+    "size_bytes": 2571121,
+    "packed_entry_bytes": 1316789,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt08_sram22_slew_provenance_and_drv_closure/raw/openroad/work/results/sky130hd/attempt08_e0/seed23/5_3_fillcell.odb"
+  },
+  {
+    "sha": "b80032790b563119467e1b34c9807e341a074636",
+    "size_bytes": 2549315,
+    "packed_entry_bytes": 854629,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/5_1_grt.odb"
+  },
+  {
+    "sha": "aba4f67e14a99ef7791079e6d4537b6950b6dba8",
+    "size_bytes": 2500920,
+    "packed_entry_bytes": 1268110,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_common_hold_margin_0p02/seed13/results/5_3_fillcell.odb"
+  },
+  {
+    "sha": "109e365d2749fb43f8d8c02d410df09b70be4bf5",
+    "size_bytes": 2480317,
+    "packed_entry_bytes": 788046,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/4_1_cts.odb"
+  },
+  {
+    "sha": "1a36d879eb926159a5929847be3061724eddbfa9",
+    "size_bytes": 2406506,
+    "packed_entry_bytes": 1163991,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed17/6_final.odb"
+  },
+  {
+    "sha": "747d05406c0f8e04b4b94b3e3d510b1284e67dd2",
+    "size_bytes": 2388177,
+    "packed_entry_bytes": 579217,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/6_final.spef"
+  },
+  {
+    "sha": "93c8aacf5fa43bdd27be370999b26c29998170af",
+    "size_bytes": 2387570,
+    "packed_entry_bytes": 431926,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/2_2_floorplan_macro.odb"
+  },
+  {
+    "sha": "2fcc612488d574127203440bae57bdd2e78982b2",
+    "size_bytes": 2387272,
+    "packed_entry_bytes": 432002,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed11/2_1_floorplan.odb"
+  },
+  {
+    "sha": "7b62ea1db064119d7d13d28f583dcf7b038548db",
+    "size_bytes": 2380654,
+    "packed_entry_bytes": 1225646,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed13/5_3_fillcell.odb"
+  },
+  {
+    "sha": "f8bd51297692679459b875b978b62d7c508dfbfb",
+    "size_bytes": 2377829,
+    "packed_entry_bytes": 1194153,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed19/5_3_fillcell.odb"
+  },
+  {
+    "sha": "5e6219fe2c396b7be454608065d884c521ef5b6c",
+    "size_bytes": 2373979,
+    "packed_entry_bytes": 1196787,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed17/5_3_fillcell.odb"
+  },
+  {
+    "sha": "a35e189ccecad70eabf313ff3a73a423c73fa201",
+    "size_bytes": 2332233,
+    "packed_entry_bytes": 1157261,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed19/6_final.odb"
+  },
+  {
+    "sha": "5473070382aab7f530ba5aba455716684ecc2dbc",
+    "size_bytes": 2332170,
+    "packed_entry_bytes": 937318,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt10_green_matrix_physical_model_validation/energy/runtime/ivl/ivl.exe"
+  },
+  {
+    "sha": "c9aee35651a7b45c37f38867cd9493e9c428e94c",
+    "size_bytes": 2295161,
+    "packed_entry_bytes": 1203767,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt08_sram22_slew_provenance_and_drv_closure/raw/openroad/work/results/sky130hd/attempt08_e0/seed11/5_3_fillcell.odb"
+  },
+  {
+    "sha": "37ebbf0ec00efb2a8b182a61dcccaae9a4723315",
+    "size_bytes": 2234474,
+    "packed_entry_bytes": 1213771,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed11_balanced_clock_no_post_interface_hold_repair/results/5_3_fillcell.odb"
+  },
+  {
+    "sha": "60bc2847e340978001b55c5a8b5197a1645c3584",
+    "size_bytes": 2224406,
+    "packed_entry_bytes": 729721,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt06_replacement_sram_backend_qualification/raw/openroad/work/results/sky130hd/attempt06_e0/base/3_5_place_dp.odb"
+  },
+  {
+    "sha": "d5b2d0346113a23c300298de0bfb746729db4b19",
+    "size_bytes": 2165215,
+    "packed_entry_bytes": 849195,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed23_common_hold_margin_0p02/results/6_1_merged.gds"
+  },
+  {
+    "sha": "4b334029d7559cc417a4d18e7b6bf5652b2e61b7",
+    "size_bytes": 2150629,
+    "packed_entry_bytes": 1177535,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed11_hold5ps_unbalanced_clock/results/5_3_fillcell.odb"
+  },
+  {
+    "sha": "b1a5c75e3bebd7d17e0cc2f71edd6c6744d681bb",
+    "size_bytes": 2041312,
+    "packed_entry_bytes": 940972,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_u0/seed23/6_1_merged.gds"
+  },
+  {
+    "sha": "c147816d34d79ead23add82a6bcc198eaad4f40e",
+    "size_bytes": 1941908,
+    "packed_entry_bytes": 484801,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt08_sram22_slew_provenance_and_drv_closure/raw/openroad/work/results/sky130hd/attempt08_e0/seed17/6_final.spef"
+  },
+  {
+    "sha": "21fc7624f1433683a0d15c521b63e15dee3cab7e",
+    "size_bytes": 1936176,
+    "packed_entry_bytes": 483692,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed11_hold5ps_unbalanced_clock/results/6_final.spef"
+  },
+  {
+    "sha": "fb0f31755f331d03e1b5463e5ad9d5f57bc4b245",
+    "size_bytes": 1934070,
+    "packed_entry_bytes": 482525,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed19/6_final.spef"
+  },
+  {
+    "sha": "e3983599a15e0c8aaf86374f2f7e94abaf416750",
+    "size_bytes": 1931840,
+    "packed_entry_bytes": 481943,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_common_hold_margin_0p02/seed11/results/6_final.spef"
+  },
+  {
+    "sha": "32c048aeda9534a1ee6af2692d0eb2db32762561",
+    "size_bytes": 1930999,
+    "packed_entry_bytes": 481212,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed17/6_final.spef"
+  },
+  {
+    "sha": "e213b73be065a00ec0b5f93b1f4394c8447f34c4",
+    "size_bytes": 1930933,
+    "packed_entry_bytes": 481668,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed11_balanced_clock_no_post_interface_hold_repair/results/6_final.spef"
+  },
+  {
+    "sha": "6dd3a436b9e14fa718b2e764aa519313ea3f88ff",
+    "size_bytes": 1930815,
+    "packed_entry_bytes": 481514,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed11/6_final.spef"
+  },
+  {
+    "sha": "c7dc8d69e8311fad98d571433833e063fc3ab98c",
+    "size_bytes": 1929524,
+    "packed_entry_bytes": 481978,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt07_sram22_matched_physical_closure/raw/openroad/work/results/sky130hd/attempt07_e0/seed19/6_final.spef"
+  },
+  {
+    "sha": "84e764ad4a4ad372a567bbabf568380e7c4719af",
+    "size_bytes": 1928815,
+    "packed_entry_bytes": 479828,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed23/6_final.spef"
+  },
+  {
+    "sha": "fdfad403305f44b286fb9f8419ae686c4c4277de",
+    "size_bytes": 1928609,
+    "packed_entry_bytes": 480999,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/openroad/work/results/sky130hd/attempt09_e0/seed13/6_final.spef"
+  },
+  {
+    "sha": "389c35effbf694d88d37ffd5614b6cfb376e06a1",
+    "size_bytes": 1928532,
+    "packed_entry_bytes": 479862,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_seed23_common_hold_margin_0p03/results/6_final.spef"
+  },
+  {
+    "sha": "a8e4b32c3ffc768b399bcda01df8582c9f44efa9",
+    "size_bytes": 1928510,
+    "packed_entry_bytes": 480863,
+    "path": "campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt09_sram22_residual_interface_drv_and_provenance_closure/raw/rejected_runs/e0_common_hold_margin_0p02/seed19/results/6_final.spef"
+  }
+]

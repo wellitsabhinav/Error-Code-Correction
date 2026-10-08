@@ -1,0 +1,1087 @@
+ M .github/ISSUE_TEMPLATE/custom.md
+ M .github/labels.yml
+ M .github/workflows/signoff-gate.yml
+ M .gitignore
+ M AGENTS.md
+ M BCHvsHamming.cpp
+ M BitVector.hpp
+ M CMakeLists.txt
+ M CONTRIBUTING.md
+ M GREEN_ECC_PHY_TECHNICAL_GUIDE.md
+ M LICENSE
+ M Makefile
+ M ParityCheckMatrix.hpp
+ M PracticalSRAMSimulator.cpp
+ M README.md
+ M SECURITY.md
+ M SecDaec64.hpp
+ M VERSION
+ M analysis/__init__.py
+ M analysis/archetype.py
+ M analysis/generate_figures.py
+ M analysis/hv.py
+ M analysis/knee.py
+ M analysis/pareto.py
+ M analysis/plot_metadata.py
+ M analysis/plot_pipeline.py
+ M analysis/scenario_resolver.py
+ M analysis/sensitivity.py
+ M analysis/surface.py
+ M analysis/tradeoff.py
+ M analysis/workload_scenarios.py
+ M area_models.py
+ M asic/README_ecc_wrappers.md
+ M asic/bch/bch_decoder.sv
+ M asic/bch/bch_encoder.sv
+ M asic/bch/sram_bch_top.sv
+ M asic/common/ecc_types_pkg.sv
+ M asic/common/sram_core.sv
+ M asic/docs/MODULE_MAP.md
+ M asic/docs/README_asic.md
+ M asic/polar/polar_decoder_128_96.sv
+ M asic/polar/polar_decoder_64_32.sv
+ M asic/polar/polar_decoder_64_48.sv
+ M asic/polar/polar_encoder_128_96.sv
+ M asic/polar/polar_encoder_64_32.sv
+ M asic/polar/polar_encoder_64_48.sv
+ M asic/polar/sram_polar_128_96_top.sv
+ M asic/polar/sram_polar_64_32_top.sv
+ M asic/polar/sram_polar_64_48_top.sv
+ M asic/rtl/common/ecc_bitflip_corrector.sv
+ M asic/rtl/common/ecc_entries.sv
+ M asic/rtl/polar/polar_codec.sv
+ M asic/rtl/polar/polar_pkg.sv
+ M asic/rtl/sram/sram_wrappers.sv
+ M asic/scripts/compile.sh
+ M asic/scripts/filelist.f
+ M asic/scripts/regress.sh
+ M asic/scripts/run.sh
+ M asic/secdaec/secdaec_decoder.sv
+ M asic/secdaec/secdaec_encoder.sv
+ M asic/secdaec/sram_secdaec_top.sv
+ M asic/secded/secded_decoder.sv
+ M asic/secded/secded_encoder.sv
+ M asic/secded/sram_secded_top.sv
+ M asic/taec/sram_taec_top.sv
+ M asic/taec/taec_decoder.sv
+ M asic/taec/taec_encoder.sv
+ M asic/tb/tb_polar.sv
+ M asic/tb/tb_sram_wrappers.sv
+ M calibration.py
+ M carbon.py
+ M carbon_calib.json
+ M carbon_defaults.json
+ M carbon_model.py
+ M config/signoff_thresholds.json
+ M configs/archetypes.yaml
+ M configs/fault_distributions/benchmarks/adjacent_dbu.json
+ M configs/fault_distributions/benchmarks/adjacent_triple_bit_upset.json
+ M configs/fault_distributions/benchmarks/benchmark_manifest.json
+ M configs/fault_distributions/benchmarks/bit_position_asymmetry.json
+ M configs/fault_distributions/benchmarks/distribution_shift.json
+ M configs/fault_distributions/benchmarks/geometry_filtered.json
+ M configs/fault_distributions/benchmarks/mixed_sbu_dbu_mbu.json
+ M configs/fault_distributions/benchmarks/non_adjacent_mbu.json
+ M configs/fault_distributions/benchmarks/spatial_hot_spots.json
+ M configs/fault_distributions/benchmarks/temperature_sensitive.json
+ M configs/fault_distributions/benchmarks/uniform_sbu.json
+ M configs/fault_distributions/benchmarks/variable_length_bursts.json
+ M configs/fault_distributions/benchmarks/voltage_sensitive.json
+ M data/qcrit_sram6t.json
+ M data/qcrit_sram6t.schema.light.json
+ M docs/AdoptionPlaybook.md
+ M docs/CLAIM_LEDGER.md
+ M docs/ECC_CATALOGUE.md
+ M docs/ESII.md
+ M docs/EnergyModel.md
+ M docs/FIGURE_INDEX.md
+ M docs/ProjectOverview.md
+ M docs/RESULTS_AND_INTERPRETATION.md
+ M docs/SIGNOFF_CHECKLIST.md
+ M docs/SimulatorOverview.md
+ M docs/analysis.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/AdoptionPlaybook.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/ESII.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/EnergyModel.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/ProjectOverview.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/SIGNOFF_CHECKLIST.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/SimulatorOverview.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/analysis.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/calibration_signoff_envelope.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/carbon_calibration.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/drift_policy.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/ml_design.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/ml_scope_implementation_plan.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/output_format_approvals.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/plotting.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/schema/telemetry.md
+ M docs/archive/pre_rebuild_2026-08-04/docs/schema/telemetry.schema.json
+ M docs/calibration_signoff_envelope.md
+ M docs/carbon_calibration.md
+ M docs/date2027/rigour_gate_01/baseline/00_source_state_pre.log
+ M docs/date2027/rigour_gate_01/baseline/01_isolated_state.log
+ M docs/date2027/rigour_gate_01/baseline/02_inventory.log
+ M docs/date2027/rigour_gate_01/baseline/03_tool_versions.log
+ M docs/date2027/rigour_gate_01/baseline/04_doctor.log
+ M docs/date2027/rigour_gate_01/baseline/05_ecc_list.log
+ M docs/date2027/rigour_gate_01/baseline/06_dependencies.log
+ M docs/date2027/rigour_gate_01/baseline/07_targeted_golden.log
+ M docs/date2027/rigour_gate_01/baseline/08_targeted_bch.log
+ M docs/date2027/rigour_gate_01/baseline/09_targeted_framework.log
+ M docs/date2027/rigour_gate_01/baseline/10_targeted_pareto.log
+ M docs/date2027/rigour_gate_01/baseline/11_verify_hsiao.log
+ M docs/date2027/rigour_gate_01/baseline/12_make.log
+ M docs/date2027/rigour_gate_01/baseline/13_make_test.log
+ M docs/date2027/rigour_gate_01/baseline/14_python3_pytest.log
+ M docs/date2027/rigour_gate_01/baseline/15_documentation_check.log
+ M docs/date2027/rigour_gate_01/baseline/16_rtl_regression.log
+ M docs/date2027/rigour_gate_01/baseline/17_hash_and_eol_audit.log
+ M docs/date2027/rigour_gate_01/baseline/18_line_ending_diagnosis.log
+ M docs/date2027/rigour_gate_01/baseline/19_registry_derivation.log
+ M docs/date2027/rigour_gate_01/baseline/20_claim_search.log
+ M docs/date2027/rigour_gate_01/baseline/21_manuscript_claim_inventory.log
+ M docs/date2027/rigour_gate_01/baseline/22_static_inventory.log
+ M docs/date2027/rigour_gate_01/baseline/23_verification_and_scope.log
+ M docs/date2027/rigour_gate_01/baseline/24_artifact_validation.log
+ M docs/date2027/rigour_gate_01/baseline/25_artifact_validation.log
+ M docs/date2027/rigour_gate_01/baseline/26_artifact_validation.log
+ M docs/date2027/rigour_gate_01/baseline/27_reference_and_scope_validation.log
+ M docs/date2027/rigour_gate_01/baseline/28_final_tree_state.log
+ M docs/date2027/rigour_gate_01/baseline/29_final_validation.log
+ M docs/date2027/rigour_gate_01/baseline/30_final_validation.log
+ M docs/date2027/rigour_gate_02/CANONICAL_CODE_SPECS.json
+ M docs/date2027/rigour_gate_02/GATE_02_REPORT.md
+ M docs/date2027/rigour_gate_02/IMPLEMENTATION_EQUIVALENCE.md
+ M docs/date2027/rigour_gate_02/MINIMUM_DISTANCE_CERTIFICATES.json
+ M docs/date2027/rigour_gate_02/STATUS_CHANGELOG.md
+ M docs/date2027/rigour_gate_02/UNIVERSE_DEFINITIONS.json
+ M docs/date2027/rigour_gate_02/baseline/SHA256SUMS
+ M docs/date2027/rigour_gate_02/baseline/environment_manifest.json
+ M docs/date2027/rigour_gate_02/baseline/evidence_hash_manifest.json
+ M docs/date2027/rigour_gate_02/baseline/gate01_hashes.json
+ M docs/date2027/rigour_gate_02/baseline/generation.log
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/cyclic-rtl-bounded-search-63-51-v1.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/forge-hotspot-8-4-v1-archived-table-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/forge-spatial-hotspot-72-64-v1-archived-table-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/forge-sram-portfolio-72-64-v1-geometry-filtered-joint-archived-table-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/forge-sram-portfolio-72-64-v1-spatial-hotspot-joint-archived-table-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/hsiao-generated-combinational-72-64-v1.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/odd-column-secded-4-8-archived-table-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/odd-column-secded-64-72-archived-table-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/primitive-bch-63-51-t2-v1-reference-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/safeforge-robust-72-64-mapping-v1-archived-table-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/safeforge-robust-8-4-v1-archived-table-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/secdaec-rtl-bounded-72-64-v1.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/secded-rtl-combinational-72-64-v1.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/shortened-bch-71-64-t1-v1-reference-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/shortened-bch-78-64-t2-v1-reference-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/shortened-bch-85-64-t3-v1-reference-decoder.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_aggregates/taec-rtl-bounded-72-64-v1.json
+ M docs/date2027/rigour_gate_02/baseline/implementation_equivalence.json
+ M docs/date2027/rigour_gate_02/baseline/iteration_log.jsonl
+ M docs/date2027/rigour_gate_02/baseline/source_state_post.json
+ M docs/date2027/rigour_gate_02/baseline/source_state_pre.json
+ M docs/date2027/rigour_gate_02/baseline/translation_invariance.json
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/gate03e-artifact-scope-validator.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/gate03e-focused-tests.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/gate03r-validator.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/make-test.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/make.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation-attempt-01/python3-pytest-q.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation/gate03e-artifact-scope-validator.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation/gate03e-focused-tests.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation/gate03r-validator.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation/make-test.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation/make.log
+ M docs/date2027/rigour_gate_03e/raw_logs/repository-validation/python3-pytest-q.log
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_decoder.json
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_decoder.v
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_encoder.json
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_encoder.v
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_combined.json
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_combined.v
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_decoder.json
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_decoder.v
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_encoder.json
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_encoder.v
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_pipelined_combined.json
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_pipelined_combined.v
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/secded_pipelined_72_64_v1_decoder.json
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/secded_pipelined_72_64_v1_decoder.v
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/secded_pipelined_72_64_v1_encoder.json
+ M docs/date2027/rigour_gate_03r/baseline/generic_synthesis/secded_pipelined_72_64_v1_encoder.v
+ M docs/drift_policy.md
+ M docs/figure_data/adaptive_overhead_threshold.json
+ M docs/figure_data/capability_verification_heatmap.json
+ M docs/figure_data/code_rate_redundancy.json
+ M docs/figure_data/documentation_build_summary.json
+ M docs/figure_data/energy_complexity_pareto_analytical.json
+ M docs/figure_data/error_outcome_distributions.json
+ M docs/figure_data/evidence_availability_matrix.json
+ M docs/figure_data/figure_manifest.json
+ M docs/figure_data/fixed_baseline_regret.json
+ M docs/figure_data/multi_scenario_pareto_summary.json
+ M docs/figure_data/physical_evidence_gap.json
+ M docs/figure_data/recommendation_stability.json
+ M docs/figure_data/registered_portfolio_overview.json
+ M docs/figure_data/reliability_carbon_pareto_analytical.json
+ M docs/figure_data/reliability_cost_pareto_analytical.json
+ M docs/figure_data/sensitivity_ranked.json
+ M docs/figure_data/structural_complexity_structural_only.json
+ M docs/figure_data/winner_frequency_by_identity.json
+ M docs/figure_data/winner_region_heatmaps.json
+ M docs/figures/adaptive_overhead_threshold.svg
+ M docs/figures/capability_verification_heatmap.svg
+ M docs/figures/code_rate_redundancy.svg
+ M docs/figures/energy_complexity_pareto_analytical.svg
+ M docs/figures/error_outcome_distributions.svg
+ M docs/figures/evidence_availability_matrix.svg
+ M docs/figures/fixed_baseline_regret.svg
+ M docs/figures/multi_scenario_pareto_summary.svg
+ M docs/figures/physical_evidence_gap.svg
+ M docs/figures/recommendation_stability.svg
+ M docs/figures/registered_portfolio_overview.svg
+ M docs/figures/reliability_carbon_pareto_analytical.svg
+ M docs/figures/reliability_cost_pareto_analytical.svg
+ M docs/figures/sensitivity_ranked.svg
+ M docs/figures/structural_complexity_structural_only.svg
+ M docs/figures/winner_frequency_by_identity.svg
+ M docs/figures/winner_region_heatmaps.svg
+ M docs/ml_design.md
+ M docs/ml_scope_implementation_plan.md
+ M docs/output_format_approvals.md
+ M docs/plotting.md
+ M docs/schema/telemetry.md
+ M docs/schema/telemetry.schema.json
+ M ecc_mux.py
+ M ecc_selector.py
+ M ecc_wizard.py
+ M eccsim.py
+ M energy_model.py
+ M esii.py
+ M fit.py
+ M gate_energy.hpp
+ M green_ecc_physical_simulation/multi_ecc_evaluation/ECC_SCOPE_MATRIX.md
+ M green_ecc_physical_simulation/multi_ecc_evaluation/architecture_compatibility_matrix.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/forge-hotspot-8-4-v1-archived-table-decoder--fixed-forge-hotspot-8-4-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/forge-spatial-hotspot-72-64-v1-archived-table-decoder--fixed-forge-spatial-hotspot-72-64-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/forge-sram-portfolio-72-64-v1-geometry-filtered-joint-archived-table-decoder--fixed-forge-sram-portfolio-72-64-v1-geometry-filtered-joint.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/forge-sram-portfolio-72-64-v1-spatial-hotspot-joint-archived-table-decoder--fixed-forge-sram-portfolio-72-64-v1-spatial-hotspot-joint.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/hsiao-generated-combinational-72-64-v1--fixed-hsiao-whole-memory-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/odd-column-secded-4-8-archived-table-decoder--fixed-odd-column-secded-4-8.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/odd-column-secded-64-72-archived-table-decoder--fixed-odd-column-secded-64-72.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/primitive-bch-63-51-t2-v1-reference-decoder--fixed-primitive-bch-63-51-t2-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/safeforge-robust-72-64-mapping-v1-archived-table-decoder--fixed-safeforge-robust-72-64-mapping-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/safeforge-robust-8-4-v1-archived-table-decoder--fixed-safeforge-robust-8-4-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/secded-rtl-combinational-72-64-v1--adaptive-shared-page-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/secded-rtl-combinational-72-64-v1--configurable-gated-parallel-bank-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/secded-rtl-combinational-72-64-v1--fixed-secded-whole-memory-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/shortened-bch-71-64-t1-v1-reference-decoder--fixed-shortened-bch-71-64-t1-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/shortened-bch-78-64-t2-v1-reference-decoder--fixed-shortened-bch-78-64-t2-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/shortened-bch-85-64-t3-v1-reference-decoder--fixed-shortened-bch-85-64-t3-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/taec-rtl-bounded-72-64-v1--adaptive-shared-page-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/characterization/taec-rtl-bounded-72-64-v1--configurable-gated-parallel-bank-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/comparison_views.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/ecc_scope_matrix.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/exact_functional_profiles.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/extensibility_acceptance.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/framework_summary.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/implementation_capability_matrix.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/manifest.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/normalized_exact_metrics.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/pareto_and_regret.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/physical_selection.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/plot_manifest.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/scenario_regions.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/scenario_selection_results.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/software_study_summary.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/uncertainty_and_sensitivity.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/cyclic-rtl-bounded-search-63-51-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/forge-hotspot-8-4-v1-archived-table-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/forge-spatial-hotspot-72-64-v1-archived-table-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/forge-sram-portfolio-72-64-v1-geometry-filtered-joint-archived-table-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/forge-sram-portfolio-72-64-v1-spatial-hotspot-joint-archived-table-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/hsiao-generated-combinational-72-64-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/odd-column-secded-4-8-archived-table-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/odd-column-secded-64-72-archived-table-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/primitive-bch-63-51-t2-v1-reference-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/safeforge-robust-72-64-mapping-v1-archived-table-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/safeforge-robust-8-4-v1-archived-table-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/secdaec-rtl-bounded-72-64-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/secded-rtl-combinational-72-64-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/shortened-bch-71-64-t1-v1-reference-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/shortened-bch-78-64-t2-v1-reference-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/shortened-bch-85-64-t3-v1-reference-decoder.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification/taec-rtl-bounded-72-64-v1.json
+ M green_ecc_physical_simulation/multi_ecc_evaluation/verification_equivalence_audit.json
+ M gs.py
+ M integrated_toolkit.py
+ M mbu.py
+ M ml/__init__.py
+ M ml/dataset.py
+ M ml/drift.py
+ M ml/evaluate.py
+ M ml/explain.py
+ M ml/features.py
+ M ml/lifecycle.py
+ M ml/model_registry.py
+ M ml/predict.py
+ M ml/report_card.py
+ M ml/splits.py
+ M ml/sram_advisory.py
+ M ml/train.py
+ M mux_model.py
+ M nand2_area.json
+ M parse_telemetry.py
+ M plot_pareto.py
+ M polar.py
+ M pytest.ini
+ M qcrit_loader.py
+ M reports/calibration/METHOD.md
+ M reports/calibration/provenance_manifest.json
+ M reports/code_synthesis/ablations.json
+ M reports/code_synthesis/baselines/odd_column_secded_verification.json
+ M reports/code_synthesis/certificate.json
+ M reports/code_synthesis/equal_redundancy_comparison.json
+ M reports/code_synthesis/external_verification_report.json
+ M reports/code_synthesis/fault_distribution.json
+ M reports/code_synthesis/findings.md
+ M reports/code_synthesis/reference/reference_model.cpp
+ M reports/code_synthesis/reference/reference_model.py
+ M reports/code_synthesis/result_manifest.json
+ M reports/code_synthesis/rtl/forge_hotspot_8_4_v1_decoder.sv
+ M reports/code_synthesis/rtl/forge_hotspot_8_4_v1_encoder.sv
+ M reports/code_synthesis/rtl/forge_hotspot_8_4_v1_syndrome.sv
+ M reports/code_synthesis/rtl/tb_forge_hotspot_8_4_v1.sv
+ M reports/code_synthesis/search_report.json
+ M reports/code_synthesis_64/ablations.json
+ M reports/code_synthesis_64/baselines/odd_column_secded_verification.json
+ M reports/code_synthesis_64/certificate.json
+ M reports/code_synthesis_64/equal_redundancy_comparison.json
+ M reports/code_synthesis_64/fault_distribution.json
+ M reports/code_synthesis_64/findings.md
+ M reports/code_synthesis_64/reference/reference_model.cpp
+ M reports/code_synthesis_64/reference/reference_model.py
+ M reports/code_synthesis_64/result_manifest.json
+ M reports/code_synthesis_64/rtl/forge_spatial_hotspot_72_64_v1_decoder.sv
+ M reports/code_synthesis_64/rtl/forge_spatial_hotspot_72_64_v1_encoder.sv
+ M reports/code_synthesis_64/rtl/forge_spatial_hotspot_72_64_v1_syndrome.sv
+ M reports/code_synthesis_64/rtl/tb_forge_spatial_hotspot_72_64_v1.sv
+ M reports/code_synthesis_64/search_report.json
+ M reports/examples/sku-32b-1Gb/mbu-light_ci-0.55_scrub-5/archetypes.json
+ M reports/examples/sku-32b-1Gb/mbu-light_ci-0.55_scrub-5/pareto.csv
+ M reports/examples/sku-32b-1Gb/mbu-light_ci-0.55_scrub-5/sensitivity-vdd.json
+ M reports/examples/sku-32b-1Gb/mbu-light_ci-0.55_scrub-5/tradeoffs.json
+ M reports/examples/sku-64b-128Gb/mbu-light_ci-0.55_scrub-5/archetypes.json
+ M reports/examples/sku-64b-128Gb/mbu-light_ci-0.55_scrub-5/pareto.csv
+ M reports/examples/sku-64b-128Gb/mbu-light_ci-0.55_scrub-5/sensitivity-vdd.json
+ M reports/examples/sku-64b-128Gb/mbu-light_ci-0.55_scrub-5/tradeoffs.json
+ M reports/portfolio_cosynthesis/baselines.json
+ M reports/portfolio_cosynthesis/certificates/geometry-filtered.json
+ M reports/portfolio_cosynthesis/certificates/spatial-hotspot.json
+ M reports/portfolio_cosynthesis/distribution_shift.json
+ M reports/portfolio_cosynthesis/figure_takeaways.json
+ M reports/portfolio_cosynthesis/figures/cosynthesis_pareto_trajectory.svg
+ M reports/portfolio_cosynthesis/figures/distribution_shift_safety.svg
+ M reports/portfolio_cosynthesis/figures/equal_redundancy_reliability.svg
+ M reports/portfolio_cosynthesis/figures/shared_hardware_structural_baselines.svg
+ M reports/portfolio_cosynthesis/findings.md
+ M reports/portfolio_cosynthesis/portfolio.json
+ M reports/portfolio_cosynthesis/rtl/forge_sram_portfolio_72_64_v1_decoder.sv
+ M reports/portfolio_cosynthesis/rtl/forge_sram_portfolio_72_64_v1_encoder.sv
+ M reports/portfolio_cosynthesis/rtl/forge_sram_portfolio_72_64_v1_syndrome.sv
+ M reports/portfolio_cosynthesis/rtl/tb_forge_sram_portfolio_72_64_v1.sv
+ M reports/portfolio_cosynthesis/safety_policy.json
+ M reports/portfolio_cosynthesis/scheduler_integration.json
+ M reports/portfolio_cosynthesis/shared_xor_graph.json
+ M reports/portfolio_cosynthesis/synthesis_tool_comparison.json
+ M reports/revision/iccad1723/architecture_summary.json
+ M reports/revision/iccad1723/data/all_candidates.csv
+ M reports/revision/iccad1723/data/all_candidates.json
+ M reports/revision/iccad1723/data/baseline_counterfactuals.json
+ M reports/revision/iccad1723/data/deployment_mode_comparison.json
+ M reports/revision/iccad1723/data/optimizer_validation.json
+ M reports/revision/iccad1723/data/polar_ablation.json
+ M reports/revision/iccad1723/data/scalability_benchmark.json
+ M reports/revision/iccad1723/data/scenario_reports.json
+ M reports/revision/iccad1723/data/score_diagnostics.json
+ M reports/revision/iccad1723/data/topology_comparison.json
+ M reports/revision/iccad1723/deployment/green_ecc_config_pkg.sv
+ M reports/revision/iccad1723/deployment/register_map.json
+ M reports/revision/iccad1723/deployment/selected_configuration.json
+ M reports/revision/iccad1723/figures/architecture_candidate_space.svg
+ M reports/revision/iccad1723/figures/topology_mux_comparison.svg
+ M reports/revision/iccad1723/findings.md
+ M reports/revision/iccad1723/resolved_input_config.json
+ M reports/revision/iccad1723/result_manifest.json
+ M reports/safe_decoder/adversarial_pmf.json
+ M reports/safe_decoder/certificate.json
+ M reports/safe_decoder/cli_verification_report.json
+ M reports/safe_decoder/hardware_comparison.json
+ M reports/safe_decoder/policy.json
+ M reports/safe_decoder/reference/reference_model.cpp
+ M reports/safe_decoder/reference/reference_model.py
+ M reports/safe_decoder/result_manifest.json
+ M reports/safe_decoder/rtl/forge_hotspot_8_4_v1_safe_encoder.sv
+ M reports/safe_decoder/rtl/forge_hotspot_8_4_v1_safe_safe_decoder.sv
+ M reports/safe_decoder/rtl/forge_hotspot_8_4_v1_safe_syndrome.sv
+ M reports/safe_decoder/rtl/tb_forge_hotspot_8_4_v1_safe_safe.sv
+ M reports/safe_decoder/safe_envelope.json
+ M reports/safe_decoder/support.json
+ M reports/safe_decoder/verification_report.json
+ M reports/safe_decoder_structured/adversarial_pmf.json
+ M reports/safe_decoder_structured/certificate.json
+ M reports/safe_decoder_structured/hardware_comparison.json
+ M reports/safe_decoder_structured/policy.json
+ M reports/safe_decoder_structured/reference/reference_model.cpp
+ M reports/safe_decoder_structured/reference/reference_model.py
+ M reports/safe_decoder_structured/result_manifest.json
+ M reports/safe_decoder_structured/rtl/forge_hotspot_8_4_v1_safe_encoder.sv
+ M reports/safe_decoder_structured/rtl/forge_hotspot_8_4_v1_safe_safe_decoder.sv
+ M reports/safe_decoder_structured/rtl/forge_hotspot_8_4_v1_safe_syndrome.sv
+ M reports/safe_decoder_structured/rtl/tb_forge_hotspot_8_4_v1_safe_safe.sv
+ M reports/safe_decoder_structured/safe_envelope.json
+ M reports/safe_decoder_structured/support.json
+ M reports/safe_decoder_structured/verification_report.json
+ M reports/safe_decoder_wasserstein/adversarial_pmf.json
+ M reports/safe_decoder_wasserstein/certificate.json
+ M reports/safe_decoder_wasserstein/hardware_comparison.json
+ M reports/safe_decoder_wasserstein/policy.json
+ M reports/safe_decoder_wasserstein/reference/reference_model.cpp
+ M reports/safe_decoder_wasserstein/reference/reference_model.py
+ M reports/safe_decoder_wasserstein/result_manifest.json
+ M reports/safe_decoder_wasserstein/rtl/forge_hotspot_8_4_v1_safe_encoder.sv
+ M reports/safe_decoder_wasserstein/rtl/forge_hotspot_8_4_v1_safe_safe_decoder.sv
+ M reports/safe_decoder_wasserstein/rtl/forge_hotspot_8_4_v1_safe_syndrome.sv
+ M reports/safe_decoder_wasserstein/rtl/tb_forge_hotspot_8_4_v1_safe_safe.sv
+ M reports/safe_decoder_wasserstein/safe_envelope.json
+ M reports/safe_decoder_wasserstein/support.json
+ M reports/safe_decoder_wasserstein/verification_report.json
+ M reports/safeforge_64_decoder/adversarial_pmf.json
+ M reports/safeforge_64_decoder/certificate.json
+ M reports/safeforge_64_decoder/hardware_comparison.json
+ M reports/safeforge_64_decoder/policy.json
+ M reports/safeforge_64_decoder/reference/reference_model.py
+ M reports/safeforge_64_decoder/reference/reference_model_limitations.json
+ M reports/safeforge_64_decoder/result_manifest.json
+ M reports/safeforge_64_decoder/rtl/safeforge_robust_72_64_mapping_v1_safe_encoder.sv
+ M reports/safeforge_64_decoder/rtl/safeforge_robust_72_64_mapping_v1_safe_safe_decoder.sv
+ M reports/safeforge_64_decoder/rtl/safeforge_robust_72_64_mapping_v1_safe_syndrome.sv
+ M reports/safeforge_64_decoder/rtl/tb_safeforge_robust_72_64_mapping_v1_safe_safe.sv
+ M reports/safeforge_64_decoder/safe_envelope.json
+ M reports/safeforge_64_decoder/support.json
+ M reports/safeforge_64_decoder/verification_report.json
+ M reports/safeforge_64_study/heuristic_search.json
+ M reports/safeforge_64_study/mapping_comparison.json
+ M reports/safeforge_64_study/support.json
+ M reports/safeforge_cosynthesized_decoder/adversarial_pmf.json
+ M reports/safeforge_cosynthesized_decoder/certificate.json
+ M reports/safeforge_cosynthesized_decoder/hardware_comparison.json
+ M reports/safeforge_cosynthesized_decoder/policy.json
+ M reports/safeforge_cosynthesized_decoder/reference/reference_model.cpp
+ M reports/safeforge_cosynthesized_decoder/reference/reference_model.py
+ M reports/safeforge_cosynthesized_decoder/result_manifest.json
+ M reports/safeforge_cosynthesized_decoder/rtl/safeforge_robust_8_4_v1_safe_encoder.sv
+ M reports/safeforge_cosynthesized_decoder/rtl/safeforge_robust_8_4_v1_safe_safe_decoder.sv
+ M reports/safeforge_cosynthesized_decoder/rtl/safeforge_robust_8_4_v1_safe_syndrome.sv
+ M reports/safeforge_cosynthesized_decoder/rtl/tb_safeforge_robust_8_4_v1_safe_safe.sv
+ M reports/safeforge_cosynthesized_decoder/safe_envelope.json
+ M reports/safeforge_cosynthesized_decoder/support.json
+ M reports/safeforge_cosynthesized_decoder/verification_report.json
+ M reports/safeforge_decisive_72/certificate_verification.json
+ M reports/safeforge_decisive_72/certificates/fault_aware_conventional.json
+ M reports/safeforge_decisive_72/certificates/joint.json
+ M reports/safeforge_decisive_72/certificates/policy_only.json
+ M reports/safeforge_decisive_72/certificates/sequential.json
+ M reports/safeforge_decisive_72/hardware_evidence.json
+ M reports/safeforge_decisive_72/heldout_synthetic.json
+ M reports/safeforge_decisive_72/manifest.json
+ M reports/safeforge_decisive_72/placement_policy_study.json
+ M reports/safeforge_decisive_72/result_summary.json
+ M reports/safeforge_decisive_72/risk_coverage.csv
+ M reports/safeforge_decisive_72/risk_coverage.svg
+ M reports/safeforge_decisive_72/scientific_gate.json
+ M reports/safeforge_decisive_72/system_budgets.json
+ M reports/safeforge_hardening/figure_manifest.json
+ M reports/safeforge_hardening/figures/sdc_due_risk_frontier.svg
+ M reports/safeforge_hardening/fixed_72bit_risk_frontiers.json
+ M reports/safeforge_hardening/gain_source_ablations.json
+ M reports/safeforge_hardening/metric_context_table.json
+ M reports/safeforge_hardening/result_manifest.json
+ M reports/safeforge_hardening/support_audit_8bit.json
+ M reports/safeforge_hardening/weight_le4_72bit_audit.json
+ M reports/safeforge_hardware_validation/logs/asic_tb_bch_compile.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_bch_run.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_green_ecc_selection_compile.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_green_ecc_selection_run.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_green_ecc_transition_controller_compile.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_green_ecc_transition_controller_run.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_polar_compile.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_polar_run.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_secdaec_compile.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_secdaec_run.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_secded_compile.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_secded_run.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_sram_wrappers_compile.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_sram_wrappers_run.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_taec_compile.log
+ M reports/safeforge_hardware_validation/logs/asic_tb_taec_run.log
+ M reports/safeforge_hardware_validation/logs/safeforge_72_modeled_campaign_compile.log
+ M reports/safeforge_hardware_validation/logs/safeforge_72_modeled_campaign_run.log
+ M reports/safeforge_hardware_validation/logs/safeforge_small_exhaustive_compile.log
+ M reports/safeforge_hardware_validation/logs/safeforge_small_exhaustive_run.log
+ M reports/safeforge_hardware_validation/logs/verilator_safeforge_72_modeled_campaign.log
+ M reports/safeforge_hardware_validation/logs/verilator_safeforge_small_exhaustive.log
+ M reports/safeforge_hardware_validation/logs/version_iverilog.log
+ M reports/safeforge_hardware_validation/logs/version_verilator.log
+ M reports/safeforge_hardware_validation/logs/version_vvp.log
+ M reports/safeforge_hardware_validation/logs/version_yosys.log
+ M reports/safeforge_hardware_validation/logs/yosys_nominal_same_matrix.log
+ M reports/safeforge_hardware_validation/logs/yosys_robust_same_matrix.log
+ M reports/safeforge_hardware_validation/nominal_robust_structural_comparison.json
+ M reports/safeforge_hardware_validation/result_manifest.json
+ M reports/safeforge_study/adversarial_sdc_summary.json
+ M reports/safeforge_study/all_code_equivalence_audits.json
+ M reports/safeforge_study/comparison.json
+ M reports/safeforge_study/comparison_reconciliation.json
+ M reports/safeforge_study/equivalence_audits.json
+ M reports/safeforge_study/exact_code_equivalence.json
+ M reports/safeforge_study/figure_manifest.json
+ M reports/safeforge_study/figures/01_nominal_gain_vs_shift_sdc.svg
+ M reports/safeforge_study/figures/02_worst_case_sdc_vs_radius.svg
+ M reports/safeforge_study/figures/03_worst_case_due_vs_radius.svg
+ M reports/safeforge_study/figures/04_certified_safety_radius.svg
+ M reports/safeforge_study/figures/05_nominal_ml_vs_robust_abstain.svg
+ M reports/safeforge_study/figures/06_known_vs_synthesized_matrix.svg
+ M reports/safeforge_study/figures/07_policy_mapping_matrix_ablation.svg
+ M reports/safeforge_study/figures/08_hardware_overhead.svg
+ M reports/safeforge_study/figures/09_scheduler_envelope_gate.svg
+ M reports/safeforge_study/heldout_shift.json
+ M reports/safeforge_study/mapping_ablation.json
+ M reports/safeforge_study/risk_curves.json
+ M reports/safeforge_study/robust_cosynthesis.json
+ M reports/safeforge_study/safety_radii.json
+ M reports/safeforge_study/scheduler_gate.json
+ M reports/safeforge_study/strategy_risk_certificates.json
+ M reports/safeforge_study/support.json
+ M reports/signoff_inputs/README.md
+ M reports/transition_aware/data/break_even.csv
+ M reports/transition_aware/data/design_comparison.csv
+ M reports/transition_aware/data/figure_takeaways.json
+ M reports/transition_aware/data/granularity_comparison.json
+ M reports/transition_aware/data/hypothesis_results.json
+ M reports/transition_aware/data/joint_schedule.csv
+ M reports/transition_aware/data/policy_comparison.json
+ M reports/transition_aware/data/regime_sweep.json
+ M reports/transition_aware/data/robustness.json
+ M reports/transition_aware/data/scalability.json
+ M reports/transition_aware/data/schedule_result.json
+ M reports/transition_aware/deployment/green_ecc_schedule_pkg.sv
+ M reports/transition_aware/deployment/schedule_register_map.json
+ M reports/transition_aware/deployment/transition_policy.json
+ M reports/transition_aware/figures/architecture_mode_comparison.svg
+ M reports/transition_aware/figures/benefit_waterfall.svg
+ M reports/transition_aware/figures/break_even_regime_map.svg
+ M reports/transition_aware/figures/policy_timeline.svg
+ M reports/transition_aware/figures/robustness_regret.svg
+ M reports/transition_aware/figures/scheduler_scalability.svg
+ M reports/transition_aware/figures/scheduling_formulation.svg
+ M reports/transition_aware/figures/topology_granularity_regime.svg
+ M reports/transition_aware/findings.md
+ M reports/transition_aware/resolved_config.json
+ M reports/transition_aware/result_manifest.json
+ M reports/transition_aware/traces/changing_read_write_intensity.json
+ M reports/transition_aware/traces/combined_changes.json
+ M reports/transition_aware/traces/grid_carbon_transition.json
+ M reports/transition_aware/traces/one_time_sbu_to_mbu.json
+ M reports/transition_aware/traces/periodic_fault_transitions.json
+ M reports/transition_aware/traces/short_noisy_fluctuations.json
+ M reports/transition_aware/traces/stationary_mbu.json
+ M reports/transition_aware/traces/stationary_sbu.json
+ M reports/transition_aware/traces/temperature_vdd_phases.json
+ M reports/transition_aware/traces/uncertain_transitions.json
+ M requirements.txt
+ M rtl/ecc_generated/bch_16b.v
+ M rtl/ecc_generated/bch_32b.v
+ M rtl/ecc_generated/bch_51b.v
+ M rtl/ecc_generated/bch_8b.v
+ M rtl/ecc_generated/polar_16b.v
+ M rtl/ecc_generated/polar_32b.v
+ M rtl/ecc_generated/polar_48b.v
+ M rtl/ecc_generated/polar_8b.v
+ M rtl/ecc_generated/polar_96b.v
+ M rtl/ecc_generated/secdaec_64b.v
+ M rtl/ecc_generated/secded_16b.v
+ M rtl/ecc_generated/secded_32b.v
+ M rtl/ecc_generated/secded_64b.v
+ M rtl/ecc_generated/secded_8b.v
+ M rtl/ecc_generated/taec_16b.v
+ M rtl/ecc_generated/taec_32b.v
+ M rtl/ecc_generated/taec_64b.v
+ M rtl/ecc_generated/taec_8b.v
+ M rtl/ecc_generated/tb/tb_bch_32b.v
+ M rtl/ecc_generated/tb/tb_polar_32b.v
+ M rtl/ecc_generated/tb/tb_secdaec_64b.v
+ M rtl/ecc_generated/tb/tb_secded_32b.v
+ M rtl/ecc_generated/tb/tb_taec_32b.v
+ M schema.py
+ M schemas/qcrit_sram6t.schema.json
+ M scores.py
+ M scripts/build_signoff_package.py
+ M scripts/gate03e/validate_artifacts.py
+ M scripts/run_sku_studies.sh
+ M ser_model.py
+ M sram_ecc_benchmark.py
+ M sram_workflow.py
+ M src/energy_loader.cpp
+ M src/energy_loader.hpp
+ M taec_hamming_sim.py
+ M tech_calib.json
+ M tech_calib_uncertainty.json
+ M telemetry.hpp
+ M tests/conftest.py
+ M tests/data/sample_secdaec.csv
+ M tests/fixtures/calibration_envelope_corner.json
+ M tests/fixtures/calibration_envelope_nominal.json
+ M tests/fixtures/golden/carbon_default.stdout.txt
+ M tests/fixtures/golden/energy_default.stdout.txt
+ M tests/fixtures/golden/energy_sanity_strict_error.txt
+ M tests/fixtures/golden/energy_sanity_warning.stderr.txt
+ M tests/fixtures/golden/esii_default.json
+ M tests/fixtures/golden/hazucha_default.stdout.txt
+ M tests/fixtures/golden/reliability_report.json
+ M tests/fixtures/golden/select.stdout.txt
+ M tests/fixtures/golden/smoke_test.stdout.txt
+ M tests/fixtures/golden/target.stdout.txt
+ M tests/fixtures/multi_ecc_external/architectures/fixed.json
+ M tests/fixtures/multi_ecc_external/codes/repetition.json
+ M tests/fixtures/multi_ecc_external/implementations/repetition.json
+ M tests/fixtures/multi_ecc_external/registry.json
+ M tests/python/__init__.py
+ M tests/python/test_archetype_analysis.py
+ M tests/python/test_area_models.py
+ M tests/python/test_calibration.py
+ M tests/python/test_calibration_envelope.py
+ M tests/python/test_calibration_provenance.py
+ M tests/python/test_carbon.py
+ M tests/python/test_carbon_model.py
+ M tests/python/test_cli_error_messages.py
+ M tests/python/test_cli_output_contracts.py
+ M tests/python/test_dashboard_tutorial_cases.py
+ M tests/python/test_ecc_mux_params.py
+ M tests/python/test_eccsim_version.py
+ M tests/python/test_emit_candidates.py
+ M tests/python/test_energy.py
+ M tests/python/test_energy_interp.py
+ M tests/python/test_energy_model.py
+ M tests/python/test_energy_model_errors.py
+ M tests/python/test_energy_model_loader.py
+ M tests/python/test_energy_uncertainty.py
+ M tests/python/test_esii.py
+ M tests/python/test_fit.py
+ M tests/python/test_gate03_artifacts.py
+ M tests/python/test_golden_cli_outputs.py
+ M tests/python/test_gs.py
+ M tests/python/test_hazucha_cli.py
+ M tests/python/test_hv_metrics.py
+ M tests/python/test_integrated_toolkit_cli.py
+ M tests/python/test_interactive_wizard.py
+ M tests/python/test_knee.py
+ M tests/python/test_mbu.py
+ M tests/python/test_ml_drift_policy.py
+ M tests/python/test_ml_feature_pack.py
+ M tests/python/test_ml_holdout_signoff.py
+ M tests/python/test_ml_integration.py
+ M tests/python/test_ml_lifecycle_phase4.py
+ M tests/python/test_mux_model.py
+ M tests/python/test_nesii.py
+ M tests/python/test_nsga2_selection.py
+ M tests/python/test_output_format_changelog_policy.py
+ M tests/python/test_pareto_correctness.py
+ M tests/python/test_parse_telemetry.py
+ M tests/python/test_plot_cli.py
+ M tests/python/test_plot_pipeline.py
+ M tests/python/test_qcrit_lookup.py
+ M tests/python/test_reliability_report_cli.py
+ M tests/python/test_schema_consistency.py
+ M tests/python/test_scores.py
+ M tests/python/test_scoring_rigor.py
+ M tests/python/test_scrub_energy.py
+ M tests/python/test_selector_multiobj.py
+ M tests/python/test_sensitivity.py
+ M tests/python/test_ser_model.py
+ M tests/python/test_shell_smoke_golden.py
+ M tests/python/test_signoff_package_builder.py
+ M tests/python/test_sram_benchmark.py
+ M tests/python/test_sram_cli.py
+ M tests/python/test_sram_selector_codes.py
+ M tests/python/test_surface_analysis.py
+ M tests/python/test_taec_hamming_sim.py
+ M tests/python/test_target_decision.py
+ M tests/python/test_tradeoff_analysis.py
+ M tests/smoke_test.py
+ M tests/smoke_test.sh
+ M tests/test_artifact_guards.py
+ M tests/test_example_artifacts.py
+ M tests/unit/SecDaec64_test.cpp
+ M tests/unit/practical_sram_regressions.cpp
+ M tests/unit/secded_bruteforce.cpp
+ M validation/__init__.py
+ M validation/output_sanity.py
+ M web/app.js
+ M web/datasets.json
+ M web/index.html
+ M web/styles.css
+ M web/tutorial_backend.py
+ M web/tutorial_cases.json
+?? PracticalSRAMSimulator.exe
+?? docs/date2027/rigour_gate_03er/ACCEPTANCE.json
+?? docs/date2027/rigour_gate_03er/COMMAND_MANIFEST.json
+?? docs/date2027/rigour_gate_03er/EVIDENCE.sha256
+?? docs/date2027/rigour_gate_03er/FRESH_RUN_COMPARISON.json
+?? docs/date2027/rigour_gate_03er/FROZEN_BUNDLE.json
+?? docs/date2027/rigour_gate_03er/GATE_03ER_REPORT.md
+?? docs/date2027/rigour_gate_03er/GATE_03ER_VERDICT.txt
+?? docs/date2027/rigour_gate_03er/IMMUTABLE_INPUT_MANIFEST.json
+?? docs/date2027/rigour_gate_03er/MAPPING_REVALIDATION.json
+?? docs/date2027/rigour_gate_03er/PRODUCER_CATALOG_V2.json
+?? docs/date2027/rigour_gate_03er/PROTECTED_SCOPE_REVALIDATION.json
+?? docs/date2027/rigour_gate_03er/QOR_METRIC_SCHEMA_V2.json
+?? docs/date2027/rigour_gate_03er/REPRODUCIBILITY_ADJUDICATION.json
+?? docs/date2027/rigour_gate_03er/REPRODUCIBILITY_ADJUDICATION.md
+?? docs/date2027/rigour_gate_03er/REPRODUCIBILITY_POLICY_V2.json
+?? docs/date2027/rigour_gate_03er/RUN_03_INVENTORY.json
+?? docs/date2027/rigour_gate_03er/RUN_04_INVENTORY.json
+?? docs/date2027/rigour_gate_03es/ACCEPTANCE.json
+?? docs/date2027/rigour_gate_03es/ADJUDICATION_EVIDENCE.sha256
+?? docs/date2027/rigour_gate_03es/ADJUDICATION_REPOSITORY_COMMAND_RESULTS.json
+?? docs/date2027/rigour_gate_03es/COMMAND_MANIFEST.json
+?? docs/date2027/rigour_gate_03es/EVIDENCE.sha256
+?? docs/date2027/rigour_gate_03es/EXTERNAL_ARTIFACT_INDEX.csv
+?? docs/date2027/rigour_gate_03es/FRESH_RUN_COMPARISON.json
+?? docs/date2027/rigour_gate_03es/FROZEN_BUNDLE.json
+?? docs/date2027/rigour_gate_03es/GATE_03ER_ADJUDICATION.json
+?? docs/date2027/rigour_gate_03es/GATE_03ES_ADJUDICATION.json
+?? docs/date2027/rigour_gate_03es/GATE_03ES_ADJUDICATION.md
+?? docs/date2027/rigour_gate_03es/GATE_03ES_ADJUDICATION_VERDICT.txt
+?? docs/date2027/rigour_gate_03es/GATE_03ES_REPORT.md
+?? docs/date2027/rigour_gate_03es/GATE_03ES_VERDICT.txt
+?? docs/date2027/rigour_gate_03es/HISTORICAL_RAW_BYTE_ADJUDICATION.json
+?? docs/date2027/rigour_gate_03es/IMMUTABLE_INPUT_MANIFEST.json
+?? docs/date2027/rigour_gate_03es/ISOLATED_LF_SCOPE_ADJUDICATION.json
+?? docs/date2027/rigour_gate_03es/LEGACY_VALIDATOR_COMPATIBILITY_CHANGE.json
+?? docs/date2027/rigour_gate_03es/ORDERED_JSON_OCCURRENCE_ADJUDICATION.json
+?? docs/date2027/rigour_gate_03es/PATH_SCOPE_REVALIDATION.json
+?? docs/date2027/rigour_gate_03es/PRIOR_EVIDENCE_HASH_REVALIDATION.json
+?? docs/date2027/rigour_gate_03es/PRODUCER_CATALOG_V3.json
+?? docs/date2027/rigour_gate_03es/QOR_METRIC_SCHEMA_V3.json
+?? docs/date2027/rigour_gate_03es/RAW_LOG_INDEX.csv
+?? docs/date2027/rigour_gate_03es/REPOSITORY_COMMAND_RESULTS.json
+?? docs/date2027/rigour_gate_03es/REPRODUCIBILITY_POLICY_V3.json
+?? docs/date2027/rigour_gate_03es/RUN_05_INVENTORY.json
+?? docs/date2027/rigour_gate_03es/RUN_06_INVENTORY.json
+?? docs/date2027/rigour_gate_03es/STARTING_STATE_AND_PROTECTED_BASELINE.json
+?? docs/date2027/rigour_gate_03f/ACTIVITY_TRACE_MANIFEST.json
+?? docs/date2027/rigour_gate_03f/DATE_FINAL_PHYSICAL_ENVIRONMENT.json
+?? docs/date2027/rigour_gate_03f/DATE_FINAL_PHYSICAL_ENVIRONMENT.md
+?? docs/date2027/rigour_gate_03f/GATE_03F_REPORT.md
+?? docs/date2027/rigour_gate_03f/GATE_03F_STAGE1B_BOUNDARY_RECONCILIATION.md
+?? docs/date2027/rigour_gate_03f/GATE_03F_VERDICT.json
+?? docs/date2027/rigour_gate_03f/IMMUTABLE_INPUT_MANIFEST.json
+?? docs/date2027/rigour_gate_03f/MATRIX_EXECUTION.json
+?? docs/date2027/rigour_gate_03f/POWER_RESULTS.json
+?? docs/date2027/rigour_gate_03f/QUALIFICATION_EVIDENCE.sha256
+?? docs/date2027/rigour_gate_03f/QUALIFICATION_RUN_METRICS.csv
+?? docs/date2027/rigour_gate_03f/QUALIFICATION_RUN_METRICS.json
+?? docs/date2027/rigour_gate_03f/REPRODUCIBILITY_STATISTICS.json
+?? docs/date2027/rigour_gate_03f/REPRODUCIBILITY_SUMMARY.md
+?? docs/date2027/rigour_gate_04/ASIC_CANDIDATE_MATRIX.csv
+?? docs/date2027/rigour_gate_04/EXPERIMENT_FREEZE.md
+?? docs/date2027/rigour_gate_04/FAIRNESS_CONTRACT.md
+?? docs/date2027/rigour_gate_04/FLOW_RUN_MATRIX.csv
+?? docs/date2027/rigour_gate_04/POLICY_AMENDMENT_01.md
+?? docs/date2027/rigour_gate_04/POLICY_AMENDMENT_02.md
+?? docs/date2027/rigour_gate_04/POLICY_AMENDMENT_03.md
+?? docs/date2027/rigour_gate_04/POLICY_AMENDMENT_04.md
+?? docs/date2027/rigour_gate_04/PREFLOW_FOCUSED_TESTS.xml
+?? docs/date2027/rigour_gate_04/PREFLOW_VALIDATION.json
+?? docs/date2027/rigour_gate_04/PREFLOW_YOSYS.log
+?? docs/date2027/rigour_gate_04/PRE_FLOW_IDENTITY_MANIFEST.json
+?? docs/date2027/rigour_gate_04/RELIABILITY_RESULTS.csv
+?? docs/date2027/rigour_gate_04/STARTING_PROTECTED_BYTE_MANIFEST.json
+?? docs/date2027/rigour_gate_04/command_manifest.json
+?? docs/date2027/rigour_gate_04/environment_manifest.json
+?? docs/date2027/rigour_gate_04_final/GATE04_FINAL_ECC_SET.json
+?? docs/date2027/rigour_gate_04_final/GATE04_INFRASTRUCTURE_INCIDENT.md
+?? docs/date2027/rigour_gate_04_final/GATE04_POWER_ACTIVITY_AUDIT.json
+?? docs/date2027/rigour_gate_04_final/GATE04_POWER_PRECISION_ADJUDICATION.md
+?? drift.json
+?? scripts/gate03er/__init__.py
+?? scripts/gate03er/finalize_gate03er.py
+?? scripts/gate03er/prepare_gate03er.py
+?? scripts/gate03er/producer_catalog_v2.json
+?? scripts/gate03er/reproducibility.py
+?? scripts/gate03er/reproducibility_policy_v2.json
+?? scripts/gate03er/run_gcd_fresh.sh
+?? scripts/gate03er/validate_gate03er.py
+?? scripts/gate03es/__init__.py
+?? scripts/gate03es/adjudicate_duplicate_json.py
+?? scripts/gate03es/adjudicate_historical_bytes.py
+?? scripts/gate03es/adjudicate_lf_scope.py
+?? scripts/gate03es/finalize_gate03es.py
+?? scripts/gate03es/odb_semantic_export.py
+?? scripts/gate03es/prepare_gate03es.py
+?? scripts/gate03es/producer_catalog_v3.json
+?? scripts/gate03es/qor_metric_schema_v3.json
+?? scripts/gate03es/reproducibility.py
+?? scripts/gate03es/reproducibility_policy_v3.json
+?? scripts/gate03es/run_gcd_fresh.sh
+?? scripts/gate03es/scope_compatibility.py
+?? scripts/gate03es/validate_gate03es.py
+?? scripts/gate03es/validate_scope.py
+?? scripts/gate03f/analyze_qualification.py
+?? scripts/gate03f/configs/bch.mk
+?? scripts/gate03f/configs/ecc.sdc
+?? scripts/gate03f/configs/gcd.mk
+?? scripts/gate03f/configs/gcd.sdc
+?? scripts/gate03f/configs/secded.mk
+?? scripts/gate03f/contract_v1.json
+?? scripts/gate03f/power.tcl
+?? scripts/gate03f/prepare_environment.py
+?? scripts/gate03f/run_matrix.py
+?? scripts/gate03f/run_qualification.py
+?? scripts/gate04/candidate_catalog_v1.json
+?? scripts/gate04/complete_attempt2_validation.sh
+?? scripts/gate04/complete_attempt2_validation_03.sh
+?? scripts/gate04/complete_validation_04.sh
+?? scripts/gate04/configs/bch.mk
+?? scripts/gate04/configs/boundary72.mk
+?? scripts/gate04/configs/boundary78.mk
+?? scripts/gate04/configs/gate04.sdc
+?? scripts/gate04/configs/hsiao.mk
+?? scripts/gate04/configs/secded_comb.mk
+?? scripts/gate04/configs/secded_pipe.mk
+?? scripts/gate04/contract_v1.json
+?? scripts/gate04/final_validate.py
+?? scripts/gate04/freeze_amendment_01.sh
+?? scripts/gate04/freeze_amendment_02.sh
+?? scripts/gate04/freeze_amendment_03.sh
+?? scripts/gate04/freeze_amendment_04.sh
+?? scripts/gate04/freeze_gate04.sh
+?? scripts/gate04/gate04_power.tcl
+?? scripts/gate04/generate_figures.py
+?? scripts/gate04/generate_reliability.py
+?? scripts/gate04/generate_traces.py
+?? scripts/gate04/mapped_equivalence.sh
+?? scripts/gate04/mapped_equivalence_abc_dsec.sh
+?? scripts/gate04/postprocess.py
+?? scripts/gate04/preflight_yosys.sh
+?? scripts/gate04/prepare_freeze.py
+?? scripts/gate04/rtl/gate04_boundaries.sv
+?? scripts/gate04/run_flow.sh
+?? scripts/gate04/run_matrix.sh
+?? scripts/gate04/validate_preflow.py
+?? scripts/gate04/validate_run.py
+?? scripts/gate04_final/analyze_results.py
+?? scripts/gate04_final/audit_trace_activity.py
+?? scripts/gate04_final/configs/bch78.mk
+?? scripts/gate04_final/configs/ecc.sdc
+?? scripts/gate04_final/configs/hsiao.mk
+?? scripts/gate04_final/configs/secded_comb.mk
+?? scripts/gate04_final/configs/secded_pipe.mk
+?? scripts/gate04_final/contract_v1.json
+?? scripts/gate04_final/power.tcl
+?? scripts/gate04_final/prepare_experiment.py
+?? scripts/gate04_final/run_characterization.py
+?? scripts/gate04_final/run_matrix.py
+?? scripts/gate04_final/seal_failed_namespace.py
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_0794e26bbefc4518abc214d6595c7d88/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_0794e26bbefc4518abc214d6595c7d88/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_0794e26bbefc4518abc214d6595c7d88/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_1a913c7f00c54d849c1f214711a5c5ae/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_1a913c7f00c54d849c1f214711a5c5ae/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_1a913c7f00c54d849c1f214711a5c5ae/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_3d222968483d4b4da92fd4b6aa06612d/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_3d222968483d4b4da92fd4b6aa06612d/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_3d222968483d4b4da92fd4b6aa06612d/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_3dbd55fd782147489dbc571c53655c8b/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_3dbd55fd782147489dbc571c53655c8b/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_3dbd55fd782147489dbc571c53655c8b/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_6aecb3beff77422289099411788ef30c/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_6aecb3beff77422289099411788ef30c/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_6aecb3beff77422289099411788ef30c/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_8efff80c317c4fc2b5437a0f06f79c30/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_8efff80c317c4fc2b5437a0f06f79c30/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_8efff80c317c4fc2b5437a0f06f79c30/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_c9929a91d52a46bfaa4279a994153ef0/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_c9929a91d52a46bfaa4279a994153ef0/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_c9929a91d52a46bfaa4279a994153ef0/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_d36a340801aa4fc58d0871e8cd74a9a8/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_d36a340801aa4fc58d0871e8cd74a9a8/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_d36a340801aa4fc58d0871e8cd74a9a8/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_ddb90ab87778425d9e3808b752ed9a22/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_ddb90ab87778425d9e3808b752ed9a22/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_ddb90ab87778425d9e3808b752ed9a22/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_e1d4902b80b444899ff481563265321e/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_e1d4902b80b444899ff481563265321e/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_e1d4902b80b444899ff481563265321e/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_e34ab2bb627e49a5945715b997ef0c01/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_e34ab2bb627e49a5945715b997ef0c01/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_e34ab2bb627e49a5945715b997ef0c01/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_fe5269e7b3d64870a297f932ccc133da/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_fe5269e7b3d64870a297f932ccc133da/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/core_pack_fe5269e7b3d64870a297f932ccc133da/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_2a0be7d307b64d6799a329d46c222af4/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_2a0be7d307b64d6799a329d46c222af4/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_2a0be7d307b64d6799a329d46c222af4/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_2ea9da8c09cb485fbd77212e21b0b351/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_2ea9da8c09cb485fbd77212e21b0b351/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_2ea9da8c09cb485fbd77212e21b0b351/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_3713ad1cfafd4e45868309a5fdb99983/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_3713ad1cfafd4e45868309a5fdb99983/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_3713ad1cfafd4e45868309a5fdb99983/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_48b96e7f180d4ff8807878b6f492bbde/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_48b96e7f180d4ff8807878b6f492bbde/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_48b96e7f180d4ff8807878b6f492bbde/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_48eb58efef43409199af74c62904095f/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_48eb58efef43409199af74c62904095f/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_48eb58efef43409199af74c62904095f/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_7e30998c6fd5466fb568e7a91d04d61e/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_7e30998c6fd5466fb568e7a91d04d61e/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_7e30998c6fd5466fb568e7a91d04d61e/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_806da4b03aae418197cc243cb2416b5e/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_806da4b03aae418197cc243cb2416b5e/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_806da4b03aae418197cc243cb2416b5e/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_8e85c0765b864f59bc7d3f631f0f899e/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_8e85c0765b864f59bc7d3f631f0f899e/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_8e85c0765b864f59bc7d3f631f0f899e/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_a0f1c398b5d3495ca76d18979b0f0ca3/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_a0f1c398b5d3495ca76d18979b0f0ca3/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_a0f1c398b5d3495ca76d18979b0f0ca3/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_b3f6917347ee4915b29d7186d556f6ef/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_b3f6917347ee4915b29d7186d556f6ef/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_b3f6917347ee4915b29d7186d556f6ef/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_bde480994a214c2493d0c537998915ce/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_bde480994a214c2493d0c537998915ce/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_bde480994a214c2493d0c537998915ce/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_ec7da0dc7f21409f8e74b595f2c620c8/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_ec7da0dc7f21409f8e74b595f2c620c8/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/enable_disable_ec7da0dc7f21409f8e74b595f2c620c8/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_1f07ad58964c47fbb673cd688c8b1db6/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_1f07ad58964c47fbb673cd688c8b1db6/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_1f07ad58964c47fbb673cd688c8b1db6/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_27aff91eab0a4d94b0d2538c41d4adde/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_27aff91eab0a4d94b0d2538c41d4adde/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_27aff91eab0a4d94b0d2538c41d4adde/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_40b44d6276e247abaa52cf71b7772724/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_40b44d6276e247abaa52cf71b7772724/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_40b44d6276e247abaa52cf71b7772724/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_6b468ae772ef4805904cd658a032792b/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_6b468ae772ef4805904cd658a032792b/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_6b468ae772ef4805904cd658a032792b/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_960212cc6f964d6a9831f1f7ee00b679/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_960212cc6f964d6a9831f1f7ee00b679/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_960212cc6f964d6a9831f1f7ee00b679/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_9c74ffd936a54ccfb100226bd70ea80b/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_9c74ffd936a54ccfb100226bd70ea80b/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_9c74ffd936a54ccfb100226bd70ea80b/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_b197e11647b449da98c5850ec59c478d/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_b197e11647b449da98c5850ec59c478d/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_b197e11647b449da98c5850ec59c478d/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_c53985216c684643a7f2e471fd5e488d/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_c53985216c684643a7f2e471fd5e488d/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_c53985216c684643a7f2e471fd5e488d/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_dcb6fbd0c62845bcb9a7e8d31f30ad4a/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_dcb6fbd0c62845bcb9a7e8d31f30ad4a/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_dcb6fbd0c62845bcb9a7e8d31f30ad4a/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_e03e3146a04f491d8b955e12e1cc3f8b/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_e03e3146a04f491d8b955e12e1cc3f8b/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_e03e3146a04f491d8b955e12e1cc3f8b/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_e8f76e39cf1844228fc25d00c7fbe4a5/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_e8f76e39cf1844228fc25d00c7fbe4a5/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_e8f76e39cf1844228fc25d00c7fbe4a5/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_f9b061daef0a4927b494a94c2e337d54/dataset/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_f9b061daef0a4927b494a94c2e337d54/dataset/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/fallbacks_f9b061daef0a4927b494a94c2e337d54/dataset/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_3829885f571e4eb1bb4dd3ea8585afe9/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_3829885f571e4eb1bb4dd3ea8585afe9/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_3829885f571e4eb1bb4dd3ea8585afe9/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_3829885f571e4eb1bb4dd3ea8585afe9/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_3829885f571e4eb1bb4dd3ea8585afe9/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_3829885f571e4eb1bb4dd3ea8585afe9/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_581f9c2c283c45a99b65dfc9b90e918c/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_581f9c2c283c45a99b65dfc9b90e918c/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_581f9c2c283c45a99b65dfc9b90e918c/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_581f9c2c283c45a99b65dfc9b90e918c/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_581f9c2c283c45a99b65dfc9b90e918c/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_581f9c2c283c45a99b65dfc9b90e918c/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_5e635113c5434e76b66e295a96b5ee6c/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_5e635113c5434e76b66e295a96b5ee6c/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_5e635113c5434e76b66e295a96b5ee6c/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_5e635113c5434e76b66e295a96b5ee6c/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_5e635113c5434e76b66e295a96b5ee6c/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_5e635113c5434e76b66e295a96b5ee6c/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_6209ffcebe3240118591a7c947ac85ff/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_6209ffcebe3240118591a7c947ac85ff/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_6209ffcebe3240118591a7c947ac85ff/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_6209ffcebe3240118591a7c947ac85ff/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_6209ffcebe3240118591a7c947ac85ff/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_6209ffcebe3240118591a7c947ac85ff/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_62e08d5727d845dd9656b46a4d5db08e/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_62e08d5727d845dd9656b46a4d5db08e/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_62e08d5727d845dd9656b46a4d5db08e/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_62e08d5727d845dd9656b46a4d5db08e/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_62e08d5727d845dd9656b46a4d5db08e/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_62e08d5727d845dd9656b46a4d5db08e/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_65af0ced46eb43fdbc3565e9ecd15d68/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_65af0ced46eb43fdbc3565e9ecd15d68/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_65af0ced46eb43fdbc3565e9ecd15d68/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_65af0ced46eb43fdbc3565e9ecd15d68/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_65af0ced46eb43fdbc3565e9ecd15d68/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_65af0ced46eb43fdbc3565e9ecd15d68/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_b8a954645ba24bbeb3d7caa38371d330/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_b8a954645ba24bbeb3d7caa38371d330/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_b8a954645ba24bbeb3d7caa38371d330/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_b8a954645ba24bbeb3d7caa38371d330/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_b8a954645ba24bbeb3d7caa38371d330/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_b8a954645ba24bbeb3d7caa38371d330/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_c0239011c7c749bb8f77862106f2ac56/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_c0239011c7c749bb8f77862106f2ac56/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_c0239011c7c749bb8f77862106f2ac56/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_c0239011c7c749bb8f77862106f2ac56/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_c0239011c7c749bb8f77862106f2ac56/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_c0239011c7c749bb8f77862106f2ac56/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ce891e7222f041778f8d2158de09c932/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ce891e7222f041778f8d2158de09c932/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ce891e7222f041778f8d2158de09c932/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ce891e7222f041778f8d2158de09c932/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ce891e7222f041778f8d2158de09c932/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ce891e7222f041778f8d2158de09c932/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_d776b959f7d94af1a9a007a50f96e6a3/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_d776b959f7d94af1a9a007a50f96e6a3/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_d776b959f7d94af1a9a007a50f96e6a3/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_d776b959f7d94af1a9a007a50f96e6a3/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_d776b959f7d94af1a9a007a50f96e6a3/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_d776b959f7d94af1a9a007a50f96e6a3/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ddf3eef6f7ae4de792200c28f286bd88/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ddf3eef6f7ae4de792200c28f286bd88/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ddf3eef6f7ae4de792200c28f286bd88/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ddf3eef6f7ae4de792200c28f286bd88/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ddf3eef6f7ae4de792200c28f286bd88/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_ddf3eef6f7ae4de792200c28f286bd88/workload/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_e9f22ef554ea46e09c65583101c41467/telemetry/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_e9f22ef554ea46e09c65583101c41467/telemetry/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_e9f22ef554ea46e09c65583101c41467/telemetry/dataset_schema.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_e9f22ef554ea46e09c65583101c41467/workload/dataset.csv
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_e9f22ef554ea46e09c65583101c41467/workload/dataset_manifest.json
+?? tests/fixtures/runtime_ml_feature_pack/tier_mapping_e9f22ef554ea46e09c65583101c41467/workload/dataset_schema.json
+?? tests/python/test_gate03er_reproducibility.py
+?? tests/python/test_gate03es_adjudication.py
+?? tests/python/test_gate03es_historical_bytes.py
+?? tests/python/test_gate03es_lf_scope.py
+?? tests/python/test_gate03es_reproducibility.py
+?? tests/python/test_gate03f_contract.py
+?? tests/python/test_gate03f_results.py
+?? tests/python/test_gate03f_scope_compatibility.py
+?? tests/python/test_gate04_contract.py
+?? tests/python/test_gate04_final_contract.py
