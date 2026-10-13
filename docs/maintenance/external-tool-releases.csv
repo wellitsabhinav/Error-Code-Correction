@@ -1,0 +1,9 @@
+dependency,latest_stable_release,source
+VLSIDA/OpenRAM,v1.2.48,https://github.com/VLSIDA/OpenRAM/releases/tag/v1.2.48
+The-OpenROAD-Project/OpenROAD,No current stable GitHub release entry,https://github.com/The-OpenROAD-Project/OpenROAD/releases
+The-OpenROAD-Project/OpenROAD-flow-scripts,No current stable GitHub release entry,https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts/releases
+The-OpenROAD-Project/OpenSTA,v2.2.0,https://github.com/The-OpenROAD-Project/OpenSTA/releases/tag/v2.2.0
+YosysHQ/yosys,v0.69,https://github.com/YosysHQ/yosys/releases/tag/v0.69
+steveicarus/iverilog,v13_0,https://github.com/steveicarus/iverilog/releases/tag/v13_0
+verilator/verilator,No current stable GitHub release entry,https://github.com/verilator/verilator/releases
+Kitware/CMake,v4.4.4,https://github.com/Kitware/CMake/releases/tag/v4.4.4

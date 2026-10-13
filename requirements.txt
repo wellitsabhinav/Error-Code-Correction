@@ -1,9 +1,2 @@
-numpy
-scipy>=1.11
-pandas
-pytest
-jsonschema
-matplotlib
-pyyaml
-pypdf
-scikit-learn==1.7.2
+# Maintained Python environment; supports Python 3.10-3.12.
+-r requirements-lock.txt
