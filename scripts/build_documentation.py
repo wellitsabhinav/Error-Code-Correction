@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate and validate the complete GREEN-ECC-PHY documentation suite."""
+"""Regenerate and validate the complete GREENS documentation suite."""
 
 from __future__ import annotations
 

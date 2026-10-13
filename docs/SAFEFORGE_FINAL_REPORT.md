@@ -1,4 +1,4 @@
-# GREEN-ECC SafeForge hardening report
+# GREENS SafeForge hardening report
 
 The artifact is frozen around one contribution:
 
@@ -24,7 +24,7 @@ The full paper draft is `docs/SAFEFORGE_MANUSCRIPT.md`; this report records the 
 
 ## Reconciled small-study metrics
 
-All rows below share experiment ID `4a60649076810a34d09d` and the declared 28-pattern universe. Nominal rows are partitions. Worst-case SDC and DUE are separate TV-radius-0.1 maxima and do not form a partition.
+All rows below belong to the SafeForge hardening experiment and the declared 28-pattern universe. Nominal rows are partitions. Worst-case SDC and DUE are separate TV-radius-0.1 maxima and do not form a partition.
 
 | Strategy | Nominal correct | Nominal DUE | Nominal SDC | Worst SDC | Worst DUE |
 |---|---:|---:|---:|---:|---:|

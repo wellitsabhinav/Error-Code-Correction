@@ -1,4 +1,4 @@
-# GREEN-ECC-PHY multi-ECC framework
+# GREENS multi-ECC framework
 
 GREEN-ECC-PHY separates mathematical code identity, systematic encoder identity, deployed decoder policy, verified capability, deployment architecture, and evidence backend. A family string is descriptive only.
 

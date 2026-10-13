@@ -45,10 +45,11 @@ def _write_json(path: Path, payload: Any) -> None:
 
 def _tool(name: str, *windows_names: str) -> Path | None:
     if os.name == "nt":
-        base = Path(r"D:\Compiler Cpp\ucrt64\bin")
+        configured = os.environ.get("GREENS_TOOL_BIN")
+        base = Path(configured) if configured else None
         for candidate in windows_names or (name + ".exe",):
-            path = base / candidate
-            if path.exists():
+            path = base / candidate if base else None
+            if path and path.exists():
                 return path
     found = shutil.which(name)
     if found:

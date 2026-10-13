@@ -89,8 +89,9 @@ def _tool(name: str) -> str | None:
     found = shutil.which(name)
     if found:
         return found
-    windows = Path(r"D:\Compiler Cpp\ucrt64\bin") / f"{name}.exe"
-    return str(windows) if windows.is_file() else None
+    configured = os.environ.get("GREENS_TOOL_BIN")
+    candidate = Path(configured) / f"{name}.exe" if configured else None
+    return str(candidate) if candidate and candidate.is_file() else None
 
 
 def _native_from_canonical(value: int, mapping: list[int]) -> int:

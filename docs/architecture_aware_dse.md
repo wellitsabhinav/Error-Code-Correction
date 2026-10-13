@@ -1,4 +1,4 @@
-# Architecture-aware GREEN-ECC design-space exploration
+# Architecture-aware GREENS design-space exploration
 
 ## Scope and validation boundary
 

@@ -1,4 +1,4 @@
-# GREEN-ECC-PHY documentation
+# GREENS documentation
 
 This suite is reconstructed from executable source, schemas and registry manifests, tests, freshly regenerated evaluation artifacts, and only then historical prose. Quantitative claims link to machine-readable evidence; missing physical values remain null.
 

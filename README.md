@@ -1,106 +1,117 @@
 # GREENS
 
-GREENS evaluates SRAM error-correcting-code choices across conditional reliability, implementation cost, operational energy, and sustainability assumptions. SRAM upsets require correction and detection, but stronger ECC adds parity storage, logic, latency, and energy. The useful choice depends on memory organization, workload, fault population, and available evidence. The framework compares these quantities, applies declared feasibility and selection policies, and reports missing evidence explicitly. Existing software/campaign identifiers use **GREEN** and **GREEN-ECC-PHY** and remain stable.
+**Evidence-qualified open-source silicon research for memory ECC hardware**
 
-## Current evidence
+[![Fast validation](https://github.com/wellitsabhinav/Error-Code-Correction/actions/workflows/fast-ci.yml/badge.svg)](https://github.com/wellitsabhinav/Error-Code-Correction/actions/workflows/fast-ci.yml)
+[![Full platform validation](https://github.com/wellitsabhinav/Error-Code-Correction/actions/workflows/ci.yml/badge.svg)](https://github.com/wellitsabhinav/Error-Code-Correction/actions/workflows/ci.yml)
+[![Artifact reproduction](https://github.com/wellitsabhinav/Error-Code-Correction/actions/workflows/artifact-reproduction.yml/badge.svg)](https://github.com/wellitsabhinav/Error-Code-Correction/actions/workflows/artifact-reproduction.yml)
+[![Python 3.10–3.12](https://img.shields.io/badge/Python-3.10%E2%80%933.12-blue)](requirements-lock.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--4892--5438-green)](https://orcid.org/0009-0001-4892-5438)
 
-| Component | Retained evidence | Limit |
+> **Research Project @ IIIT-Delhi — VICAS Lab**
+>
+> Developed by **[Abhinav Choudhary](https://orcid.org/0009-0001-4892-5438)**
+> under the guidance of **Dr. Anuj Grover**.
+
+GREENS asks how an SRAM designer can compare protection hardware using evidence from the exact implementation. ECC names describe correction and detection semantics; they do not fix latency, register placement, routing, timing, or operation energy. GREENS connects RTL and correctness evidence to open-source physical implementation, activity-aware measurements, and conditional reliability–energy decisions. The research attribution describes the project's origin and does not imply institutional endorsement.
+
+## ⭐ ISCAS reproducibility artifact — start here
+
+**“Evidence-Qualified Reliability–Energy Decision Boundaries for SRAM Protection”**
+— Abhinav Choudhary and Anuj Grover. Manuscript; publication status is not independently verified.
+
+| Reviewer task | Direct path |
+|---|---|
+| Understand the experiment and its admission gates | [Artifact overview](experiments/iscas/README.md) |
+| Reproduce the claim derivations | [Exact instructions](experiments/iscas/reproduction.md) · [analysis entry point](scripts/reproduce_iscas.py) |
+| Trace a headline number to its inputs | [Claim-to-evidence index](experiments/iscas/claims.md) |
+| Inspect frozen activity evidence | [Frozen scientific evidence](experiments/iscas/evidence/README.md) · [campaign conditions](experiments/iscas/generated/campaign_conditions.json) |
+| Inspect service, RTL, and physical identity | [Architecture audit](campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/ARCHITECTURE_AUDIT.md) · [memory-wrapper RTL](campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/validation/rtl/matched_memory_tops.sv) · [ORFS configurations](campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/orfs/) |
+| Inspect reproduced tables and figure | [Generated derivations](experiments/iscas/generated/) · [results](docs/results.md) |
+| Understand the evidence boundary | [Limitations](docs/limitations.md) · [optional physical regeneration](experiments/iscas/regeneration.md) |
+
+> **What did we find?** Four matched Extended-Hamming/Hsiao pairs survive route, setup, hold, and complete-operation admission: **20 paired operation cells / 40 primary ECC-logic energy records**. Hsiao is lower in **4/20 cells**, and preference depends on operation mix. The evaluated BCH(78,64,t=2) RTL is setup-feasible in **0/5 seeds at 10 ns**; this describes that implementation and constraint. It does not establish a whole-SRAM lifecycle winner. [Calculation and source map →](experiments/iscas/claims.md)
+
+The retained v3.3 total is 46 records / 23 cells. Six read records from seed 11 remain diagnostic: its Hsiao run fails hold and idle/write evidence is incomplete. The primary cohort uses seeds 13, 17, 19, and 23. The historical setup-only flag is preserved; the reviewer derivation checks setup **and hold** directly.
+
+![Primary operation-energy deltas and clean-read/write workload preference slice](experiments/iscas/generated/operation_and_workload.svg)
+
+Negative deltas favor Hsiao within the measured ECC-logic boundary. The workload slice uses only clean reads and writes; it does not infer fault rates or whole-SRAM energy.
+
+## Why an SRAM designer needs this
+
+Choosing between “Hsiao is efficient” and “BCH corrects more errors” skips the engineering decision. Check the declared protection service, verify the exact RTL, qualify route and timing at the intended constraint, then compare routed energy for the intended operations. A different pipeline or decoder is a new hardware identity and requires new evidence.
+
+**ECC semantics ≠ hardware architecture identity ≠ physical implementation identity.**
+
+![GREENS flow: qualify hardware, implement the matched boundary, derive conditional decisions](docs/figures/greens_research_flow.svg)
+
+The flow preserves failed and incomplete evidence before comparing operation energy. [Architecture and evidence rules](docs/architecture.md) define the admitted identities.
+
+## Hardware and qualification
+
+| Hardware identity | Declared service | Role and boundary |
 |---|---|---|
-| Registry | 15 code specifications; 17 implementations; 15 selectable | Two rejected implementations remain visible |
-| Matched physical population | 40 inherited SKY130HD/SRAM22 OpenROAD/ORFS runs | Routing, timing, DRC/LVS, and signoff are distinct |
-| Activity-qualified energy | 46 post-route E5 ECC-logic records for SECDED/Hsiao | Macro-internal energy is incomplete |
-| Fresh OpenRAM 256×72 | Log and partial geometry | Timeout after 10,800 s; exit 137; DRC/LVS/characterization incomplete |
-| Absolute reliability | Conditional logical results and explicit models | Physical rates, bitcell mapping, Qcrit qualification, and FIT blocked |
-| Lifecycle carbon | Models and sensitivity studies | No qualified SKY130 inventory/yield/lifetime population |
-| Overall ranking | Qualified partial comparisons | `NO_GLOBAL_WINNER_QUALIFIED` |
+| Extended-Hamming SECDED (72,64) | W1 correct / W2 detect | Primary equal-service reference |
+| Hsiao SECDED (72,64) | W1 correct / W2 detect | Primary equal-service comparison |
+| BCH(78,64,t=2) | W1/W2 correct | Functionally admitted; evaluated RTL fails the common setup target |
+| U0 (64 payload bits) | Unprotected | Inherited physical reference; no v3.3 E5 operation energy |
+| Combinational/pipelined SECDED; flat/hierarchical Hsiao | Identity-specific equivalent transactions | Separate [identity-preserving technical study](docs/results.md#identity-preserving-hardware-study) |
+| SEC-DAEC, interleaving proposals, other generated codecs | Record-specific | Functional failure, missing RTL, experimental, or software-only; [audit](campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/ARCHITECTURE_AUDIT.md) and [catalogue](docs/ECC_CATALOGUE.md) define status |
 
-The [evidence map](docs/evidence-map.md), [negative results](docs/experiments/negative_results.md), and campaign status files define the claim boundary.
+A directory's existence does not make its implementation paper-qualified. [Architecture guide](docs/architecture.md)
 
-## Installation and quick start
+## Quick start: reproduce claims from frozen evidence
 
-Use Python 3.10–3.12, GNU Make, and a C++17 compiler. Optional RTL/physical tools are needed only for corresponding checks.
+Use Python 3.10–3.12 and a repository clone. This path needs no EDA tools, PDK installation, or native build.
 
 ```bash
+git -c core.longpaths=true clone --depth 1 https://github.com/wellitsabhinav/Error-Code-Correction.git GREENS
+cd GREENS
+git config core.longpaths true
 python -m venv .venv
-# Bash/WSL: source .venv/bin/activate
-# PowerShell: .\.venv\Scripts\Activate.ps1
+# Activate .venv in your shell, then:
 python -m pip install -r requirements.txt
-make reviewer-smoke
-python eccsim.py ecc list
-python eccsim.py ecc verify --implementation hsiao-generated-combinational-72-64-v1
-python eccsim.py sram simulate --size-kb 64 --word-bits 8 --scheme sec-ded --iterations 100 --seed 17 --json
+python scripts/reproduce_iscas.py
+python scripts/reproduce_iscas.py --check
 ```
 
-These commands do not rerun a physical campaign. See [environment](docs/reproduction/environment.md), [CLI reference](docs/CLI_REFERENCE.md), and [troubleshooting](docs/TROUBLESHOOTING.md).
+The first reproduction writes tables, a conditions manifest, and an SVG to `tmp/reproduce-iscas/`. `--check` compares regenerated numerical outputs with the [tracked references](experiments/iscas/generated/). `make reproduce-iscas` runs the same analysis. See [expected outputs and interpretation](experiments/iscas/reproduction.md).
 
-## Motivation and architecture
+**Regenerate physical implementations:** [use the separate instructions](experiments/iscas/regeneration.md) with the pinned Linux/container environment and a new campaign identity. A full RTL-to-GDS run is substantially more expensive and cannot restart the sealed campaign's expired budget.
 
-Correction strength alone does not determine a useful ECC. Area/parity overhead affect implementation and memory cost; decode latency constrains clocks and service policy; power and operation counts determine use energy; grid intensity and lifecycle boundaries affect carbon. Reliability depends on SRAM capacity, codeword width, SBU/DBU/MBU topology, physical mapping, and scrub policy.
+## Results and research outputs
 
-```mermaid
-flowchart TD
-    A[SRAM configuration and workload] --> B[Fault and SER assumptions]
-    B --> C[Verified ECC implementations]
-    C --> D[Logical response and seeded simulation]
-    D --> E[Area, latency, and energy models]
-    C --> F[Matched physical evidence]
-    F --> E
-    E --> G[Energy and lifecycle translations]
-    G --> H[Evidence and feasibility gates]
-    H --> I[Pareto comparison and deterministic policy]
-    I --> J[Qualified recommendation or blocker]
-```
+The primary energy comparison is conditional on SKY130HD, SRAM22 macro organization, TT/25 °C/1.8 V, 10 ns, routed-netlist activity, and the specified operation window. Clean reads can favor Hsiao; clean writes, correction, and detection can change that ordering. [Detailed results](docs/results.md) show the operation deltas and workload slice.
 
-See [module boundaries](docs/architecture/overview.md) and [evidence model](docs/evidence-model.md).
+In the separate identity-preserving study at 10 ns, pipelined versus combinational SECDED changes mean standard-cell instance area by **+37.2%**, the **signed-slack-derived frequency estimate by +46.6%**, and energy/op by **−23.4%**, with request latency **1 → 3 cycles** and the directions repeated across **5/5 matched seeds**. Flat/hierarchical Hsiao has much smaller, mixed changes. Neither result establishes a universal implementation winner. [Evidence and scope](docs/results.md#identity-preserving-hardware-study)
 
-## ECC architectures
-
-| Architecture | Parameters / capability | Current status |
+| Research output | Focus | Evidence |
 |---|---|---|
-| Extended Hamming SECDED | (72,64); single-bit correction, double-bit detection in its declared universe | Matched evidence; 10 ns feasible, 5 ns infeasible |
-| Hsiao SECDED | (72,64); odd-column SECDED | Matched evidence and E5 logic energy; same timing boundary |
-| Shortened BCH | (78,64), t=2; bounded two-bit correction | Functionally validated; physical path fails both targets |
-| Other primitive BCH entries | (63,51) t=2; (71,64) t=1; (85,64) t=3 | Software constructions with record-specific verification |
-| SEC-DAEC / TAEC policies | Extended-Hamming-based adjacent-error policies | Policy-specific; SEC-DAEC counterexample excludes it from matched comparison |
-| Synthesized / archived codes | Record-specific dimensions and syndrome tables | Eligibility follows exact implementation verification |
-| U0 | Unprotected baseline | Feasible at both matched clock targets |
+| Evidence-Qualified Reliability–Energy Decision Boundaries for SRAM Protection | Fail-closed SRAM protection decision regions | [ISCAS artifact](experiments/iscas/README.md) |
+| Identity-preserving hardware study | Equivalent service versus physical outcomes | [Technical results](docs/results.md#identity-preserving-hardware-study) |
 
-The historical degree-12 cyclic (63,51) candidate is distinct from validated primitive BCH. See [specifications](docs/ecc/architectures.md) and [catalogue](docs/ECC_CATALOGUE.md).
+Publication metadata and review status are not invented. Submission PDFs are maintained outside this repository; see [research-output and anonymity policy](docs/papers.md).
 
-## Metrics
+## Repository map
 
-Existing legacy scores are decision utilities. In `esii.py`, `ESII = U_rel × (U_energy + U_carbon)/2`; reliability improvement uses log-FIT decades and burdens use reciprocal saturation. `NESII` uses the cohort's 5th/95th percentiles and a winsorized 0–100 scale. `gs.py` defines GREEN Score as 100 times a weighted geometric mean of active reliability, carbon, added-latency, and overhead utilities.
+| Path | Purpose |
+|---|---|
+| [experiments/iscas/](experiments/iscas/README.md) | Reviewer landing page, claim index, reproduction, generated derivations |
+| [docs/](docs/README.md) | Project, architecture, methods, results, boundaries, contributor guides |
+| [asic/](asic/docs/README_asic.md), [rtl/](rtl/) | Codec and wrapper RTL; campaign audits identify admitted sources |
+| [tests/](tests/), [ASIC benches](asic/tb/), [formal gates](docs/date2027/) | Software/native tests and retained HDL/formal evidence |
+| [flow configurations](campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/orfs/), [scripts/](scripts/) | Physical-flow inputs, analysis, reproduction |
+| [campaigns/](campaigns/) | Frozen/additive evidence, manifests, failed and partial runs |
+| [green_ecc_phy/](green_ecc_phy/), [architecture/](architecture/), [codeforge/](codeforge/), [ml/](ml/) | Registry, models, design exploration, advisory ML |
+| [configs/](configs/), [schemas/](schemas/), [data/](data/) | Inputs and contracts |
+| [reports/](reports/), [registry study](green_ecc_physical_simulation/), [archives](archives/README.md), [cleanup](cleanup/) | Retained study outputs and archival provenance |
 
-Telemetry `EPC` in `parse_telemetry.compute_epc` is estimated gate energy divided by **correction events**, in J/event. It is per corrected bit only when each counted event corrects one bit. [Exact metric formulas](docs/sustainability/metrics.md) document units, constants, absent carbon, and normalization edge cases. [Sustainability model](docs/sustainability-model.md) states qualified carbon boundaries.
+Source, frozen evidence, generated derivations, and transient builds have distinct rules. [Layout and dependency audit](docs/maintenance/repository-overhaul.md)
 
-## Reliability and selection
-
-SBU flips one logical bit; DBU flips two; MBU/bursts use declared masks or PMFs. Logical adjacency does not establish bitcell adjacency. Absolute SER/FIT additionally needs qualified physical event rates and a verified physical-to-logical map. Hazucha/Qcrit and Poisson scrub calculations are model outputs. Record scrub intervals and scrub-on-correct policy per experiment. See [fault model](docs/reliability/model.md) and [Qcrit](docs/reliability/qcrit.md).
-
-The legacy selector performs NSGA-II nondominated sorting/crowding with deterministic knee, constraint, or carbon-policy decisions. The registry study has a separate lexicographic rule. A partial Pareto front is not a global winner. Explicitly enabled ML under `ml/` advises the baseline; confidence/OOD gates retain fallback. See [optimization](docs/methodology/optimization.md) and [ML advisory](docs/methodology/ml_advisory.md).
-
-## Physical validation, OpenRAM, and SRAM22
-
-The matched flow uses SKY130HD TT/25 °C/1.8 V, clocks 10 ns/5 ns, and seeds 11,13,17,19,23. It retains timing failures and a common documented SRAM22 transition-stage bypass. Open-source RTL-to-GDS evidence does not imply independent foundry signoff.
-
-Fresh OpenRAM did not deliver a qualified 256×72 macro. Inherited SRAM22 macros supply separate physical views; they are not fresh OpenRAM output. E5 covers ECC logic only. See [ORFS](docs/physical_validation/orfs.md), [OpenRAM status](docs/physical_validation/openram.md), and [SRAM22 status](docs/physical_validation/sram22.md).
-
-## Results and reproduction
-
-The retained v3.3 package records 46 qualified logic-energy records, 23 matched operation comparisons, and ten fresh timing-feasible 10 ns SECDED/Hsiao runs alongside the inherited 40-run population. These counts do not establish whole-memory reliability or lifecycle improvement. Sources: [v3.3 status](campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/CAMPAIGN_STATUS.json), [manifest](campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/RUN_MANIFEST.json), and [canonical reproduction](docs/reproduction/canonical_results.md).
-
-```bash
-make
-make test
-python3 -m pytest -q
-python scripts/check_artifact.py
-```
-
-On Windows use `python -m pytest -q` if `python3` is a Store alias. `make reproduce` intentionally regenerates the registry study; review its diff. Full physical reruns require a new campaign identity and pinned environment. Do not restart the completed v3.3 queue under a new budget.
-
-## Registry-study snapshot
-
-This generated block describes the software study. Later campaigns qualify only their declared physical/activity scopes.
+<details>
+<summary>Broader registry software study (separate from the ISCAS cohort)</summary>
 
 <!-- BEGIN GENERATED:CURRENT_STATUS -->
 **Current regenerated evidence:** 15 mathematical code specifications, 17 encoder/decoder implementations, 17 deployment architectures in the registry, and 15 selectable implementations.
@@ -110,27 +121,16 @@ The exact-functional and analytical study has 192 scenarios; 192 have a feasible
 Source: [`framework_summary.json`](green_ecc_physical_simulation/multi_ecc_evaluation/framework_summary.json) and [`software_study_summary.json`](green_ecc_physical_simulation/multi_ecc_evaluation/software_study_summary.json).
 <!-- END GENERATED:CURRENT_STATUS -->
 
-## Limitations
+</details>
 
-No silicon/radiation measurement, qualified fresh OpenRAM macro, verified fault topology, complete SRAM power model, SKY130-native lifecycle inventory, or global winner is claimed. See [limitations](docs/limitations.md). Negative results remain part of the research record.
+## Evidence limits
 
-## Repository map
+These are post-route tool results. Silicon measurement, fabrication, tapeout, measured Fmax, absolute physical fault rates, verified bitcell adjacency, qualified Qcrit/radiation environment, system FIT/SDC/DUE rates, complete macro-internal energy, and a SKY130 embodied-carbon inventory are outside the established boundary. No calibrated whole-SRAM lifecycle winner or universal technology portability is claimed. [Limitations](docs/limitations.md)
 
-| Path | Purpose |
-|---|---|
-| `eccsim.py`, root models | Public/legacy CLIs, preserved for compatibility |
-| `green_ecc_phy/`, `architecture/`, `codeforge/` | Registry, verification, models, and DSE |
-| `ml/` | Optional advisory pipeline |
-| `rtl/`, `asic/`, `src/` | Hardware and native implementations |
-| `configs/`, `config/`, `schemas/`, `data/` | Inputs, contracts, datasets |
-| `campaigns/` | Frozen/additive provenance and evidence, including failed runs |
-| `green_ecc_physical_simulation/`, `reports/`, `results/` | Registry study and retained results |
-| `scripts/`, `tests/` | Reproduction and regression/golden checks |
-| `docs/` | Current guides, methods, and history |
-| `cleanup/`, `archives/MANIFEST.csv` | Inventory, synchronization decisions, archival provenance |
+## Contributing, citation, and license
 
-Imports and source paths remain compatible. Start at [documentation index](docs/README.md); historical milestones are in [history](docs/experiments/history.md). Publication manuscripts remain outside this source repository.
+Start with [CONTRIBUTING.md](CONTRIBUTING.md) and the authoritative [AGENTS.md](AGENTS.md). Software/native validation uses `make`, `make test`, `python -m pytest -q`, and `python scripts/check_artifact.py`. [Maintained dependency pins](docs/maintenance/dependencies.md) preserve the supported Python and CMake range. Fast CI checks public quality, software/native smoke and supported SECDED RTL; the full platform and artifact workflows provide the broader contracts. The manual experimental RTL diagnostic retains its documented legacy BCH counterexample.
 
-## Citation and license
+If you use GREENS, cite [CITATION.cff](CITATION.cff) and the named evidence dataset. Primary researcher: [Abhinav Choudhary, ORCID 0009-0001-4892-5438](https://orcid.org/0009-0001-4892-5438). No paper DOI or acceptance is asserted.
 
-Use [CITATION.cff](CITATION.cff), the exact commit, and the supporting campaign identifier. No publication DOI is asserted. See [CONTRIBUTING.md](CONTRIBUTING.md) and [MIT License](LICENSE). Third-party technology/macro views retain upstream licensing and provenance.
+GREENS retains the [MIT License](LICENSE). Third-party PDK/macro material retains upstream licensing and provenance. GREENS is the canonical public name; the historical GitHub URL and `GREEN` / `GREEN-ECC-PHY` source identifiers remain where required for compatibility and frozen traceability. [Naming migration](docs/maintenance/repository-overhaul.md#project-naming-and-github-migration)

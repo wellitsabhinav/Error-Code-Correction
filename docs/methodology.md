@@ -1,10 +1,16 @@
-# Methodology
+# GREENS methodology
+
+## Evidence-qualified decision chain
+
+GREENS applies **Service → Identity → Feasibility → Operation → Lifecycle**. Declare the W1/W2 protection contract, bind the exact RTL and macro organization, check route/setup/hold, qualify matched operation activity/parasitics and energy, then compare lifecycle expressions only across matched boundaries. Missing operands remain unavailable or symbolic.
+
+The [ISCAS primary cohort](../experiments/iscas/README.md) requires both members of each seed pair to pass setup and hold and provide all five operation classes. Historical setup-only flags do not override hold failures. The [claim index](../experiments/iscas/claims.md) connects each result to its calculation and evidence.
 
 ## Research question
 
 How should SRAM ECC architectures be evaluated and selected when reliability, physical implementation cost, operational energy, latency, and lifecycle/sustainability considerations must be considered jointly rather than independently?
 
-GREEN operationalizes only the portions for which evidence is present. A blocked absolute conclusion is a valid methodological result.
+GREENS operationalizes only the portions for which evidence is present. A blocked absolute conclusion is a valid methodological result.
 
 ## Hypotheses
 

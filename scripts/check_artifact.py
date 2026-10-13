@@ -54,6 +54,9 @@ EXPECTED_FILES = (
     "docs/evidence-map.md",
     # Retained as a compatibility pointer for existing external links.
     "docs/paper-to-artifact.md",
+    "AGENTS.md",
+    "docs/project-overview.md",
+    "docs/maintenance/repository-overhaul.md",
     "docs/papers.md",
     "docs/results.md",
     "experiments/iscas/README.md",
@@ -136,7 +139,7 @@ def broken_markdown_links(paths: Iterable[Path]) -> list[str]:
 
 def validate_links() -> list[str]:
     public_docs = [ROOT / "README.md"] + [
-        ROOT / path for path in EXPECTED_FILES if path.startswith("docs/")
+        ROOT / path for path in EXPECTED_FILES if path.endswith(".md")
     ]
     existing = [path for path in public_docs if path.is_file()]
     return [f"broken link: {item}" for item in broken_markdown_links(existing)]

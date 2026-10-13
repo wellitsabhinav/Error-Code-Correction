@@ -30,7 +30,7 @@ U0 and broader code-registry entries are not assigned missing E5 energies. Fresh
 
 This is a separate technical comparison, not another population to fill missing ISCAS operands. The [controlled statistics](../campaigns/date_2027_activity_qualified_ecc_energy_rev2/data/controlled_implementation_statistics.json) and [qualification explanation](../campaigns/date_2027_activity_qualified_ecc_energy_rev2/CONTROLLED_IMPLEMENTATION_EVIDENCE.md) provide the retained derivations.
 
-| Exact control at 10 ns | Area delta | Signed-slack-derived frequency-estimate delta | Energy/op delta | Service timing |
+| Exact control at 10 ns | Standard-cell instance area delta | Signed-slack-derived frequency-estimate delta | Energy/op delta | Service timing |
 |---|---:|---:|---:|---|
 | Pipelined minus combinational SECDED | +37.201864% | +46.629355% | −23.419005% | Request latency 1 → 3 cycles; II = 1; directions across 5/5 matched seeds |
 | Hierarchical minus flat Hsiao | −0.564122% | +2.655651% | +1.328395% | Same matrix, latency, and II; small, mixed effects |

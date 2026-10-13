@@ -1,4 +1,4 @@
-# GREEN-ECC-PHY technical guide
+# GREENS technical guide
 
 ## Abstract
 

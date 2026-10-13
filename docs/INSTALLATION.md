@@ -20,7 +20,7 @@ On Windows, keep `g++` and its runtime DLLs from the same MSYS2/MinGW installati
 
 Physical reproduction is optional, expensive, and not installed by the Python setup. Historical campaigns record their exact tool and image identities. A new environment normally supplies `ORFS_ROOT`, `OPENROAD_HOME`, `OPENRAM_HOME`, and `PDK_ROOT` through its own controller or configuration.
 
-The matched campaign used ORFS commit `56496f3980fb6e9e58f10c8aea4a98949c0fe5f2`, OpenROAD commit `ab6fd26351dc449e69059684dc6aa9ae9046eb36`, Yosys `0.68+post`, SKY130HD, and inherited SRAM22 macros at TT/25 °C/1.8 V. The [run manifest](../campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/RUN_MANIFEST.json) is authoritative.
+The matched campaign used the retained ORFS environment, OpenROAD 26Q3-1080, OpenSTA 3.1.0, Yosys 0.68+post, SKY130HD, and inherited SRAM22 macros at TT/25 °C/1.8 V. The [run manifest](../campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/RUN_MANIFEST.json) is authoritative.
 
 Historical absolute paths are retained inside executed manifests because they are provenance. Current public software entry points use repository-relative paths; do not edit historical records to make a new machine appear identical.
 

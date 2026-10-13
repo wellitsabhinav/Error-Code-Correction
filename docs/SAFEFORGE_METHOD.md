@@ -1,4 +1,4 @@
-# GREEN-ECC SafeForge method and claim boundary
+# GREENS SafeForge method and claim boundary
 
 SafeForge is a finite-support, distributionally robust compiler for SRAM ECC policies. Given a systematic binary matrix, a nominal conditional fault PMF, an expanded bit-exact error support, and an explicit ambiguity set, it executes the actual decoder for every error vector and compiles each nonzero syndrome to either `correct(error_vector)` or deliberate `DUE`.
 

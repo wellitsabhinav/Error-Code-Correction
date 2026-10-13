@@ -1,0 +1,10 @@
+{
+  "normalization": "Git text LF representation; no file rewriting",
+  "records": {
+    "green_ecc_physical_simulation/SIMULATION_CAPABILITY_AUDIT.md": {
+      "reason": "Original executed capability-gate audit; preserve historical findings and provenance",
+      "sha256": "9e1e661e1a88129897a33a651d51dfb13b0a041f77f30f78d54c806074d281df"
+    }
+  },
+  "schema_version": 1
+}

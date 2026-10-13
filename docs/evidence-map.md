@@ -1,4 +1,6 @@
-# Evidence map
+# GREENS evidence map
+
+The [ISCAS claim map](../experiments/iscas/claims.md) and [public scientific evidence](../experiments/iscas/evidence/README.md) provide the reviewer path for the primary decision cohort. The table below covers broader retained research.
 
 This page connects the repository's main result classes to inspectable evidence and maintained validation commands. It does not assign publication figure or table numbers, and it does not upgrade the qualification of any source quantity.
 
