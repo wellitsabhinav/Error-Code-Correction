@@ -1,15 +1,24 @@
-cmake_minimum_required(VERSION 3.16)
+cmake_minimum_required(VERSION 3.14)
 project(ECCsim LANGUAGES CXX)
 
 if(POLICY CMP0135)
     cmake_policy(SET CMP0135 NEW)
 endif()
 
+# Keep the declared CMake 3.14/3.15 compatibility path.
+if(CMAKE_VERSION VERSION_LESS 3.16)
+    set(GREENS_GOOGLETEST_URL "https://github.com/google/googletest/archive/refs/tags/v1.16.0.zip")
+    set(GREENS_GOOGLETEST_SHA256 "a9607c9215866bd425a725610c5e0f739eeb50887a57903df48891446ce6fb3c")
+else()
+    set(GREENS_GOOGLETEST_URL "https://github.com/google/googletest/archive/refs/tags/v1.18.0.zip")
+    set(GREENS_GOOGLETEST_SHA256 "63b9c77751a5b8f492486005f67533fdc58682b67476fcb91650be5958d5195a")
+endif()
+
 include(FetchContent)
 FetchContent_Declare(
     googletest
-    URL https://github.com/google/googletest/archive/refs/tags/v1.18.0.zip
-    URL_HASH SHA256=63b9c77751a5b8f492486005f67533fdc58682b67476fcb91650be5958d5195a
+    URL ${GREENS_GOOGLETEST_URL}
+    URL_HASH SHA256=${GREENS_GOOGLETEST_SHA256}
 )
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)

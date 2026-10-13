@@ -3,8 +3,8 @@ actions/checkout,v4,v7.0.1,maintained CI automation,pin verified stable tag; val
 actions/setup-python,v5,v7.0.0,maintained CI automation,pin verified stable tag; validate hosted runs,https://github.com/actions/setup-python/releases/tag/v7.0.0
 actions/upload-artifact,v4,v7.0.2,maintained CI automation,pin verified stable tag; validate hosted runs,https://github.com/actions/upload-artifact/releases/tag/v7.0.2
 msys2/setup-msys2,v2,v2.33.0,maintained CI automation,pin verified stable tag; validate hosted runs,https://github.com/msys2/setup-msys2/releases/tag/v2.33.0
-GoogleTest,moving main archive,1.18.0,native test tooling,pin stable archive and checksum; C++17 / CMake 3.16 minimum,https://github.com/google/googletest/releases/tag/v1.18.0
+GoogleTest,moving main archive,1.18.0,native test tooling,pin stable archive and checksum; C++17; retain CMake 3.14 via GoogleTest 1.16.0 fallback,https://github.com/google/googletest/releases/tag/v1.18.0
 OpenRAM / historical Python locks,experiment-pinned,not used to redefine frozen measurements,frozen physical environment,retain original versions; new versions require new campaign,https://github.com/VLSIDA/OpenRAM
 ORFS / OpenROAD / OpenSTA / Yosys,experiment-pinned,not used to redefine frozen measurements,frozen physical environment,retain recorded 26Q3-1080 / 3.1.0 / 0.68+post conditions,https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
 SKY130 / SRAM22 libraries,experiment-pinned,not used to redefine frozen measurements,frozen technology/macro environment,"preserve views, licenses and original characterization",https://github.com/skywater-pdk/skywater-pdk
-GNU Make / C++ compiler / CMake,system build tools,compatible hosted tools,maintained build tooling,"C++17, Make, CMake >=3.16; pin CI CMake 4.4.4; validate native and CTest contracts",https://cmake.org/download/
+GNU Make / C++ compiler / CMake,system build tools,compatible hosted tools,maintained build tooling,"C++17, Make, CMake >=3.14; pin CI CMake 4.4.4; validate native and CTest contracts",https://cmake.org/download/

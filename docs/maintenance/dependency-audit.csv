@@ -1,33 +1,35 @@
-dependency,previous_maintained_pin,latest_stable,newest_python_310_312_release,selected_pin,role,reason,source
-numpy,2.1.3,2.5.4,2.2.6,2.2.6,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/numpy/
-scipy,1.15.2,1.18.1,1.15.3,1.15.3,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/scipy/
-pandas,2.2.3,3.0.6,2.3.3,2.3.3,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pandas/
-pytest,8.4.1,9.1.1,9.1.1,9.1.1,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pytest/
-jsonschema,4.25.1,4.26.0,4.26.0,4.26.0,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/jsonschema/
-matplotlib,3.9.2,3.11.2,3.10.9,3.10.9,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/matplotlib/
-PyYAML,6.0.2,6.0.3,6.0.3,6.0.3,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/PyYAML/
-pypdf,6.18.0,6.20.1,6.20.1,6.20.1,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pypdf/
-scikit-learn,1.7.2,1.9.1,1.7.2,1.7.2,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/scikit-learn/
-attrs,resolved transitively; not previously pinned,26.1.0,26.1.0,26.1.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/attrs/
-colorama,resolved transitively; not previously pinned,0.4.6,0.4.6,0.4.6,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/colorama/
-contourpy,resolved transitively; not previously pinned,1.4.0,1.3.2,1.3.2,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/contourpy/
-cycler,resolved transitively; not previously pinned,0.12.1,0.12.1,0.12.1,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/cycler/
-fonttools,resolved transitively; not previously pinned,4.66.1,4.65.0,4.65.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/fonttools/
-iniconfig,resolved transitively; not previously pinned,2.3.1,2.3.1,2.3.1,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/iniconfig/
-joblib,resolved transitively; not previously pinned,1.6.0,1.6.0,1.6.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/joblib/
-jsonschema-specifications,resolved transitively; not previously pinned,2025.9.1,2025.9.1,2025.9.1,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/jsonschema-specifications/
-kiwisolver,resolved transitively; not previously pinned,1.5.1,1.5.1,1.5.1,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/kiwisolver/
-packaging,resolved transitively; not previously pinned,26.3,26.3,26.3,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/packaging/
-pillow,resolved transitively; not previously pinned,12.3.0,12.3.0,12.3.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pillow/
-pluggy,resolved transitively; not previously pinned,1.6.0,1.6.0,1.6.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pluggy/
-Pygments,resolved transitively; not previously pinned,2.21.0,2.21.0,2.21.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/Pygments/
-pyparsing,resolved transitively; not previously pinned,3.3.3,3.3.3,3.3.3,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pyparsing/
-python-dateutil,resolved transitively; not previously pinned,2.9.0.post0,2.9.0.post0,2.9.0.post0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/python-dateutil/
-pytz,resolved transitively; not previously pinned,2026.5,2026.5,2026.5,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pytz/
-referencing,resolved transitively; not previously pinned,0.37.0,0.37.0,0.37.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/referencing/
-rpds-py,resolved transitively; not previously pinned,2026.9.1,0.30.0,0.30.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/rpds-py/
-threadpoolctl,resolved transitively; not previously pinned,3.7.0,3.7.0,3.7.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/threadpoolctl/
-tzdata,resolved transitively; not previously pinned,2026.5,2026.5,2026.5,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/tzdata/
-cloudpickle,resolved transitively; not previously pinned,3.1.2,3.1.2,3.1.2,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/cloudpickle/
-six,resolved transitively; not previously pinned,1.17.0,1.17.0,1.17.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/six/
-typing_extensions,resolved transitively; not previously pinned,4.16.0,4.16.0,4.16.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/typing_extensions/
+dependency,previous_maintained_pin,latest_stable,newest_python_310_312_release,selected_pin,role,reason,source,environment_marker
+numpy,2.1.3,2.5.4,2.2.6,2.2.6,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/numpy/,all supported interpreters
+scipy,1.15.2,1.18.1,1.15.3,1.15.3,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/scipy/,all supported interpreters
+pandas,2.2.3,3.0.6,2.3.3,2.3.3,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pandas/,all supported interpreters
+pytest,8.4.1,9.1.1,9.1.1,9.1.1,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pytest/,all supported interpreters
+jsonschema,4.25.1,4.26.0,4.26.0,4.26.0,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/jsonschema/,all supported interpreters
+matplotlib,3.9.2,3.11.2,3.10.9,3.10.9,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/matplotlib/,all supported interpreters
+PyYAML,6.0.2,6.0.3,6.0.3,6.0.3,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/PyYAML/,all supported interpreters
+pypdf,6.18.0,6.20.1,6.20.1,6.20.1,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pypdf/,all supported interpreters
+scikit-learn,1.7.2,1.9.1,1.7.2,1.7.2,direct,newest stable solver-compatible version across supported Python range,https://pypi.org/project/scikit-learn/,all supported interpreters
+attrs,resolved transitively; not previously pinned,26.1.0,26.1.0,26.1.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/attrs/,all supported interpreters
+colorama,resolved transitively; not previously pinned,0.4.6,0.4.6,0.4.6,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/colorama/,all supported interpreters
+contourpy,resolved transitively; not previously pinned,1.4.0,1.3.2,1.3.2,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/contourpy/,all supported interpreters
+cycler,resolved transitively; not previously pinned,0.12.1,0.12.1,0.12.1,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/cycler/,all supported interpreters
+fonttools,resolved transitively; not previously pinned,4.66.1,4.65.0,4.65.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/fonttools/,all supported interpreters
+iniconfig,resolved transitively; not previously pinned,2.3.1,2.3.1,2.3.1,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/iniconfig/,all supported interpreters
+joblib,resolved transitively; not previously pinned,1.6.0,1.6.0,1.6.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/joblib/,all supported interpreters
+jsonschema-specifications,resolved transitively; not previously pinned,2025.9.1,2025.9.1,2025.9.1,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/jsonschema-specifications/,all supported interpreters
+kiwisolver,resolved transitively; not previously pinned,1.5.1,1.5.1,1.5.1,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/kiwisolver/,all supported interpreters
+packaging,resolved transitively; not previously pinned,26.3,26.3,26.3,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/packaging/,all supported interpreters
+pillow,resolved transitively; not previously pinned,12.3.0,12.3.0,12.3.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pillow/,all supported interpreters
+pluggy,resolved transitively; not previously pinned,1.6.0,1.6.0,1.6.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pluggy/,all supported interpreters
+Pygments,resolved transitively; not previously pinned,2.21.0,2.21.0,2.21.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/Pygments/,all supported interpreters
+pyparsing,resolved transitively; not previously pinned,3.3.3,3.3.3,3.3.3,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pyparsing/,all supported interpreters
+python-dateutil,resolved transitively; not previously pinned,2.9.0.post0,2.9.0.post0,2.9.0.post0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/python-dateutil/,all supported interpreters
+pytz,resolved transitively; not previously pinned,2026.5,2026.5,2026.5,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/pytz/,all supported interpreters
+referencing,resolved transitively; not previously pinned,0.37.0,0.37.0,0.37.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/referencing/,all supported interpreters
+rpds-py,resolved transitively; not previously pinned,2026.9.1,0.30.0,0.30.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/rpds-py/,all supported interpreters
+threadpoolctl,resolved transitively; not previously pinned,3.7.0,3.7.0,3.7.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/threadpoolctl/,all supported interpreters
+tzdata,resolved transitively; not previously pinned,2026.5,2026.5,2026.5,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/tzdata/,all supported interpreters
+cloudpickle,resolved transitively; not previously pinned,3.1.2,3.1.2,3.1.2,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/cloudpickle/,all supported interpreters
+six,resolved transitively; not previously pinned,1.17.0,1.17.0,1.17.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/six/,all supported interpreters
+typing_extensions,resolved transitively; not previously pinned,4.16.0,4.16.0,4.16.0,transitive,newest stable solver-compatible version across supported Python range,https://pypi.org/project/typing_extensions/,all supported interpreters
+exceptiongroup,resolved conditionally; not previously pinned,1.3.1,1.3.1,1.3.1,conditional transitive,pytest dependency on Python 3.10; pin the newest stable compatible release,https://pypi.org/project/exceptiongroup/,python_version < 3.11
+tomli,resolved conditionally; not previously pinned,2.5.0,2.5.0,2.5.0,conditional transitive,pytest dependency on Python 3.10; pin the newest stable compatible release,https://pypi.org/project/tomli/,python_version < 3.11

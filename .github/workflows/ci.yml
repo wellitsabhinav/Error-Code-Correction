@@ -68,6 +68,27 @@ jobs:
       - name: Run complete Python suite
         run: python -m pytest -q
 
+  cmake-compatibility:
+    name: CMake 3.14 compatibility
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          sparse-checkout: |
+            src
+            tests/unit
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install cmake==3.14.4
+      - name: Configure, build and test the oldest supported CMake
+        run: |
+          cmake -S . -B tmp/cmake-compat -DCMAKE_BUILD_TYPE=Release
+          cmake --build tmp/cmake-compat --parallel 2
+          cd tmp/cmake-compat
+          ctest --timeout 60 --output-on-failure
+
   windows:
     name: Windows / Python 3.11 / UCRT64
     runs-on: windows-latest
