@@ -1,0 +1,55 @@
+name: GREENS fast validation
+
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: greens-fast-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  public-quality:
+    name: Public artifact quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - name: Validate changed public metadata and documentation
+        run: python scripts/check_public_quality.py --base-ref "${{ github.event.pull_request.base.sha || github.event.before || 'origin/main' }}"
+      - name: Validate public artifact structure
+        run: python scripts/check_artifact.py
+      - name: Import maintained analysis packages
+        run: python -c "import numpy, scipy, pandas, matplotlib, jsonschema, yaml, sklearn; import green_ecc_phy, architecture, ml"
+
+  software-smoke:
+    name: Native and software smoke
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: make
+      - run: python -m pytest -q tests/python/test_artifact_integrity.py tests/python/test_golden_cli_outputs.py tests/python/test_sram_cli.py
+
+  rtl-smoke:
+    name: Supported SECDED RTL smoke
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: sudo apt-get update && sudo apt-get install -y iverilog
+      - run: python scripts/rtl_smoke.py
