@@ -1,0 +1,6 @@
+seed,clock_period_ns,setup_wns_ns,setup_feasible,source
+11,10.0,-10.9001,False,campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/reports/runs/bch_78_64_t2_clk10p0ns_seed11/run-metadata.json
+13,10.0,-11.1977,False,campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/reports/runs/bch_78_64_t2_clk10p0ns_seed13/run-metadata.json
+17,10.0,-11.1572,False,campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/reports/runs/bch_78_64_t2_clk10p0ns_seed17/run-metadata.json
+19,10.0,-11.2613,False,campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/reports/runs/bch_78_64_t2_clk10p0ns_seed19/run-metadata.json
+23,10.0,-11.0437,False,campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/reports/runs/bch_78_64_t2_clk10p0ns_seed23/run-metadata.json

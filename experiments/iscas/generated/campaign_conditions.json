@@ -1,0 +1,43 @@
+{
+  "activity": "Zero-delay routed-netlist VCD with final SPEF",
+  "artifact": "GREENS ISCAS reproducibility artifact",
+  "clock_period_ns": 10.0,
+  "corner": "TT",
+  "energy_boundary": "ECC logic only; macro-internal energy incomplete",
+  "flow_exception": "Common SRAM22 transition-stage resize bypass",
+  "macro_views": [
+    "SRAM22 256x64",
+    "SRAM22 256x8"
+  ],
+  "measured_operations": 256,
+  "primary_operations": [
+    "IDLE",
+    "WRITE_CLEAN",
+    "READ_CLEAN",
+    "READ_SINGLE_BIT_ERROR_CORRECT",
+    "READ_DOUBLE_BIT_ERROR_DETECT"
+  ],
+  "primary_seeds": [
+    13,
+    17,
+    19,
+    23
+  ],
+  "service": "W1 correction / W2 detection for the primary SECDED pair",
+  "technology": "SKY130HD",
+  "temperature_c": 25,
+  "tested_seeds": [
+    11,
+    13,
+    17,
+    19,
+    23
+  ],
+  "tools": {
+    "OpenROAD": "26Q3-1080",
+    "OpenSTA": "3.1.0",
+    "Yosys": "0.68+post"
+  },
+  "voltage_v": 1.8,
+  "warm_up_cycles": 16
+}

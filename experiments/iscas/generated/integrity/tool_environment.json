@@ -1,0 +1,9 @@
+{
+  "container_image": "openroad/orfs@sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+  "openroad_commit": "ab6fd26351dc449e69059684dc6aa9ae9046eb36",
+  "openroad_version": "26Q3-1080-gab6fd26351",
+  "opensta_version": "3.1.0",
+  "orfs_commit": "56496f3980fb6e9e58f10c8aea4a98949c0fe5f2",
+  "simulation_tool": "iverilog/vvp",
+  "yosys_version": "0.68+post"
+}

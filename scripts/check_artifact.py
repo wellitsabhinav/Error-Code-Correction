@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Deterministic integrity checks for the public GREEN research artifact.
+"""Deterministic integrity checks for the public GREENS research artifact.
 
 This checker validates structure and provenance references. It does not rerun
 physical design and does not promote any evidence classification.
@@ -54,6 +54,16 @@ EXPECTED_FILES = (
     "docs/evidence-map.md",
     # Retained as a compatibility pointer for existing external links.
     "docs/paper-to-artifact.md",
+    "docs/papers.md",
+    "docs/results.md",
+    "experiments/iscas/README.md",
+    "experiments/iscas/reproduction.md",
+    "experiments/iscas/regeneration.md",
+    "experiments/iscas/claims.md",
+    "experiments/iscas/evidence/README.md",
+    "experiments/iscas/generated/headline_results.json",
+    "experiments/iscas/generated/primary_operation_pairs.csv",
+    "scripts/reproduce_iscas.py",
 )
 
 CRITICAL_JSON = (

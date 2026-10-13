@@ -1,0 +1,48 @@
+name: GREENS artifact reproduction
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: ["experiments/iscas/**", "scripts/reproduce_iscas.py", "tests/python/test_iscas_reproduction.py", "campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/**", "campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/**", "requirements*.txt", ".gitattributes", ".github/workflows/artifact-reproduction.yml"]
+  push:
+    paths: ["experiments/iscas/**", "scripts/reproduce_iscas.py", "tests/python/test_iscas_reproduction.py", "campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/**", "campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/**", "requirements*.txt", ".gitattributes", ".github/workflows/artifact-reproduction.yml"]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: greens-artifact-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  claims:
+    name: ISCAS claim reproduction
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          sparse-checkout: |
+            scripts
+            experiments/iscas
+            tests/python
+            campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation
+            campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Derive claims and generate the figure
+        run: python scripts/reproduce_iscas.py
+      - name: Compare numerical references and test admission failures
+        run: |
+          python scripts/reproduce_iscas.py --check
+          python -m pytest -q tests/python/test_iscas_reproduction.py
+      - name: Check generated SVG structure
+        run: python -c "from pathlib import Path; import xml.etree.ElementTree as E; p=Path('tmp/reproduce-iscas/operation_and_workload.svg'); assert p.stat().st_size > 1000; assert E.parse(p).getroot().tag.endswith('svg')"
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: greens-iscas-reproduced
+          path: tmp/reproduce-iscas/
+          if-no-files-found: error

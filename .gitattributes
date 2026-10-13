@@ -209,3 +209,8 @@
 /docs/date2027/rigour_gate_06/figures/F02_AREA_VS_FMAX.svg text eol=crlf
 /docs/date2027/rigour_gate_06/figures/F03_NORMALIZED_PHYSICAL_COST.svg text eol=crlf
 /docs/date2027/rigour_gate_06/figures/F04_RELIABILITY_OUTCOMES.svg text eol=crlf
+
+# Maintained reviewer derivations use a portable byte representation.
+/experiments/iscas/** text eol=lf
+/scripts/reproduce_iscas.py text eol=lf
+/tests/python/test_iscas_reproduction.py text eol=lf
