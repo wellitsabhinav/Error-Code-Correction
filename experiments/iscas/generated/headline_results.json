@@ -1,0 +1,21 @@
+{
+  "bch_seeds": 5,
+  "bch_setup_feasible_seeds": 0,
+  "boundary": "POST_ROUTE_ECC_LOGIC_ONLY",
+  "historical_activity_records": 46,
+  "historical_paired_cells": 23,
+  "hsiao_lower_cells": 4,
+  "matched_pairs": 4,
+  "paired_operation_cells": 20,
+  "primary_energy_records": 40,
+  "primary_seeds": [
+    13,
+    17,
+    19,
+    23
+  ],
+  "retained_diagnostic_energy_records": 6,
+  "schema_version": 1,
+  "verified_campaign_seal_entries": 1697,
+  "whole_sram_lifecycle_winner": null
+}

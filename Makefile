@@ -42,10 +42,10 @@ endif
 
 -include $(DEP)
 
-.PHONY: all help setup test smoke reviewer-smoke artifact-check docs-check reproduce lint clean clean-build gtest safeforge-decisive verify-ecc-math validate-ecc-math
+.PHONY: all help setup test smoke reviewer-smoke artifact-check docs-check reproduce reproduce-iscas lint clean clean-build gtest safeforge-decisive verify-ecc-math validate-ecc-math
 
 help:
-	@echo "GREEN-ECC-PHY reproducibility targets"
+	@echo "GREENS reproducibility targets"
 	@echo "  make                 Build the C++17 simulators"
 	@echo "  make setup           Install Python dependencies into the active environment"
 	@echo "  make test            Build and run the established native/Python test contract"
@@ -54,6 +54,7 @@ help:
 	@echo "  make artifact-check  Validate canonical manifests, IDs, and local links"
 	@echo "  make docs-check      Validate documentation and artifact links without rebuilding"
 	@echo "  make reproduce       Rebuild the established registry study and documentation"
+	@echo "  make reproduce-iscas  Derive ISCAS claims from frozen scientific evidence"
 	@echo "  make lint            Compile maintained Python entry points"
 	@echo "  make clean           Remove only local native build products"
 
@@ -75,6 +76,9 @@ smoke: reviewer-smoke
 
 reproduce:
 	python scripts/build_documentation.py
+
+reproduce-iscas:
+	python scripts/reproduce_iscas.py
 
 lint:
 	python -m compileall -q green_ecc_phy ml validation scripts/check_artifact.py
