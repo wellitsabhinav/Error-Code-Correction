@@ -3,10 +3,10 @@ name: GREENS extended validation
 on:
   workflow_dispatch:
   pull_request:
-    paths: ["**.py", "**.cpp", "**.hpp", "**.sv", "**.v", "requirements*.txt", ".github/workflows/ci.yml"]
+    paths: ["**.py", "**.cpp", "**.hpp", "**.sv", "**.v", "requirements*.txt", "Makefile", "CMakeLists.txt", ".github/workflows/ci.yml"]
   push:
     branches: [main]
-    paths: ["**.py", "**.cpp", "**.hpp", "**.sv", "**.v", "requirements*.txt", ".github/workflows/ci.yml"]
+    paths: ["**.py", "**.cpp", "**.hpp", "**.sv", "**.v", "requirements*.txt", "Makefile", "CMakeLists.txt", ".github/workflows/ci.yml"]
 
 permissions:
   contents: read

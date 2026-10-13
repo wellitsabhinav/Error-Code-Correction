@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import ast
+from datetime import date, datetime
 import json
 from pathlib import Path
 import re
@@ -26,7 +27,7 @@ def changed_paths(base: str | None) -> list[Path]:
     if base:
         if not base.strip('0'):
             base = 'origin/main'
-        names = subprocess.check_output(['git', 'diff', '--name-only', base, 'HEAD'], cwd=ROOT, text=True).splitlines()
+        names = subprocess.check_output(['git', 'diff', '--diff-filter=ACMR', '--name-only', base, 'HEAD'], cwd=ROOT, text=True).splitlines()
     else:
         names = subprocess.check_output(['git', 'ls-files'], cwd=ROOT, text=True).splitlines()
     return [ROOT / name for name in names]
@@ -38,20 +39,45 @@ def public_markdown(path: Path) -> bool:
         ('campaigns/', 'cleanup/', 'archives/', 'reports/', 'docs/date2027/', 'docs/archive/'))
 
 
+def fences_balanced(text: str) -> bool:
+    opener = None
+    for line in text.splitlines():
+        match = re.match(r'^ {0,3}(`{3,}|~{3,})(.*)$', line)
+        if not match:
+            continue
+        delimiter, tail = match.groups()
+        if opener is None:
+            if delimiter[0] != '`' or '`' not in tail:
+                opener = delimiter
+        elif delimiter[0] == opener[0] and len(delimiter) >= len(opener) and not tail.strip():
+            opener = None
+    return opener is None
+
+
+def normalize_yaml_dates(value):
+    if isinstance(value, (date, datetime)):
+        return value.isoformat()
+    if isinstance(value, dict):
+        return {key: normalize_yaml_dates(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [normalize_yaml_dates(item) for item in value]
+    return value
+
+
 def validate(paths: list[Path]) -> list[str]:
     errors = []
-    markdown = [p for p in paths if p.is_file() and public_markdown(p)]
+    tracked = subprocess.check_output(['git', 'ls-files', '*.md'], cwd=ROOT, text=True).splitlines()
+    markdown = [ROOT / name for name in tracked if (ROOT / name).is_file() and public_markdown(ROOT / name)]
     errors.extend(broken_markdown_links(markdown))
     for path in paths:
         relative = path.relative_to(ROOT).as_posix()
-        if TRANSIENT.search(relative):
-            errors.append('committed transient file: ' + relative)
         if not path.is_file():
             continue
+        if TRANSIENT.search(relative):
+            errors.append('committed transient file: ' + relative)
         if public_markdown(path):
             text = path.read_text(encoding='utf-8')
-            fences = re.findall(r'^\s*(`{3,}|~{3,}).*$', text, flags=re.MULTILINE)
-            if len(fences) % 2:
+            if not fences_balanced(text):
                 errors.append('unbalanced Markdown fences: ' + relative)
             for line in text.splitlines():
                 # External citations and exact tool versions are legitimate.
@@ -83,7 +109,7 @@ def validate(paths: list[Path]) -> list[str]:
                 ast.parse(path.read_text(encoding='utf-8'), filename=relative)
             except SyntaxError:
                 errors.append('invalid Python syntax: ' + relative)
-    citation = yaml.safe_load((ROOT / 'CITATION.cff').read_text(encoding='utf-8'))
+    citation = normalize_yaml_dates(yaml.safe_load((ROOT / 'CITATION.cff').read_text(encoding='utf-8')))
     schema = json.loads((ROOT / 'schemas/citation-1.2.0.schema.json').read_text(encoding='utf-8'))
     try:
         jsonschema.Draft7Validator(schema, format_checker=jsonschema.FormatChecker()).validate(citation)
