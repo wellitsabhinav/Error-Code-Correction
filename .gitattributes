@@ -5,6 +5,7 @@
 /scripts/gate*/** text=auto eol=lf
 /asic/rtl/** text=auto eol=lf
 /tests/fixtures/multi_ecc_external/** text=auto eol=lf
+/docs/RESEARCH_NOVELTY.md text eol=lf
 /asic/rtl/bch/bch_codec.sv text eol=lf
 /asic/rtl/secded/secded_codec.sv text eol=lf
 /asic/rtl/secdaec/secdaec_codec.sv text eol=lf
