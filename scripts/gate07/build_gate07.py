@@ -1015,7 +1015,12 @@ All final claims, figure data, table rows, limitations, reviewer resolutions, an
     write_text(output / "GATE07_ADJUDICATION.md", adjudication)
 
     manifest_rows = []
-    for path in sorted(item for item in output.rglob("*") if item.is_file() and item.name != "GATE07_EVIDENCE.sha256"):
+    # Preserve the frozen Windows ordering explicitly on every platform.
+    # Path's native comparison orders TABLE_I/TABLE_II differently on POSIX.
+    for path in sorted(
+        (item for item in output.rglob("*") if item.is_file() and item.name != "GATE07_EVIDENCE.sha256"),
+        key=lambda item: item.relative_to(output).as_posix().casefold(),
+    ):
         manifest_rows.append(f"{sha256(path)}  ./{path.relative_to(output).as_posix()}")
     write_text(output / "GATE07_EVIDENCE.sha256", "\n".join(manifest_rows))
 
