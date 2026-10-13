@@ -1,4 +1,10 @@
 /asic/include/ecc_pkg.sv text eol=lf
+# Canonical defaults for retained evidence whose integrity records require LF.
+# Specific CRLF and raw-byte exceptions later in this file remain authoritative.
+/docs/date2027/** text=auto eol=lf
+/scripts/gate*/** text=auto eol=lf
+/asic/rtl/** text=auto eol=lf
+/tests/fixtures/multi_ecc_external/** text=auto eol=lf
 /asic/rtl/bch/bch_codec.sv text eol=lf
 /asic/rtl/secded/secded_codec.sv text eol=lf
 /asic/rtl/secdaec/secdaec_codec.sv text eol=lf
