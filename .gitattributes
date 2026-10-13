@@ -226,5 +226,8 @@
 /docs/physical_validation/** text eol=lf
 /docs/maintenance/** text eol=lf
 /docs/figure_data/** text eol=lf
+# The retained figure manifest binds the original CRLF SVG representations.
+/docs/figures/*.svg text eol=crlf
+/docs/figures/greens_research_flow.svg text eol=lf
 /scripts/generate_greens_flow.py text eol=lf
 /scripts/check_documentation.py text eol=lf
