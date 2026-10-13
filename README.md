@@ -67,8 +67,9 @@ A directory's existence does not make its implementation paper-qualified. [Archi
 Use Python 3.10–3.12 and a repository clone. This path needs no EDA tools, PDK installation, or native build.
 
 ```bash
-git clone https://github.com/wellitsabhinav/Error-Code-Correction.git GREENS
+git -c core.longpaths=true clone --depth 1 https://github.com/wellitsabhinav/Error-Code-Correction.git GREENS
 cd GREENS
+git config core.longpaths true
 python -m venv .venv
 # Activate .venv in your shell, then:
 python -m pip install -r requirements.txt
