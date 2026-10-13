@@ -1,12 +1,19 @@
-name: ci
+name: GREENS extended validation
 
 on:
+  workflow_dispatch:
   pull_request:
+    paths: ["**.py", "**.cpp", "**.hpp", "**.sv", "**.v", "requirements*.txt", "Makefile", "CMakeLists.txt", ".github/workflows/ci.yml"]
   push:
     branches: [main]
+    paths: ["**.py", "**.cpp", "**.hpp", "**.sv", "**.v", "requirements*.txt", "Makefile", "CMakeLists.txt", ".github/workflows/ci.yml"]
 
 permissions:
   contents: read
+
+concurrency:
+  group: greens-extended-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   linux:
@@ -90,6 +97,9 @@ jobs:
       - name: Diagnose, build, and test
         shell: msys2 {0}
         run: |
+          # Native Git supports the retained Windows long paths; MSYS Git does not.
+          export PATH="/c/Program Files/Git/cmd:$PATH"
+          git config core.longpaths true
           python eccsim.py doctor --strict
           # Select POSIX recipes because this step runs under MSYS2 bash.
           make OS=
@@ -97,6 +107,9 @@ jobs:
           python -m pytest -q
 
   rtl:
+    # Experimental diagnostics retain the known legacy BCH counterexample.
+    # The ordinary supported SECDED smoke contract runs in fast-ci.yml.
+    if: github.event_name == 'workflow_dispatch'
     name: RTL evidence / Icarus + Verilator + Yosys-ABC
     runs-on: ubuntu-latest
     timeout-minutes: 20

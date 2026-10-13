@@ -1,4 +1,13 @@
 /asic/include/ecc_pkg.sv text eol=lf
+# Canonical defaults for retained evidence whose integrity records require LF.
+# Specific CRLF and raw-byte exceptions later in this file remain authoritative.
+/docs/date2027/** text=auto eol=lf
+/scripts/gate*/** text=auto eol=lf
+/asic/rtl/** text=auto eol=lf
+/tests/fixtures/multi_ecc_external/** text=auto eol=lf
+/docs/RESEARCH_NOVELTY.md text eol=lf
+/docs/PORTFOLIO_COSYNTHESIS_NOVELTY_GATE.md text eol=lf
+/docs/SAFEFORGE_LITERATURE.md text eol=lf
 /asic/rtl/bch/bch_codec.sv text eol=lf
 /asic/rtl/secded/secded_codec.sv text eol=lf
 /asic/rtl/secdaec/secdaec_codec.sv text eol=lf
@@ -83,6 +92,7 @@
 /campaigns/iscas_sustainability_extension/green_matrix_v3_2/**/*.md text eol=crlf
 /campaigns/iscas_sustainability_extension/green_matrix_v3_2/**/*.py text eol=crlf
 /campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt10_green_matrix_physical_model_validation/energy/postroute/read_dominant/*/slash_scope/*.rpt -text !eol
+/campaigns/iscas_sustainability_extension/memory_compiler/gate3_attempt10_green_matrix_physical_model_validation/energy/runtime/ivl/cadpli.vpl -text !eol
 
 # The matched v3.2 manifest freezes SRAM22 macro views as they were originally
 # materialized with CRLF.  Keep those byte identities stable on every host.

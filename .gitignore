@@ -86,6 +86,8 @@ tests/fixtures/runtime_ml_feature_pack/
 venv/
 .vscode/
 .idea/
+# Local documentation/diagram tooling; scientific records remain tracked.
+node_modules/
 # Explicit scratch roots avoid ignoring canonical configs/results/manifests.
 /scratch/
 /experiment_scratch/
