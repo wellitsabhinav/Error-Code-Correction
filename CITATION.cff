@@ -1,9 +1,17 @@
 cff-version: 1.2.0
-message: "If you use this software or its research artifacts, cite this repository commit and the specific campaign identifier used."
-title: "GREEN-ECC-PHY"
+message: "If you use GREENS or its research artifacts, cite this repository and the named supporting evidence dataset."
+title: "GREENS"
 type: software
 authors:
-  - name: "GREEN-ECC-PHY contributors"
-version: "0.1"
+  - family-names: "Choudhary"
+    given-names: "Abhinav"
+    orcid: "https://orcid.org/0009-0001-4892-5438"
+abstract: "Evidence-qualified research for SRAM ECC hardware, physical implementation, and conditional reliability-energy decisions."
 repository-code: "https://github.com/wellitsabhinav/Error-Code-Correction"
 license: MIT
+keywords:
+  - ECC
+  - SRAM
+  - RTL
+  - OpenROAD
+  - reproducibility

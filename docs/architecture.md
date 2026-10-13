@@ -1,6 +1,6 @@
 # Architecture
 
-GREEN has a reusable software layer and an additive campaign-evidence layer. The reusable layer registers identities, verifies behavior, normalizes results, and analyzes scenarios. Campaign directories bind that machinery to exact tools, PDKs, clocks, seeds, workloads, and immutable source hashes.
+GREENS has a reusable software layer and an additive campaign-evidence layer. The reusable layer registers identities, verifies behavior, normalizes results, and analyzes scenarios. Campaign directories bind that machinery to exact tools, PDKs, clocks, seeds, workloads, and immutable source hashes.
 
 ```text
 Code/implementation manifests ------> schema + hash validation

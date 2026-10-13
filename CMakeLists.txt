@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(ECCsim LANGUAGES CXX)
+project(GREENS LANGUAGES CXX)
 
 if(POLICY CMP0135)
     cmake_policy(SET CMP0135 NEW)

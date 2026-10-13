@@ -24,7 +24,7 @@ SRAM macro-internal activity and energy remain incomplete, so these records are 
 
 ## Fresh OpenRAM attempt
 
-The fresh target was 256 words × 72 bits, one read/write port, one bank, two words per row, TT/1.8 V/25 °C. OpenRAM 1.2.48 at commit `b6a6f12642df6b84facc24a77f9a6f67a0d62dab` ran for 10,800 seconds and exited 137. A compiler log and partial geometry were recorded; fresh LEF, Liberty, Verilog, SPICE, completed DRC/LVS, and characterization were not produced. Inherited SRAM22 macros are separate evidence and must not be described as fresh OpenRAM output.
+The fresh target was 256 words × 72 bits, one read/write port, one bank, two words per row, TT/1.8 V/25 °C. OpenRAM 1.2.48 ran for 10,800 seconds and exited 137. A compiler log and partial geometry were recorded; fresh LEF, Liberty, Verilog, SPICE, completed DRC/LVS, and characterization were not produced. Inherited SRAM22 macros are separate evidence and must not be described as fresh OpenRAM output.
 
 ## Reproduction policy
 

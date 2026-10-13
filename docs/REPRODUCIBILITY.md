@@ -1,6 +1,10 @@
-# Reproducibility
+# GREENS reproducibility
 
-## Level 1: reviewer smoke path
+## ISCAS claim reproduction
+
+Start with [the ISCAS artifact](../experiments/iscas/README.md). Run `python scripts/reproduce_iscas.py`, then `python scripts/reproduce_iscas.py --check`. This consumes repository-contained evidence and generates the primary cohort tables and figure without EDA tools or development-history reconstruction.
+
+## Level 1: broader reviewer smoke path
 
 From the repository root, in a Python 3.10–3.12 environment:
 
@@ -32,7 +36,7 @@ A physical rerun requires the exact or explicitly migrated container/tool/PDK/li
 
 ## Determinism and provenance
 
-Software workflows record fixed seeds where randomness is intentional. Evidence packages bind inputs, repository commits, tool versions, commands, output hashes, and qualification states. Historical absolute paths document where a job ran; they are not installation defaults.
+Software workflows record fixed seeds where randomness is intentional. Evidence packages bind named inputs, tool conditions, operation definitions, and qualification states. Machine-readable integrity checks validate retained records automatically.
 
 Exact regeneration can still differ when compiler, solver, standard-library, EDA, or PDK identities differ. Treat a changed hash as a result to investigate, not something to rewrite silently.
 

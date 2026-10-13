@@ -1,4 +1,4 @@
-# Contributing
+# Contributing to GREENS
 
 Contributions are welcome when they preserve compatibility, scientific provenance, and explicit evidence boundaries. By participating, follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 
@@ -28,10 +28,20 @@ make
 make test
 python -m pytest -q
 python scripts/check_artifact.py
+python scripts/check_documentation.py
+python scripts/reproduce_iscas.py --check
 git diff --check
 ```
 
 Add focused unit/regression coverage and preserve golden CLI outputs. ML code belongs under `ml/`, remains advisory, and requires deterministic training, OOD fallback, and train-to-predict smoke tests. Generated test data must use temporary directories and must not be committed.
+
+## Add a hardware identity
+
+Declare protection semantics and the error universe, payload/codeword mapping, interface, reset behavior, latency, initiation interval, and supported flags. Add clean/error/unsupported-mask verification, retain failures, and provide explicit alignment/formal evidence for equivalence claims. A pipeline, structural realization, macro organization, or physical-flow change creates another identity and requires its own physical evidence when physical claims are made.
+
+## Reviewer derivations
+
+Run `python scripts/reproduce_iscas.py --check` after changing the ISCAS analysis or navigation. Default output is ignored `tmp/reproduce-iscas/`. Refresh intentionally tracked CSV/JSON/SVG references only with a documented analysis change. Use semantic scientific identifiers in public prose and keep necessary checksums in machine-readable integrity mechanisms. Remove author filesystem, machine, branch-development, and debugging metadata from public examples.
 
 ## Evidence and reporting
 
@@ -41,4 +51,4 @@ See the [Developer guide](docs/developer-guide.md), [Adding an ECC](docs/adding-
 
 ## Pull requests
 
-Keep changes focused and describe: scientific intent; compatibility impact; commands run; result/claim changes; added evidence and its tier; retained failures; and any unavailable validation. Do not include local binaries, temporary renders, caches, credentials, private datasets, or unlicensed third-party material.
+Keep pull requests focused. Explain why, what changed, scientific impact, validation, reproducibility impact, reviewer-facing impact, and a checklist. Merge only after all relevant checks pass and review findings are resolved; follow protected-branch policy. Never push directly to main. Do not include local binaries, temporary renders, caches, credentials, private datasets, or unlicensed third-party material.

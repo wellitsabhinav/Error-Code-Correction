@@ -1,4 +1,4 @@
-# Getting started
+# Getting started with GREENS
 
 This path produces a useful result without installing a physical-design stack.
 
@@ -12,8 +12,8 @@ This path produces a useful result without installing a physical-design stack.
 From a shell in the directory where you keep source repositories:
 
 ```bash
-git clone https://github.com/AbhinavChoudhary24167/Error-Code-Correction.git
-cd Error-Code-Correction
+git clone https://github.com/wellitsabhinav/Error-Code-Correction.git GREENS
+cd GREENS
 python -m venv .venv
 ```
 

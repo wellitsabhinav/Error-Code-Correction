@@ -1,13 +1,16 @@
-# GREEN documentation
+# GREENS documentation
 
 This directory has two layers: stable public guides and detailed generated references. Start with the guide for your task; use generated pages when you need exact registry or result details.
 
 ## Start here
 
+[Project overview](project-overview.md) · [Results](results.md) · [Research outputs and citation](papers.md)
+
 | Reader | Path |
 |---|---|
 | First-time user | [Getting started](getting-started.md), then [Quickstart](quickstart.md) |
-| Artifact reviewer | [Reviewer guide](reviewer-guide.md), [Evidence model](evidence-model.md), [Evidence map](evidence-map.md) |
+| ISCAS reviewer | [Artifact overview](../experiments/iscas/README.md), [reproduce claims](../experiments/iscas/reproduction.md), [claim index](../experiments/iscas/claims.md) |
+| Broader artifact reviewer | [Reviewer guide](reviewer-guide.md), [Evidence model](evidence-model.md), [Evidence map](evidence-map.md) |
 | Research user | [Methodology](methodology.md), [Experiment pipeline](experiment-pipeline.md), [Results schema](results-schema.md) |
 | Physical-design user | [Physical design](physical-design.md), [Installation](INSTALLATION.md), [Troubleshooting](TROUBLESHOOTING.md) |
 | Contributor | [Developer guide](developer-guide.md), [Adding an ECC](adding-an-ecc.md), [Adding an experiment](adding-an-experiment.md) |

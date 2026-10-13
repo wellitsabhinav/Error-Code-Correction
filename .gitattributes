@@ -214,3 +214,17 @@
 /experiments/iscas/** text eol=lf
 /scripts/reproduce_iscas.py text eol=lf
 /tests/python/test_iscas_reproduction.py text eol=lf
+
+# Maintained public documentation and reproducible numerical figure data.
+/README.md text eol=lf
+/AGENTS.md text eol=lf
+/CITATION.cff text eol=lf
+/CONTRIBUTING.md text eol=lf
+/GREEN_ECC_PHY_TECHNICAL_GUIDE.md text eol=lf
+/docs/*.md text eol=lf
+/docs/reproduction/** text eol=lf
+/docs/physical_validation/** text eol=lf
+/docs/maintenance/** text eol=lf
+/docs/figure_data/** text eol=lf
+/scripts/generate_greens_flow.py text eol=lf
+/scripts/check_documentation.py text eol=lf

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import ast
+import hashlib
 from datetime import date, datetime
 import json
 from pathlib import Path
@@ -20,6 +21,8 @@ from scripts.check_artifact import broken_markdown_links  # noqa: E402
 
 PERSONAL_PATH = re.compile(r"(?<![\w])(?:[A-Za-z]:[\\/](?=\S)|/home/[\w.-]+/|/mnt/[a-z]/|/Users/[\w.-]+/|/root/(?:\.codex|workspace)/|/tmp/codex[\w.-]*/)")
 DEVELOPMENT_HASH = re.compile(r"\b[0-9a-f]{40,64}\b", re.IGNORECASE)
+# Original executed capability-gate record; retain its byte-bound provenance.
+HISTORICAL_PROVENANCE_FILES = {'green_ecc_physical_simulation/SIMULATION_CAPABILITY_AUDIT.md'}
 TRANSIENT = re.compile(r"(^|/)(__pycache__|node_modules|\.pytest_cache|\.venv|local_tmp)(/|$)|\.pyc$")
 
 
@@ -35,7 +38,7 @@ def changed_paths(base: str | None) -> list[Path]:
 
 def public_markdown(path: Path) -> bool:
     relative = path.relative_to(ROOT).as_posix()
-    return path.suffix == '.md' and not relative.startswith(
+    return path.suffix == '.md' and relative not in HISTORICAL_PROVENANCE_FILES and not relative.startswith(
         ('campaigns/', 'cleanup/', 'archives/', 'reports/', 'docs/date2027/', 'docs/archive/'))
 
 
@@ -66,6 +69,12 @@ def normalize_yaml_dates(value):
 
 def validate(paths: list[Path]) -> list[str]:
     errors = []
+    identity = json.loads((ROOT / 'docs/maintenance/integrity/historical_records.json').read_text(encoding='utf8'))
+    for relative in HISTORICAL_PROVENANCE_FILES:
+        record = ROOT / relative
+        expected = identity['records'][relative]['sha256']
+        if hashlib.sha256(record.read_bytes().replace(b'\r\n', b'\n')).hexdigest() != expected:
+            errors.append('historical provenance content changed: ' + relative)
     tracked = subprocess.check_output(['git', 'ls-files', '*.md'], cwd=ROOT, text=True).splitlines()
     markdown = [ROOT / name for name in tracked if (ROOT / name).is_file() and public_markdown(ROOT / name)]
     errors.extend(broken_markdown_links(markdown))

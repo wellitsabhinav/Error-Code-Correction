@@ -1,4 +1,6 @@
-# Canonical results and reproduction
+# GREENS canonical results and reproduction
+
+For ISCAS, use the [primary cohort](../../experiments/iscas/README.md), [claim index](../../experiments/iscas/claims.md), and `python scripts/reproduce_iscas.py --check`. The primary 40-record/20-cell set checks hold and complete operations; the retained 46-record/23-cell population below includes diagnostic seed-11 reads.
 
 | Population | Canonical record | Scope |
 |---|---|---|
