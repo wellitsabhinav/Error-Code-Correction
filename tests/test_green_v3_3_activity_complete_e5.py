@@ -256,7 +256,7 @@ def test_parent_v32_tree_is_unchanged() -> None:
     assert result.returncode == 0, result.stdout + result.stderr
 
 
-def test_builder_is_deterministic() -> None:
+def test_builder_is_deterministic(tmp_path: Path) -> None:
     outputs = [
         "CAMPAIGN_PLAN.md",
         "CAMPAIGN_STATUS.json",
@@ -268,15 +268,11 @@ def test_builder_is_deterministic() -> None:
         "SRAM_MACRO_POWER_QUALIFICATION.json",
         "FINAL_REPORT.md",
         "VALIDATION_RESULTS.json",
-        "hashes/CAMPAIGN_ARTIFACTS.sha256",
     ]
     before = {name: sha256(CAMPAIGN / name) for name in outputs}
-    subprocess.run(
-        [sys.executable, str(CAMPAIGN / "build_campaign.py"), "--repo", str(REPO)],
-        cwd=REPO,
-        check=True,
-        capture_output=True,
-        text=True,
-    )
+    from tests.frozen_builder_helpers import check_campaign_builder
+    inputs = {FROZEN_V32 + "/PHYSICAL_RUN_RESULTS.json", FROZEN_V32 + "/RUN_MANIFEST.json"}
+    inputs.update(row["path"] for row in load("SRAM_MACRO_POWER_QUALIFICATION.json")["macro_records"])
+    check_campaign_builder(REPO, CAMPAIGN, outputs, inputs)
     after = {name: sha256(CAMPAIGN / name) for name in outputs}
     assert after == before

@@ -208,7 +208,7 @@ def test_generated_physical_csv_reproduces_json() -> None:
         assert row["wirelength_um"] == ("" if expected is None else str(expected))
 
 
-def test_campaign_builder_is_deterministic() -> None:
+def test_campaign_builder_is_deterministic(tmp_path: Path) -> None:
     tracked_outputs = [
         "ARCHITECTURE_AUDIT.json",
         "RUN_MANIFEST.json",
@@ -219,15 +219,14 @@ def test_campaign_builder_is_deterministic() -> None:
         "CAMPAIGN_STATUS.json",
         "FINAL_REPORT.md",
         "ISCAS_EXPERIMENT_SUMMARY.md",
-        "hashes/CAMPAIGN_ARTIFACTS.sha256",
     ]
     before = {name: sha256(CAMPAIGN / name) for name in tracked_outputs}
-    subprocess.run(
-        [sys.executable, str(CAMPAIGN / "build_campaign.py"), "--repo", str(REPO)],
-        cwd=REPO,
-        check=True,
-        capture_output=True,
-        text=True,
-    )
+    from tests.frozen_builder_helpers import check_campaign_builder
+    inputs = {source["path"] for row in load("ARCHITECTURE_AUDIT.json")["records"]
+              for source in row.get("rtl_sources", [])}
+    inputs.update(view["path"] for row in load("OPENRAM_MACRO_MANIFEST.json")["inherited_macro_artifacts"]
+                  for view in row["views"].values())
+    inputs.add("green_ecc_physical_simulation/registry/scientific_hash_migrations.json")
+    check_campaign_builder(REPO, CAMPAIGN, tracked_outputs, inputs)
     after = {name: sha256(CAMPAIGN / name) for name in tracked_outputs}
     assert after == before

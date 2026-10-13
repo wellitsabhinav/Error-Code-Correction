@@ -97,6 +97,9 @@ jobs:
       - name: Diagnose, build, and test
         shell: msys2 {0}
         run: |
+          # Native Git supports the retained Windows long paths; MSYS Git does not.
+          export PATH="/c/Program Files/Git/cmd:$PATH"
+          git config core.longpaths true
           python eccsim.py doctor --strict
           # Select POSIX recipes because this step runs under MSYS2 bash.
           make OS=
