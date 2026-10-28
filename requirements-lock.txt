@@ -18,11 +18,11 @@ numpy==2.2.6
 packaging==26.3
 pandas==2.3.3
 pillow==12.3.0
-pluggy==1.6.0
+pluggy==1.7.0
 pyparsing==3.3.3
-pypdf==6.20.1
+pypdf==6.21.2
 pytest==9.1.1
-python-dateutil==2.9.0.post0
+python-dateutil==3.0.0
 pytz==2026.5
 referencing==0.37.0
 rpds-py==0.30.0
