@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "campaign_id": "GREENS-PHASE2-PLUS-R1",
+  "parent_research_commit": "967015e1501bf237800f8851bd78ea12f36938af",
+  "baseline_manifest_sha256": "b3b96bfa26396ab15a7cc57fa2327005b1a8ce82aeacc148dec86c7a95d7052f",
+  "budget_hours": 24,
+  "archive_search_minutes": 60,
+  "storage": {
+    "max_additional_persistent_gib": 15,
+    "max_additional_temporary_gib": 8,
+    "min_free_gib": 10,
+    "single_waveform_mib": 256,
+    "retained_waveforms_per_configuration": 3
+  },
+  "execution": {
+    "parallel_openroad_jobs": 1,
+    "parallel_gate_simulation_jobs": 1,
+    "retries_after_failure": 1,
+    "initial_operations": 1000,
+    "initial_placement_seeds": [17]
+  },
+  "hypotheses": {
+    "H1": "Propagated primary-input activity can deviate materially from delay-aware internal ECC activity on the same netlist.",
+    "H2": "Mapping, capacitance, logic sharing, registers and delay-induced activity can jointly affect ECC energy.",
+    "H3": "Data activity, operation class, utilization and injected error conditions can change the architecture preference.",
+    "H4": "Manufacturing burden can change the ranking implied by operational energy.",
+    "H5": "Manufacturing boundary, deployment grid, workload and lifetime can change the conditional carbon decision.",
+    "H6": "Lifecycle selection can improve on area or energy selection over a declared deployment set."
+  },
+  "materiality_percent": {
+    "energy": 5,
+    "estimator_error": 5,
+    "lifecycle": 5,
+    "convergence_range": [1, 2],
+    "sensitivity": [1, 2, 5, 10]
+  },
+  "admission": {
+    "physical": "Use a new configuration identity and require route, setup and hold separately, with source, tool, Liberty, parasitic and constraint hashes.",
+    "delay_power": "Require a matched physical run, relevant delay and check qualification, a passing scoreboard, verified internal activity import and measured coverage. Any restricted production protocol requires explicit approval.",
+    "carbon": "Compare matched service and implementation cohorts. Historical and hypothetical operands remain labeled. Leave missing required inputs unavailable.",
+    "optimization": "Require materiality and feasible held-out evidence before changing RTL or claiming an improved implementation."
+  }
+}

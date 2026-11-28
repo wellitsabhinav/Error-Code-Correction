@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "format": "JSON syntax accepted as YAML 1.2 for stdlib reproducibility",
+  "lifetimes_years": [1, 3, 5, 10, 15],
+  "utilizations": [0.01, 0.05, 0.10, 0.25, 0.50, 0.75, 1.0],
+  "grid_ids": ["grid_low", "grid_mid", "grid_high"],
+  "wafer_ids": ["tsmc8_2020", "tsmc8_2023", "tsmc8_2025"],
+  "wafer_model": {"edge_mm": 3, "scribe_mm": 0.08, "die_yield": 0.9, "aspect_ratio": 1.0},
+  "parent_die_mm2": 10.0,
+  "effective_area_utilization": 0.35,
+  "allocation_models": ["fixed", "allocated", "marginal"],
+  "date_comparison": {
+    "required_latency_cycles": 3,
+    "max_area_um2": 35000,
+    "assumed_equal_idle_w": 0.0,
+    "workload": "paired, concurrent stand-alone encoder and decoder, historical no-error trace"
+  },
+  "sram_comparison": {
+    "capacity_words": 256,
+    "required_equal_service": "SRAM22_256x72_SECDED_W1_CORRECT_W2_DETECT",
+    "models": ["fixed"],
+    "mixes": {
+      "read_only": {"READ_CLEAN": 1.0},
+      "read_dominated": {"READ_CLEAN": 0.9, "WRITE_CLEAN": 0.1},
+      "balanced": {"READ_CLEAN": 0.5, "WRITE_CLEAN": 0.5},
+      "write_dominated": {"READ_CLEAN": 0.1, "WRITE_CLEAN": 0.9},
+      "correction_stress": {"READ_CLEAN": 0.2, "WRITE_CLEAN": 0.1, "READ_SINGLE_BIT_ERROR_CORRECT": 0.6, "READ_DOUBLE_BIT_ERROR_DETECT": 0.1}
+    }
+  },
+  "sensitivity": {
+    "joint_manufacturing_points": [
+      {"id": "dense-layout", "parent_die_mm2": 2, "edge_mm": 2, "scribe_mm": 0.05, "die_yield": 0.98, "effective_area_utilization": 0.65},
+      {"id": "larger-low-yield", "parent_die_mm2": 100, "edge_mm": 4, "scribe_mm": 0.10, "die_yield": 0.7, "effective_area_utilization": 0.25}
+    ],
+    "hypothetical_idle_delta_w": [-0.0001, 0, 0.0001],
+    "hypothetical_relative_delta_thresholds": [0.01, 0.02, 0.05, 0.10],
+    "hypothetical_time_grid": ["grid_mid", "grid_low"],
+    "manufacturing_years_with_no_admitted_inventory": [2030, 2035]
+  },
+  "interpretation": "Joint scenario enumeration with shared parameters within each matched seed pair. There are no scenario probabilities, no field error rates, and no calibrated SKY130 carbon factors."
+}

@@ -1,0 +1,13 @@
+{
+  "experiment_id": "P2P-ZERO-DELAY-WORKLOAD-R1",
+  "boundary": "The same seed-17 reconstructed codec pair and same-layout zero-delay internal VCD import; no SDF is applied",
+  "operations": 1000,
+  "workload_seed": 17,
+  "fault_seed": 8133,
+  "clean_payloads": ["uniform", "alternating", "low_hd", "medium_hd", "high_hd", "identical", "counter", "spatial"],
+  "fault_profiles_with_uniform_payloads": ["single_data", "single_check", "double", "adjacent_multi"],
+  "mixed_counts": {"none": 700, "single_data": 100, "single_check": 100, "double": 100},
+  "scope": "Fault injection is a deterministic stress workload. Adjacent weight-3 behavior is an observation outside SECDED guarantees. Predictions are compared with an actual mixed trace so that temporal effects remain visible.",
+  "max_additional_bytes": 1610612736,
+  "min_direct_vcd_pin_fraction": 0.95
+}

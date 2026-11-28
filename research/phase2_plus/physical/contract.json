@@ -1,0 +1,37 @@
+{
+  "experiment_id": "PHASE2_PLUS_RECONSTRUCTED_BASELINE_R1",
+  "container": "sha256:8eff077230b86729f6248b34eeab370e486fa4052d34c60d9067e3e4aa720987",
+  "historical_container": "openroad/orfs@sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+  "platform": "sky130hd",
+  "corner": "TT",
+  "voltage_v": 1.8,
+  "temperature_c": 25,
+  "liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "placement_and_route_seed": 17,
+  "clock_period_ns": 10.0,
+  "abc_clock_period_ps": 10000,
+  "constraints": "scripts/revision2/configs/ecc.sdc",
+  "physical_profiles": {
+    "secded_comb": "gate04_secded_comb_72_64",
+    "secded_pipe": "gate04_secded_pipe_72_64"
+  },
+  "source_identity": "scripts/revision2/contract_v1.json",
+  "service": "SECDED(72,64), W1 correction and W2 detection; independent encoder and decoder ports; synchronous active-low shell reset; II=1; comb latency 1 and pipeline latency 3 cycles. Decoder echo is the raw input.",
+  "workload": {
+    "id": "gate04-clean-prefix-1000",
+    "generator": "scripts/gate04/generate_traces.py",
+    "operations": 1000,
+    "boundary": "simultaneous encoder/decoder stimulus with zero injected errors",
+    "payload_seed": 104375203646206,
+    "fault_seed": 7085774586302733229,
+    "window_includes_reset_and_drain": true
+  },
+  "limits": {
+    "cores": 1,
+    "memory_gib": 2.5,
+    "seconds_per_implementation": 1800,
+    "peak_bytes_for_pair": 1610612736
+  },
+  "exceptions": "New pinned ORFS image. No SRAM/macros, resize bypass, or architecture-specific tuning. Tool checks do not establish signoff.",
+  "expected_outputs": ["synthesis netlist", "routed ODB/Verilog/SDC/SPEF", "SDF", "setup and hold paths", "ORFS metrics", "propagated-activity estimates"]
+}

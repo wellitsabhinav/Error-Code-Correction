@@ -1,0 +1,18 @@
+{
+  "experiment_id": "P2P-SYNTHETIC-SDF-V13-R1",
+  "release": "v13_0",
+  "upstream_commit": "dfeee909ed9f20b4870dd93423156c0170c0e1ff",
+  "url": "https://api.github.com/repos/steveicarus/iverilog/tarball/dfeee909ed9f20b4870dd93423156c0170c0e1ff",
+  "archive_sha256": "037afb953e6a773038948378e4db2284ba090f94395b5982ff18abf0fe17c7d0",
+  "build_packages": {
+    "autoconf_2.71-3_all.deb": "cc3f9f7a1e576173fb59c36652c0a67c6426feae752b352404ba92dfcb1b26c9",
+    "gperf_3.1-1build1_amd64.deb": "f6701027304592fe819d219a5ee00d8b56ba4b2a05a7623dd923f1884d595042",
+    "m4_1.4.19-4build1_amd64.deb": "30ea715845a1863abd55d11e47ab91513130bf347852d4cdeae69e9d98fa795c"
+  },
+  "image": "sha256:8eff077230b86729f6248b34eeab370e486fa4052d34c60d9067e3e4aa720987",
+  "license": "Icarus Verilog GPL terms in source COPYING; upstream includes per-component notices. Built tool is local only.",
+  "cores": 1,
+  "memory_mib": 2048,
+  "build_seconds": 900,
+  "scope": "Run v13 upstream interconnect controls and GREENS synthetic probes. No routed ECC power admission. Upstream at the pin explicitly warns for COND and TIMINGCHECK."
+}

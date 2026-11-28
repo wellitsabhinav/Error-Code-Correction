@@ -1,0 +1,27 @@
+{
+  "retrieval_date": "2026-11-28",
+  "sources_table": "sources.csv",
+  "industrial_report_versions": [
+    {
+      "id": "tsmc-2025",
+      "release": "https://esg.tsmc.com/en-US/search?q=sustainability+report",
+      "full_report": "https://esg.tsmc.com/file/public/2025-TSMC-Sustainability-Report-e.pdf",
+      "verified_section": "https://esg.tsmc.com.tw/en-US/file/public/e-APractitionerofGreenPower_1.pdf",
+      "boundary": "ISO 14067 and wafer fabrication services PCR, raw material extraction to completed manufacturing",
+      "version_note": "Product assessment goes annual from 2025 with third-party verification every three years. Corporate Scope 3 inventory has a revised boundary. The overlapping 8-inch 2020 and 2023 chart values agree with the prior report."
+    },
+    {
+      "id": "tsmc-2024",
+      "full_report": "https://esg.tsmc.com/file/public/2024-TSMC-Sustainability-Report-e.pdf",
+      "version_note": "The report attributes part of the 2023 change to expanded raw-material scope and to utilization. Its adjacent chart is a water footprint in m3 per wafer."
+    }
+  ],
+  "methods": {
+    "imec": "https://www.imec-int.com/en/articles/road-net-zero-emissions-ic-manufacturing",
+    "imec_access": "https://netzero.stable-latest.imec-int.com/introduction",
+    "epa_electricity_application": "https://www.epa.gov/system/files/documents/2025-01/using-egrid-to-determine-emissions.pdf",
+    "act_research_paper": "https://doi.org/10.1145/3470496.3527408",
+    "act_upstream_revision": "https://github.com/facebookresearch/ACT/tree/19fb8a28a739cf0d2892e0922ec13f1336e4ad64"
+  },
+  "provenance_rule": "Numeric scenario parameters cite rows in sources.csv. Sources without an observed matching value remain unavailable. Tiers describe compatibility and never promote a wafer category to a specific process."
+}

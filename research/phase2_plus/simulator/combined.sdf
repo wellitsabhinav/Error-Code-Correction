@@ -1,0 +1,13 @@
+(DELAYFILE
+ (SDFVERSION "3.0") (DESIGN "phase2_delays") (DIVIDER /) (TIMESCALE 1ns)
+ (CELL (CELLTYPE "phase2_delays") (INSTANCE)
+  (DELAY (ABSOLUTE
+   (INTERCONNECT source_buf/Y load_a/A (0.20:0.20:0.20) (0.40:0.40:0.40))
+   (INTERCONNECT source_buf/Y load_b/A (1.30:1.30:1.30) (1.60:1.60:1.60)))))
+ (CELL (CELLTYPE "phase2_buffer") (INSTANCE source_buf)
+  (DELAY (ABSOLUTE (IOPATH A Y (0.15:0.15:0.15) (0.35:0.35:0.35)))))
+ (CELL (CELLTYPE "phase2_buffer") (INSTANCE load_a)
+  (DELAY (ABSOLUTE (IOPATH A Y (0.10:0.10:0.10) (0.30:0.30:0.30)))))
+ (CELL (CELLTYPE "phase2_buffer") (INSTANCE load_b)
+  (DELAY (ABSOLUTE (IOPATH A Y (0.10:0.10:0.10) (0.30:0.30:0.30)))))
+)

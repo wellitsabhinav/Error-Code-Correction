@@ -1,0 +1,15 @@
+{
+  "experiment_id": "P2P-ZERO-DELAY-IMPORT-R1",
+  "parent": "PHASE2_PLUS_RECONSTRUCTED_BASELINE_R1",
+  "operation_count": 1000,
+  "service": "Simultaneous independent SECDED encoder and decoder with common clean input vectors at 100 MHz",
+  "window_start_ps": 60000,
+  "window_end_ps": 10100000,
+  "window_note": "The first six reset cycles are excluded. Four drain cycles are included for both architectures.",
+  "power_methods": {"A": "Primary input VCD with activity propagation", "B": "Routed zero-delay gate VCD"},
+  "prerequisites": "Both netlists have a completed route and nonnegative setup and hold. Scoreboard passes at known latency and exact operation count. Primary stimulus and clock signatures match. VCD and STA report raw pin annotations before and after power.",
+  "admission": "Direct internal input is observable. Label any coverage gaps. No delay-aware production or silicon assertion.",
+  "single_waveform_bytes": 268435456,
+  "min_direct_vcd_pin_fraction": 0.95,
+  "simulator": "Existing cached Icarus Verilog 12 stable"
+}

@@ -1,0 +1,7 @@
+physical_technology,requested_node_nm,direct_inventory,available_context,decision_use
+SKY130HD,130,UNAVAILABLE,TSMC nominal-200-mm eight-inch wafer category,TIER_B generic mature-node proxy for conditional sensitivity
+unimplemented,180,UNAVAILABLE,TSMC eight-inch wafer category,context only
+unimplemented,90,UNAVAILABLE,TSMC N16 to N90 aggregate,context only
+unimplemented,65,UNAVAILABLE,TSMC N16 to N90 aggregate,context only
+unimplemented,40,UNAVAILABLE,TSMC N16 to N90 aggregate,context only
+unimplemented,28,UNAVAILABLE,imec virtual fab N28 and TSMC N16 to N90 aggregate,context only
