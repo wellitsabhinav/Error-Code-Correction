@@ -1,0 +1,143 @@
+{
+  "delays": "Artificial controlled path delays, not Liberty-derived cell or routed-wire delays.",
+  "production_readiness": "BLOCKED",
+  "reason": "Synthetic assembly cannot qualify full routed ECC models, missing DATE physical artifacts or untested full annotation coverage.",
+  "results": [
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification_ns/zero_run.log",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 0,
+      "label": "zero",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 2696,
+      "vcd_sha256": "0c71686762b63f620232d4e44bf420ec61373b5f53eca580bdedd4ddf6f33e26",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification_ns/upstream_unassembled_run.log",
+      "applied_sdf_sha256": "4e5b72b3cf98e7f1ade032285f0f50bbc7fea5569feda457f3e88091fb024439",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 4,
+      "label": "upstream_unassembled",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 3824,
+      "vcd_sha256": "627167d07132cbaa2a6c0aadaf200c5f2a96e966ac7a88edec34e4fc416b3f94",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification_ns/iopath_min_run.log",
+      "applied_sdf_sha256": "4e5b72b3cf98e7f1ade032285f0f50bbc7fea5569feda457f3e88091fb024439",
+      "compile_exit": 0,
+      "corner": "min",
+      "expected_annotation_arcs": 4,
+      "label": "iopath_min",
+      "pulse_samples_ps": [
+        900,
+        19100,
+        900
+      ],
+      "run_exit": 0,
+      "vcd_bytes": 3847,
+      "vcd_sha256": "4abca428bab66fb5b1fe417f228dc6cf6c50721f0a8c43492f70e671fbc7e3f5",
+      "y_binary_transitions": 4,
+      "y_min_pulse_ps": 900
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification_ns/iopath_typ_run.log",
+      "applied_sdf_sha256": "4e5b72b3cf98e7f1ade032285f0f50bbc7fea5569feda457f3e88091fb024439",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 4,
+      "label": "iopath_typ",
+      "pulse_samples_ps": [
+        1800,
+        18200,
+        1800
+      ],
+      "run_exit": 0,
+      "vcd_bytes": 3847,
+      "vcd_sha256": "af349d5a62d4f1fb8c0a93b7b4448417e338cbec1cb324be80b1b040c2afff77",
+      "y_binary_transitions": 4,
+      "y_min_pulse_ps": 1800
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification_ns/iopath_max_run.log",
+      "applied_sdf_sha256": "4e5b72b3cf98e7f1ade032285f0f50bbc7fea5569feda457f3e88091fb024439",
+      "compile_exit": 0,
+      "corner": "max",
+      "expected_annotation_arcs": 4,
+      "label": "iopath_max",
+      "pulse_samples_ps": [
+        2700,
+        17300,
+        2700
+      ],
+      "run_exit": 0,
+      "vcd_bytes": 3847,
+      "vcd_sha256": "e182869527a7130b876e00f10f5c01140bda4a5a69633264f0e147957cdbe4e0",
+      "y_binary_transitions": 4,
+      "y_min_pulse_ps": 2700
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification_ns/interconnect_run.log",
+      "applied_sdf_sha256": "8d444eb91649821f64ee1e108a12f56894b0b098ac6e904cc6a4270a5ef3b1ed",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 2,
+      "label": "interconnect",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 3749,
+      "vcd_sha256": "dbf6248508d593ca21b49b6c601c6a6da405cb67742a4b231fe1a5306a8fe81c",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "compile_exit": 255,
+      "corner": "typ",
+      "expected_annotation_arcs": 2,
+      "label": "interconnect_flag_probe"
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification_ns/narrow_pulse_run.log",
+      "applied_sdf_sha256": "368f6ed6ae7d874efeb8e331804fcca9af2d0cf16e3b3870a80205b82b5ae321",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 0,
+      "label": "narrow_pulse",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 3825,
+      "vcd_sha256": "6716e5340d438438a4ad484fc0a2383fee83246aee86972199cfd14a398479be",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification_ns/bad_hierarchy_run.log",
+      "applied_sdf_sha256": "45a0917caea6a14282a7ba0ae75af29004772e58c8864dfacac13b3dd387ec8a",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 0,
+      "label": "bad_hierarchy",
+      "pulse_samples_ps": [
+        2000,
+        18000,
+        2000
+      ],
+      "run_exit": 0,
+      "vcd_bytes": 3870,
+      "vcd_sha256": "4987ab3ac8b740809c6205f2f7286993f17e69d54c90329c11b7ee1285965202",
+      "y_binary_transitions": 4,
+      "y_min_pulse_ps": 2000
+    }
+  ],
+  "schema_version": 1,
+  "synthetic_iopath_pass": true,
+  "timing_check_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification_ns/timing_checks_run.log"
+}

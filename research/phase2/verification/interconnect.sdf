@@ -1,0 +1,6 @@
+(DELAYFILE
+ (SDFVERSION "3.0") (DESIGN "hazard_dut") (DIVIDER /) (TIMESCALE 1ps)
+ (CELL (CELLTYPE "hazard_dut") (INSTANCE)
+  (DELAY (ABSOLUTE (INTERCONNECT u_fast/X u_xor/A (100:200:300) (100:200:300))
+                   (INTERCONNECT u_slow/X u_xor/B (1000:2000:3000) (1000:2000:3000)))))
+)

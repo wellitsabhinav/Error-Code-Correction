@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-28",
+  "utc": null,
+  "provenance": "First successful Get-PSDrive and System.IO.DriveInfo execution, before repository acquisition; transcribed from retained chat tool output, exact timestamp not captured.",
+  "C_free_bytes": 27974656000,
+  "G_free_bytes": 83306139648,
+  "F_free_bytes": 162513530880,
+  "C_total_bytes": 199569510400,
+  "G_total_bytes": 147816706048,
+  "sampled_git_temporary_pack_max_bytes": 2061058023,
+  "continuous_peak_monitoring": false
+}

@@ -1,0 +1,171 @@
+{
+  "checks": [
+    {
+      "argv": [
+        "make"
+      ],
+      "check": "make",
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction",
+      "exit_code": 0,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\validation\\make.log",
+      "log_sha256": "489ee61f15607313e6c9d42cd585838eb52c6942c8eeed94289707d9977361d1",
+      "runtime_seconds": 42.3119999999999,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28059054080,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:57:48.493358+00:00"
+    },
+    {
+      "argv": [
+        "make",
+        "test"
+      ],
+      "check": "make_test",
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction",
+      "exit_code": 2,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\validation\\make_test.log",
+      "log_sha256": "aa614038deb619a52ced4f11a51710901e1dbf59d802bb2ed6a7b11583c1b2c6",
+      "runtime_seconds": 6.608999999999924,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28051337216,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:57:55.130318+00:00"
+    },
+    {
+      "argv": [
+        "D:\\Python\\python.exe",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "check": "pytest",
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction",
+      "exit_code": 1,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\validation\\pytest.log",
+      "log_sha256": "ae155238337e379fe2f12957f467efe1360104e221eeb03143a2f7aaae7ba43e",
+      "runtime_seconds": 16.983999999999924,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28049813504,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:58:12.135560+00:00"
+    },
+    {
+      "argv": [
+        "D:\\Python\\python.exe",
+        "scripts/check_artifact.py"
+      ],
+      "check": "artifact",
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction",
+      "exit_code": 1,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\validation\\artifact.log",
+      "log_sha256": "51237d634cdac62636b8a5cc02a31a429c22e80b4a3c4a38dc732057ce558fb1",
+      "runtime_seconds": 1.5779999999999745,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28041736192,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:58:13.737291+00:00"
+    },
+    {
+      "argv": [
+        "D:\\Python\\python.exe",
+        "scripts/reproduce_iscas.py",
+        "--check"
+      ],
+      "check": "iscas",
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction",
+      "exit_code": 1,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\validation\\iscas.log",
+      "log_sha256": "4f8ca6ef0729c0cf7c92c23cebfee12b7835cf543410e77449801813dffe62b8",
+      "runtime_seconds": 0.31300000000010186,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28041379840,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:58:14.073868+00:00"
+    },
+    {
+      "argv": [
+        "D:\\Python\\python.exe",
+        "scripts/check_documentation.py"
+      ],
+      "check": "documentation",
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction",
+      "exit_code": 1,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\validation\\documentation.log",
+      "log_sha256": "2a8fbdc40bd1b413446e26293a3a6fbde52e46b1d0e7a5199d4ce48cb2f02c0f",
+      "runtime_seconds": 5.109000000000151,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28041076736,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:58:19.208871+00:00"
+    },
+    {
+      "argv": [
+        "D:\\Python\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "research/phase2/tests"
+      ],
+      "check": "phase2",
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction",
+      "exit_code": 0,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\validation\\phase2.log",
+      "log_sha256": "d5cad463dca075ce0547be8f305973f6f4bb4204b0258745e1a11b6f28245699",
+      "runtime_seconds": 2.234000000000151,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28030484480,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:58:21.464596+00:00"
+    },
+    {
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "check": "diff",
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction",
+      "exit_code": 0,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\validation\\diff.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.15699999999992542,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28029489152,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:58:21.624816+00:00"
+    }
+  ],
+  "pytest_stop_policy": "--maxfail=5; full-suite success not asserted after early failure"
+}

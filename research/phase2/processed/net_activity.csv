@@ -1,0 +1,10 @@
+configuration,binary_transitions,minimum_pulse_ps,unknown_duration_ps,scope,completed_codec_operations
+zero,0,,0.0,SYNTHETIC_QUALIFICATION_ONLY,
+upstream_unassembled,0,,0.0,SYNTHETIC_QUALIFICATION_ONLY,
+iopath_min,4,900,0.0,SYNTHETIC_QUALIFICATION_ONLY,
+iopath_typ,4,1800,0.0,SYNTHETIC_QUALIFICATION_ONLY,
+iopath_max,4,2700,0.0,SYNTHETIC_QUALIFICATION_ONLY,
+interconnect,0,,0.0,SYNTHETIC_QUALIFICATION_ONLY,
+interconnect_flag_probe,,,,SYNTHETIC_QUALIFICATION_ONLY,
+narrow_pulse,0,,0.0,SYNTHETIC_QUALIFICATION_ONLY,
+bad_hierarchy,4,2000,0.0,SYNTHETIC_QUALIFICATION_ONLY,

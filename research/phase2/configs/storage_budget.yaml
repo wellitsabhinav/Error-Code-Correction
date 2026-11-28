@@ -1,0 +1,16 @@
+storage:
+  preferred_root: /mnt/g/GREEN-ECC-PHY
+  active_root: research/phase2
+  minimum_free_gib: 3
+  maximum_single_waveform_mib: 256
+  maximum_waveform_buffer_mib: 512
+  max_parallel_physical_design_jobs: 1
+  max_parallel_simulation_jobs: 1
+  retain_full_waveforms: false
+  compress_completed_artifacts: true
+  reuse_existing_toolchains: true
+  reuse_validated_physical_artifacts: true
+  maximum_new_dependencies_bytes: 0
+  projected_new_output_bytes: 134217728
+  scratch_roots:
+    - research/phase2/scratch

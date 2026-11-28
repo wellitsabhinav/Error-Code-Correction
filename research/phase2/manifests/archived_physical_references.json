@@ -1,0 +1,65 @@
+{
+  "source_commit": "f193b9902792c798dde57534137e0075dab0aff4",
+  "source_manifest": "archives/manifests/green-ecc-date2027-revision2-runs.tar.gz.manifest.json",
+  "archive_path": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-date2027-revision2-runs.tar.gz",
+  "archive_status": "MISSING_LOCALLY",
+  "selected_members": [
+    {
+      "path": "secded-comb-seed-11/results/sky130hd/gate04_secded_comb_72_64/base/6_final.def",
+      "kind": "file",
+      "size_bytes": 1682313,
+      "sha256": "4129e890ad580f94d43a5d0b6557a35edbc19f2555f32ff8337a3d0f25b6acb2",
+      "mtime": 1787673983.3549232
+    },
+    {
+      "path": "secded-comb-seed-11/results/sky130hd/gate04_secded_comb_72_64/base/6_final.sdc",
+      "kind": "file",
+      "size_bytes": 46790,
+      "sha256": "fcaf7fb012daddb364cfab4792355ae8e50d1ecc2866d0b96e284bcd8e476537",
+      "mtime": 1787673983.3217385
+    },
+    {
+      "path": "secded-comb-seed-11/results/sky130hd/gate04_secded_comb_72_64/base/6_final.spef",
+      "kind": "file",
+      "size_bytes": 1282186,
+      "sha256": "cc07fe2b8a4ff8bdd00b582d09cdbe194135ecf07a1f2ca57cf35e6c8e53d0de",
+      "mtime": 1787673983.6992152
+    },
+    {
+      "path": "secded-comb-seed-11/results/sky130hd/gate04_secded_comb_72_64/base/6_final.v",
+      "kind": "file",
+      "size_bytes": 172724,
+      "sha256": "733d54854db80e3a501fb6f2db220814903cc5b41168c7761b153d183bfbadbb",
+      "mtime": 1787673983.4005523
+    },
+    {
+      "path": "secded-pipe-seed-11/results/sky130hd/gate04_secded_pipe_72_64/base/6_final.def",
+      "kind": "file",
+      "size_bytes": 2135127,
+      "sha256": "a13959111f3a13c4eebc9dc8d3a6cbbb3c7e88cf45ce78a73c29377f59638cad",
+      "mtime": 1787674227.6737583
+    },
+    {
+      "path": "secded-pipe-seed-11/results/sky130hd/gate04_secded_pipe_72_64/base/6_final.sdc",
+      "kind": "file",
+      "size_bytes": 46790,
+      "sha256": "ae02e4ff97ee4f1837c433b6cb7a7eac6482d314e6300424d043edba1f05e246",
+      "mtime": 1787674227.6297581
+    },
+    {
+      "path": "secded-pipe-seed-11/results/sky130hd/gate04_secded_pipe_72_64/base/6_final.spef",
+      "kind": "file",
+      "size_bytes": 1454731,
+      "sha256": "136ae58d308eaf264fe4daeef0d780e6f56b0402327f3bf776c57eae3b140ecb",
+      "mtime": 1787674228.0829582
+    },
+    {
+      "path": "secded-pipe-seed-11/results/sky130hd/gate04_secded_pipe_72_64/base/6_final.v",
+      "kind": "file",
+      "size_bytes": 241049,
+      "sha256": "97f40a2794c04002b6445de19763d55cc4311988c4abe96092410ae307eface7",
+      "mtime": 1787674227.7309582
+    }
+  ],
+  "sdf_members": []
+}

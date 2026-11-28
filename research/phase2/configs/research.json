@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "campaign_id": "phase2-delay-aware-20261128",
+  "baseline_checkout_commit": "f193b9902792c798dde57534137e0075dab0aff4",
+  "sealed_scientific_input_commit": "8cf245ac6ac8cb9b010c073d439f04eb204d48a1",
+  "technology": {"platform": "sky130hd", "corner": "tt_025C_1v80", "voltage_v": 1.8, "temperature_c": 25},
+  "placement_seeds": [11, 13, 17, 19, 23],
+  "workload_seeds": [104375203646206, 17],
+  "common_frequency_hz": 100000000,
+  "simulation_resolution_ps": 1,
+  "trace_lengths": [100, 1000, 5000, 10000, 25000, 100000],
+  "primary_comparisons": ["A_vs_C_same_netlist", "B_vs_C_same_netlist", "paired_pipe_vs_comb", "paired_hierarchical_vs_flat"],
+  "exploratory_thresholds": {"estimator_discrepancy_percent": 5, "material_energy_effect_percent": 5, "trace_convergence_percent": 2, "sensitivity_percent": [1, 2, 5, 10]},
+  "statistics": "Five physical seeds are the paired units; operations within one implementation are not independent placement samples. No population inference by default.",
+  "transaction": "One simultaneous independent encoder request and decoder request carrying the same payload; combined codec boundary, not a serial encode-decode or SRAM access.",
+  "steady_state_window": "Equal completed transactions, after reset and fill and before drain; half-open [start_ps,end_ps). Historical whole-trace energy remains separately labelled.",
+  "resource_budget": {"campaign_wall_seconds": 14400, "per_command_timeout_seconds": 120, "max_jobs": 1, "maximum_new_dependencies_bytes": 0, "projected_new_output_bytes": 134217728},
+  "storage": {"preferred_root": "/mnt/g/GREEN-ECC-PHY", "minimum_free_gib": 3, "maximum_single_waveform_mib": 256, "maximum_waveform_buffer_mib": 512, "max_parallel_physical_design_jobs": 1, "max_parallel_simulation_jobs": 1, "retain_full_waveforms": false, "compress_completed_artifacts": true},
+  "production_gate": "P2-G00 must pass on matching standard-cell models, timing constructs and physical artifacts before production estimator experiments. Generic probes alone do not pass it."
+}

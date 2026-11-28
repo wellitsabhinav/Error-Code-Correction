@@ -1,0 +1,194 @@
+{
+  "utc": "2026-11-28T13:56:52.8419602Z",
+  "drives": [
+    {
+      "Name": "C",
+      "Root": "C:\\",
+      "Used": 171513958400,
+      "Free": 28055552000
+    },
+    {
+      "Name": "D",
+      "Root": "D:\\",
+      "Used": 73959890944,
+      "Free": 51868176384
+    },
+    {
+      "Name": "E",
+      "Root": "E:\\",
+      "Used": 4173070336,
+      "Free": 28293984256
+    },
+    {
+      "Name": "F",
+      "Root": "F:\\",
+      "Used": 200051556352,
+      "Free": 162479960064
+    },
+    {
+      "Name": "G",
+      "Root": "G:\\",
+      "Used": 64510566400,
+      "Free": 83306139648
+    },
+    {
+      "Name": "Temp",
+      "Root": "C:\\Users\\Abhinav\\AppData\\Local\\Temp\\",
+      "Used": 171513958400,
+      "Free": 28055552000
+    }
+  ],
+  "volumes": [
+    {
+      "DriveLetter": "G",
+      "FileSystemLabel": "Local Disk",
+      "FileSystem": "NTFS",
+      "Size": 147816706048,
+      "SizeRemaining": 83306139648
+    },
+    {
+      "DriveLetter": "E",
+      "FileSystemLabel": "Debian",
+      "FileSystem": "NTFS",
+      "Size": 32467054592,
+      "SizeRemaining": 28293984256
+    },
+    {
+      "DriveLetter": "D",
+      "FileSystemLabel": "Local Disk",
+      "FileSystem": "NTFS",
+      "Size": 125828067328,
+      "SizeRemaining": 51868176384
+    },
+    {
+      "DriveLetter": "C",
+      "FileSystemLabel": "OS",
+      "FileSystem": "NTFS",
+      "Size": 199569510400,
+      "SizeRemaining": 28060102656
+    },
+    {
+      "DriveLetter": null,
+      "FileSystemLabel": "RESTORE",
+      "FileSystem": "NTFS",
+      "Size": 27917283328,
+      "SizeRemaining": 8744763392
+    },
+    {
+      "DriveLetter": null,
+      "FileSystemLabel": "Windows RE tools",
+      "FileSystem": "NTFS",
+      "Size": 512749568,
+      "SizeRemaining": 498114560
+    },
+    {
+      "DriveLetter": null,
+      "FileSystemLabel": "MYASUS",
+      "FileSystem": "FAT32",
+      "Size": 268435456,
+      "SizeRemaining": 169766912
+    },
+    {
+      "DriveLetter": null,
+      "FileSystemLabel": "",
+      "FileSystem": "NTFS",
+      "Size": 950005760,
+      "SizeRemaining": 89096192
+    },
+    {
+      "DriveLetter": null,
+      "FileSystemLabel": "RECOVERY",
+      "FileSystem": "NTFS",
+      "Size": 943714304,
+      "SizeRemaining": 928538624
+    },
+    {
+      "DriveLetter": "F",
+      "FileSystemLabel": "Local Disk",
+      "FileSystem": "NTFS",
+      "Size": 362531516416,
+      "SizeRemaining": 162479960064
+    }
+  ],
+  "volume_error": null,
+  "native_tools": [
+    {
+      "Name": "git.exe",
+      "Source": "D:\\Git\\cmd\\git.exe"
+    },
+    {
+      "Name": "python.exe",
+      "Source": "D:\\Python\\python.exe"
+    },
+    {
+      "Name": "iverilog.exe",
+      "Source": "D:\\Compiler Cpp\\ucrt64\\bin\\iverilog.exe"
+    },
+    {
+      "Name": "vvp.exe",
+      "Source": "D:\\Compiler Cpp\\ucrt64\\bin\\vvp.exe"
+    },
+    {
+      "Name": "yosys.exe",
+      "Source": "D:\\Compiler Cpp\\ucrt64\\bin\\yosys.exe"
+    },
+    {
+      "Name": "make.exe",
+      "Source": "C:\\ProgramData\\chocolatey\\bin\\make.exe"
+    },
+    {
+      "Name": "g++.exe",
+      "Source": "D:\\Compiler Cpp\\ucrt64\\bin\\g++.exe"
+    }
+  ],
+  "wsl_registrations": [
+    {
+      "DistributionName": "AutonomousEDA",
+      "BasePath": "F:/AgenticAI/.local/wsl"
+    },
+    {
+      "DistributionName": "Attempt04-Recovery",
+      "BasePath": "\\\\?\\F:\\green-ecc-iscas-sustainability-temp\\attempt04-recovery"
+    },
+    {
+      "DistributionName": "PACT-OpenSTA-Review420",
+      "BasePath": "D:\\PACT_EXPERIMENTS\\results\\opensta_review_420_20261013\\runtime\\wsl"
+    },
+    {
+      "DistributionName": "Ubuntu-24.04",
+      "BasePath": "F:\\green-ecc-iscas-sustainability-temp\\wsl-relocated\\Ubuntu-24.04"
+    }
+  ],
+  "locations": [
+    {
+      "path": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction",
+      "exists": true,
+      "length_bytes": null
+    },
+    {
+      "path": "D:\\GREENS_ARCHIVES",
+      "exists": false,
+      "length_bytes": null
+    },
+    {
+      "path": "G:\\ECC Continued",
+      "exists": true,
+      "length_bytes": null
+    },
+    {
+      "path": "F:\\green-ecc-iscas-sustainability-temp\\wsl-relocated\\Ubuntu-24.04\\ext4.vhdx",
+      "exists": false,
+      "length_bytes": null
+    },
+    {
+      "path": "F:\\AgenticAI\\.local\\wsl\\ext4.vhdx",
+      "exists": true,
+      "length_bytes": 15772680192
+    },
+    {
+      "path": "F:\\AgenticAI\\.local\\m9-icarus-linux\\iverilog_12.0-2build2_amd64.deb",
+      "exists": true,
+      "length_bytes": 2125764
+    }
+  ]
+}

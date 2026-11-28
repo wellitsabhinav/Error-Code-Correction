@@ -1,0 +1,121 @@
+ERROR: missing expected file: docs/getting-started.md
+ERROR: missing expected file: docs/INSTALLATION.md
+ERROR: missing expected file: docs/quickstart.md
+ERROR: missing expected file: docs/architecture.md
+ERROR: missing expected file: docs/methodology.md
+ERROR: missing expected file: docs/experiment-pipeline.md
+ERROR: missing expected file: docs/reliability-model.md
+ERROR: missing expected file: docs/ecc-architectures.md
+ERROR: missing expected file: docs/physical-design.md
+ERROR: missing expected file: docs/sustainability-model.md
+ERROR: missing expected file: docs/evidence-model.md
+ERROR: missing expected file: docs/REPRODUCIBILITY.md
+ERROR: missing expected file: docs/reviewer-guide.md
+ERROR: missing expected file: docs/user-guide.md
+ERROR: missing expected file: docs/developer-guide.md
+ERROR: missing expected file: docs/adding-an-ecc.md
+ERROR: missing expected file: docs/results-schema.md
+ERROR: missing expected file: docs/TROUBLESHOOTING.md
+ERROR: missing expected file: docs/limitations.md
+ERROR: missing expected file: docs/roadmap.md
+ERROR: missing expected file: docs/GLOSSARY.md
+ERROR: missing expected file: docs/evidence-map.md
+ERROR: missing expected file: docs/paper-to-artifact.md
+ERROR: missing expected file: docs/project-overview.md
+ERROR: missing expected file: docs/maintenance/repository-overhaul.md
+ERROR: missing expected file: docs/papers.md
+ERROR: missing expected file: docs/results.md
+ERROR: missing expected file: experiments/iscas/README.md
+ERROR: missing expected file: experiments/iscas/reproduction.md
+ERROR: missing expected file: experiments/iscas/regeneration.md
+ERROR: missing expected file: experiments/iscas/claims.md
+ERROR: missing expected file: experiments/iscas/evidence/README.md
+ERROR: missing expected file: experiments/iscas/generated/headline_results.json
+ERROR: missing expected file: experiments/iscas/generated/primary_operation_pairs.csv
+ERROR: missing critical JSON: green_ecc_physical_simulation/multi_ecc_evaluation/framework_summary.json
+ERROR: missing critical JSON: campaigns/iscas_sustainability_extension/green_matrix_v3_2/CAMPAIGN_STATUS.json
+ERROR: missing critical JSON: campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/RUN_MANIFEST.json
+ERROR: missing critical JSON: campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/OPENRAM_PROVENANCE.json
+ERROR: missing critical JSON: campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/CAMPAIGN_STATUS.json
+ERROR: missing critical JSON: campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/RUN_MANIFEST.json
+ERROR: missing canonical CSV: campaigns/iscas_sustainability_extension/green_v3_3_activity_complete_e5/E5_OPERATION_STATISTICS.csv
+ERROR: missing canonical CSV: campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/PHYSICAL_RUN_RESULTS.csv
+ERROR: broken link: AGENTS.md -> experiments/iscas/README.md
+ERROR: broken link: CONTRIBUTING.md -> docs/INSTALLATION.md
+ERROR: broken link: CONTRIBUTING.md -> docs/adding-an-ecc.md
+ERROR: broken link: CONTRIBUTING.md -> docs/developer-guide.md
+ERROR: broken link: CONTRIBUTING.md -> docs/results-schema.md
+ERROR: broken link: README.md -> archives/README.md
+ERROR: broken link: README.md -> campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/ARCHITECTURE_AUDIT.md
+ERROR: broken link: README.md -> campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/orfs/
+ERROR: broken link: README.md -> campaigns/iscas_sustainability_extension/green_v3_2_matched_openram_orfs_validation/validation/rtl/matched_memory_tops.sv
+ERROR: broken link: README.md -> cleanup/
+ERROR: broken link: README.md -> data/
+ERROR: broken link: README.md -> docs/ECC_CATALOGUE.md
+ERROR: broken link: README.md -> docs/architecture.md
+ERROR: broken link: README.md -> docs/figures/greens_research_flow.svg
+ERROR: broken link: README.md -> docs/limitations.md
+ERROR: broken link: README.md -> docs/maintenance/dependencies.md
+ERROR: broken link: README.md -> docs/maintenance/repository-overhaul.md
+ERROR: broken link: README.md -> docs/maintenance/repository-overhaul.md#project-naming-and-github-migration
+ERROR: broken link: README.md -> docs/papers.md
+ERROR: broken link: README.md -> docs/results.md
+ERROR: broken link: README.md -> docs/results.md#identity-preserving-hardware-study
+ERROR: broken link: README.md -> experiments/iscas/README.md
+ERROR: broken link: README.md -> experiments/iscas/claims.md
+ERROR: broken link: README.md -> experiments/iscas/evidence/README.md
+ERROR: broken link: README.md -> experiments/iscas/generated/
+ERROR: broken link: README.md -> experiments/iscas/generated/campaign_conditions.json
+ERROR: broken link: README.md -> experiments/iscas/generated/operation_and_workload.svg
+ERROR: broken link: README.md -> experiments/iscas/regeneration.md
+ERROR: broken link: README.md -> experiments/iscas/reproduction.md
+ERROR: broken link: README.md -> green_ecc_physical_simulation/multi_ecc_evaluation/framework_summary.json
+ERROR: broken link: README.md -> green_ecc_physical_simulation/multi_ecc_evaluation/software_study_summary.json
+ERROR: broken link: README.md -> reports/
+ERROR: broken link: docs\README.md -> ../experiments/iscas/README.md
+ERROR: broken link: docs\README.md -> ../experiments/iscas/claims.md
+ERROR: broken link: docs\README.md -> ../experiments/iscas/reproduction.md
+ERROR: broken link: docs\README.md -> CLAIM_LEDGER.md
+ERROR: broken link: docs\README.md -> CLI_REFERENCE.md
+ERROR: broken link: docs\README.md -> ECC_CATALOGUE.md
+ERROR: broken link: docs\README.md -> GLOSSARY.md
+ERROR: broken link: docs\README.md -> INSTALLATION.md
+ERROR: broken link: docs\README.md -> REPRODUCIBILITY.md
+ERROR: broken link: docs\README.md -> RESULTS_AND_INTERPRETATION.md
+ERROR: broken link: docs\README.md -> TROUBLESHOOTING.md
+ERROR: broken link: docs\README.md -> VERIFICATION_METHODOLOGY.md
+ERROR: broken link: docs\README.md -> adding-an-ecc.md
+ERROR: broken link: docs\README.md -> architecture.md
+ERROR: broken link: docs\README.md -> architecture/overview.md
+ERROR: broken link: docs\README.md -> developer-guide.md
+ERROR: broken link: docs\README.md -> ecc-architectures.md
+ERROR: broken link: docs\README.md -> ecc/architectures.md
+ERROR: broken link: docs\README.md -> evidence-map.md
+ERROR: broken link: docs\README.md -> evidence-model.md
+ERROR: broken link: docs\README.md -> experiment-pipeline.md
+ERROR: broken link: docs\README.md -> experiments/history.md
+ERROR: broken link: docs\README.md -> experiments/negative_results.md
+ERROR: broken link: docs\README.md -> getting-started.md
+ERROR: broken link: docs\README.md -> limitations.md
+ERROR: broken link: docs\README.md -> matrix-optimization.md
+ERROR: broken link: docs\README.md -> methodology.md
+ERROR: broken link: docs\README.md -> methodology/ml_advisory.md
+ERROR: broken link: docs\README.md -> methodology/optimization.md
+ERROR: broken link: docs\README.md -> papers.md
+ERROR: broken link: docs\README.md -> physical-design.md
+ERROR: broken link: docs\README.md -> physical_validation/openram.md
+ERROR: broken link: docs\README.md -> physical_validation/orfs.md
+ERROR: broken link: docs\README.md -> physical_validation/sram22.md
+ERROR: broken link: docs\README.md -> project-overview.md
+ERROR: broken link: docs\README.md -> quickstart.md
+ERROR: broken link: docs\README.md -> reliability-model.md
+ERROR: broken link: docs\README.md -> reliability/model.md
+ERROR: broken link: docs\README.md -> reliability/qcrit.md
+ERROR: broken link: docs\README.md -> reproduction/canonical_results.md
+ERROR: broken link: docs\README.md -> reproduction/environment.md
+ERROR: broken link: docs\README.md -> results-schema.md
+ERROR: broken link: docs\README.md -> results.md
+ERROR: broken link: docs\README.md -> reviewer-guide.md
+ERROR: broken link: docs\README.md -> roadmap.md
+ERROR: broken link: docs\README.md -> sustainability-model.md
+ERROR: broken link: docs\README.md -> sustainability/metrics.md

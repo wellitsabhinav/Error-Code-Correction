@@ -1,0 +1,3 @@
+VCD info: dumpfile /mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification_ns/bad_hierarchy.vcd opened for output.
+SDF WARNING: /mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv:18: Unable to find missing_fast in scope hazard_tb.dut.
+/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv:22: $finish called at 50000 (1ps)

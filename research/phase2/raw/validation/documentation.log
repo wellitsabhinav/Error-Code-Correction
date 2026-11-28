@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "C:\Users\Abhinav\OneDrive\Desktop\ECC\Error-Code-Correction\scripts\check_documentation.py", line 48, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "C:\Users\Abhinav\OneDrive\Desktop\ECC\Error-Code-Correction\scripts\check_documentation.py", line 16, in main
+    docs.validate(ROOT)
+  File "C:\Users\Abhinav\OneDrive\Desktop\ECC\Error-Code-Correction\scripts\build_documentation.py", line 367, in validate
+    errors = [*validate_links(root), *validate_json_blocks(root), *validate_data_files(root), *validate_manifest(root)]
+                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhinav\OneDrive\Desktop\ECC\Error-Code-Correction\scripts\build_documentation.py", line 321, in validate_manifest
+    manifest = load_json(root, "docs/figure_data/figure_manifest.json")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Abhinav\OneDrive\Desktop\ECC\Error-Code-Correction\scripts\build_documentation.py", line 55, in load_json
+    return json.loads((root / path).read_text(encoding="utf-8"))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\docs\\figure_data\\figure_manifest.json'

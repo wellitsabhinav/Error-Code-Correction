@@ -1,0 +1,71 @@
+{
+  "compile": {
+    "argv": [
+      "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+      "-B",
+      "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+      "-g2012",
+      "-s",
+      "rtl_smoke_tb",
+      "-o",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/rtl_smoke/smoke.vvp",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/scripts/gate03r/rtl/secded_characterization_tops.sv",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/asic/rtl/secded/secded_pipelined_72_64_v1.sv",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/scripts/gate04/rtl/gate04_boundaries.sv",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/scripts/revision2/rtl/rev2_hsiao_boundary.sv",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_encoder.sv",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_syndrome.sv",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v2_algorithmic_decoder.sv",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/campaigns/date_2027_breadth_remediation/rtl/hsiao_secded_72_64_v3_hierarchical_decoder.sv",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/campaigns/date_2027_breadth_remediation/rtl/breadth_hsiao_hierarchical_boundary.sv",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/rtl_smoke_tb.sv"
+    ],
+    "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/rtl_smoke",
+    "exit_code": 0,
+    "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/rtl_smoke/compile.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runtime_seconds": 0.24910721500000044,
+    "status": "COMPLETED",
+    "storage_before": {
+      "free_bytes": 28056518656,
+      "projected_bytes": 16777216,
+      "reserve_bytes": 3221225472,
+      "total_bytes": 199569510400
+    },
+    "utc": "2026-11-28T13:55:00.036744+00:00"
+  },
+  "completed_operations_per_architecture": 100,
+  "run": {
+    "argv": [
+      "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+      "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/rtl_smoke/smoke.vvp"
+    ],
+    "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/rtl_smoke",
+    "exit_code": 0,
+    "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/rtl_smoke/run.log",
+    "log_sha256": "b64132c38287357c290231373ccf148875ccf2c4fa79cd79d5a15b0b21786a0c",
+    "runtime_seconds": 0.8110630930000005,
+    "status": "COMPLETED",
+    "storage_before": {
+      "free_bytes": 28056039424,
+      "projected_bytes": 16777216,
+      "reserve_bytes": 3221225472,
+      "total_bytes": 199569510400
+    },
+    "utc": "2026-11-28T13:55:00.860205+00:00"
+  },
+  "scope": "Current-checkout RTL functional smoke only; Hsiao frozen byte conflicts remain unresolved.",
+  "source_hashes": {
+    "asic/rtl/secded/secded_pipelined_72_64_v1.sv": "e250a6741b6aa56e0bdc5892ac5753e4487769a6683f68db6ab9155c26a3b155",
+    "campaigns/date_2027_breadth_remediation/rtl/breadth_hsiao_hierarchical_boundary.sv": "a0219f34938c54118e96a020b23dab2a03a4eb43a453044754c1c12af237c54b",
+    "campaigns/date_2027_breadth_remediation/rtl/hsiao_secded_72_64_v3_hierarchical_decoder.sv": "678b3bf1c51be4b0d1167828140c3a56457f7a7442f9b0592545d07a5cafc253",
+    "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_encoder.sv": "2c253e275a4f1319b60f0ef6868f77430e33da7d8a05345b8eda5e1f91ed6e09",
+    "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_syndrome.sv": "461ea991c29ca47fc38afe1dbb3ee309ce907c992c294ac8faedb1ba706c263a",
+    "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v2_algorithmic_decoder.sv": "3c422dbbddab55e8e2ae141b571e60e63f4ecd87ac409d64b59cc184f21aadcf",
+    "research/phase2/verification/rtl_smoke_tb.sv": "891db2a00ec6a03294e100deb9cb3ea33dea227e252ca08c38c0b141b07ccde2",
+    "scripts/gate03r/rtl/secded_characterization_tops.sv": "560bc8092ba759f7dd3412a106d86a30a7498d88285298c721be2d5ef4dc440b",
+    "scripts/gate04/rtl/gate04_boundaries.sv": "7de8e8d2933cdf17740ec5ec6f45a3654d5d54d9e419ed1c628ab29ca03308f8",
+    "scripts/revision2/rtl/rev2_hsiao_boundary.sv": "3fdc3984b222b925ccc9d415a548e88f5e75a82539c67ac187e5c1d0c33f9c73"
+  },
+  "status": "PASS"
+}

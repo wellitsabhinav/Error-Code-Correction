@@ -1,0 +1,60 @@
+{
+  "commit": "ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1",
+  "files": [
+    {
+      "local_bytes": 2118,
+      "local_sha256": "2b0c9c865ff815b31cdc09c7f8d218258cfeac27e58c3c7dc3105edc11fa2296",
+      "path": "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__xor2_1.v",
+      "source_url": "https://raw.githubusercontent.com/google/skywater-pdk-libs-sky130_fd_sc_hd/ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1/cells/xor2/sky130_fd_sc_hd__xor2_1.v"
+    },
+    {
+      "local_bytes": 1362,
+      "local_sha256": "5ac89c18e8e9a84a94f894c9e2f7237ae3a0ec333c6a8a331f0b3286e7ddf06b",
+      "path": "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__xor2.v",
+      "source_url": "https://raw.githubusercontent.com/google/skywater-pdk-libs-sky130_fd_sc_hd/ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1/cells/xor2/sky130_fd_sc_hd__xor2.v"
+    },
+    {
+      "local_bytes": 1382,
+      "local_sha256": "003a74f6ec50ef747c01b186c060b28326d52fef93b69f0130a3788acf885efd",
+      "path": "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__xor2.behavioral.v",
+      "source_url": "https://raw.githubusercontent.com/google/skywater-pdk-libs-sky130_fd_sc_hd/ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1/cells/xor2/sky130_fd_sc_hd__xor2.behavioral.v"
+    },
+    {
+      "local_bytes": 924,
+      "local_sha256": "254ff53ad95af73d3b159b60ce5432acfde6098166cc44cba7e792cdd73e4e37",
+      "path": "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__xor2.specify.v",
+      "source_url": "https://raw.githubusercontent.com/google/skywater-pdk-libs-sky130_fd_sc_hd/ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1/cells/xor2/sky130_fd_sc_hd__xor2.specify.v"
+    },
+    {
+      "local_bytes": 1994,
+      "local_sha256": "874ed6a074a6fcf13861b2ba225c28a7c1aaf8cd17eb8349434b19259fa4d02d",
+      "path": "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__buf_1.v",
+      "source_url": "https://raw.githubusercontent.com/google/skywater-pdk-libs-sky130_fd_sc_hd/ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1/cells/buf/sky130_fd_sc_hd__buf_1.v"
+    },
+    {
+      "local_bytes": 1318,
+      "local_sha256": "213f2647e8ab0cec70d417e01bb5bbffba2642231d0376d28adc81401da6c8b5",
+      "path": "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__buf.v",
+      "source_url": "https://raw.githubusercontent.com/google/skywater-pdk-libs-sky130_fd_sc_hd/ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1/cells/buf/sky130_fd_sc_hd__buf.v"
+    },
+    {
+      "local_bytes": 1320,
+      "local_sha256": "b6ed6307702bf091f752591cbab7cc0330bdbfb385c46cf3d0ec144374aa74fe",
+      "path": "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__buf.behavioral.v",
+      "source_url": "https://raw.githubusercontent.com/google/skywater-pdk-libs-sky130_fd_sc_hd/ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1/cells/buf/sky130_fd_sc_hd__buf.behavioral.v"
+    },
+    {
+      "local_bytes": 724,
+      "local_sha256": "c8080005e710d1ba4ba2fe4221e569dfe60e555bb4e70f9ac3cfe0c93c6a12b1",
+      "path": "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__buf.specify.v",
+      "source_url": "https://raw.githubusercontent.com/google/skywater-pdk-libs-sky130_fd_sc_hd/ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1/cells/buf/sky130_fd_sc_hd__buf.specify.v"
+    },
+    {
+      "local_bytes": 11359,
+      "local_sha256": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac",
+      "path": "research/phase2/verification/sky130_minimal/LICENSE",
+      "source_url": "https://raw.githubusercontent.com/google/skywater-pdk-libs-sky130_fd_sc_hd/ac7fb61f06e6470b94e8afdf7c25268f62fbd7b1/LICENSE"
+    }
+  ],
+  "scope": "Two public standard-cell models for simulator qualification only; no physical delay calibration or baseline PDK equivalence claimed."
+}

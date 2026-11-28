@@ -1,0 +1,53 @@
+Filesystem      Size  Used Avail Use% Mounted on
+none            2.0G     0  2.0G   0% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none            2.0G  4.0K  2.0G   1% /mnt/wsl
+drivers         186G  160G   27G  86% /usr/lib/wsl/drivers
+/dev/sdc       1007G   14G  943G   2% /
+none            2.0G   32K  2.0G   1% /mnt/wslg
+none            2.0G     0  2.0G   0% /usr/lib/wsl/lib
+rootfs          2.0G  2.8M  2.0G   1% /init
+none            2.0G  532K  2.0G   1% /run
+none            2.0G     0  2.0G   0% /run/lock
+none            2.0G     0  2.0G   0% /run/shm
+none            2.0G   92K  2.0G   1% /mnt/wslg/versions.txt
+none            2.0G   92K  2.0G   1% /mnt/wslg/doc
+C:\             186G  160G   27G  86% /mnt/c
+D:\             118G   69G   49G  59% /mnt/d
+E:\              31G  3.9G   27G  13% /mnt/e
+F:\             338G  187G  152G  56% /mnt/f
+G:\             138G   61G   78G  44% /mnt/g
+tmpfs           392M   20K  392M   1% /run/user/0
+Filesystem       Inodes   IUsed    IFree IUse% Mounted on
+none             501326       5   501321    1% /usr/lib/modules/6.18.33.2-microsoft-standard-WSL2
+none             501326       2   501324    1% /mnt/wsl
+drivers             999 -999001  1000000     - /usr/lib/wsl/drivers
+/dev/sdc       67108864  217345 66891519    1% /
+none             501326      23   501303    1% /mnt/wslg
+none             501326       7   501319    1% /usr/lib/wsl/lib
+rootfs           499886      12   499874    1% /init
+none             501326     576   500750    1% /run
+none             501326       2   501324    1% /run/lock
+none             501326       1   501325    1% /run/shm
+none             501326      59   501267    1% /mnt/wslg/versions.txt
+none             501326      59   501267    1% /mnt/wslg/doc
+C:\                 999 -999001  1000000     - /mnt/c
+D:\                 999 -999001  1000000     - /mnt/d
+E:\                 999 -999001  1000000     - /mnt/e
+F:\                 999 -999001  1000000     - /mnt/f
+G:\                 999 -999001  1000000     - /mnt/g
+tmpfs            100265      44   100221    1% /run/user/0
+1.3G	/opt
+100K	/usr/local
+166M	/root/.cache
+194M	/var/cache/apt
+/usr/bin/git
+/usr/bin/python3
+/usr/bin/docker
+openroad/orfs:<none> 6.45GB
+DRIVER    VOLUME NAME
+TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+Images          1         0         6.446GB   856B (0%)
+Containers      0         0         0B        0B
+Local Volumes   0         0         0B        0B
+Build Cache     0         0         0B        0B
+sha256:8eff077230b86729f6248b34eeab370e486fa4052d34c60d9067e3e4aa720987 ["openroad/orfs@sha256:8eff077230b86729f6248b34eeab370e486fa4052d34c60d9067e3e4aa720987"]

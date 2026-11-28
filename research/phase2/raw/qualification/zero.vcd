@@ -1,0 +1,134 @@
+$date
+	Sat Nov 28 13:46:47 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module hazard_tb $end
+$var wire 1 ! y $end
+$var reg 1 " a $end
+$var reg 1024 # sdf_file [1023:0] $end
+$var reg 1024 $ vcd_file [1023:0] $end
+$scope module dut $end
+$var wire 1 " a $end
+$var wire 1 % fast $end
+$var wire 1 & slow $end
+$var wire 1 ! y $end
+$scope module u_fast $end
+$var wire 1 " A $end
+$var wire 1 ' VGND $end
+$var wire 1 ( VNB $end
+$var wire 1 ) VPB $end
+$var wire 1 * VPWR $end
+$var wire 1 + X $end
+$scope module base $end
+$var wire 1 " A $end
+$var wire 1 , VGND $end
+$var wire 1 - VNB $end
+$var wire 1 . VPB $end
+$var wire 1 / VPWR $end
+$var wire 1 0 buf0_out_X $end
+$var wire 1 + X $end
+$upscope $end
+$upscope $end
+$scope module u_slow $end
+$var wire 1 " A $end
+$var wire 1 1 VGND $end
+$var wire 1 2 VNB $end
+$var wire 1 3 VPB $end
+$var wire 1 4 VPWR $end
+$var wire 1 5 X $end
+$scope module base $end
+$var wire 1 " A $end
+$var wire 1 6 VGND $end
+$var wire 1 7 VNB $end
+$var wire 1 8 VPB $end
+$var wire 1 9 VPWR $end
+$var wire 1 : buf0_out_X $end
+$var wire 1 5 X $end
+$upscope $end
+$upscope $end
+$scope module u_xor $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 1 ; VGND $end
+$var wire 1 < VNB $end
+$var wire 1 = VPB $end
+$var wire 1 > VPWR $end
+$var wire 1 ? X $end
+$scope module base $end
+$var wire 1 % A $end
+$var wire 1 & B $end
+$var wire 1 @ VGND $end
+$var wire 1 A VNB $end
+$var wire 1 B VPB $end
+$var wire 1 C VPWR $end
+$var wire 1 D xor0_out_X $end
+$var wire 1 ? X $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0D
+1C
+1B
+0A
+0@
+0?
+1>
+1=
+0<
+0;
+0:
+19
+18
+07
+06
+05
+14
+13
+02
+01
+00
+1/
+1.
+0-
+0,
+0+
+1*
+1)
+0(
+0'
+0&
+0%
+b101111011011010110111001110100001011110110001100101111010101010111001101100101011100100111001100101111010000010110001001101000011010010110111001100001011101100010111101001111011011100110010101000100011100100110100101110110011001010010111101000100011001010111001101101011011101000110111101110000001011110100010101000011010000110010111101000101011100100111001001101111011100100010110101000011011011110110010001100101001011010100001101101111011100100111001001100101011000110111010001101001011011110110111000101111011100100110010101110011011001010110000101110010011000110110100000101111011100000110100001100001011100110110010100110010001011110111001001100001011101110010111101110001011101010110000101101100011010010110011001101001011000110110000101110100011010010110111101101110001011110111101001100101011100100110111100101110011101100110001101100100 $
+bx #
+0"
+0!
+$end
+#10000
+1%
+1+
+1&
+15
+10
+1:
+1"
+#30000
+0%
+0+
+0&
+05
+00
+0:
+0"
+#50000

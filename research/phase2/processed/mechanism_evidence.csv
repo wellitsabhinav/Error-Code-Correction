@@ -1,0 +1,7 @@
+hypothesis,classification,evidence
+H1_glitch,INCONCLUSIVE,Synthetic IOPATH qualification only; no matched routed internal switching.
+H2_capacitance,INCONCLUSIVE,DATE SPEF absent locally; no capacitance-weighted measured transitions.
+H3_mapping,PARTIALLY SUPPORTED,Historical flat/hierarchical common mapped counts 1244/1254; XOR/XNOR 350/343; no causal energy attribution.
+H4_clock_sequential_overhead,SUPPORTED,"Within historical Method A: sequential +70.861003%, clock +74.337936%; delay-aware magnitude unresolved."
+H5_propagation_bias,INCONCLUSIVE,Methods B and C unavailable; historical -49.481332% switching cannot identify bias.
+H6_normalization,NOT SUPPORTED,Within the historical pair both cases use 100MHz and II=1 with the same 0.01% finite trace overhead. Frequency normalization does not explain that paired reduction; other operating points remain unresolved.

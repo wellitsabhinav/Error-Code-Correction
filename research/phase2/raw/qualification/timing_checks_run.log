@@ -1,0 +1,3 @@
+VCD info: dumpfile timing_checks.vcd opened for output.
+NOTIFIER=0
+/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/timing_checks_tb.sv:18: $finish called at 15200 (1ps)

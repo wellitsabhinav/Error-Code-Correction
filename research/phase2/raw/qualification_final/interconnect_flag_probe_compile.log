@@ -1,0 +1,21 @@
+Unknown/Unsupported Language generation interconnect
+
+Supported generations are:
+    1995    -- IEEE1364-1995
+    2001    -- IEEE1364-2001
+    2005    -- IEEE1364-2005
+    2005-sv -- IEEE1800-2005
+    2009    -- IEEE1800-2009
+    2012    -- IEEE1800-2012
+Other generation flags:
+    assertions | supported-assertions | no-assertions
+    specify | no-specify
+    verilog-ams | no-verilog-ams
+    std-include | no-std-include
+    relative-include | no-relative-include
+    xtypes | no-xtypes
+    icarus-misc | no-icarus-misc
+    io-range-error | no-io-range-error
+    strict-ca-eval | no-strict-ca-eval
+    strict-expr-width | no-strict-expr-width
+    shared-loop-index | no-shared-loop-index

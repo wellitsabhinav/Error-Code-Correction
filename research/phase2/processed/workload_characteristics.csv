@@ -1,0 +1,9 @@
+regime,count,seed,hd_pairs,mean_hd,min_hd,max_hd,hd_histogram_json,trace_sha256,energy_status
+uniform,1000,17,999,32.07807807807808,20,45,"{""20"": 1, ""21"": 1, ""22"": 2, ""23"": 8, ""24"": 15, ""25"": 16, ""26"": 38, ""27"": 42, ""28"": 48, ""29"": 82, ""30"": 91, ""31"": 111, ""32"": 86, ""33"": 95, ""34"": 99, ""35"": 76, ""36"": 64, ""37"": 45, ""38"": 28, ""39"": 23, ""40"": 10, ""41"": 8, ""42"": 5, ""43"": 1, ""44"": 2, ""45"": 2}",11bd11d6d430dbafb627e5ca1cb732335e419079d1ea66aea4664e231addea6c,NOT_MEASURED_P2_G00_BLOCKED
+alternating,1000,17,999,64,64,64,"{""64"": 999}",f6f0dab0ea384db01663074f42c138778f2adf95694717bd91233ff7f6d2eae6,NOT_MEASURED_P2_G00_BLOCKED
+low_hd,1000,17,999,4,4,4,"{""4"": 999}",c3e47cce6f1130241a5c24672c0affa007a3e7ab2f7b01211d0561f49ce60b78,NOT_MEASURED_P2_G00_BLOCKED
+medium_hd,1000,17,999,32,32,32,"{""32"": 999}",865a3aa5b0f2df823b9dfe7cba8b84784ac29b1fedce7840617624b6391d7a55,NOT_MEASURED_P2_G00_BLOCKED
+high_hd,1000,17,999,60,60,60,"{""60"": 999}",14467f7c1133aa80945959183b5cef92b1f43ce43f291ccf6319940d860ae8d9,NOT_MEASURED_P2_G00_BLOCKED
+identical,1000,17,999,0,0,0,"{""0"": 999}",a971faf610614f173a775bb98560ae8accd2928c937c1a33df9850761659e67a,NOT_MEASURED_P2_G00_BLOCKED
+counter,1000,17,999,1.991991991991992,1,10,"{""1"": 500, ""2"": 250, ""3"": 125, ""4"": 62, ""5"": 31, ""6"": 16, ""7"": 8, ""8"": 4, ""9"": 2, ""10"": 1}",702746827e553786bb026ac120cb58745fef3d3f554c33891809001cc37639f0,NOT_MEASURED_P2_G00_BLOCKED
+spatial,1000,17,999,0.4984984984984985,0,2,"{""0"": 750, ""2"": 249}",b0514c6dd2ee90adee0fbcc1465561382c983429aa74d5f98b0a13336b9312a1,NOT_MEASURED_P2_G00_BLOCKED

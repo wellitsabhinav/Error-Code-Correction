@@ -1,0 +1,35 @@
+{
+  "drives": [
+    {
+      "utc": "2026-11-28T14:12:46.350429+00:00",
+      "label": "package_final",
+      "path": "C:/",
+      "total_bytes": 199569510400,
+      "free_bytes": 27889856512
+    },
+    {
+      "utc": "2026-11-28T14:12:46.350429+00:00",
+      "label": "package_final",
+      "path": "G:/",
+      "total_bytes": 147816706048,
+      "free_bytes": 83306139648
+    },
+    {
+      "utc": "2026-11-28T14:12:46.350429+00:00",
+      "label": "package_final",
+      "path": "F:/",
+      "total_bytes": 362531516416,
+      "free_bytes": 162479960064
+    },
+    {
+      "utc": "2026-11-28T14:12:46.350429+00:00",
+      "label": "package_final",
+      "path": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2",
+      "total_bytes": 199569510400,
+      "free_bytes": 27889856512
+    }
+  ],
+  "phase2_bytes": 5032776,
+  "files": 331,
+  "note": "Host free-space samples include unrelated host activity; phase bytes are exact sampled file lengths. Inventory excludes its new self-version."
+}

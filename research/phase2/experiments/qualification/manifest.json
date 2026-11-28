@@ -1,0 +1,623 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-V"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/simulator_version.log",
+      "log_sha256": "f9199cc8658f4afcec3edeb93f29f23bb2aebf66d3eeb217cdc728aaa692f946",
+      "runtime_seconds": 0.2767935619999946,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28387209216,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:31.358629+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/zero.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__buf_1.v",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/zero_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.161012453000005,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28390424576,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:31.641681+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/zero.vvp",
+        "+VCD=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/zero.vcd"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/zero_run.log",
+      "log_sha256": "b6c10fef237b4398c23f655acd76faca083f51e962248ad0fa074b41f04dda70",
+      "runtime_seconds": 0.12710978999999867,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28389961728,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:31.803116+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-V"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/simulator_version.log",
+      "log_sha256": "f9199cc8658f4afcec3edeb93f29f23bb2aebf66d3eeb217cdc728aaa692f946",
+      "runtime_seconds": 0.11657116300000325,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28389756928,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:47.204445+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/zero.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__buf_1.v",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/zero_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.12729982799999817,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28389679104,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:47.446217+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/zero.vvp",
+        "+VCD=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/zero.vcd"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/zero_run.log",
+      "log_sha256": "b6c10fef237b4398c23f655acd76faca083f51e962248ad0fa074b41f04dda70",
+      "runtime_seconds": 0.09613080600000501,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28389679104,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:47.575441+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/upstream_unassembled.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__buf_1.v",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/upstream_unassembled_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.12874716500000005,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28388655104,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:47.859157+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/upstream_unassembled.vvp",
+        "+VCD=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/upstream_unassembled.vcd",
+        "+SDF=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard.sdf"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/upstream_unassembled_run.log",
+      "log_sha256": "aa9986e2524404014b14570c2bff775d410c8b48a964dddc90707016a7006a16",
+      "runtime_seconds": 0.10883340200000191,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28388659200,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:48.002970+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-Tmin",
+        "-I",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/iopath_min.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__buf_1.v",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_min_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.129556848,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28387561472,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:48.280871+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/iopath_min.vvp",
+        "+VCD=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_min.vcd",
+        "+SDF=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard.sdf"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_min_run.log",
+      "log_sha256": "16b97b50b161898f3b6d77449f1a34f47d25c3fb2f2fff1f7527125fd17c1a4e",
+      "runtime_seconds": 0.1081960759999987,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28387520512,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:48.425750+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/iopath_typ.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__buf_1.v",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_typ_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.13753190599999954,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28386476032,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:48.710872+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/iopath_typ.vvp",
+        "+VCD=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_typ.vcd",
+        "+SDF=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard.sdf"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_typ_run.log",
+      "log_sha256": "d5ff8709fdef6de5e1f5d157ebfee8d1a8009c504743dc060185a17fb1032e98",
+      "runtime_seconds": 0.10759644200000196,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28386402304,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:48.856267+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-Tmax",
+        "-I",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/iopath_max.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__buf_1.v",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_max_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.13656728699999832,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28385374208,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:49.155743+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/iopath_max.vvp",
+        "+VCD=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_max.vcd",
+        "+SDF=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard.sdf"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_max_run.log",
+      "log_sha256": "119e2a0714713626a3c67c5eefbe287913383c87c570543c69e7e3361028f47f",
+      "runtime_seconds": 0.11774163699999463,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28385374208,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:49.310437+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/interconnect.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__buf_1.v",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/interconnect_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.16951011799999804,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28384104448,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:49.707849+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/interconnect.vvp",
+        "+VCD=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/interconnect.vcd",
+        "+SDF=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/interconnect.sdf"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/interconnect_run.log",
+      "log_sha256": "6d42b935740bded8ee59918fdf731db036f4056b0f0cffb82e5ed8ebd6b6ea82",
+      "runtime_seconds": 0.12933610000000328,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28384075776,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:49.882741+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-ginterconnect",
+        "-I",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/interconnect_flag_probe.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__buf_1.v",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 255,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/interconnect_flag_probe_compile.log",
+      "log_sha256": "98b40bf50f1769dff28c2b6274c9fd36e6b93ae6025f715c0cec411ccd685761",
+      "runtime_seconds": 0.032686805000004426,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28382916608,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:50.091704+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/narrow_pulse.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__buf_1.v",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/narrow_pulse_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.14734841300000312,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28382908416,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:50.275726+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/narrow_pulse.vvp",
+        "+VCD=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/narrow_pulse.vcd",
+        "+SDF=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/narrow_pulse.sdf"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/narrow_pulse_run.log",
+      "log_sha256": "98c8eb3585d860c4b067775548f87dad137c5c5c9c8652dd1c9a5ae4ceeec039",
+      "runtime_seconds": 0.11832858500000043,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28382879744,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:50.450866+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/bad_hierarchy.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/hazard_tb.sv",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__buf_1.v",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/bad_hierarchy_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.1425314990000004,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28381851648,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:50.777672+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/bad_hierarchy.vvp",
+        "+VCD=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/bad_hierarchy.vcd",
+        "+SDF=/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/bad_hierarchy.sdf"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/bad_hierarchy_run.log",
+      "log_sha256": "63fca52c09375cafed75e3350f023cb486ce37d4e40bb22a5996a4da1e1de6a6",
+      "runtime_seconds": 0.11252233399999767,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28381716480,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:50.947029+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+        "-B",
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+        "-g2012",
+        "-gspecify",
+        "-s",
+        "timing_checks_tb",
+        "-o",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/timing.vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/verification/timing_checks_tb.sv"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/timing_checks_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.13480396899999647,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28380762112,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:51.256078+00:00"
+    },
+    {
+      "argv": [
+        "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp",
+        "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/scratch/qualification/timing.vvp"
+      ],
+      "cwd": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification",
+      "exit_code": 0,
+      "log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/timing_checks_run.log",
+      "log_sha256": "e88e1a7b871a0beac75445e12d971804286955e870742c562c7bee3d629bfced",
+      "runtime_seconds": 0.11054212599999858,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28380762112,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:46:51.407921+00:00"
+    }
+  ],
+  "contract": {
+    "inputs": {
+      "research/phase2/verification/hazard.sdf": "1db6a6162e45185207a57b3646416cf7a5df1f13d0d8d34d9e74842914a5a0c8",
+      "research/phase2/verification/hazard_tb.sv": "d658e8398aab59fa6b1d3b63ac0fd0e1ccbee19dfd53e72cba473d693a4b66f7",
+      "research/phase2/verification/interconnect.sdf": "2f35ddea38966795c6c1128030b1d4c78c1dbbe149901faed52a172c2242cb78",
+      "research/phase2/verification/sky130_minimal/LICENSE": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac",
+      "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__buf.behavioral.v": "b6ed6307702bf091f752591cbab7cc0330bdbfb385c46cf3d0ec144374aa74fe",
+      "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__buf.specify.v": "c8080005e710d1ba4ba2fe4221e569dfe60e555bb4e70f9ac3cfe0c93c6a12b1",
+      "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__buf.v": "213f2647e8ab0cec70d417e01bb5bbffba2642231d0376d28adc81401da6c8b5",
+      "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__buf_1.v": "874ed6a074a6fcf13861b2ba225c28a7c1aaf8cd17eb8349434b19259fa4d02d",
+      "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__xor2.behavioral.v": "003a74f6ec50ef747c01b186c060b28326d52fef93b69f0130a3788acf885efd",
+      "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__xor2.specify.v": "254ff53ad95af73d3b159b60ce5432acfde6098166cc44cba7e792cdd73e4e37",
+      "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__xor2.v": "5ac89c18e8e9a84a94f894c9e2f7237ae3a0ec333c6a8a331f0b3286e7ddf06b",
+      "research/phase2/verification/sky130_minimal/sky130_fd_sc_hd__xor2_1.v": "2b0c9c865ff815b31cdc09c7f8d218258cfeac27e58c3c7dc3105edc11fa2296"
+    },
+    "iverilog": "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/iverilog",
+    "ivl_base": "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/lib/x86_64-linux-gnu/ivl",
+    "revision": 2,
+    "scope": "synthetic only",
+    "vvp": "/mnt/f/AgenticAI/.local/m9-icarus-linux/extracted/usr/bin/vvp"
+  },
+  "contract_sha256": "b5578457a9d9e6bb85f8bf30c1ed8caee64be51c1c68f52de7710e9f60b79e47",
+  "deadline_epoch": 1795887991.0470738,
+  "result_sha256": "baedb84cc2cb0c8278b0dd9dc395a0533cbaf5cecc91f246063065e55c4798d1",
+  "run_id": "qualification",
+  "start_epoch": 1795873591.0470738,
+  "status": "SYNTHETIC_PROBES_COMPLETED_PRODUCTION_BLOCKED"
+}

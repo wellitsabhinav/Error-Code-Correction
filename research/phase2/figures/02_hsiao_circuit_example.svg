@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="574.7pt" height="219.528pt" viewBox="0 0 574.7 219.528" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 219.528
+L 574.7 219.528
+L 574.7 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font: 700 13px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="7.2" y="23.832" transform="rotate(-0 7.2 23.832)">Hsiao correction of payload bit 0: H column = 0x07</text>
+   </g>
+   <g id="text_2">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="18.36" y="76.487375" transform="rotate(-0 18.36 76.487375)">syndrome[7:0]</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 109.638501 73.728
+Q 124.37816 73.728 137.664376 73.728
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 133.664376 71.728
+L 137.664376 73.728
+L 133.664376 75.728
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_3">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="238.77" y="76.487375" transform="rotate(-0 238.77 76.487375)">Flat: syndrome == 8'h07</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 344.000034 73.728
+Q 383.850209 73.728 422.246941 73.728
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 418.246941 71.728
+L 422.246941 73.728
+L 418.246941 75.728
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle" x="487.08" y="76.348313" transform="rotate(-0 487.08 76.348313)">column_match[0]</text>
+   </g>
+   <g id="text_5">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(18.36 142.960469)">syndrome[7:4] = 0</text>
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(18.36 154.158281)">syndrome[3:0] = 7</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 126.379182 145.8
+Q 138.328906 145.8 148.825186 145.8
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 144.825186 143.8
+L 148.825186 145.8
+L 144.825186 147.8
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(180.562813 142.682344)">Hierarchical: high_match[0]</text>
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(203.397188 154.158281)">AND low_match[7]</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 355.156798 145.8
+Q 389.427343 145.8 422.244445 145.8
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 418.244445 143.8
+L 422.244445 145.8
+L 418.244445 147.8
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(455.601094 142.821406)">word[0] XOR</text>
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(443.279219 154.019219)">column_match[0]</text>
+   </g>
+   <g id="text_8">
+    <text style="font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="18.36" y="204.012" transform="rotate(-0 18.36 204.012)">72 flat comparisons become shared 16-way high/low nibble decoders and 72 conjunctions; encoder and syndrome equations are shared.</text>
+   </g>
+  </g>
+ </g>
+</svg>

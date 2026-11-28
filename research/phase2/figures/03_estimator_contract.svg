@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="628.2pt" height="236.16pt" viewBox="0 0 628.2 236.16" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 236.16
+L 628.2 236.16
+L 628.2 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font: 700 13px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="7.2" y="23.832" transform="rotate(-0 7.2 23.832)">Three-way comparison contract — production runs blocked at P2-G00</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #21618c; font: 700 15px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="12.78" y="73.728" transform="rotate(-0 12.78 73.728)">A</text>
+   </g>
+   <g id="text_3">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="46.26" y="76.487375" transform="rotate(-0 46.26 76.487375)">Primary-input VCD → propagated activity</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 316.098501 73.728
+Q 330.83816 73.728 344.124376 73.728
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 340.124376 71.728
+L 344.124376 73.728
+L 340.124376 75.728
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(367.702734 71.172422)">Mapping + coverage</text>
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(364.62375 81.250453)">+ known-state checks</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 483.499182 73.728
+Q 495.448906 73.728 505.945186 73.728
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 501.945186 71.728
+L 505.945186 73.728
+L 501.945186 75.728
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_5">
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(531.906328 66.133406)">Liberty + SPEF</text>
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(529.505859 76.211438)">OpenSTA power</text>
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(538.996641 86.289469)">E = P Δt / N</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #21618c; font: 700 15px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="12.78" y="129.168" transform="rotate(-0 12.78 129.168)">B</text>
+   </g>
+   <g id="text_7">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="46.26" y="131.927375" transform="rotate(-0 46.26 131.927375)">Same routed netlist → zero-delay internal VCD</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 316.098501 129.168
+Q 330.83816 129.168 344.124376 129.168
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 340.124376 127.168
+L 344.124376 129.168
+L 340.124376 131.168
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(367.702734 126.612422)">Mapping + coverage</text>
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(364.62375 136.690453)">+ known-state checks</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 483.499182 129.168
+Q 495.448906 129.168 505.945186 129.168
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 501.945186 127.168
+L 505.945186 129.168
+L 501.945186 131.168
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(531.906328 121.573406)">Liberty + SPEF</text>
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(529.505859 131.651437)">OpenSTA power</text>
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(538.996641 141.729469)">E = P Δt / N</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #21618c; font: 700 15px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="12.78" y="184.608" transform="rotate(-0 12.78 184.608)">C</text>
+   </g>
+   <g id="text_11">
+    <text style="font: 10px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="46.26" y="187.367375" transform="rotate(-0 46.26 187.367375)">Same netlist + matched SDF → delayed internal VCD</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 316.098501 184.608
+Q 330.83816 184.608 344.124376 184.608
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 340.124376 182.608
+L 344.124376 184.608
+L 340.124376 186.608
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_12">
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(367.702734 182.052422)">Mapping + coverage</text>
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(364.62375 192.130453)">+ known-state checks</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 483.499182 184.608
+Q 495.448906 184.608 505.945186 184.608
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+    <path d="M 501.945186 182.608
+L 505.945186 184.608
+L 501.945186 186.608
+" style="fill: none; stroke: #59636e; stroke-width: 1.3; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(531.906328 177.013406)">Liberty + SPEF</text>
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(529.505859 187.091437)">OpenSTA power</text>
+    <text style="font: 9px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif" transform="translate(538.996641 197.169469)">E = P Δt / N</text>
+   </g>
+   <g id="text_14">
+    <text style="font: 8px 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start" x="12.78" y="226.188" transform="rotate(-0 12.78 226.188)">Matched workload, completed count, window, voltage, temperature and eligible frequency. C is a simulation reference, not silicon ground truth.</text>
+   </g>
+  </g>
+ </g>
+</svg>

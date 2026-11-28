@@ -1,0 +1,12 @@
+{
+  "status": "BLOCKED_P2_G00",
+  "qualified_A_B_C_triplets": 0,
+  "mean_absolute_relative_deviation_percent": null,
+  "median_deviation_percent": null,
+  "worst_observed_deviation_percent": null,
+  "paired_confidence_interval": null,
+  "ranking_agreement": null,
+  "ranking_reversal": null,
+  "reason": "No qualified delay-annotated physical ECC reference exists; historical A-only results are not a matched three-way dataset.",
+  "future_formula": "100 * (E_method - E_C) / E_C, with identical implementation, workload, completed-count window and operating point identities."
+}

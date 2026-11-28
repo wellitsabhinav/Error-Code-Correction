@@ -1,0 +1,221 @@
+{
+  "architecture_means": {
+    "secded_comb": {
+      "clock_total_power_w": 0.0014525775099172,
+      "combinational_total_power_w": 0.010914188809694,
+      "energy_per_op_pj": 145.76888107636458,
+      "internal_power_w": 0.0067533181980252,
+      "leakage_power_w": 7.3002572875682e-09,
+      "sequential_total_power_w": 0.0022086626850068,
+      "switching_power_w": 0.0078221049159766,
+      "total_power_w": 0.01457543056458
+    },
+    "secded_pipe": {
+      "clock_total_power_w": 0.0025310372002424,
+      "combinational_total_power_w": 0.00485703619197,
+      "energy_per_op_pj": 111.62919634507416,
+      "internal_power_w": 0.007210383657366,
+      "leakage_power_w": 9.8134362858106e-09,
+      "sequential_total_power_w": 0.0037737301085142,
+      "switching_power_w": 0.0039514098316432,
+      "total_power_w": 0.011161803454162
+    }
+  },
+  "effects": [
+    {
+      "ci": null,
+      "ci_reason": "Descriptive deterministic seeds; no random-population inference predeclared.",
+      "max_percent": 7.623335476893134,
+      "mean_percent": 6.7723518051175,
+      "median_percent": 7.34587058252596,
+      "metric": "internal_power_w",
+      "min_percent": 5.048397680031558,
+      "paired_percent": [
+        5.048397680031558,
+        7.34587058252596,
+        6.392356842523594,
+        7.451798443613256,
+        7.623335476893134
+      ],
+      "sample_sd_percent": 1.0760063579307508,
+      "seeds": [
+        11,
+        13,
+        17,
+        19,
+        23
+      ]
+    },
+    {
+      "ci": null,
+      "ci_reason": "Descriptive deterministic seeds; no random-population inference predeclared.",
+      "max_percent": -48.525033479362065,
+      "mean_percent": -49.48133171156402,
+      "median_percent": -49.5459191867348,
+      "metric": "switching_power_w",
+      "min_percent": -50.23107725578757,
+      "paired_percent": [
+        -49.342826765681146,
+        -50.23107725578757,
+        -49.5459191867348,
+        -49.761801870254494,
+        -48.525033479362065
+      ],
+      "sample_sd_percent": 0.6282203757230542,
+      "seeds": [
+        11,
+        13,
+        17,
+        19,
+        23
+      ]
+    },
+    {
+      "ci": null,
+      "ci_reason": "Descriptive deterministic seeds; no random-population inference predeclared.",
+      "max_percent": 35.10935027546702,
+      "mean_percent": 34.42679379551183,
+      "median_percent": 34.48944738169024,
+      "metric": "leakage_power_w",
+      "min_percent": 33.814051382116176,
+      "paired_percent": [
+        33.814051382116176,
+        34.48944738169024,
+        34.08015090007699,
+        34.64096903820872,
+        35.10935027546702
+      ],
+      "sample_sd_percent": 0.5028156761934471,
+      "seeds": [
+        11,
+        13,
+        17,
+        19,
+        23
+      ]
+    },
+    {
+      "ci": null,
+      "ci_reason": "Descriptive deterministic seeds; no random-population inference predeclared.",
+      "max_percent": -22.518942930942387,
+      "mean_percent": -23.419005222611926,
+      "median_percent": -23.52597096131096,
+      "metric": "total_power_w",
+      "min_percent": -24.01602702589811,
+      "paired_percent": [
+        -24.01602702589811,
+        -23.79867187892941,
+        -23.52597096131096,
+        -23.23541331597876,
+        -22.518942930942387
+      ],
+      "sample_sd_percent": 0.5822030551792994,
+      "seeds": [
+        11,
+        13,
+        17,
+        19,
+        23
+      ]
+    },
+    {
+      "ci": null,
+      "ci_reason": "Descriptive deterministic seeds; no random-population inference predeclared.",
+      "max_percent": -22.518942930942387,
+      "mean_percent": -23.419005222611926,
+      "median_percent": -23.52597096131095,
+      "metric": "energy_per_op_pj",
+      "min_percent": -24.01602702589811,
+      "paired_percent": [
+        -24.01602702589811,
+        -23.79867187892941,
+        -23.52597096131095,
+        -23.23541331597876,
+        -22.518942930942387
+      ],
+      "sample_sd_percent": 0.5822030551792989,
+      "seeds": [
+        11,
+        13,
+        17,
+        19,
+        23
+      ]
+    },
+    {
+      "ci": null,
+      "ci_reason": "Descriptive deterministic seeds; no random-population inference predeclared.",
+      "max_percent": 71.41011605244026,
+      "mean_percent": 70.8610032704096,
+      "median_percent": 70.94170143654566,
+      "metric": "sequential_total_power_w",
+      "min_percent": 70.20118627397068,
+      "paired_percent": [
+        70.68606102646164,
+        71.06595156262972,
+        71.41011605244026,
+        70.94170143654566,
+        70.20118627397068
+      ],
+      "sample_sd_percent": 0.4516647267050926,
+      "seeds": [
+        11,
+        13,
+        17,
+        19,
+        23
+      ]
+    },
+    {
+      "ci": null,
+      "ci_reason": "Descriptive deterministic seeds; no random-population inference predeclared.",
+      "max_percent": -54.921778912966026,
+      "mean_percent": -55.496920516872436,
+      "median_percent": -55.615664898924585,
+      "metric": "combinational_total_power_w",
+      "min_percent": -55.924322307995624,
+      "paired_percent": [
+        -55.364948821913195,
+        -55.924322307995624,
+        -55.615664898924585,
+        -55.65788764256276,
+        -54.921778912966026
+      ],
+      "sample_sd_percent": 0.37778543106230084,
+      "seeds": [
+        11,
+        13,
+        17,
+        19,
+        23
+      ]
+    },
+    {
+      "ci": null,
+      "ci_reason": "Descriptive deterministic seeds; no random-population inference predeclared.",
+      "max_percent": 81.33623362546678,
+      "mean_percent": 74.3379357275997,
+      "median_percent": 76.26270097357799,
+      "metric": "clock_total_power_w",
+      "min_percent": 67.90037868215151,
+      "paired_percent": [
+        67.90037868215151,
+        77.0225637510572,
+        69.16780160574498,
+        76.26270097357799,
+        81.33623362546678
+      ],
+      "sample_sd_percent": 5.658192067593587,
+      "seeds": [
+        11,
+        13,
+        17,
+        19,
+        23
+      ]
+    }
+  ],
+  "n": 5,
+  "paired_unit": "physical placement seed",
+  "source_sha256": "bac279eda4f144088622e50a2e9a19888b96200dd13b904e1ff9ca544a293103"
+}

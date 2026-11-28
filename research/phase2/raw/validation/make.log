@@ -1,0 +1,12 @@
+g++ -std=c++17 -O2 -MMD -MP -I. -c BCHvsHamming.cpp -o BCHvsHamming.o
+g++ -std=c++17 -O2 -MMD -MP -I. -c src/bch63.cpp -o src/bch63.o
+g++ -std=c++17 -O2 -MMD -MP -I. BCHvsHamming.o src/bch63.o -o BCHvsHamming
+g++ -std=c++17 -O2 -MMD -MP -I. -c Hamming32bit1Gb.cpp -o Hamming32bit1Gb.o
+g++ -std=c++17 -O2 -MMD -MP -I. Hamming32bit1Gb.o -o Hamming32bit1Gb
+g++ -std=c++17 -O2 -MMD -MP -I. -c Hamming64bit128Gb.cpp -o Hamming64bit128Gb.o
+g++ -std=c++17 -O2 -MMD -MP -I. -c src/energy_loader.cpp -o src/energy_loader.o
+g++ -std=c++17 -O2 -MMD -MP -I. Hamming64bit128Gb.o src/energy_loader.o -o Hamming64bit128Gb
+g++ -std=c++17 -O2 -MMD -MP -I. -c SAT.cpp -o SAT.o
+g++ -std=c++17 -O2 -MMD -MP -I. SAT.o -o SATDemo
+g++ -std=c++17 -O2 -MMD -MP -I. -c PracticalSRAMSimulator.cpp -o PracticalSRAMSimulator.o
+g++ -std=c++17 -O2 -MMD -MP -I. PracticalSRAMSimulator.o -o PracticalSRAMSimulator

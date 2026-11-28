@@ -1,0 +1,8 @@
+{
+  "files": {
+    "sky130_fd_sc_hd__buf_1.v": "82b29d575e47dae79ac6fa29473219e7c405a7ac2554d73f98a70d35dd195019",
+    "sky130_fd_sc_hd__xor2_1.v": "25f86b67deb6e0fcb2294f4880194f650e9161ccc7344e094dcbfb136f1b3f8c"
+  },
+  "method": "Insert the upstream specify fragment before each size-wrapper endmodule; upstream base functional module unchanged.",
+  "source_scope": "Public SKY130 two-cell synthetic qualification, not full baseline timing models."
+}

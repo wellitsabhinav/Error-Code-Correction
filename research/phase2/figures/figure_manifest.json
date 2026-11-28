@@ -1,0 +1,67 @@
+[
+  {
+    "classification": "RTL_STRUCTURE_NOT_TIMING_MEASUREMENT",
+    "name": "01_pipeline_registers",
+    "sources": {
+      "asic/rtl/secded/secded_pipelined_72_64_v1.sv": "e250a6741b6aa56e0bdc5892ac5753e4487769a6683f68db6ab9155c26a3b155",
+      "scripts/gate04/rtl/gate04_boundaries.sv": "7de8e8d2933cdf17740ec5ec6f45a3654d5d54d9e419ed1c628ab29ca03308f8"
+    }
+  },
+  {
+    "classification": "RTL_STRUCTURE",
+    "name": "02_hsiao_circuit_example",
+    "sources": {
+      "campaigns/date_2027_breadth_remediation/rtl/hsiao_secded_72_64_v3_hierarchical_decoder.sv": "678b3bf1c51be4b0d1167828140c3a56457f7a7442f9b0592545d07a5cafc253",
+      "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v2_algorithmic_decoder.sv": "3c422dbbddab55e8e2ae141b571e60e63f4ecd87ac409d64b59cc184f21aadcf"
+    }
+  },
+  {
+    "classification": "METHOD_CONTRACT_NO_RESULT",
+    "name": "03_estimator_contract",
+    "sources": {
+      "research/phase2/configs/research.json": "84ce88f7076945d09700f9bd70b775de2d6a1f26d7cb4c8f58ba61a89c15122d"
+    }
+  },
+  {
+    "classification": "HISTORICAL_PROPAGATED_ESTIMATE_NOT_A_B_C_COMPARISON",
+    "name": "04_historical_paired_energy",
+    "sources": {
+      "research/phase2/processed/historical_power_reanalysis.csv": "07e7ee81bde68306381d65182b357c5d748a3c20c61864c33b3b612905dffa6f"
+    }
+  },
+  {
+    "classification": "HISTORICAL_POWER_ACCOUNTING_NOT_CAUSAL_ATTRIBUTION",
+    "name": "05_historical_power_accounting",
+    "sources": {
+      "campaigns/date_2027_breadth_remediation/analysis/B_power_components_per_seed.csv": "bac279eda4f144088622e50a2e9a19888b96200dd13b904e1ff9ca544a293103"
+    }
+  },
+  {
+    "classification": "HISTORICAL_FIVE_SEED_DESCRIPTIVE",
+    "name": "06_historical_tradeoffs",
+    "sources": {
+      "docs/date2027/revision2/results/REV2_RUN_RESULTS.csv": "01b2b6e3df3207d9612cbe2c9a6f8b49e366db63ebfedb6096a3c2e0b6f524e7"
+    }
+  },
+  {
+    "classification": "MEASURED_SIMULATOR_EVENTS_ARTIFICIAL_DELAYS",
+    "name": "07_synthetic_hazard",
+    "sources": {
+      "research/phase2/raw/qualification_final/results.json": "4545286a20c8c6c1cbaa212cd9ffd7855e3fa199e0946695b21cf3b0400a3c2a"
+    }
+  },
+  {
+    "classification": "GENERATED_INPUT_CHARACTERISTICS_NO_ENERGY_RESULT",
+    "name": "08_workload_activity",
+    "sources": {
+      "research/phase2/processed/workload_characteristics.csv": "d2d1b09763fd25e44c40a3abce2769084beb88440963bd66bc519e76155dcaf3"
+    }
+  },
+  {
+    "classification": "HISTORICAL_MAPPED_STRUCTURE",
+    "name": "09_mapped_xor_example",
+    "sources": {
+      "campaigns/date_2027_breadth_remediation/synthesis/baseline_flat/mapped_netlist.json": "043a3df70ca1a7e2b9428bfabaf8ed6f6dda97e68ac3fc6140b063901f6ab240"
+    }
+  }
+]

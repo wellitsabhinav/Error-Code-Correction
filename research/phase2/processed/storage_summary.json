@@ -1,0 +1,21 @@
+{
+  "compression_saved_bytes": 24126077,
+  "deduplication_deletion_saved_bytes": 0,
+  "experimental_continuous_peak_bytes": null,
+  "final_host_free_bytes": {
+    "C": 27888742400,
+    "F": 162479960064,
+    "G": 83306139648
+  },
+  "initial_host_free_bytes": {
+    "C": 27974656000,
+    "G": 83306139648
+  },
+  "installed_dependencies_bytes": 0,
+  "note": "Sampled file lengths and host free bytes; unrelated host activity and Git acquisition overhead are separate. Missing peak/savings metrics are null.",
+  "production_streaming_saved_bytes": null,
+  "public_qualification_source_download_bytes": 22492,
+  "retained_phase2_bytes_as_sampled": 4299848,
+  "retained_phase2_files_as_sampled": 249,
+  "sampled_git_temporary_pack_max_bytes": 2061058023
+}

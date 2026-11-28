@@ -1,0 +1,41 @@
+{
+  "cells": [
+    {
+      "attributes": {},
+      "connections": {
+        "A": [
+          436
+        ],
+        "B": [
+          437
+        ],
+        "X": [
+          438
+        ]
+      },
+      "hide_name": 1,
+      "instance": "$abc$4396$auto$blifparse.cc:397:parse_blif$4439",
+      "parameters": {},
+      "type": "sky130_fd_sc_hd__xor2_1"
+    },
+    {
+      "attributes": {},
+      "connections": {
+        "A": [
+          394
+        ],
+        "B": [
+          438
+        ],
+        "X": [
+          554
+        ]
+      },
+      "hide_name": 1,
+      "instance": "$abc$4396$auto$blifparse.cc:397:parse_blif$4535",
+      "parameters": {},
+      "type": "sky130_fd_sc_hd__xor2_1"
+    }
+  ],
+  "source_sha256": "043a3df70ca1a7e2b9428bfabaf8ed6f6dda97e68ac3fc6140b063901f6ab240"
+}

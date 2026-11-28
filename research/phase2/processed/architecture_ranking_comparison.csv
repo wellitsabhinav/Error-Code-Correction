@@ -1,0 +1,11 @@
+seed,first,second,historical_A_lower_energy,B_lower_energy,C_lower_energy,ranking_agreement,ranking_reversal,status
+11,secded_comb,secded_pipe,secded_pipe,,,,,NO_QUALIFIED_THREE_WAY_COMPARISON
+13,secded_comb,secded_pipe,secded_pipe,,,,,NO_QUALIFIED_THREE_WAY_COMPARISON
+17,secded_comb,secded_pipe,secded_pipe,,,,,NO_QUALIFIED_THREE_WAY_COMPARISON
+19,secded_comb,secded_pipe,secded_pipe,,,,,NO_QUALIFIED_THREE_WAY_COMPARISON
+23,secded_comb,secded_pipe,secded_pipe,,,,,NO_QUALIFIED_THREE_WAY_COMPARISON
+11,A_hsiao_flat,A_hsiao_hierarchical,A_hsiao_flat,,,,,NO_QUALIFIED_THREE_WAY_COMPARISON
+13,A_hsiao_flat,A_hsiao_hierarchical,A_hsiao_flat,,,,,NO_QUALIFIED_THREE_WAY_COMPARISON
+17,A_hsiao_flat,A_hsiao_hierarchical,A_hsiao_flat,,,,,NO_QUALIFIED_THREE_WAY_COMPARISON
+19,A_hsiao_flat,A_hsiao_hierarchical,A_hsiao_flat,,,,,NO_QUALIFIED_THREE_WAY_COMPARISON
+23,A_hsiao_flat,A_hsiao_hierarchical,A_hsiao_flat,,,,,NO_QUALIFIED_THREE_WAY_COMPARISON

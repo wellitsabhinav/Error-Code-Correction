@@ -1,0 +1,120 @@
+{
+  "delays": "Artificial controlled path delays, not Liberty-derived cell or routed-wire delays.",
+  "production_readiness": "BLOCKED",
+  "reason": "Synthetic assembly cannot qualify full routed ECC models, missing DATE physical artifacts or untested full annotation coverage.",
+  "results": [
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/zero_run.log",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 0,
+      "label": "zero",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 2672,
+      "vcd_sha256": "2297c4448e72e8ebf68cacdc4a60aba90c7afc68bcbd726b5712e6b5197af1c9",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/upstream_unassembled_run.log",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 4,
+      "label": "upstream_unassembled",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 3600,
+      "vcd_sha256": "acdd1e21450203acfae0871abb1e0dc8a110912427169cf9ee14c7936ae690c0",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_min_run.log",
+      "compile_exit": 0,
+      "corner": "min",
+      "expected_annotation_arcs": 4,
+      "label": "iopath_min",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 3517,
+      "vcd_sha256": "ab89f70e9d5e082619e56e6e06fad380ab0be542cefda4e2d71c0a24d8eefbbf",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_typ_run.log",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 4,
+      "label": "iopath_typ",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 3517,
+      "vcd_sha256": "3356cc61b9f58adcf851b6d5e8ca7c2543683a6ce27dcd48046fcc4d9d1e3692",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/iopath_max_run.log",
+      "compile_exit": 0,
+      "corner": "max",
+      "expected_annotation_arcs": 4,
+      "label": "iopath_max",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 3517,
+      "vcd_sha256": "21ad20bd5f1bb6be4bbb0e0f53ae2d4904a5ad3979e5649bc38a344259b65ab0",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/interconnect_run.log",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 2,
+      "label": "interconnect",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 3605,
+      "vcd_sha256": "bedd53316891f9857175100d803ffa99c7f329b08d57d70761526dc442bbe634",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "compile_exit": 255,
+      "corner": "typ",
+      "expected_annotation_arcs": 2,
+      "label": "interconnect_flag_probe"
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/narrow_pulse_run.log",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 0,
+      "label": "narrow_pulse",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 3653,
+      "vcd_sha256": "6d4e842bf3c712e357a7d5fe67955db7c5c37447200d9a60917f4ec30959cd5b",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    },
+    {
+      "annotation_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/bad_hierarchy_run.log",
+      "compile_exit": 0,
+      "corner": "typ",
+      "expected_annotation_arcs": 0,
+      "label": "bad_hierarchy",
+      "pulse_samples_ps": [],
+      "run_exit": 0,
+      "vcd_bytes": 3681,
+      "vcd_sha256": "75cd6866d0e5532477de9a45f085cbd7c476683e07d7866afe2034faec536668",
+      "y_binary_transitions": 0,
+      "y_min_pulse_ps": null
+    }
+  ],
+  "schema_version": 1,
+  "synthetic_iopath_pass": false,
+  "timing_check_log": "/mnt/c/Users/Abhinav/OneDrive/Desktop/ECC/Error-Code-Correction/research/phase2/raw/qualification/timing_checks_run.log"
+}

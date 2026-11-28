@@ -1,0 +1,285 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "F:/AgenticAI/.local/m10-icarus-prefix/bin/iverilog.exe",
+        "-V"
+      ],
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification",
+      "exit_code": 0,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification\\simulator_version.log",
+      "log_sha256": "03adeb16eb69c3550d3a1b4d49ae159e10c824930b9ea601b46149d6d3b4ac47",
+      "runtime_seconds": 0.17200000000002547,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28390031360,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:44:38.698073+00:00"
+    },
+    {
+      "argv": [
+        "F:/AgenticAI/.local/m10-icarus-prefix/bin/iverilog.exe",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\zero.vvp",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\hazard_tb.sv",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__buf_1.v",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification",
+      "exit_code": 3221225477,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification\\zero_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.45299999999997453,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28389888000,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:44:39.216056+00:00"
+    },
+    {
+      "argv": [
+        "F:/AgenticAI/.local/m10-icarus-prefix/bin/iverilog.exe",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\upstream_unassembled.vvp",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\hazard_tb.sv",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\sky130_minimal\\sky130_fd_sc_hd__buf_1.v",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\sky130_minimal\\sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification",
+      "exit_code": 3221225477,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification\\upstream_unassembled_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.3129999999998745,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28389699584,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:44:39.545098+00:00"
+    },
+    {
+      "argv": [
+        "F:/AgenticAI/.local/m10-icarus-prefix/bin/iverilog.exe",
+        "-g2012",
+        "-gspecify",
+        "-Tmin",
+        "-I",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\iopath_min.vvp",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\hazard_tb.sv",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__buf_1.v",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification",
+      "exit_code": 3221225477,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification\\iopath_min_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.32799999999997453,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28389552128,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:44:39.885764+00:00"
+    },
+    {
+      "argv": [
+        "F:/AgenticAI/.local/m10-icarus-prefix/bin/iverilog.exe",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\iopath_typ.vvp",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\hazard_tb.sv",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__buf_1.v",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification",
+      "exit_code": 3221225477,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification\\iopath_typ_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.3129999999998745,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28389335040,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:44:40.202282+00:00"
+    },
+    {
+      "argv": [
+        "F:/AgenticAI/.local/m10-icarus-prefix/bin/iverilog.exe",
+        "-g2012",
+        "-gspecify",
+        "-Tmax",
+        "-I",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\iopath_max.vvp",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\hazard_tb.sv",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__buf_1.v",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification",
+      "exit_code": 3221225477,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification\\iopath_max_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.32799999999997453,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28135743488,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:44:40.540319+00:00"
+    },
+    {
+      "argv": [
+        "F:/AgenticAI/.local/m10-icarus-prefix/bin/iverilog.exe",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-ginterconnect",
+        "-I",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\interconnect.vvp",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\hazard_tb.sv",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__buf_1.v",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification",
+      "exit_code": 4294967295,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification\\interconnect_compile.log",
+      "log_sha256": "98b40bf50f1769dff28c2b6274c9fd36e6b93ae6025f715c0cec411ccd685761",
+      "runtime_seconds": 0.03099999999994907,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28135546880,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:44:40.602302+00:00"
+    },
+    {
+      "argv": [
+        "F:/AgenticAI/.local/m10-icarus-prefix/bin/iverilog.exe",
+        "-g2012",
+        "-gspecify",
+        "-Ttyp",
+        "-I",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\sky130_minimal",
+        "-s",
+        "hazard_tb",
+        "-o",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\bad_hierarchy.vvp",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\hazard_tb.sv",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__buf_1.v",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\sky130_fd_sc_hd__xor2_1.v"
+      ],
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification",
+      "exit_code": 3221225477,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification\\bad_hierarchy_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.3280000000002019,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28135538688,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:44:40.938966+00:00"
+    },
+    {
+      "argv": [
+        "F:/AgenticAI/.local/m10-icarus-prefix/bin/iverilog.exe",
+        "-g2012",
+        "-gspecify",
+        "-s",
+        "timing_checks_tb",
+        "-o",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\scratch\\qualification\\timing.vvp",
+        "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\verification\\timing_checks_tb.sv"
+      ],
+      "cwd": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification",
+      "exit_code": 3221225477,
+      "log": "C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\research\\phase2\\raw\\qualification\\timing_checks_compile.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "runtime_seconds": 0.32799999999997453,
+      "status": "COMPLETED",
+      "storage_before": {
+        "free_bytes": 28135522304,
+        "projected_bytes": 16777216,
+        "reserve_bytes": 3221225472,
+        "total_bytes": 199569510400
+      },
+      "utc": "2026-11-28T13:44:41.275418+00:00"
+    }
+  ],
+  "contract": {
+    "inputs": {
+      "research\\phase2\\verification\\hazard.sdf": "1db6a6162e45185207a57b3646416cf7a5df1f13d0d8d34d9e74842914a5a0c8",
+      "research\\phase2\\verification\\hazard_tb.sv": "d658e8398aab59fa6b1d3b63ac0fd0e1ccbee19dfd53e72cba473d693a4b66f7",
+      "research\\phase2\\verification\\interconnect.sdf": "2f35ddea38966795c6c1128030b1d4c78c1dbbe149901faed52a172c2242cb78",
+      "research\\phase2\\verification\\sky130_minimal\\LICENSE": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac",
+      "research\\phase2\\verification\\sky130_minimal\\sky130_fd_sc_hd__buf.behavioral.v": "b6ed6307702bf091f752591cbab7cc0330bdbfb385c46cf3d0ec144374aa74fe",
+      "research\\phase2\\verification\\sky130_minimal\\sky130_fd_sc_hd__buf.specify.v": "c8080005e710d1ba4ba2fe4221e569dfe60e555bb4e70f9ac3cfe0c93c6a12b1",
+      "research\\phase2\\verification\\sky130_minimal\\sky130_fd_sc_hd__buf.v": "213f2647e8ab0cec70d417e01bb5bbffba2642231d0376d28adc81401da6c8b5",
+      "research\\phase2\\verification\\sky130_minimal\\sky130_fd_sc_hd__buf_1.v": "874ed6a074a6fcf13861b2ba225c28a7c1aaf8cd17eb8349434b19259fa4d02d",
+      "research\\phase2\\verification\\sky130_minimal\\sky130_fd_sc_hd__xor2.behavioral.v": "003a74f6ec50ef747c01b186c060b28326d52fef93b69f0130a3788acf885efd",
+      "research\\phase2\\verification\\sky130_minimal\\sky130_fd_sc_hd__xor2.specify.v": "254ff53ad95af73d3b159b60ce5432acfde6098166cc44cba7e792cdd73e4e37",
+      "research\\phase2\\verification\\sky130_minimal\\sky130_fd_sc_hd__xor2.v": "5ac89c18e8e9a84a94f894c9e2f7237ae3a0ec333c6a8a331f0b3286e7ddf06b",
+      "research\\phase2\\verification\\sky130_minimal\\sky130_fd_sc_hd__xor2_1.v": "2b0c9c865ff815b31cdc09c7f8d218258cfeac27e58c3c7dc3105edc11fa2296"
+    },
+    "iverilog": "F:/AgenticAI/.local/m10-icarus-prefix/bin/iverilog.exe",
+    "revision": 1,
+    "scope": "synthetic only",
+    "vvp": "F:/AgenticAI/.local/m10-icarus-prefix/bin/vvp.exe"
+  },
+  "contract_sha256": "b053a1680c011f71c1728b6ff179bd7ed18703f95f09c01e623bf1d76762b4fc",
+  "deadline_epoch": 1795887878.4912817,
+  "result_sha256": "b3e0e7be87ef976806db89775d87db9192594b6182aa683ee0a022dc1e0eb048",
+  "run_id": "simulator-qualification",
+  "start_epoch": 1795873478.4912817,
+  "status": "SYNTHETIC_PROBES_COMPLETED_PRODUCTION_BLOCKED"
+}

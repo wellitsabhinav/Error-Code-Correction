@@ -1,0 +1,74 @@
+
+=================================== ERRORS ====================================
+________ ERROR collecting tests/python/test_architecture_selection.py _________
+tests\python\test_architecture_selection.py:8: in <module>
+    from architecture.providers import MuxCharacterizationProvider
+architecture\providers.py:10: in <module>
+    from ecc_selector import select
+ecc_selector.py:30: in <module>
+    from energy_model import scrub_energy_kwh
+energy_model.py:52: in <module>
+    _CALIB = _load_calib(Path(__file__).with_name("tech_calib.json"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+calibration.py:93: in load_calibration
+    validate_calibration_provenance(
+calibration.py:51: in validate_calibration_provenance
+    manifest = json.load(open(provenance_manifest_path))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\reports\\calibration\\provenance_manifest.json'
+_____________ ERROR collecting tests/python/test_carbon_model.py ______________
+tests\python\test_carbon_model.py:5: in <module>
+    import ecc_selector
+ecc_selector.py:30: in <module>
+    from energy_model import scrub_energy_kwh
+energy_model.py:52: in <module>
+    _CALIB = _load_calib(Path(__file__).with_name("tech_calib.json"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+calibration.py:93: in load_calibration
+    validate_calibration_provenance(
+calibration.py:51: in validate_calibration_provenance
+    manifest = json.load(open(provenance_manifest_path))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\reports\\calibration\\provenance_manifest.json'
+_______ ERROR collecting tests/python/test_dashboard_tutorial_cases.py ________
+ImportError while importing test module 'C:\Users\Abhinav\OneDrive\Desktop\ECC\Error-Code-Correction\tests\python\test_dashboard_tutorial_cases.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+D:\Python\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\python\test_dashboard_tutorial_cases.py:1: in <module>
+    from web.tutorial_backend import CASE_TEMPLATES, generate_tutorial_cases
+E   ModuleNotFoundError: No module named 'web'
+_____________ ERROR collecting tests/python/test_energy_interp.py _____________
+tests\python\test_energy_interp.py:2: in <module>
+    import energy_model
+energy_model.py:52: in <module>
+    _CALIB = _load_calib(Path(__file__).with_name("tech_calib.json"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+calibration.py:93: in load_calibration
+    validate_calibration_provenance(
+calibration.py:51: in validate_calibration_provenance
+    manifest = json.load(open(provenance_manifest_path))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\reports\\calibration\\provenance_manifest.json'
+_____________ ERROR collecting tests/python/test_energy_model.py ______________
+tests\python\test_energy_model.py:3: in <module>
+    import energy_model
+energy_model.py:52: in <module>
+    _CALIB = _load_calib(Path(__file__).with_name("tech_calib.json"))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+calibration.py:93: in load_calibration
+    validate_calibration_provenance(
+calibration.py:51: in validate_calibration_provenance
+    manifest = json.load(open(provenance_manifest_path))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\Abhinav\\OneDrive\\Desktop\\ECC\\Error-Code-Correction\\reports\\calibration\\provenance_manifest.json'
+=========================== short test summary info ===========================
+ERROR tests/python/test_architecture_selection.py - FileNotFoundError: [Errno...
+ERROR tests/python/test_carbon_model.py - FileNotFoundError: [Errno 2] No suc...
+ERROR tests/python/test_dashboard_tutorial_cases.py
+ERROR tests/python/test_energy_interp.py - FileNotFoundError: [Errno 2] No su...
+ERROR tests/python/test_energy_model.py - FileNotFoundError: [Errno 2] No suc...
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 5 failures !!!!!!!!!!!!!!!!!!!!!!!!!!
+5 errors in 14.48s

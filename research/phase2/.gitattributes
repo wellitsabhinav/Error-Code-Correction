@@ -1,0 +1,3 @@
+# Preserve exact diagnostic/upstream bytes, including native CRLF and blank EOFs.
+raw/** -whitespace
+verification/sky130_minimal/** -whitespace

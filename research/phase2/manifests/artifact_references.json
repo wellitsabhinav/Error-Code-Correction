@@ -1,0 +1,1578 @@
+{
+  "algorithm": "sha256",
+  "objects": {
+    "00a279764f31eb270ccfe6ce9ca228452712e0ecf353fa1861dccc5f59b06f05": [
+      {
+        "available": true,
+        "git_blob": "4131a55ee3de7c4ccea1d318007268b80ca89ba5",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_HSIAO_STRUCTURE.log"
+      }
+    ],
+    "015701c8da57184c570d06f52fbeb622d1c809d7bebeb4114acc8af5947d599f": [
+      {
+        "available": true,
+        "git_blob": "79ef4ed8fe68a5d213436d993c3da35c23f22fd5",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/MATRIX_EXECUTION.json"
+      }
+    ],
+    "01b2b6e3df3207d9612cbe2c9a6f8b49e366db63ebfedb6096a3c2e0b6f524e7": [
+      {
+        "available": true,
+        "git_blob": "d16e5d13b3fb287135fe74abcdc1f0e2fe85d2f3",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/REV2_RUN_RESULTS.csv"
+      }
+    ],
+    "01c9eb95fce9d96ff6c8f722a5aba567d841870b3ff7fe9ec0ffede3cf96fb6d": [
+      {
+        "available": true,
+        "git_blob": "a8888bf81e4f9aa8841f9c92cd8a22dea0623873",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/publish_results.py"
+      }
+    ],
+    "03a92c1b94b00edbe457f4fbf5e965737fb100705d4c9220d14a5824167e1e94": [
+      {
+        "available": true,
+        "git_blob": "885f11207fb828c991155a35c2bd54879abf7bd3",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/H2_ARCHITECTURE_CONTRACT.md"
+      }
+    ],
+    "043a3df70ca1a7e2b9428bfabaf8ed6f6dda97e68ac3fc6140b063901f6ab240": [
+      {
+        "available": true,
+        "git_blob": "0af4a069d5d44a30859545f54bcebb1c76e6f3c7",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/synthesis/baseline_flat/mapped_netlist.json"
+      }
+    ],
+    "05bd24b0bc8611aa0660d9554037f06c8501c812156c2554812c71111581a3f6": [
+      {
+        "available": true,
+        "git_blob": "2f86d6c58c485aa1689586b0a528402780a6d935",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/RTL_SIMULATION_RESULTS.json"
+      }
+    ],
+    "0638d9bf0ecce66611d223997ddf585a66f20d9c3b52715effb47b0a503d01b2": [
+      {
+        "available": true,
+        "git_blob": "18cd5f8727ae155cb8f35a0847967b1b66f25685",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_ALTERNATE_BCH_AUDIT.md"
+      }
+    ],
+    "06adfade6b9bd79e31c668331b26a20dbcdbd485052a3e1585aa0326f08f11ca": [
+      {
+        "available": true,
+        "git_blob": "70a70699b2062649ea1370b528f1bed7d2fd70be",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/GATE_03_REENTRY_MANIFEST.json"
+      }
+    ],
+    "0763c4721106e3d6461d95c51f4266ff17a5edc44d63f4b0ac240f4aad4e1b8d": [
+      {
+        "available": true,
+        "git_blob": "89ced13770a3f66741354b5b82005ee499fe1777",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/raw_logs/rtl-bch-verilator-build.log"
+      }
+    ],
+    "0763ca806414372d534e54e5c6c266f790ec5b9dbfe59ca01faac8a8ed4e1b66": [
+      {
+        "available": true,
+        "git_blob": "e42866d1aa1ad0970cdccbc1f0f5e70d855b9deb",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/DATE2027_TERMINOLOGY_MAP.md"
+      }
+    ],
+    "07747a32c55cd04821fdcc73b0513272ac797bd7287af1e932b74b4a651aa8d7": [
+      {
+        "available": true,
+        "git_blob": "13e3adca0727783c0c25f14b540db7d96e41190d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/configs/secded_pipe.mk"
+      }
+    ],
+    "0cd22d61b7436a4898cf1149f693e9b32c978dacf8bb6fe43994becfa07802ab": [
+      {
+        "available": true,
+        "git_blob": "29c86d05a5755d51ac1307719d47e91622852295",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/EXACT_PROOF_SUMMARY.json"
+      }
+    ],
+    "0d3be7f35e38dd5f5a805f4298c27f43e6296b6c8e1c3491e0dcb1dbcd52e007": [
+      {
+        "available": true,
+        "git_blob": "1681b497ec6bd1193ce61b615c86143c6f33c38c",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/analysis/B_power_components_summary.json"
+      }
+    ],
+    "0dbe303701d095d30972c44aa6389c203a45e8568fff90c0f48bc84ece2af597": [
+      {
+        "available": true,
+        "git_blob": "55024ba71e0b62815c58346810cd7e6da9c18b46",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/raw_logs/rtl-secded-vvp-simulation.log"
+      }
+    ],
+    "11a72bc2e4d395279c0e2c89b3b0ee2a8f19c861ada2ec58e4674ecb1cb97ad2": [
+      {
+        "available": true,
+        "git_blob": "66f19d09560bd3926926f3baa72dfdbf5281dddb",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/data/derived_statistics.json"
+      }
+    ],
+    "12313910b79aa1edfad374de860499ba9114e77a8ddde3f455462d708e51a8b6": [
+      {
+        "available": true,
+        "git_blob": "d813190e5c2ec392a850fdc9ad2f4bfba8308627",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/analyze_results.py"
+      }
+    ],
+    "136ae58d308eaf264fe4daeef0d780e6f56b0402327f3bf776c57eae3b140ecb": [
+      {
+        "archive": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-date2027-revision2-runs.tar.gz",
+        "available": false,
+        "kind": "MISSING_ARCHIVE_MEMBER_REFERENCE",
+        "member": "secded-pipe-seed-11/results/sky130hd/gate04_secded_pipe_72_64/base/6_final.spef"
+      }
+    ],
+    "174d6fd36742eeaa4b2a930b187c7562228ec89f5567e11c7d985e05f08c0965": [
+      {
+        "available": true,
+        "git_blob": "e89a7151eefd60e00bb0898532c2f67a216c5d4b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/REV2_RUN_RESULTS.json"
+      }
+    ],
+    "175a3bac36dca99dfb015a99b32e5f6dfd6e659b4c5bc293c56034c2f3be51d1": [
+      {
+        "available": true,
+        "git_blob": "ce87cf56433bb88c3f47c7c6210401d156e441d9",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/contract_v1.json"
+      }
+    ],
+    "1d573112e9d4d2d0e3d395ac06ab172b0ba4054d93505075738741870fafaf94": [
+      {
+        "available": true,
+        "git_blob": "121db2836c84ab9333343113f2d3764396244b89",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/DATE2027_REPRODUCIBILITY_TABLE.csv"
+      }
+    ],
+    "1df1df210b7ddea028d4b2b166c37bd4f45a59a8389d313337c435d197859066": [
+      {
+        "available": true,
+        "git_blob": "5d6e5e6b931a0f079e8227f895ab1e4e69b50da2",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_pipelined_combined.log"
+      }
+    ],
+    "1e73c94cca1cf17fa3ff454ceaf618eb8971ebe5441c2273804d7265985f70b9": [
+      {
+        "available": true,
+        "git_blob": "8ffff1730d77d246899a78ac358a2cdd9b8c497d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/secded_pipelined_72_64_v1_decoder.json"
+      }
+    ],
+    "1f653b3d99ae25b51efbe97c82a7ab56cf6f3542f00b9014a6e025d69e28b5a4": [
+      {
+        "available": true,
+        "git_blob": "09f9c103a2f142ea1416df5376461ba4f61687f6",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/TOOLCHAIN_FREEZE.json"
+      }
+    ],
+    "2062a3b29e79f68ce11a0d9fd287a81cdca2fc23f4687029f5afa25aba5bc8e9": [
+      {
+        "available": true,
+        "git_blob": "7bbb4fb44db5874e52bdacb94012a03d4aecd2cf",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/A_structural_pair_plan.md"
+      }
+    ],
+    "208d3ed876a5ad9b72bb5b5ebfe8d7a75b192efec89060539064d9e9f93b41c9": [
+      {
+        "available": true,
+        "git_blob": "6ffa4ca9a6716216959b41741d51ab9ba6fcacae",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_encoder.log"
+      }
+    ],
+    "2295311545670ff4ed177dc15d107036a026993a959fd9d0640260197ffa583b": [
+      {
+        "available": true,
+        "git_blob": "639da80d39bcf8ea9f3003b7b5047d62a9fb6826",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/VERILATOR_SMOKE_RESULTS.json"
+      }
+    ],
+    "25fc75748ca67c05eafd98e02252c357960dee63330ab071f2f0d79231693489": [
+      {
+        "available": true,
+        "git_blob": "4f46f612dfffb03e5621336b46b6cd488a4d1ab0",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/build_revision2_reports.py"
+      }
+    ],
+    "26044bcc22bd6673988e8ee949952cda5eaa4303af54e2ec9a6c1e4cb4edc386": [
+      {
+        "available": true,
+        "git_blob": "1000608a7122cb70a267d929e3a8b424b499c4a0",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/REV2_EXPERIMENT_MANIFEST.json"
+      }
+    ],
+    "26b84a9bc36aaa2ba0708732ba090ebf3af8fe5a7cdbe510e4246007b3d5c9cc": [
+      {
+        "available": true,
+        "git_blob": "6b281aaedd58ef4eb5c1a5d8e4b1303508755d64",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/qualify_hsiao.py"
+      }
+    ],
+    "277efd96c34e8784955f705c4447012e646cffe7ffad294c244eeb3cab1d7af9": [
+      {
+        "available": true,
+        "git_blob": "1dde7d5e39e45eaf6e1a406c27ab443114836312",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_pipelined_combined.json"
+      }
+    ],
+    "291ad2d4cad337e8681dd488683f85ab37138b6c6d36f1ac076e4f4606f12928": [
+      {
+        "available": true,
+        "git_blob": "5e01ebe2373d24abec5632e8a98763244c483601",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/physical/power.tcl"
+      }
+    ],
+    "29d4565c21ef804f091a7d712fd2cff23ea9995dc236bdbbd1a86e7bb93c2fc0": [
+      {
+        "available": true,
+        "git_blob": "de436a64acd0f8fd04f77f3f806d516b7b9adc80",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_HSIAO_IDENTITY_SPEC.json"
+      }
+    ],
+    "2a385550ce70b2dbd18b706cbdd06f58515eee17dc1affe924f92f8056a1ee6d": [
+      {
+        "available": true,
+        "git_blob": "1a884969bb3b027be177a920b89919ed24929e9d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/REV2_ARCHITECTURE_SUMMARY.json"
+      }
+    ],
+    "2aed2594909b98c211cd43d5c2e41c36fd94c12ff10fc5d1e3094097df77a9ca": [
+      {
+        "available": true,
+        "git_blob": "52f7ac906b514ab14c119212568189ae66da9f19",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/DATE2027_TABLE_MANIFEST.md"
+      }
+    ],
+    "2c253e275a4f1319b60f0ef6868f77430e33da7d8a05345b8eda5e1f91ed6e09": [
+      {
+        "available": true,
+        "git_blob": "ffaf9ff43bce898d64372d88632796af6dd73003",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_encoder.sv"
+      }
+    ],
+    "2c3c05767330f4417fe8ac887b9f1f2197cb2fa759cdd72a8eacae8f23fe159b": [
+      {
+        "available": true,
+        "git_blob": "b079be8cc22d19847d38e5cf327ed1092019857b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_TIMING_SEMANTICS_AUDIT.md"
+      }
+    ],
+    "2c6c625df367a4f0ab38ffbc7d72dd30c3118699ac408567f449b7d842e8b82a": [
+      {
+        "available": true,
+        "git_blob": "3970a8462d1eaea19e3649bbdaaabbc21de0cb88",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/BCH_RTL_CONSTANT_CHECK.json"
+      }
+    ],
+    "2cc0f699fe044647416be157472bb35467b845072fb98e81fff763fb53256b68": [
+      {
+        "available": true,
+        "git_blob": "2d13af64706e54ab2bbde561ba6c276c2972c412",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_combined.log"
+      }
+    ],
+    "2cc8b0dd23f3cce9a091ea418a2c2d4fff5f016361228a66e6c151a7c49360e7": [
+      {
+        "available": true,
+        "git_blob": "0ad806f2b2e7289552a4e69a48a2443152beefab",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "asic/rtl/bch/bch_78_64_t2_v1.sv"
+      }
+    ],
+    "2f1dc806ac5b958a274b1b7fa8373821aec2a0587f3b48d00aabba705a3a18a7": [
+      {
+        "available": true,
+        "git_blob": "2a2dd04428d76b5be6673c9c4fe1427dc582fd76",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/command_manifest.json"
+      }
+    ],
+    "3000666708c4f76081aef26c3d31f0efee00da60862d2dfbc6753a38bcd1085c": [
+      {
+        "available": true,
+        "git_blob": "ca602ef75c87c901ece1099e95a1dcc91482d92f",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/analysis/B_power_decomposition_report.md"
+      }
+    ],
+    "301c5ac92de1291c267f411b3f91268157de003b69c1bcaa8188cbaea85f4b16": [
+      {
+        "available": true,
+        "git_blob": "df064265bd62fe370a29f4c3f08cd2ec657ea4fe",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_RELATED_WORK_AUDIT.md"
+      }
+    ],
+    "32563b2d523cca605e968ba3a7378d7324847431ac0738f04a9b0340bc22c6dd": [
+      {
+        "available": true,
+        "git_blob": "2fdf4644bc5474437a4a075366403d58c4e37d87",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/FROZEN_GATE_HASH_CHECK.json"
+      }
+    ],
+    "3306fb3be1c7b72de1c471693945960768ce445eaadefe92256acc0dee3c2662": [
+      {
+        "available": true,
+        "git_blob": "d66ab251c6b739d5d44eaa6d43721ca9442fc9e2",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/raw_logs/rtl-secded-verilator-simulation.log"
+      }
+    ],
+    "3577b777a0edc2a02ed587bfe2c1eb4adbad73e24c723e97fa4f8725011774ae": [
+      {
+        "available": true,
+        "git_blob": "1d23a89d95226156a1422a59d3b14a5fd44e981c",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/RTL_LINEAGE_MATRIX.csv"
+      }
+    ],
+    "3c422dbbddab55e8e2ae141b571e60e63f4ecd87ac409d64b59cc184f21aadcf": [
+      {
+        "available": true,
+        "git_blob": "8d304343e5fd527edd345a3b34ae8a4c1e198710",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v2_algorithmic_decoder.sv"
+      }
+    ],
+    "3d61edfb320fa17f1d6804951b73f6a2c59a556f2d82ecbc30c1a8ba64f80192": [
+      {
+        "available": true,
+        "git_blob": "393fed39795044b2c23b2d3d3c2631b67f2d116e",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/REV2_EVIDENCE.sha256"
+      }
+    ],
+    "3dbacec2671245aa503e9809ec32d9640493090b9dd05b2fa6a36d31912e5b7c": [
+      {
+        "available": true,
+        "git_blob": "55c34ee19a55f0322a592c3e759c991be9720b6d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/analysis/A_structural_pair_summary.json"
+      }
+    ],
+    "3e1ab018748fcbcbb1c2f72fbd2b60e5e3559deba09873c7ad476a19b5a822ea": [
+      {
+        "available": true,
+        "git_blob": "4fa6582870ec6fea3b59189935099cb197272c1d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/REV2_EXPERIMENT_SUMMARY.md"
+      }
+    ],
+    "3eb9b85f0955b14c2f84850969e0709b644714e1b68a7c6e1180b4471ba01e33": [
+      {
+        "available": true,
+        "git_blob": "f6b046d038a970b548d9b5574aac45693733a983",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/EXACT_IDENTITY_FREEZE.json"
+      }
+    ],
+    "3fdc3984b222b925ccc9d415a548e88f5e75a82539c67ac187e5c1d0c33f9c73": [
+      {
+        "available": true,
+        "git_blob": "80e10f01e2e416f956b3c79711c0c26d03254982",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/rtl/rev2_hsiao_boundary.sv"
+      }
+    ],
+    "402bdfdce919f05da6fd76b80f1ea1c2fa23d0c2f06220d69a8ae24171ec9f0d": [
+      {
+        "available": true,
+        "git_blob": "5e918b4cabce5390d1e339ae021c5643658e00a1",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/scripts/synthesize_structural_pair.py"
+      }
+    ],
+    "40b2c5082095c0327e28af3ba5b5c92ed68c70872866c1f49761e27c54b960c8": [
+      {
+        "available": true,
+        "git_blob": "f3279bd02a887756a8ce0b0afe8f0b16b8f51443",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/BCH_78_64_T2_CONTRACT.md"
+      }
+    ],
+    "4129e890ad580f94d43a5d0b6557a35edbc19f2555f32ff8337a3d0f25b6acb2": [
+      {
+        "archive": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-date2027-revision2-runs.tar.gz",
+        "available": false,
+        "kind": "MISSING_ARCHIVE_MEMBER_REFERENCE",
+        "member": "secded-comb-seed-11/results/sky130hd/gate04_secded_comb_72_64/base/6_final.def"
+      }
+    ],
+    "45236de15ef6a3893a710570148fcea0a258a7262923282e6608079b9822a571": [
+      {
+        "available": true,
+        "git_blob": "dc9a5e3222845b307b24417c2e0e9ba0c97d465e",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_HSIAO_RTL_FREEZE.json"
+      }
+    ],
+    "45de5aba36399c86879c95ee88015585b26958baf615113361ac225df0b5f782": [
+      {
+        "available": true,
+        "git_blob": "573cec2988edf4d204d7b48e53a01e87a72d1685",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/raw_logs/rtl-bch-verilator-simulation.log"
+      }
+    ],
+    "461ea991c29ca47fc38afe1dbb3ee309ce907c992c294ac8faedb1ba706c263a": [
+      {
+        "available": true,
+        "git_blob": "6c8dc2c7b09fe6122b10ee6436dc6b00a5a24859",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "green_ecc_physical_simulation/rtl/hsiao_secded_72_64/hsiao_secded_72_64_v1_syndrome.sv"
+      }
+    ],
+    "4651ea7841fe4e9bb918cd149a2d9a095aa6ba1fdc458ea7f902451311eefa39": [
+      {
+        "available": true,
+        "git_blob": "645bdead4b5f7403fac77c7b116969b8e9d333a9",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/DATE2027_RESULTS_TABLES.md"
+      }
+    ],
+    "48ac6a3c5cfd0e141779e106bd12ea2bf62d7e634d1b7c99b05f90d815f545d5": [
+      {
+        "available": true,
+        "git_blob": "ae950bb01c853c355ef4d9c478f8b3a265aae40c",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/00_physical_contract_freeze.sha256"
+      }
+    ],
+    "4b25547240387d689e1cce547b28901375c38ab08229e6577816ae5c68b6b39e": [
+      {
+        "available": true,
+        "git_blob": "eb6ed947cc66749d44e10c44cd3223faf3eb0700",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/data/component_power_deltas.csv"
+      }
+    ],
+    "4bcf821e7b0bc11976d2fc6fc1a38f070bb17a48e33a5a159f886376a1a67f22": [
+      {
+        "available": true,
+        "git_blob": "9d24d8bd186693afa097b097b053850381ca36c6",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/ORFS_SMOKE_RESULTS.csv"
+      }
+    ],
+    "4c59d21fb09e292ebcd9917a02dd28fea65df71728ffdf2ea412d98ec19e8d2d": [
+      {
+        "available": true,
+        "git_blob": "cdeca5ed2cd5562dc733b87c82aac3e1e0221500",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_REVISION_COMPARISON.md"
+      }
+    ],
+    "4df4acdfdbeea46c3a9440eb0464b46167fb8487d2b76f9ea8c35195185e8636": [
+      {
+        "available": true,
+        "git_blob": "4e8d07b362b1e05d1cd0607f86909b1574e9e0c3",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/configs/A_hsiao_flat.mk"
+      }
+    ],
+    "4ead55c7acb9b0abce6c4735d5259dff73b727983ee9dc6ba38ed8b3d7dea47e": [
+      {
+        "available": true,
+        "git_blob": "340e7179e41eb5882cabf32e5934ea1a33048f26",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/scripts/analyze_physical_campaign.py"
+      }
+    ],
+    "533f122365fbcc4b53a2a286e05e2b3b11141d4657d76e40f901351fc7b3fdf6": [
+      {
+        "available": true,
+        "git_blob": "fe042965e785fcdeab123eccdd927c03fdb65e8b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/scripts/analyze_power_decomposition.py"
+      }
+    ],
+    "540a3bb3bdbd1a85a741632ef47c0d814dd7b00e3ff649e9a46685047c21963e": [
+      {
+        "available": true,
+        "git_blob": "9d3f616d617333032d903ae8ce3a6948306e521d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/data/physical_deltas.csv"
+      }
+    ],
+    "5590a5e769d51d8aced5cf5085c248d9b4f5b77deb86de4da59ebcd184e9fda7": [
+      {
+        "available": true,
+        "git_blob": "f8e7c985eb02b425702724d28415de7b1a960b26",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/README.md"
+      }
+    ],
+    "55e6e25d3afd810c5a310dfb122b78085fa4c5a44c8e2633ec7e82a5bd24e845": [
+      {
+        "available": true,
+        "git_blob": "7b0da6a80edc6a797f9c855289441e6e69102b08",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/run_matrix.py"
+      }
+    ],
+    "560bc8092ba759f7dd3412a106d86a30a7498d88285298c721be2d5ef4dc440b": [
+      {
+        "available": true,
+        "git_blob": "099d655a5f034e942b6d7c454449d23921c27164",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/gate03r/rtl/secded_characterization_tops.sv"
+      }
+    ],
+    "56a808a66ddca143491d6db4487dd0222dc68d6814710cbcdb8a3ffdc42e7d42": [
+      {
+        "available": true,
+        "git_blob": "368217f7a6bbf93d6fc02abe00446e6d085ef1f7",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_decoder.log"
+      }
+    ],
+    "57d3538c604e8f175b34e6eea8cdcecb2e87f42d09e93948ce29d5cc14109e6b": [
+      {
+        "available": true,
+        "git_blob": "abf662aa97b44ed65ff42bc00ebcb1338bcaa85a",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_encoder.json"
+      }
+    ],
+    "5ce91243b040fb7cbee7ba979715545468c68e4361fe94d48df90734e01291ae": [
+      {
+        "available": true,
+        "git_blob": "6b40e5c1ceb3cca8577125b88003e979034a4e88",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/configs/hsiao_algorithmic.mk"
+      }
+    ],
+    "6255cd9d5c23510e70056d38ca580dba7700b3c8aacaa50f9ebe5c064c38ce0a": [
+      {
+        "available": true,
+        "git_blob": "97358236d3304fa308a1687b3a158ee683b3a172",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_decoder.json"
+      }
+    ],
+    "63d883f607de032e46e105667bb58763082bdadaf5dfb531dd780658718aae48": [
+      {
+        "available": true,
+        "git_blob": "fb62a0de0dd409a0c902d5b5e542cbffa144b6df",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/physical/contract_v1.json"
+      }
+    ],
+    "66b2d4c4f7fc6a1381059ea20d04781e01e647cc121bced63f988ddca7b45c4a": [
+      {
+        "available": true,
+        "git_blob": "a965e948bfaf16065c35d6ea0374e8d7cbe6b32d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/power.tcl"
+      }
+    ],
+    "66f7920e4fa1534e3fd95d2087e5386bcf1df084c4b77c053985559a7caf9025": [
+      {
+        "available": true,
+        "git_blob": "1fdd5363c569e6a6ce8737e8cee6062eb8c2d82d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/environment_manifest.json"
+      }
+    ],
+    "678b3bf1c51be4b0d1167828140c3a56457f7a7442f9b0592545d07a5cafc253": [
+      {
+        "available": true,
+        "git_blob": "ed4912855286556ce8e372f1ac8dc51c48bf7179",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/rtl/hsiao_secded_72_64_v3_hierarchical_decoder.sv"
+      }
+    ],
+    "68a3020971d595d1ae4d281fdd8daf153755920e5517d5a868ad1c873560648d": [
+      {
+        "available": true,
+        "git_blob": "03787ba0d4ad7f9e1f10f6e5a5d27e20272ad94c",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/C_timing_condition_plan.md"
+      }
+    ],
+    "69343e0701b8a671acb0c943d01996b5a886b1a33f040c04003ca9b655307504": [
+      {
+        "available": true,
+        "git_blob": "f8cf62a7e153ce5a5bd86576ce47c70a660cc20b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/regression/git_diff_cached_check.log"
+      }
+    ],
+    "6955b4f01d3517bf196a24922e0408ce070dd568792ae5aae71457df0a036889": [
+      {
+        "available": true,
+        "git_blob": "891b595eac443bb13ed77a0cb8feb06cf4b7fd7d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/configs/bch78.mk"
+      }
+    ],
+    "6a9ce4f036dcdfe65cd7291bd8b5e54124febe38458d66abc3e4c7fc2ed1e3bc": [
+      {
+        "available": true,
+        "git_blob": "8f75c1ec9aaae5333f4c716acf66500bcd67bd1b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_REV1_PRESERVATION_AUDIT.json"
+      }
+    ],
+    "6b8431fea812bcdb7b9903b55dc92134d5055417e771295b6fe614a07800d5ea": [
+      {
+        "available": true,
+        "git_blob": "67c5ea55f9fb4eac7566e135d282cbb6e9daa5bf",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/configs/A_hsiao_hierarchical.mk"
+      }
+    ],
+    "6ba605d84e8c05b9cd6e7a1aae06520db1683b54caff06591c72229e1841ede4": [
+      {
+        "available": true,
+        "git_blob": "87921fb5bd0825b9d0fe2bcd59f8cc1bc2e13a52",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/scripts/finalize_manifest.py"
+      }
+    ],
+    "6bb5533f68d49a3e0f8382915c2b9890d4df10f088415e680ea7d35230d7e111": [
+      {
+        "available": true,
+        "git_blob": "2fc2a8ef9fb457be044ec6def9e986f032a032a0",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/formal/hsiao_boundary_exact_miter.sv"
+      }
+    ],
+    "724d1ba023c7a6f3d68324c21f9999af46104602a35f0b93ccd8f73bcfcd165b": [
+      {
+        "available": true,
+        "git_blob": "c49919601aa60645becd198ca9077dd16fb890df",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/REV2_MANUSCRIPT_EVIDENCE.json"
+      }
+    ],
+    "733d54854db80e3a501fb6f2db220814903cc5b41168c7761b153d183bfbadbb": [
+      {
+        "archive": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-date2027-revision2-runs.tar.gz",
+        "available": false,
+        "kind": "MISSING_ARCHIVE_MEMBER_REFERENCE",
+        "member": "secded-comb-seed-11/results/sky130hd/gate04_secded_comb_72_64/base/6_final.v"
+      }
+    ],
+    "73eb82d3b7a04e4566e483cc9f2e215ed0a2474d117dbf7ad0ffa7750991fc92": [
+      {
+        "available": true,
+        "git_blob": "37ec9522eb4e815c05f69f1311ac1b57fd3caea5",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_MULTI_SEED_ENVIRONMENT.json"
+      }
+    ],
+    "745c8b94be19c96cd4b0df11f5163f2b826bf191effd9a65b74ea4c3d6fec602": [
+      {
+        "available": true,
+        "git_blob": "d9090e370f0c0b13d1c94c36ae9c09baa8ab7e82",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/FORMAL_QUALIFICATION_MATRIX.csv"
+      }
+    ],
+    "74787f8296b64fddb72aac9d452cb948c5cb2f0d61e33a8080563f46eed1dd4f": [
+      {
+        "available": true,
+        "git_blob": "8bfdba0fe23605af02f6761c61753bf7ba49bfef",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/analysis/A_structural_pair_report.md"
+      }
+    ],
+    "74ea35288fa37766c48fea9eb6373e055fa6b64df95f4bf514836bbfe60cd1b7": [
+      {
+        "available": true,
+        "git_blob": "18bff1eac4d331a646450e4d17cb0e452c97e25b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/BCH_WEIGHT3_CHARACTERIZATION.json"
+      }
+    ],
+    "76232132c39e120c4113a68bf3525dc74b56fbc521895d35a752b6baf5f2aca3": [
+      {
+        "available": true,
+        "git_blob": "f2d101f10a06a79ef8569232442e30d06d6c7164",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/synthesis/baseline_flat/stat.json"
+      }
+    ],
+    "76cd9d8958e4940df4b6d2401fc4e4d7dc88497d2fcdf3bd2fbd596cdbf50585": [
+      {
+        "available": true,
+        "git_blob": "63a4981f004ff304cdfc20694f61960759b5e08d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/rtl/hsiao_exact_identity_miter.sv"
+      }
+    ],
+    "791c2812630ca10c4ec9482f513b18eef9d9ca175f903ec2be017d04c2a7e758": [
+      {
+        "available": true,
+        "git_blob": "0ad9d38ef5237446de40e34b5a2a3cf216b77f12",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_encoder.json"
+      }
+    ],
+    "7be1dc21323ecca7dd1afd219885a42dc95a1aa3a1f76f08a83fa2371233acb6": [
+      {
+        "available": true,
+        "git_blob": "8bfa5098d558ffdf930b1a2f9c77ab38401f0399",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/synthesis/baseline_flat/synthesis.log"
+      }
+    ],
+    "7c5c5f97e50ed9db86a072aa666987773d177ce46e7542bc38d6641c97f5767d": [
+      {
+        "available": true,
+        "git_blob": "b4bb6df0c1f25b57eaab6bf063ea8765586107f3",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/ENCODER_PROOF_MATRIX.csv"
+      }
+    ],
+    "7d8c4f563ace74fa762c1a8df4593a68aa0ca285519962c8121504333ec8fb09": [
+      {
+        "available": true,
+        "git_blob": "dd31251131f46d7f69a893eaa93a19706841c666",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/configs/ecc.sdc"
+      },
+      {
+        "available": true,
+        "git_blob": "dd31251131f46d7f69a893eaa93a19706841c666",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/configs/ecc.sdc"
+      }
+    ],
+    "7de8e8d2933cdf17740ec5ec6f45a3654d5d54d9e419ed1c628ab29ca03308f8": [
+      {
+        "available": true,
+        "git_blob": "f48dace5dfb120a9663bec96168b7416d460118e",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/gate04/rtl/gate04_boundaries.sv"
+      }
+    ],
+    "7e5fdfd182b92d25fd192bf6238118a3bacb7eca72b09542baebdf5cc36eced1": [
+      {
+        "available": true,
+        "git_blob": "5c075bc56bc6d5d71488ad523e77c83061b0175f",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/secded_pipelined_72_64_v1_encoder.json"
+      }
+    ],
+    "7e7299c7dd260eac48a57ff476406c3f3e075a61aebac31f973e7d4546054032": [
+      {
+        "available": true,
+        "git_blob": "2c3de66a7d94f02593df760a574a504e12775a7d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_REVIEWER_REMEDIATION.md"
+      }
+    ],
+    "894f3d036fdf627acd7790139f450e423728e316efd05cfce985584a244d9dc4": [
+      {
+        "available": true,
+        "git_blob": "a947d7e4517b513839a26e58681b03e22fdad07a",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/synthesis/new_hierarchical/mapped_netlist.json"
+      }
+    ],
+    "8959d43bd6c26b005f5a26f1579dafd268a943052a326f07dc35a65468c30b9a": [
+      {
+        "available": true,
+        "git_blob": "474c774305b505d462cd06ef6a81f95c8209d78d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/raw_logs/rtl-bch-iverilog-compile.log"
+      }
+    ],
+    "8a8f91c4eba3ef1c125631d7a3525aecbc565a8225858fcdb59d8085bdc5a3ad": [
+      {
+        "available": true,
+        "git_blob": "1bd7801ea28049ef301dcf832fb3af56ee50970e",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/PROVENANCE_MANIFEST.sha256"
+      }
+    ],
+    "8b2c4ead91a16423316e9fd061656fb371ed668036207266feb6e7e341b73d34": [
+      {
+        "available": true,
+        "git_blob": "9583effaf083a8bfbaaea5ce2a853e57406e7f2c",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/GATE_03R_REPORT.md"
+      }
+    ],
+    "8b58f75c85b45675db377bfc3a1d374656018396538ef8cfa4350486ce80d228": [
+      {
+        "available": true,
+        "git_blob": "9982f8fce00a591588b776ff8825055f10e17ce7",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/analysis/C_5ns_summary.json"
+      }
+    ],
+    "8c6be0bcb14644dd1b598f36f2689d39353b206cf8dbfa3dabc6bc2bb6beff86": [
+      {
+        "available": true,
+        "git_blob": "a0b4473735904861e7050ffeacb13005ebdb580d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/raw_logs/rtl-secded-iverilog-compile.log"
+      }
+    ],
+    "903421039c73a110e4221b72ac5b48d6f89a358fe570e94c703b3a6a28c42b02": [
+      {
+        "available": true,
+        "git_blob": "f8ebfb62f70f40144922e26a62f2c5549b41ee5c",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/regression/gate03r_validator.log"
+      }
+    ],
+    "903af993e604c6c57dfc450fc27882e479e43e3c774d9acde8fba36da43ce78a": [
+      {
+        "available": true,
+        "git_blob": "bef471af742ac3af5610e1e05a0558bf6da9f48f",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/tests/test_campaign_evidence.py"
+      }
+    ],
+    "94d464c471021e586852bf431f580fc3d08e5091315a04d8892345ee7e82defd": [
+      {
+        "available": true,
+        "git_blob": "88402ac1341e62a24a96f5c867eeefaae51bc02f",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/REGRESSION_RESULTS.json"
+      }
+    ],
+    "95aeb5cfe2f27f1fa1d9c18374e02469b80b55823e7bfb68ae8db0d98a2eb73c": [
+      {
+        "available": true,
+        "git_blob": "a5d7368a563cf35cf079299ec6e694235b44600f",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/CONTROLLED_IMPLEMENTATION_EVIDENCE.md"
+      }
+    ],
+    "96661dc72015ace43638fe35829484e533ace1c1b5c03e3f2f58cb6abb69e3bb": [
+      {
+        "available": true,
+        "git_blob": "8f39ebb795185536386a236177d9220970793307",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/PROVENANCE_MANIFEST.json"
+      }
+    ],
+    "9734ccbdd91f32cb02a0fcc8086f41bc01b12837418d5642e7a71fde7c8d3671": [
+      {
+        "available": true,
+        "git_blob": "22602dcf20f0cf296d4fcd4403385c4b05da628d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/formal/results/A_boundary_exact_equivalence.log"
+      }
+    ],
+    "97f40a2794c04002b6445de19763d55cc4311988c4abe96092410ae307eface7": [
+      {
+        "archive": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-date2027-revision2-runs.tar.gz",
+        "available": false,
+        "kind": "MISSING_ARCHIVE_MEMBER_REFERENCE",
+        "member": "secded-pipe-seed-11/results/sky130hd/gate04_secded_pipe_72_64/base/6_final.v"
+      }
+    ],
+    "98d85b07405aaefff25947107a58f2e139c9096bfb4d47a750ee809654e48b73": [
+      {
+        "available": true,
+        "git_blob": "f79766ef3cc8a08d4a1fd77c5fde714dc2dec376",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/DECODER_PROOF_MATRIX.csv"
+      }
+    ],
+    "9953963baa9ba730a24615fb24b3364e671624ce6ebae5def8fa4e8fca4898c4": [
+      {
+        "available": true,
+        "git_blob": "6afed7f28312e2a7ae4930819941e96d53abe0c8",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_decoder.log"
+      }
+    ],
+    "9ae9e143afe045ca0e374a85173cda08d07b080e1794ea2b3fed20b82fd14a32": [
+      {
+        "available": true,
+        "git_blob": "2486346086ef9a38796876f248d4956411e3aebd",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/scripts/audit_inventory.py"
+      }
+    ],
+    "9b685645522d219cf2de6559fc4a7b3e5403260763d5b488056647441a7591a7": [
+      {
+        "available": true,
+        "git_blob": "fb6954ca8cdb1a2a240193a8dbb46048d6b75254",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/regression/python3_pytest_q.log"
+      }
+    ],
+    "9ebe10daf4c3399186e4dbc502b66a1332e5595607bb553cb4f2a4adfdf00bf5": [
+      {
+        "available": true,
+        "git_blob": "9c26fb088f4674ef610682ca11032312f3073f37",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/00_baseline_inventory.sha256"
+      }
+    ],
+    "9f16c62c768215b8c8919f0fe195cd6b469b54178d0beaf421130c1d9071d997": [
+      {
+        "available": true,
+        "git_blob": "dc2de39ed00b897695641a7b67e20f6f238ec4a3",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/FIGURE_DATA_PROVENANCE.md"
+      }
+    ],
+    "a0219f34938c54118e96a020b23dab2a03a4eb43a453044754c1c12af237c54b": [
+      {
+        "available": true,
+        "git_blob": "e9b6ef8a262702784fc2307fd7dccb0ceb445757",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/rtl/breadth_hsiao_hierarchical_boundary.sv"
+      }
+    ],
+    "a13959111f3a13c4eebc9dc8d3a6cbbb3c7e88cf45ce78a73c29377f59638cad": [
+      {
+        "archive": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-date2027-revision2-runs.tar.gz",
+        "available": false,
+        "kind": "MISSING_ARCHIVE_MEMBER_REFERENCE",
+        "member": "secded-pipe-seed-11/results/sky130hd/gate04_secded_pipe_72_64/base/6_final.def"
+      }
+    ],
+    "a41cee57738daee3a527a2864c2eb1e69edbb2e9c0619c8a6351e01d09f198d2": [
+      {
+        "available": true,
+        "git_blob": "ea4a880a7d39d6b1d2d662aeba8fd5303408f45a",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/REV2_SECDED_PAIRED_SEED_EFFECTS.json"
+      }
+    ],
+    "a4437c24cc79c568bb0b024077a6fafea2e25e1f844beb79409da0e1c0158ee9": [
+      {
+        "available": true,
+        "git_blob": "38afee4d4132aa1412d13a7b206ba90ebabcc08b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_MULTI_SEED_PROTOCOL.md"
+      }
+    ],
+    "a7af88f90dfffe117719e41a8d71bb0c2afdd6b6ef7d88299a9e7989228c84ce": [
+      {
+        "available": true,
+        "git_blob": "f3976d909c86ce2213bcc12c2375b634f9b701a7",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/secded_pipelined_72_64_v1_decoder.log"
+      }
+    ],
+    "a7b108de61aee7915fa430d373ddc46129ae39fd31daa2a40469e70fac741fca": [
+      {
+        "available": true,
+        "git_blob": "dd542da48d69efa212ff308b0d0faddbd04b3c3b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/00_baseline_inventory.meta.json"
+      }
+    ],
+    "a7bd9ebbd58e2196db76aa0226ba2f5df8ac731870cd841bdb29100fd26bcdf0": [
+      {
+        "available": true,
+        "git_blob": "2cdc3a51c3f4b8a7903b67d6f19681032b573659",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/REV2_SEED_SENSITIVITY_TABLE.csv"
+      }
+    ],
+    "ab2f6c596f96ef91eb4331a216cd8bc16a9eb84b771d86bb9b5b98df0ed203d4": [
+      {
+        "available": true,
+        "git_blob": "2d3841ec23756a726d9d738e260ce54e449f5e45",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/00_repository_audit.md"
+      }
+    ],
+    "ac75072258e3326912616e6c6d235313170d15c40b63adbbb2598f52944fffeb": [
+      {
+        "available": true,
+        "git_blob": "fa06a5549c48c99ca5ef3eb5c522c8b15c1dcdf4",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/ACCEPTANCE_MATRIX.csv"
+      }
+    ],
+    "acccf3d13e9adf17fee88dc243711f4ca1c90ce15a41a161ce8e99e726ba185a": [
+      {
+        "available": true,
+        "git_blob": "9df42171284665f241d882251fdf222e2f128f3b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/formal/results/A_decoder_exact_equivalence.log"
+      }
+    ],
+    "ae02e4ff97ee4f1837c433b6cb7a7eac6482d314e6300424d043edba1f05e246": [
+      {
+        "archive": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-date2027-revision2-runs.tar.gz",
+        "available": false,
+        "kind": "MISSING_ARCHIVE_MEMBER_REFERENCE",
+        "member": "secded-pipe-seed-11/results/sky130hd/gate04_secded_pipe_72_64/base/6_final.sdc"
+      }
+    ],
+    "aeca4306235239c44d52cf314c096b6567291b8067763942c05265fbaf21a1ae": [
+      {
+        "available": true,
+        "git_blob": "c06bafb4bcb0efdddbc915280b9cfe94784fe316",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/scripts/qualify_structural_pair.py"
+      }
+    ],
+    "af2f12a89ff77308bf1ee6de949be3011ebea180699486aa22c97255717dcc3d": [
+      {
+        "available": true,
+        "git_blob": "150b365cf9f3df58048eeea963ce2afad32303f1",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/FINAL_baseline_integrity_check.md"
+      }
+    ],
+    "b039f05b46a7edee923339d37391c6b96425b9908ebf1da885c10557ed94bf59": [
+      {
+        "available": true,
+        "git_blob": "61e000af72026a99314ad37a5213cf24c60079b3",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/analysis/A_structural_pair_per_seed.csv"
+      }
+    ],
+    "b1b8f655995edac9b31a6996db0e486da9aa5ee15389cc531d00308599e2f8da": [
+      {
+        "available": true,
+        "git_blob": "46eb399dac253eb695649b01d769d18cfe50dbdd",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/DATE2027_CLAIM_LEDGER.md"
+      }
+    ],
+    "b21c882d4090820f0640e549785c25b1405f37bb406280368a15ab2ce8d9af27": [
+      {
+        "available": true,
+        "git_blob": "0409e67951a8d45141b5e54b4372b2250ce2c408",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/scripts/hash_campaign.py"
+      }
+    ],
+    "b2aaf43df1db2f2ff4481a9348f8516127b3c8a82de67e39e37395018a4d2b94": [
+      {
+        "available": true,
+        "git_blob": "102e158357d6c48bf09a0ba7ff21a0f2053879bc",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/synthesis/baseline_flat/ltp.log"
+      },
+      {
+        "available": true,
+        "git_blob": "102e158357d6c48bf09a0ba7ff21a0f2053879bc",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/synthesis/new_hierarchical/ltp.log"
+      }
+    ],
+    "b3850c27a15c8ef08e301c99bc79d5b98e8567033ff0e777bc5eac54bff5982e": [
+      {
+        "available": true,
+        "git_blob": "8003c5fcb8330fbcd5ce06e4334b98f365d1a22e",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/regression/make.log"
+      }
+    ],
+    "b7a8f32b97ff1a53a65ef17c9f5a00fa0d3a83794b1ccf54f2d8983b38107845": [
+      {
+        "available": true,
+        "git_blob": "5f1a7faa4d852ef8d77828c9efcfb7564feba848",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/results/REV2_SECDED_PAIRED_EFFECTS.csv"
+      }
+    ],
+    "b7dfee5569a757e4a378b97c1174daddec790232ae6c4b1cbbc55db7c5fe5647": [
+      {
+        "available": true,
+        "git_blob": "f16ddd55793c5db56d184c84d8b6aa76b7203986",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/data/component_power_summary.csv"
+      }
+    ],
+    "b83ce1802e3d413227fdf108964bd8e0537afb6b237292eca54295606c30635a": [
+      {
+        "available": true,
+        "git_blob": "0309c9f920082b4e597ad1ab913a1fcceeff0fbe",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_HSIAO_QUALIFICATION.json"
+      }
+    ],
+    "b922b58bdf5130b592a06e997c02a66972dda15b9a7691d662de09bf1a9bd43e": [
+      {
+        "available": true,
+        "git_blob": "f0d6e5604a379fdd49492ee8291016df4e74e5dd",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/FINAL_REPORT.md"
+      }
+    ],
+    "b989cbfb43d5cd4a3b7e79e504d193dfcea580d4d344f45a3729763bc955646c": [
+      {
+        "available": true,
+        "git_blob": "1e8957b98a98333931495df3acfe671a33ed11b4",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/synthesis/new_hierarchical/synthesis.log"
+      }
+    ],
+    "b995034a7997486529c707150f39830d4667349a685b5559d2ad56401e0817b6": [
+      {
+        "available": true,
+        "git_blob": "090ea16e6b47cc3e7549c03814b51cfd77b85457",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/analysis/C_condition_comparison_report.md"
+      }
+    ],
+    "ba56b185ec124055be678b1154d790da2168badbc64e17ba58295ecd4dc01909": [
+      {
+        "available": true,
+        "git_blob": "696fea7e20f0e1c0f972408b4cda6dcf6a6ddaf9",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/prepare_experiment.py"
+      }
+    ],
+    "bac279eda4f144088622e50a2e9a19888b96200dd13b904e1ff9ca544a293103": [
+      {
+        "available": true,
+        "git_blob": "f369d19a1f4af56fea2662d0f8892b7c09818879",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/analysis/B_power_components_per_seed.csv"
+      }
+    ],
+    "bd180cbc52c9c7c474e6ca235c33489a5a2c04ac3ea4e7ce0175cca128a34792": [
+      {
+        "available": true,
+        "git_blob": "c059f0963743ed4f7b1a7b076365e83006e846e6",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/synthesis/new_hierarchical/stat.json"
+      }
+    ],
+    "be80995c419890a95283093cc9611a01df76180f63a0bb0f2607bdf2a339e351": [
+      {
+        "available": true,
+        "git_blob": "043fc7fd1f26bc22fde625796e514486f2ffe929",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/BCH_IDENTITY_RECONSTRUCTION.json"
+      }
+    ],
+    "bea86d41c607c26c3fba7902266e5b045f4884f3b7fbea48b43e9e549dcc8850": [
+      {
+        "available": true,
+        "git_blob": "ab5e5041eba3b45e1f817d048ea2e6ac291e07de",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/analysis/C_5ns_per_seed.csv"
+      }
+    ],
+    "bebd8d6ed2cfc9b4df1669a1e7b3b2ca7bf1e0c0353c47f50c4410cd04a85b5a": [
+      {
+        "available": true,
+        "git_blob": "344ab827160e51ff16e530dc70fa21dd8e001e13",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/regression/git_diff_check.log"
+      }
+    ],
+    "c143110753be356c24f7443eed182c19af7956ca92efc89972855eb0793beabf": [
+      {
+        "available": true,
+        "git_blob": "1ef6e36f34105d30085182d617daefbc8eac8340",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_HSIAO_EXACT_IDENTITY.log"
+      }
+    ],
+    "c18b1c2ed383050cd5077eed82404f65ef81ca141989cb634799f39e77ed7f77": [
+      {
+        "available": true,
+        "git_blob": "708b8c3db0bf33ef23d4051a2888d8867f63ac0f",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/synthesis/A_synthesis_structural_comparison.json"
+      }
+    ],
+    "c365bb578eb793d31a988171fdc57acda329f3d0a399db81c1cad5833427f77c": [
+      {
+        "available": true,
+        "git_blob": "b9587db6449d2ade9ec8a14cb44e78c5b4717520",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_FINAL_ADVERSARIAL_REVIEW.md"
+      }
+    ],
+    "c81236dddcbc98b33f0a3fdb69f3aa9c8cd172081c5f841949e829229c5d3981": [
+      {
+        "available": true,
+        "git_blob": "79dba1d83e1f7b8cb22549a62c482bd8d090436b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/run_characterization.py"
+      }
+    ],
+    "ca110d6fdbaa17fa92c2f651a511dd1d0f7596a592b3e478bd94f1d81be832a3": [
+      {
+        "available": true,
+        "git_blob": "d9ea9900e2b483527656e90916bcd758ff1e674d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/configs/C_secded_comb_5ns.mk"
+      }
+    ],
+    "cb63197a02292fb1c2d36bc8265fe65cb1a092fe28a9b42660ae38b057e436ba": [
+      {
+        "available": true,
+        "git_blob": "ec8243178d858f4fe558294fb84144bd80e1d96b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/scripts/run_physical_characterization.py"
+      }
+    ],
+    "cc07fe2b8a4ff8bdd00b582d09cdbe194135ecf07a1f2ca57cf35e6c8e53d0de": [
+      {
+        "archive": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-date2027-revision2-runs.tar.gz",
+        "available": false,
+        "kind": "MISSING_ARCHIVE_MEMBER_REFERENCE",
+        "member": "secded-comb-seed-11/results/sky130hd/gate04_secded_comb_72_64/base/6_final.spef"
+      }
+    ],
+    "d0db64049f16db454ba576db81f168ab9e680e89dfa1c008b3a10863c04320b6": [
+      {
+        "available": true,
+        "git_blob": "85c6c3934140c30ec5371ebdca28dc03a54dc361",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/formal/results/A_formal_qualification.json"
+      }
+    ],
+    "d15b9fc4c5f659d75253955cce30ba2424ea82ba17ec56e70eb048646ff0debf": [
+      {
+        "available": true,
+        "git_blob": "4ae3e3f86f3040fea06da4ecd13b86e5b7be0893",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/scripts/generate_5ns_trace.py"
+      }
+    ],
+    "d44aa046d914d1e264c7e43c0c2746296274c1f06c35502bd0b9bdaf998fa3bd": [
+      {
+        "available": true,
+        "git_blob": "28da674e108f938b01a0de8d75a362985a4a4dee",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/configs/C_secded_pipe_5ns.mk"
+      }
+    ],
+    "d499a294877123fa1d54483f054b4bf255b94ab1c3322978ea837ade8edd8053": [
+      {
+        "available": true,
+        "git_blob": "d5ee298bb6540f0251ee98cbb82c99938141b31a",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/DATE2027_FIGURE_MANIFEST.csv"
+      }
+    ],
+    "d4fdf5fe9cac85773d94c4d6b0a2cd790f9a6220c4fa8fc34143801f95a1b497": [
+      {
+        "available": true,
+        "git_blob": "751047aa454657af1d5e0c4848619607423fbf09",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/secded_pipelined_72_64_v1_encoder.log"
+      }
+    ],
+    "d5a1d427e28f983dcfd6cfc1af6ee96ca327eacfdbc88cae4a660d627fd379d6": [
+      {
+        "available": true,
+        "git_blob": "0459e1b8420f9b703c412414d4a809937ea1c4dc",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/REV2_EXPERIMENT_AND_ANALYSIS_REPORT.md"
+      }
+    ],
+    "d5c19327250d12d3a40c4f7ba0392bcd6bd90df4b09ded2b22a4a6784d9f5599": [
+      {
+        "available": true,
+        "git_blob": "566bc854019328347538314fe8e32419c9e8bcbf",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/FINAL_baseline_integrity_check.json"
+      }
+    ],
+    "d8898c50aead87e38a896fe9bd2c422662fe06fa9ca84cd73340c1a7a69c0ed7": [
+      {
+        "available": true,
+        "git_blob": "d74c6a0a9ecf694d42bfc349d994a0c460c5568d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/data/operation_energy_deltas.csv"
+      }
+    ],
+    "d9d590e8bddaf5a1c50d6d923110203a34b283f90f2b3ef658d478f2d80073f3": [
+      {
+        "available": true,
+        "git_blob": "2fae4e1f9650e2e946c75c67b73803345b416cde",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/FINAL_campaign_inventory.sha256"
+      }
+    ],
+    "dd0f5cb2c2de383e19cd26e6d9c042ee24e67f443be79cd8d8dfb51ec46ec511": [
+      {
+        "available": true,
+        "git_blob": "77c49ddd4ef042032416c9091f71c992f889d1b7",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/scripts/README.md"
+      }
+    ],
+    "ddaf1b9c7a8fd1088662f26057dd74e49aa93e90042f122538af9a19aa18be6c": [
+      {
+        "available": true,
+        "git_blob": "08593b3cf5a44f141d3f4e4dadb0a0e105a0da0c",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/tables/headline_results.csv"
+      }
+    ],
+    "de486df9eb3e5b09da6b777e515ac1fadaa0d84947862a543488a7317c058e60": [
+      {
+        "available": true,
+        "git_blob": "bc061e977c69e496eefd137f5efcf6262cd053e7",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/regression/make_test.log"
+      }
+    ],
+    "e09acf07817d26a080575121a4478737433b30b66571c50a0b8f19c4255330db": [
+      {
+        "available": true,
+        "git_blob": "131d7182ff0680367f55e8c31991091ba97e8658",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/scripts/prepare_physical_campaign.py"
+      }
+    ],
+    "e23dc78c86afc3a497d166218b679ec52e1a1a68bb92c5351e5d6712a0d120d2": [
+      {
+        "available": true,
+        "git_blob": "fe4b51997c5fdcd98710f2aae1cefceac1557b88",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/data/activity_coverage.csv"
+      }
+    ],
+    "e250a6741b6aa56e0bdc5892ac5753e4487769a6683f68db6ab9155c26a3b155": [
+      {
+        "available": true,
+        "git_blob": "0214f2e55df270ef08c5c96df2f22fed9edd5d84",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "asic/rtl/secded/secded_pipelined_72_64_v1.sv"
+      }
+    ],
+    "e263e77f44faa518bf726d011e116c98b66ff762e4df9de1165ab7cbf7631bb2": [
+      {
+        "available": true,
+        "git_blob": "973c8dc57ba72b563dc3e195f7a82399f35b5c98",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_combined.json"
+      }
+    ],
+    "e3ebec46944ac6b3411882173e95b526788b9a9749d8a35029c4fecd7ff165fc": [
+      {
+        "available": true,
+        "git_blob": "8f6ad2a28b4f9417a26780ffadf1a9ea8156353d",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/FORMAL_PROOF_INDEX.csv"
+      }
+    ],
+    "e7e9e436a46876fbf40eb8382590c830166cb60f319f765316d84d4cc3eec0d0": [
+      {
+        "available": true,
+        "git_blob": "bd3084d51a1c68db31ea8a1df102b04740db1316",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/FINAL_campaign_status.md"
+      }
+    ],
+    "e9345cffeace106e769c2e2b076fb382f7c16ecea69dbfdb8f9b222881712097": [
+      {
+        "available": true,
+        "git_blob": "ad74db7d48761c2588ad3be3d27395eb99173895",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/raw_logs/rtl-secded-verilator-build.log"
+      }
+    ],
+    "ec20c1e51c53200da39d5da96a7802df46c0418bb00bd3a05bd4dc2992c67532": [
+      {
+        "available": true,
+        "git_blob": "40968796682a4b4c247ff26a1039e4e65eec85cd",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/raw_logs/orfs-gcd-smoke.log"
+      }
+    ],
+    "ec8cd86c5fd53c35afed21d39a67bc5b523ad909bc9bd16879a052d469b78175": [
+      {
+        "available": true,
+        "git_blob": "db998b72f88b3f7237f796f544f16638825af979",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/scripts/run_physical_matrix.py"
+      }
+    ],
+    "efd9ff304b5bd834d83e9a45439cf543abdd462a9c06a80c403c27e8cd2d44ac": [
+      {
+        "available": true,
+        "git_blob": "3b5ac9d9bd420437df5f2e638e7adf9dc2591634",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/REPRODUCE_BREADTH_REMEDIATION.md"
+      }
+    ],
+    "f0506ceb1a9adc9c82c7f2096e98279874ab5bf1bc65b7892655f44fbed34918": [
+      {
+        "available": true,
+        "git_blob": "c4dedd0ee9c48200a5aeeb485f034f3a16a69617",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "scripts/revision2/configs/secded_comb.mk"
+      }
+    ],
+    "f1397a46cccf3b6da0e965e4a380a3fae7cda360131291ffbf8a20e9faf3834c": [
+      {
+        "available": true,
+        "git_blob": "8ca4b5096bbc101af6085136b08d95a8c96a98db",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/RAW_LOG_INDEX.csv"
+      }
+    ],
+    "f2dd7a096d04f33b276624101948caceeb205b82129c01ed4c46de023343fdcd": [
+      {
+        "available": true,
+        "git_blob": "38b50ec79e2bb8f45a1bbd73cb15945a832c114b",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/00_plan_freeze.sha256"
+      }
+    ],
+    "f359c4098c9888c2dc3c0911e4a0470b622b9cbb91d47369c9f5072a9baeeb9e": [
+      {
+        "available": true,
+        "git_blob": "47c18342fadd5f113bef5cc8f27ad1e841ec5b26",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_breadth_remediation/formal/hsiao_structural_exact_miter.sv"
+      }
+    ],
+    "f63dc73401d616177edd5b5d2a84f8a1ab058234746571c5e02232e38e7f711a": [
+      {
+        "available": true,
+        "git_blob": "ab62d9adb5c6e844197557180407b6f7f911f161",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/SECDED_PROOF_SUMMARY.json"
+      }
+    ],
+    "f6cde003cce5cddea99ee039fc7365dde83f9f020bb12babcd029f5c584faf1c": [
+      {
+        "available": true,
+        "git_blob": "d1c3b39bdac04d2d74ab9b179e3eb142600e15bf",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/FATAL_EVIDENCE_GAPS.md"
+      }
+    ],
+    "f7cdc26b21efca37c7ab6874b642512989ca3b001cac406764eeb96c499d200a": [
+      {
+        "available": true,
+        "git_blob": "303b62a8ca8e809c038fd0f077fd9a423a2981f2",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/regression/gate03r_focused_tests.log"
+      }
+    ],
+    "f89fcca4196b7b70dbfaf2ef4b8b764c79bd79d130ed10cdacb162f0245c174b": [
+      {
+        "available": true,
+        "git_blob": "04885b1bc4893cebba0533312a0040f79b5e5807",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/gate03r_secded_baseline_decoder.json"
+      }
+    ],
+    "f8fcc412357efafd6242052d422404356d23a8a4ad38e28e7be263459e358f01": [
+      {
+        "available": true,
+        "git_blob": "bfe1430384118edbb7dcc1373e3a1c5cce2c904c",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/data/vectorless_ordering.csv"
+      }
+    ],
+    "fb0fa8204dd737be5211f5eaa177c0ef99d2e73bde370f0fe49800b9a93ade12": [
+      {
+        "available": true,
+        "git_blob": "1e18b43820415d07055fcdea5bd82113281cedf0",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/raw_logs/rtl-bch-vvp-simulation.log"
+      }
+    ],
+    "fb6f49d6e611f19d7dad4c1865a36c078e2fe8d50d6b7274f46bf825ae69fad8": [
+      {
+        "available": true,
+        "git_blob": "4a52a39100e0835a7326757cc24b6087ffa1a0b1",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/SYNTHESIS_AND_STRUCTURE_RESULTS.json"
+      }
+    ],
+    "fb74c156133d62287275f522ab37fdf5d5fbc0c7fbf2929de5a57178ba2903e7": [
+      {
+        "available": true,
+        "git_blob": "773d9a51eefdea1ffb9eedcf5906a0b9dbd532dc",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/revision2/README.md"
+      }
+    ],
+    "fc444ca5e156221b718afb0d71c06bf40e88936f56800e9339fe6552e20c703f": [
+      {
+        "available": true,
+        "git_blob": "9aa8067331ccb40578ccf1dfc6857fba9d882cc0",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/baseline/generic_synthesis/bch_78_64_t2_v1_encoder.log"
+      }
+    ],
+    "fcaf7fb012daddb364cfab4792355ae8e50d1ecc2866d0b96e284bcd8e476537": [
+      {
+        "archive": "D:/GREENS_ARCHIVES/physical_validation/green-ecc-date2027-revision2-runs.tar.gz",
+        "available": false,
+        "kind": "MISSING_ARCHIVE_MEMBER_REFERENCE",
+        "member": "secded-comb-seed-11/results/sky130hd/gate04_secded_comb_72_64/base/6_final.sdc"
+      }
+    ],
+    "fcd0796a63b86160af3d14ffb501c96d2d139e7b50ec37189a15f212c229a0f0": [
+      {
+        "available": true,
+        "git_blob": "4fdcb0c74c6938378304b13443e8e6b511d9dbc7",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "docs/date2027/rigour_gate_03r/REGISTRY_OVERLAY_RESULTS.json"
+      }
+    ],
+    "fd0134a9e36c55683acafdc9620bb42052ec93c5259bc43b73a9864704959092": [
+      {
+        "available": true,
+        "git_blob": "4dce27aeec4240003a34a391f179a042b14cfc74",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/data/controlled_implementation_statistics.json"
+      }
+    ],
+    "fe872f1b63d2c98407496cf02f955f639befba338b60122245aebee41c640c3f": [
+      {
+        "available": true,
+        "git_blob": "53db4223aba2e6cab0ac36d88adc34397f67edce",
+        "kind": "EXISTING_BASELINE_REFERENCE",
+        "path": "campaigns/date_2027_activity_qualified_ecc_energy_rev2/scripts/build_artifacts.py"
+      }
+    ]
+  },
+  "policy": "Reference existing immutable objects in place; do not copy one physical object per power method. Hash conflicts retain separate identities."
+}

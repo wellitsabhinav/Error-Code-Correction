@@ -1,0 +1,40 @@
+{
+  "baseline_orfs_image_digest": "f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+  "baseline_technology": {
+    "container_image": "openroad/orfs@sha256:f05cee3219a02f26289f02f00e11a3fc986ab51a482a0000a2da810cda219a6e",
+    "corner": "tt_025C_1v80",
+    "openroad_git_commit": "ab6fd26351dc449e69059684dc6aa9ae9046eb36",
+    "orfs_git_commit": "56496f3980fb6e9e58f10c8aea4a98949c0fe5f2",
+    "platform": "sky130hd",
+    "temperature_c": 25,
+    "voltage_v": 1.8
+  },
+  "current_liberty_matches_frozen": true,
+  "current_liberty_sha256": "ec0e1067a35c8bf20b11e58d1e8ac53326067e4dac84a125cc1b917a3518d0d9",
+  "existing_orfs_image_digest": "8eff077230b86729f6248b34eeab370e486fa4052d34c60d9067e3e4aa720987",
+  "files": {
+    "linux_iverilog": {
+      "bytes": 51640,
+      "path": "F:\\AgenticAI\\.local\\m9-icarus-linux\\extracted\\usr\\bin\\iverilog",
+      "sha256": "a6071e4b4a68feafca0c8ee0e6aa275eee9a43a108c62801cfd1eca6eab6d8a3"
+    },
+    "linux_iverilog_package": {
+      "bytes": 2125764,
+      "path": "F:\\AgenticAI\\.local\\m9-icarus-linux\\iverilog_12.0-2build2_amd64.deb",
+      "sha256": "f19394cee05ad526e0eb3873bc6c17a5828f56df17fbe2db40cb66513a2d4667"
+    },
+    "linux_vvp": {
+      "bytes": 1354376,
+      "path": "F:\\AgenticAI\\.local\\m9-icarus-linux\\extracted\\usr\\bin\\vvp",
+      "sha256": "a10bd7d4a0850308ac8c2c98115b6a3084f9be978307610f2a521190c28f4023"
+    }
+  },
+  "git": "git version 2.53.0.windows.1",
+  "host_platform": "Windows-11-10.0.26200-SP0",
+  "installed_new_dependencies_bytes": 0,
+  "max_parallel_jobs": 1,
+  "openroad_version": "unknown (literal tool output)",
+  "python": "3.12.5 (tags/v3.12.5:ff3bc82, Aug  6 2024, 20:45:27) [MSC v.1940 64 bit (AMD64)]",
+  "simulator": "Icarus Verilog 12.0 stable; existing extracted Ubuntu package",
+  "wsl_distribution": "AutonomousEDA"
+}

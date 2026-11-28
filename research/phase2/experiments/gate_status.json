@@ -1,0 +1,25 @@
+{
+  "gates": [
+    {
+      "gate": "P2-G00",
+      "reason": "Synthetic IOPATH passed; interconnect/timing checks/full-cell coverage and physical artifact readiness fail.",
+      "status": "BLOCKED"
+    },
+    {
+      "gate": "P2-G01",
+      "reason": "P2-G00 prerequisite failed; no matched physical A/B/C evaluation.",
+      "status": "BLOCKED"
+    },
+    {
+      "gate": "P2-G02",
+      "reason": "Production event/capacitance mechanism study blocked; independent historical accounting completed.",
+      "status": "BLOCKED"
+    },
+    {
+      "gate": "P2-G03",
+      "reason": "No qualified physical energy flow; input/software/RTL preparation only.",
+      "status": "BLOCKED"
+    }
+  ],
+  "research_branch": "DEFERRED_PREREQUISITE_FAILURE"
+}
